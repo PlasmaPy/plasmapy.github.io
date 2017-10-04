@@ -1,6 +1,7 @@
-_site/
+_site
 *.pyc
 .DS_Store
-.doit.db.db
-cache/
-output/
+.doit.db
+cache
+output
+__pycache__
