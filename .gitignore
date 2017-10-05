@@ -4,3 +4,5 @@ _site/
 .doit.db.db
 cache/
 output/
+id_rsa
+id_rsa.pub
