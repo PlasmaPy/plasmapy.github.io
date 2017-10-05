@@ -1,0 +1,35 @@
+language: python
+cache: apt
+sudo: false
+addons:
+  apt:
+    packages:
+    - language-pack-en-base
+branches:
+  only:
+  - web
+python:
+- 3.6
+before_install:
+- openssl aes-256-cbc -K $encrypted_5efde3fde6ee_key -iv $encrypted_5efde3fde6ee_iv
+  -in id_rsa.enc -out id_rsa -d
+- git config --global user.name 'Nick Murphy'
+- git config --global user.email 'namurphy@cfa.harvard.edu'
+- git config --global push.default 'simple'
+- pip install --upgrade pip wheel
+- echo -e 'Host github.com\n    StrictHostKeyChecking no' >> ~/.ssh/config
+- eval "$(ssh-agent -s)"
+- chmod 600 id_rsa
+- ssh-add id_rsa
+- git remote rm origin
+- git remote add origin git@github.com:PlasmaPy/plasmapy.github.io.git
+- git fetch origin master
+- git branch master FETCH_HEAD
+install:
+- pip install 'Nikola[extras]'
+script:
+- nikola build && nikola github_deploy -m 'Nikola auto deploy [ci skip]'
+notifications:
+  email:
+    on_success: change
+    on_failure: always
