@@ -7,7 +7,7 @@ addons:
     - language-pack-en-base
 branches:
   only:
-  - master
+  - web
 python:
 - 3.6
 before_install:
