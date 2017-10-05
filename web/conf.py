@@ -24,8 +24,8 @@ BLOG_TITLE = "PlasmaPy"  # (translatable)
 SITE_URL = "https://plasmapy.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://robertnf.github.io/"
-#BLOG_EMAIL = "r.r.1994a@gmail.com"
+BASE_URL = "https://plasmapy.github.io/"
+PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 
 # Nikola is multilingual!
@@ -931,15 +931,14 @@ FEED_LINKS_APPEND_QUERY = False
 LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a href="/license">
+License
+</a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="{repo}">{author}</a> - {license} - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -958,7 +957,7 @@ CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
         (),
         {
-            "email": BLOG_EMAIL,
+            "repo": PROJECT_REPOSITORY,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE
@@ -968,7 +967,7 @@ CONTENT_FOOTER_FORMATS = {
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> {license}'
+RSS_COPYRIGHT = 'Contents © {date} <a href={repo}>{author}</a> {license}'
 RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import requests as re
 
 OUTPUT_DIR = "web/pages/"
@@ -10,6 +11,10 @@ PAGES = {
     "contribute":{
         "filename": OUTPUT_DIR + "contribute.md",
         "url": BASE_URL + "CONTRIBUTING.md"
+    },
+    "license":{
+        "filename": OUTPUT_DIR + "license.md",
+        "url": BASE_URL + "LICENSE.md"
     }
 }
 
