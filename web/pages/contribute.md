@@ -1,3 +1,6 @@
+title: Contribute to PlasmaPy
+slug: contribute
+
 # Contributing to PlasmaPy
 
 There are numerous ways to contribute to PlasmaPy, including by

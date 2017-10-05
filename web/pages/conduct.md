@@ -1,3 +1,6 @@
+title: Code of conduct
+slug: conduct
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
