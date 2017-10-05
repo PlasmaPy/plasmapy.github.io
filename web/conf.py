@@ -17,11 +17,11 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "RoberTnf"  # (translatable)
-BLOG_TITLE = "PlasmaPyWeb"  # (translatable)
+BLOG_AUTHOR = "PlasmaPy Developers"  # (translatable)
+BLOG_TITLE = "PlasmaPy"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://robertnf.github.io/"
+SITE_URL = "https://plasmapy.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://robertnf.github.io/"
