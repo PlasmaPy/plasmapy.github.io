@@ -1,8 +1,9 @@
-_site/
+_site
 *.pyc
 .DS_Store
-.doit.db.db
+.doit.db
 cache/
 output/
 id_rsa
 id_rsa.pub
+__pycache__

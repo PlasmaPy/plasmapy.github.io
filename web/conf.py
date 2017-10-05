@@ -25,7 +25,7 @@ SITE_URL = "https://plasmapy.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://robertnf.github.io/"
-BLOG_EMAIL = "r.r.1994a@gmail.com"
+#BLOG_EMAIL = "r.r.1994a@gmail.com"
 BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 
 # Nikola is multilingual!
