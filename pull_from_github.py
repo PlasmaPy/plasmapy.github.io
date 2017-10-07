@@ -19,8 +19,13 @@ PAGES = [
      "url": WEB_BASE_URL + "LICENSE.md",
      "metadata": {
          "title": "License",
-         "slug": "license"}
-    }]
+         "slug": "license"}},
+    {"filename": OUTPUT_DIR + "vision.md",
+     "url": BASE_URL + "vision_statement.md",
+     "metadata": {
+         "title": "Vision statement",
+         "slug": "vision"}},
+    ]
 
 
 for page in PAGES:
