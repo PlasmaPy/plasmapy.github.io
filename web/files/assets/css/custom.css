@@ -2,10 +2,17 @@
     text-align: center;
     max-width: 60%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
-h1 {
+
+.main-text-block {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Title */
+.p-name.entry-title {
     text-align: center;
     margin: auto;
 }
