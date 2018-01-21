@@ -1,34 +1,36 @@
-language: python
-cache: apt
 sudo: false
-addons:
-  apt:
-    packages:
-    - language-pack-en-base
+language: 'python'
+python:
+  - '3.6'
 branches:
   only:
-  - src
-python:
-- 3.6
-before_install:
-- openssl aes-256-cbc -K $encrypted_5efde3fde6ee_key -iv $encrypted_5efde3fde6ee_iv
-  -in id_rsa.enc -out id_rsa -d
-- git config --global user.name 'Nick Murphy'
-- git config --global user.email 'namurphy@cfa.harvard.edu'
-- git config --global push.default 'simple'
-- pip install --upgrade pip wheel
-- echo -e 'Host github.com\n    StrictHostKeyChecking no' >> ~/.ssh/config
-- eval "$(ssh-agent -s)"
-- chmod 600 id_rsa
-- ssh-add id_rsa
-- git remote rm origin
-- git remote add origin git@github.com:PlasmaPy/plasmapy.github.io.git
-- git fetch origin master
-- git branch master FETCH_HEAD
+    - 'src'
 install:
-- pip install 'Nikola[extras]'
+  - 'pip install --requirement requirements.txt'
 script:
-- nikola build && nikola github_deploy -m 'Nikola auto deploy [ci skip]'
+  - 'pushd web/'
+  - 'nikola build'
+  - 'popd'
+  - 'touch web/output/.nojekyll'
+deploy:
+  - provider: 'pages'
+    skip_cleanup: true
+    target_branch: 'master'
+    on:
+      branch: 'src'
+    local_dir: 'web/output'
+    github_token:
+      secure: "\
+        rcSo1dfaI4jpH/jVhXqu+g+qnFibnuQgpUKgPz/K6iDDgjBM1K0YcmhqXkx/5LjSWrp7yJ\
+        k5prhiUVgW0cFmQ//9TNyrHtWtJttw8WE8PpHt9tsmGWaB8/L0B4uAaNu/1N87ElQuvujW\
+        hqUDxyDQ7hrZ53wtNG9y5x5uKjq5v+Chdwc85NgSgrrDkWAN+CPS4kqbQw+AA/34eAk1Bs\
+        JmwkLJiGM5QU5/F4zjN4W2fmGOcNze359ZW4qzVDTnA5VC17xanHu8tf5fplozWqCsgclv\
+        3SOUFUdIiup1tlO/IbkZLflwfp9RtfPbj81a/dlRuB+arQHAzuUzqilCYFEEv3dLw915q3\
+        NADc8yE/PwkQs27je8Sh4c+FczasQ3g64tMIlG5ChA3ci+DgRhqGvpz4TrZON3EPHomSvH\
+        dUHx35Z6ReCzaFJqYsebQ/buflPTsUYharRYAfmKG9ychtjkYY8BhgAk7Re2BDX8z1XMs7\
+        N7DJN/CkC3j5Oxlh9fQM+uNLHlMMMfJkNxCIvDvtW5cqYXgnmP2orwkJRYnDX9I1UHzQBx\
+        kG5o01AthnfREM36iYSghXfaXiU/QJgbruBvEno4FCSdMejm4mzA67bspN9ZmeIib2pz4Q\
+        5Y8zZnMIfcyHyL77O9kP/c3VFdvGhZlkDHZkDgEmAz3HtTS7Ad16w="
 notifications:
   email:
     on_success: change
