@@ -20,6 +20,7 @@ deploy:
     branch: src
   local_dir: web/output
   github_token: $GITHUB_TOKEN
+  fqdn: plasmapy.org
 notifications:
   email:
     on_success: change
