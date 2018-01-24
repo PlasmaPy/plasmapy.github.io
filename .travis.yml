@@ -1,37 +1,29 @@
 sudo: false
-language: 'python'
+language: python
 python:
-  - '3.6'
+- '3.6'
 branches:
   only:
-    - 'src'
+  - src
 install:
-  - 'pip install --requirement requirements.txt'
+- pip install --requirement requirements.txt
 script:
-  - 'pushd web/'
-  - 'nikola build'
-  - 'popd'
-  - 'touch web/output/.nojekyll'
+- pushd web/
+- nikola build
+- popd
+- touch web/output/.nojekyll
 deploy:
-  - provider: 'pages'
-    skip_cleanup: true
-    target_branch: 'master'
-    on:
-      branch: 'src'
-    local_dir: 'web/output'
-    github_token:
-      secure: "\
-        rcSo1dfaI4jpH/jVhXqu+g+qnFibnuQgpUKgPz/K6iDDgjBM1K0YcmhqXkx/5LjSWrp7yJ\
-        k5prhiUVgW0cFmQ//9TNyrHtWtJttw8WE8PpHt9tsmGWaB8/L0B4uAaNu/1N87ElQuvujW\
-        hqUDxyDQ7hrZ53wtNG9y5x5uKjq5v+Chdwc85NgSgrrDkWAN+CPS4kqbQw+AA/34eAk1Bs\
-        JmwkLJiGM5QU5/F4zjN4W2fmGOcNze359ZW4qzVDTnA5VC17xanHu8tf5fplozWqCsgclv\
-        3SOUFUdIiup1tlO/IbkZLflwfp9RtfPbj81a/dlRuB+arQHAzuUzqilCYFEEv3dLw915q3\
-        NADc8yE/PwkQs27je8Sh4c+FczasQ3g64tMIlG5ChA3ci+DgRhqGvpz4TrZON3EPHomSvH\
-        dUHx35Z6ReCzaFJqYsebQ/buflPTsUYharRYAfmKG9ychtjkYY8BhgAk7Re2BDX8z1XMs7\
-        N7DJN/CkC3j5Oxlh9fQM+uNLHlMMMfJkNxCIvDvtW5cqYXgnmP2orwkJRYnDX9I1UHzQBx\
-        kG5o01AthnfREM36iYSghXfaXiU/QJgbruBvEno4FCSdMejm4mzA67bspN9ZmeIib2pz4Q\
-        5Y8zZnMIfcyHyL77O9kP/c3VFdvGhZlkDHZkDgEmAz3HtTS7Ad16w="
+- provider: pages
+  skip_cleanup: true
+  target_branch: master
+  on:
+    branch: src
+  local_dir: web/output
+  github_token: $GITHUB_TOKEN
 notifications:
   email:
     on_success: change
     on_failure: always
+env:
+  global:
+    secure: fbRvaAGYCrt/WyZt/Vpuz26up89nu5CW4rMwOf+Go7gZIWaOfrUorC6KD0NPeE9xK/WjsJmi9vvJ7WBKuLHWJ3vVhrJ1Gyi9q3s9l3PcEm6J0wlPontMWu+sx96L6dc/rAlhSyr6XmhDnwX8oBGN17rR7U91bLj80FlisibuMN+SUAwiWcsIv7hyK35ntM6/70PNOIySUZdZE5GZ8l1gWDzgSpyVzAta3HBgpkIDhlV/OE3AmBUhqWYS/UKy7FoFb+mPHjk6S2gcs0N94MH2kgOfERk7doV0Kk/0/hsZnbQknykYa5L9YMg1XYikWCobdLB209F6MxuYSdQWACaTLDMu2/dAlHovkYD/+Yye9DQMVuAQtJTyK9niUTKnZAeDYxejVtiTPJZ8VfBfuphrG1k3e0DaibsHZSBaMiF7w0mGn6jCcKEqAQFgYj8TSYW/GkSyuLBgzi1GX2vi9siextr9wF5gzFGspLgf0ehggJsCYPdxGbvLyeaZruR8tid0/RORrOj4w9iRBF9NUfmQf35N9GeP3WdtO8MrhK9CZAhn5ykTGUfGkgQ2+6Kw/yS7VO6IiCgZ3Y5YQQNm5s19Lf99TV6JaszuzducwUfVkCXCIf6qaQLugWIngfx2oFGC5quMRaauQH6sfFboesoC1td1NbBToJBsGsrlZLKfV38=
