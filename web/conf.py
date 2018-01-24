@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ((("/acknowledging", "Acknowledging"),
           ("/conduct", "Code of Conduct")), "About"),
-        ((("http://plasmapy.readthedocs.io/en/docs/", "Read the docs"),
+        ((("http://plasmapy.readthedocs.io/", "Read the docs"),
           ("/quickstart", "Quickstart guide")),
          "Documentation"),
         ("/contribute", "Contribute"),
