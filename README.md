@@ -2,10 +2,9 @@
 
 [![Build Status](https://travis-ci.org/PlasmaPy/plasmapy.github.io.svg?branch=src)](https://travis-ci.org/PlasmaPy/plasmapy.github.io)
 
-This repository contains the code for the website for
-the PlasmaPy project.  The primary URL will hopefully
-soon be:
-[`https://www.plasmapy.org/`](https://www.plasmapy.org/)
+This repository contains the code for the website for the PlasmaPy
+project.  The URL of the website is: 
+[`http://plasmapy.org/`](http://plasmapy.org/)
 
 ## Building the website
 
