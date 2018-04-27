@@ -1,0 +1,4 @@
+Sitemap: https://plasmapy.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: plasmapy.github.io
