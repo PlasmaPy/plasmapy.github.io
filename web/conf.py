@@ -134,10 +134,13 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ((("/about", "About PlasmaPy"),
+        ((
+            ("/about", "About PlasmaPy"),
           # ("/acknowledging", "Acknowledging"),
-          ("/conduct", "Code of Conduct")), "About"),
-        (("http://plasmapy.readthedocs.io/", "Documentation"),
+          ("/conduct", "Code of Conduct")
+        ), "About"),
+
+            ("http://plasmapy.readthedocs.io/", "Documentation"),
           # ("/quickstart", "Quickstart guide"),
  
     
