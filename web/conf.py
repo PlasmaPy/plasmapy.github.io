@@ -134,13 +134,16 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ((("/acknowledging", "Acknowledging"),
+        ((("/about", "About PlasmaPy"),
+          # ("/acknowledging", "Acknowledging"),
           ("/conduct", "Code of Conduct")), "About"),
         ((("http://plasmapy.readthedocs.io/", "Read the docs"),
-          ("/quickstart", "Quickstart guide")),
+          # ("/quickstart", "Quickstart guide"),
+          ),
          "Documentation"),
         ("/contribute", "Contribute"),
-        ("/team", "Team"))
+        # ("/team", "Team"),
+    )
 }
 
 # Name of the theme to use.
@@ -549,7 +552,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = "blog"
+INDEX_PATH = ""
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
