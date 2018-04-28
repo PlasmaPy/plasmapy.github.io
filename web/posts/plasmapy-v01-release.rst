@@ -46,10 +46,8 @@
 
    And may we all, plasma enthusiasts the world over, see this release through.
 
-   `Thermal speed <http://docs.plasmapy.org/en/master/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed>`_, and a :math:`\sqrt{2}` to you, PlasmaPy.
-
-
-
-
-
-
+   `Thermal speed
+   <http://docs.plasmapy.org/en/master/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed>`_,
+   and a :math:`\sqrt{2}` to you,
+  
+   ~PlasmaPy
