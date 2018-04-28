@@ -137,10 +137,10 @@ NAVIGATION_LINKS = {
         ((("/about", "About PlasmaPy"),
           # ("/acknowledging", "Acknowledging"),
           ("/conduct", "Code of Conduct")), "About"),
-        ((("http://plasmapy.readthedocs.io/", "Read the docs"),
+        (("http://plasmapy.readthedocs.io/", "Documentation"),
           # ("/quickstart", "Quickstart guide"),
-          ),
-         "Documentation"),
+ 
+    
         ("/contribute", "Contribute"),
         # ("/team", "Team"),
     )
