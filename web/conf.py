@@ -134,13 +134,16 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ((("/acknowledging", "Acknowledging"),
+        ((("/about", "About PlasmaPy"),
+          # ("/acknowledging", "Acknowledging"),
           ("/conduct", "Code of Conduct")), "About"),
         ((("http://plasmapy.readthedocs.io/", "Read the docs"),
-          ("/quickstart", "Quickstart guide")),
+          # ("/quickstart", "Quickstart guide"),
+          ),
          "Documentation"),
         ("/contribute", "Contribute"),
-        ("/team", "Team"))
+        # ("/team", "Team"),
+    )
 }
 
 # Name of the theme to use.
