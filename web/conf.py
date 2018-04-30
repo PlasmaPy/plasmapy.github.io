@@ -136,14 +136,11 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ((
             ("/about", "About PlasmaPy"),
-          # ("/acknowledging", "Acknowledging"),
-          ("/conduct", "Code of Conduct")
+            # ("/acknowledging", "Acknowledging"),
+            ("/conduct", "Code of Conduct")
         ), "About"),
-
-            ("http://docs.plasmapy.org/", "Documentation"),
-          # ("/quickstart", "Quickstart guide"),
- 
-    
+        ("http://docs.plasmapy.org/", "Documentation"),
+        # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
         # ("/team", "Team"),
     )
@@ -190,7 +187,9 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = ()
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+)
 PAGES = (
     ("pages/*.rst", "", "story.tmpl"),
     ("pages/*.txt", "", "story.tmpl"),
@@ -553,7 +552,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-INDEX_PATH = "blog"
+INDEX_PATH = ""
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
