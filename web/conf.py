@@ -32,6 +32,7 @@ DOCS = "http://docs.plasmapy.org/"
 RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
 TWITTER = "https://twitter.com/plasmapy"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
+RITIEK = "https://ritiek.github.io/posts/"
 
 # Nikola is multilingual!
 #
@@ -150,11 +151,15 @@ NAVIGATION_LINKS = {
         ("/contribute", "Contribute"),
         
         ((
-        (RIOT, "Chat"),
-        (TWITTER, "Twitter"),
-        (MAILING_LIST, "Mailing list"),
+          (RIOT, "Chat"),
+          (TWITTER, "Twitter"),
+          (MAILING_LIST, "Mailing list"),
         ), "Contact us!"),
         # ("/team", "Team"),
+        ((
+          (RITIEK, "GSoC 2018"),
+        ), "Google Summer of Code"),
+          
     )
 }
 
