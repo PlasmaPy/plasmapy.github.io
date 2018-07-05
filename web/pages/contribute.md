@@ -66,7 +66,7 @@ one if necessary) to make sure there is no work duplication.
 
 You can find most of what you should know in the [Contributing Guide](http://docs.plasmapy.org/en/master/development/index.html).
 
-Please note that PlasmaPy has a [Code of Conduct](CODE_OF_CONDUCT.md).
+Please note that PlasmaPy has a [Code of Conduct](/conduct).
 
 Issues marked by the community as *help wanted* mean just that - either they're
 good contributions for outsiders or there's an issue in the ongoing work that
