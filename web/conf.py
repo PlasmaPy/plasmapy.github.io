@@ -28,6 +28,12 @@ BASE_URL = "https://plasmapy.github.io/"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 
+DOCS = "http://docs.plasmapy.org/"
+RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
+TWITTER = "https://twitter.com/plasmapy"
+MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
+RITIEK = "https://ritiek.github.io/posts/"
+
 # Nikola is multilingual!
 #
 # Currently supported languages are:
@@ -134,15 +140,27 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        (PROJECT_REPOSITORY, "GitHub repository"),
         ((
-            ("/about", "About PlasmaPy"),
-            # ("/acknowledging", "Acknowledging"),
-            ("/conduct", "Code of Conduct")
-        ), "About"),
-        ("http://docs.plasmapy.org/", "Documentation"),
+          ("/about", "About PlasmaPy"),
+          ("/", "PlasmaPy News"),
+          ("/acknowledging", "Acknowledging"),
+          ("/conduct", "Code of Conduct")
+         ), "About"),
+        (DOCS, "Documentation"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
+        
+        ((
+          (RIOT, "Chat"),
+          (TWITTER, "Twitter"),
+          (MAILING_LIST, "Mailing list"),
+        ), "Contact us!"),
         # ("/team", "Team"),
+        ((
+          (RITIEK, "GSoC 2018"),
+        ), "Google Summer of Code"),
+          
     )
 }
 
@@ -943,7 +961,7 @@ License
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="{repo}">{author}</a> - {license} - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
+CONTENT_FOOTER = 'Contents &copy; {date} <a href="{repo}">{author}</a> - {license} - <a href="{twitter}">Twitter</a> - <a href="{riot}">Chat</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -965,7 +983,9 @@ CONTENT_FOOTER_FORMATS = {
             "repo": PROJECT_REPOSITORY,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
+            "license": LICENSE,
+            "twitter": TWITTER,
+            "riot": RIOT,
         }
     )
 }
