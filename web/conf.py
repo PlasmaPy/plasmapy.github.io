@@ -32,6 +32,7 @@ DOCS = "http://docs.plasmapy.org/"
 RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
 TWITTER = "https://twitter.com/plasmapy"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
+TELECONFERENCE_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 RITIEK = "https://ritiek.github.io/posts/"
 
 # Nikola is multilingual!
@@ -155,6 +156,7 @@ NAVIGATION_LINKS = {
           (RIOT, "Chat"),
           (TWITTER, "Twitter"),
           (MAILING_LIST, "Mailing list"),
+          (TELECONFERENCE_CALENDAR, "Teleconference calendar"),
         ), "Contact us!"),
         # ("/team", "Team"),
         ((
