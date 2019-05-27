@@ -33,6 +33,10 @@ RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
 TWITTER = "https://twitter.com/plasmapy"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 RITIEK = "https://ritiek.github.io/posts/"
+FEEDBACK_BOX = "TODO_LINK"
+TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+TELECON_LINK = "https://meet.jit.si/plasmapy"
+TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 
 # Nikola is multilingual!
 #
@@ -150,12 +154,18 @@ NAVIGATION_LINKS = {
         (DOCS, "Documentation"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
-        
-        ((
-          (RIOT, "Chat"),
-          (TWITTER, "Twitter"),
-          (MAILING_LIST, "Mailing list"),
-        ), "Contact us!"),
+        (
+            (
+                (RIOT, "Chat"),
+                (MAILING_LIST, "Mailing list"),
+                (FEEDBACK_BOX, "Suggestion box"),
+                ((
+                    (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+                    (TELECON_CALENDAR, "Teleconference calendar & dates"),
+                    (TELECON_NOTES, "Notes from weekly meetups"),
+                ), "Weekly teleconferences"),
+                (TWITTER, "Twitter"),
+            ), "Contact us!"),
         # ("/team", "Team"),
         ((
           (RITIEK, "GSoC 2018"),
