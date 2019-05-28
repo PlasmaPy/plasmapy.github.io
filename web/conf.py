@@ -146,11 +146,11 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PROJECT_REPOSITORY, "GitHub repository"),
         ((
-          ("/about", "About PlasmaPy"),
-          ("/", "PlasmaPy News"),
-          ("/acknowledging", "Acknowledging"),
-          ("/conduct", "Code of Conduct")
-         ), "About"),
+            ("/about", "About PlasmaPy"),
+            ("/", "PlasmaPy News"),
+            ("/acknowledging", "Acknowledging"),
+            ("/conduct", "Code of Conduct")
+        ), "About"),
         (DOCS, "Documentation"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
@@ -159,23 +159,23 @@ NAVIGATION_LINKS = {
                 (RIOT, "Chat"),
                 (MAILING_LIST, "Mailing list"),
                 (FEEDBACK_BOX, "Suggestion box"),
-                ((
-                    (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
-                    (TELECON_CALENDAR, "Teleconference calendar & dates"),
-                    (TELECON_NOTES, "Notes from weekly meetups"),
-                ), "Weekly teleconferences"),
                 (TWITTER, "Twitter"),
             ), "Contact us!"),
+        ((
+            (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+            (TELECON_CALENDAR, "Teleconference calendar & dates"),
+            (TELECON_NOTES, "Notes from weekly meetups"),
+        ), "Biweekly teleconferences"),
         # ("/team", "Team"),
         ((
-          (RITIEK, "GSoC 2018"),
+            (RITIEK, "GSoC 2018"),
         ), "Google Summer of Code"),
-          
+
     )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootstrap4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
