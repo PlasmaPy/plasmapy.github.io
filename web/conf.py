@@ -33,6 +33,10 @@ RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
 TWITTER = "https://twitter.com/plasmapy"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 RITIEK = "https://ritiek.github.io/posts/"
+FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
+TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+TELECON_LINK = "https://meet.jit.si/plasmapy"
+TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 
 # Nikola is multilingual!
 #
@@ -142,30 +146,36 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         (PROJECT_REPOSITORY, "GitHub repository"),
         ((
-          ("/about", "About PlasmaPy"),
-          ("/", "PlasmaPy News"),
-          ("/acknowledging", "Acknowledging"),
-          ("/conduct", "Code of Conduct")
-         ), "About"),
+            ("/about", "About PlasmaPy"),
+            ("/", "PlasmaPy News"),
+            ("/acknowledging", "Acknowledging"),
+            ("/conduct", "Code of Conduct")
+        ), "About"),
         (DOCS, "Documentation"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
-        
+        (
+            (
+                (RIOT, "Chat"),
+                (MAILING_LIST, "Mailing list"),
+                (FEEDBACK_BOX, "Suggestion box"),
+                (TWITTER, "Twitter"),
+            ), "Contact us!"),
         ((
-          (RIOT, "Chat"),
-          (TWITTER, "Twitter"),
-          (MAILING_LIST, "Mailing list"),
-        ), "Contact us!"),
+            (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+            (TELECON_CALENDAR, "Teleconference calendar & dates"),
+            (TELECON_NOTES, "Notes from weekly meetups"),
+        ), "Biweekly teleconferences"),
         # ("/team", "Team"),
         ((
-          (RITIEK, "GSoC 2018"),
+            (RITIEK, "GSoC 2018"),
         ), "Google Summer of Code"),
-          
+
     )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "bootstrap4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
