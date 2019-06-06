@@ -144,7 +144,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        (PROJECT_REPOSITORY, "GitHub repository"),
+        (PROJECT_REPOSITORY, "GitHub"),
         ((
             ("/about", "About PlasmaPy"),
             ("/", "PlasmaPy News"),
@@ -160,16 +160,16 @@ NAVIGATION_LINKS = {
                 (MAILING_LIST, "Mailing list"),
                 (FEEDBACK_BOX, "Suggestion box"),
                 (TWITTER, "Twitter"),
-            ), "Contact us!"),
+            ), "Contact"),
         ((
             (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
             (TELECON_CALENDAR, "Teleconference calendar & dates"),
             (TELECON_NOTES, "Notes from weekly meetups"),
-        ), "Biweekly teleconferences"),
+        ), "Teleconferences"),
         # ("/team", "Team"),
         ((
             (RITIEK, "GSoC 2018"),
-        ), "Google Summer of Code"),
+        ), "GSoC"),
 
     )
 }
