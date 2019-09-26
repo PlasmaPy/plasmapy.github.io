@@ -37,6 +37,7 @@ FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TELECON_LINK = "https://meet.jit.si/plasmapy"
 TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
+BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 
 # Nikola is multilingual!
 #
@@ -152,6 +153,7 @@ NAVIGATION_LINKS = {
             ("/conduct", "Code of Conduct")
         ), "About"),
         (DOCS, "Documentation"),
+        (BENCHMARKS, "Benchmarks"),
         # ("/quickstart", "Quickstart guide"),
         ("/contribute", "Contribute"),
         (
