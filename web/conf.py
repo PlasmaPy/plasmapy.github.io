@@ -35,7 +35,7 @@ MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 RITIEK = "https://ritiek.github.io/posts/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
-TELECON_LINK = "https://meet.jit.si/plasmapy"
+TELECON_LINK = "https://jitsi.riot.im/plasmapy"
 TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 
