@@ -145,7 +145,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        (PROJECT_REPOSITORY, "GitHub"),
         ((
             ("/about", "About PlasmaPy"),
             ("/news", "News"),
@@ -153,26 +152,24 @@ NAVIGATION_LINKS = {
             ("/conduct", "Code of Conduct")
         ), "About"),
         (DOCS, "Documentation"),
-        (BENCHMARKS, "Benchmarks"),
-        # ("/quickstart", "Quickstart guide"),
-        ("/contribute", "Contribute"),
         (
             (
-                (RIOT, "Chat"),
-                (MAILING_LIST, "Mailing list"),
+                (RIOT, "Chat room"),
+                (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
                 (TWITTER, "Twitter"),
-            ), "Contact"),
-        ((
-            (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
-            (TELECON_CALENDAR, "Teleconference calendar & dates"),
-            (TELECON_NOTES, "Notes from weekly meetups"),
-        ), "Teleconferences"),
+#                (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+                (TELECON_CALENDAR, "Calendar"),
+#                (TELECON_NOTES, "Notes from weekly meetups"),
+        ), "Community"),
+        ("/contribute", "Contribute"),
+        (PROJECT_REPOSITORY, "Repository"),
+        # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
         ((
             (RITIEK, "GSoC 2018"),
         ), "GSoC"),
-
+        (BENCHMARKS, "Benchmarks"),
     )
 }
 
