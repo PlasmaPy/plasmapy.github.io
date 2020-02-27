@@ -148,7 +148,7 @@ NAVIGATION_LINKS = {
         (PROJECT_REPOSITORY, "GitHub"),
         ((
             ("/about", "About PlasmaPy"),
-            ("/", "PlasmaPy News"),
+            ("/news", "News"),
             ("/acknowledging", "Acknowledging"),
             ("/conduct", "Code of Conduct")
         ), "About"),
