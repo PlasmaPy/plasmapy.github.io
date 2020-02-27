@@ -160,6 +160,7 @@ NAVIGATION_LINKS = {
                 (TWITTER, "Twitter"),
 #                (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
+                ("https://plasmapy.discourse.group/", "Discussion forum"),
 #                (TELECON_NOTES, "Notes from weekly meetups"),
         ), "Community"),
         ("/contribute", "Contribute"),
