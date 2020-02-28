@@ -169,11 +169,11 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+#                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 (TWITTER, "Twitter"),
-                # (TELECON_NOTES, "Notes from weekly meetups"),
-                (((RITIEK, "GSoC 2018"),), "GSoC"),
+#                # (TELECON_NOTES, "Notes from weekly meetups"),
+                (RITIEK, "GSoC 2018"),
             ),
             "Community",
         ),
@@ -362,7 +362,7 @@ WRITE_TAG_CLOUD = True
 
 # Generate pages for each section. The site must have at least two sections
 # for this option to take effect. It wouldn't build for just one section.
-POSTS_SECTIONS = True
+#POSTS_SECTIONS = True
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
@@ -1313,7 +1313,7 @@ MARKDOWN_EXTENSIONS = [
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
