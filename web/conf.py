@@ -145,34 +145,56 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+
         ((
             ("/about", "About PlasmaPy"),
             ("/news", "News"),
+            (PROJECT_REPOSITORY, "Repository"),
             ("/acknowledging", "Acknowledging"),
             ("/conduct", "Code of Conduct")
         ), "About"),
+
         (DOCS, "Documentation"),
-        (
-            (
+
+        ((
                 (RIOT, "Chat room"),
+                ("https://plasmapy.discourse.group/", "Discussion forum"),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
-                (TWITTER, "Twitter"),
+
+        ), "Contact"),
+        ((
 #                (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
-                ("https://plasmapy.discourse.group/", "Discussion forum"),
+                (TWITTER, "Twitter"),
 #                (TELECON_NOTES, "Notes from weekly meetups"),
+                ((
+                    (RITIEK, "GSoC 2018"),
+                ), "GSoC"),
+
         ), "Community"),
+
         ("/contribute", "Contribute"),
-        (PROJECT_REPOSITORY, "Repository"),
+
         # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
-        ((
-            (RITIEK, "GSoC 2018"),
-        ), "GSoC"),
+
         (BENCHMARKS, "Benchmarks"),
+
     )
 }
+
+# put GSoC into community
+# put repository into the About mention as GitHub Repository
+
+
+# Contact  how they talk to us
+#   - chat room, email, suggestion box, discussion forum
+
+# Community  how we reach to the community
+#   - Twitter, cal, Meetings, GSoC  # in future, education
+
+# Make a Meetings page menu, with the Bryn Mawr meeting as a subitem
 
 # Name of the theme to use.
 THEME = "bootstrap4"
