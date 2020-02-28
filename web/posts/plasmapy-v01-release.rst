@@ -1,12 +1,12 @@
 .. title: PlasmaPy v0.1 release!
 .. slug: plasmapy-v01-release
 .. date: 2018-04-30 05:27:00 UTC+02:00
-.. author: Dominik Stańczak
-.. tags: plasmapy, release, mathjax
+.. tags: plasmapy, release
 .. category: release
-.. link: 
 .. description: PlasmaPy v0.1 released
 .. type: text
+.. author: Dominik Stańczak
+.. has_math: yes
 
    I address you tonight not as a programmer of Python, not as a maintainer of a
    repository, but as a citizen of open source.

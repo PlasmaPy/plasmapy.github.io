@@ -6,7 +6,9 @@ cache/
 output/
 id_rsa
 id_rsa.pub
+.idea
 __pycache__
 web/.doit.db.bak
 web/.doit.db.dat
+web/.doit.db.db
 web/.doit.db.dir
