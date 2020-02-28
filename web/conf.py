@@ -184,18 +184,6 @@ NAVIGATION_LINKS = {
     )
 }
 
-# put GSoC into community
-# put repository into the About mention as GitHub Repository
-
-
-# Contact  how they talk to us
-#   - chat room, email, suggestion box, discussion forum
-
-# Community  how we reach to the community
-#   - Twitter, cal, Meetings, GSoC  # in future, education
-
-# Make a Meetings page menu, with the Bryn Mawr meeting as a subitem
-
 # Name of the theme to use.
 THEME = "bootstrap4"
 
