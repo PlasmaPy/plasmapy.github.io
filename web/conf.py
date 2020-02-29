@@ -36,7 +36,9 @@ RITIEK = "https://ritiek.github.io/posts/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TELECON_LINK = "https://jitsi.riot.im/plasmapy"
-TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
+TELECON_NOTES = (
+    "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
+)
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 
 # Nikola is multilingual!
@@ -145,30 +147,39 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ((
-            ("/about", "About PlasmaPy"),
-            ("/news", "News"),
-            ("/acknowledging", "Acknowledging"),
-            ("/conduct", "Code of Conduct")
-        ), "About"),
+        (
+            (
+                ("/about", "About PlasmaPy"),
+                ("/news", "News"),
+                (PROJECT_REPOSITORY, "Repository"),
+                ("/acknowledging", "Acknowledging"),
+                ("/conduct", "Code of Conduct"),
+            ),
+            "About",
+        ),
         (DOCS, "Documentation"),
         (
             (
                 (RIOT, "Chat room"),
+                ("https://plasmapy.discourse.group/", "Discussion forum"),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
-                (TWITTER, "Twitter"),
-#                (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+            ),
+            "Contact",
+        ),
+        (
+            (
+#                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
-#                (TELECON_NOTES, "Notes from weekly meetups"),
-        ), "Community"),
+                (TWITTER, "Twitter"),
+#                # (TELECON_NOTES, "Notes from weekly meetups"),
+                (RITIEK, "GSoC 2018"),
+            ),
+            "Community",
+        ),
         ("/contribute", "Contribute"),
-        (PROJECT_REPOSITORY, "Repository"),
         # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
-        ((
-            (RITIEK, "GSoC 2018"),
-        ), "GSoC"),
         (BENCHMARKS, "Benchmarks"),
     )
 }
@@ -178,7 +189,7 @@ THEME = "bootstrap4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = "#5670d4"
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
@@ -214,9 +225,7 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-)
+POSTS = (("posts/*.rst", "posts", "post.tmpl"),)
 PAGES = (
     ("pages/*.rst", "", "story.tmpl"),
     ("pages/*.txt", "", "story.tmpl"),
@@ -293,18 +302,18 @@ TIMEZONE = "UTC+2"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -341,7 +350,7 @@ COMPILERS = {
 # Nikola supports logo display.  If you have one, you can put the URL here.
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
-LOGO_URL = '/images/with-text-light-small.png'
+LOGO_URL = "/images/with-text-light-small.png"
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
@@ -353,7 +362,7 @@ WRITE_TAG_CLOUD = True
 
 # Generate pages for each section. The site must have at least two sections
 # for this option to take effect. It wouldn't build for just one section.
-POSTS_SECTIONS = True
+#POSTS_SECTIONS = True
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
@@ -464,7 +473,7 @@ POSTS_SECTIONS = True
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page, the tag cloud and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -574,7 +583,7 @@ HIDDEN_CATEGORIES = []
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+HIDDEN_AUTHORS = ["Guest"]
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -583,9 +592,7 @@ INDEX_PATH = "news/"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
-}
+FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -669,11 +676,11 @@ REDIRECTIONS = []
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = 'src'
-GITHUB_DEPLOY_BRANCH = 'master'
+GITHUB_SOURCE_BRANCH = "src"
+GITHUB_DEPLOY_BRANCH = "master"
 
 # The name of the remote where you wish to push to, using github_deploy.
-GITHUB_REMOTE_NAME = 'origin'
+GITHUB_REMOTE_NAME = "origin"
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
@@ -848,7 +855,7 @@ GITHUB_COMMIT_SOURCE = False
 # (the thumbnail has ``.thumbnail`` added before the file extension by default,
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 # IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
@@ -995,14 +1002,14 @@ CONTENT_FOOTER_FORMATS = {
             "license": LICENSE,
             "twitter": TWITTER,
             "riot": RIOT,
-        }
+        },
     )
 }
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
-RSS_COPYRIGHT = 'Contents © {date} <a href={repo}>{author}</a> {license}'
-RSS_COPYRIGHT_PLAIN = 'Contents © {date} {author} {license}'
+RSS_COPYRIGHT = "Contents © {date} <a href={repo}>{author}</a> {license}"
+RSS_COPYRIGHT_PLAIN = "Contents © {date} {author} {license}"
 RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 
 # To use comments, you can choose between different third party comment
@@ -1131,8 +1138,12 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.codehilite', 'markdown.extensions.extra',
-'markdown.extensions.meta']
+MARKDOWN_EXTENSIONS = [
+    "markdown.extensions.fenced_code",
+    "markdown.extensions.codehilite",
+    "markdown.extensions.extra",
+    "markdown.extensions.meta",
+]
 
 # Extra options to pass to the pandoc command.
 # by default, it's empty, is a list of strings, for example
@@ -1304,7 +1315,7 @@ EXTRA_HEAD_DATA = r"""
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
