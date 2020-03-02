@@ -150,7 +150,7 @@ NAVIGATION_LINKS = {
             (
                 ("/about", "About PlasmaPy"),
                 ("/news", "News"),
-                (PROJECT_REPOSITORY, "Repository"),
+                (PROJECT_REPOSITORY, "GitHub Repository"),
                 ("/acknowledging", "Acknowledging"),
                 ("/conduct", "Code of Conduct"),
             ),
