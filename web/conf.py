@@ -246,7 +246,12 @@ THEME_COLOR = "#5670d4"
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
-POSTS = (("posts/*.rst", "posts", "post.tmpl"),)
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
+)
 PAGES = (
     ("pages/*.rst", "", "story.tmpl"),
     ("pages/*.txt", "", "story.tmpl"),
