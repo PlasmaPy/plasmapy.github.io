@@ -190,6 +190,28 @@ THEME = "bootstrap4"
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
 THEME_COLOR = "#5670d4"
 
+# Add a Featured Post Banner and/or sidebar to the main page
+#  https://nikola.readthedocs.io/en/latest/manual/#featured-posts
+#  - This currently (2020 Feb 28) works with bootblog4 but not bootstrap4
+#
+# THEME_CONFIG = {
+#     DEFAULT_LANG: {
+#         # Show the latest featured post in a large box, with the previewimage as its background.
+#         'featured_large': True,
+#         # Show the first (remaining) two featured posts in small boxes.
+#         'featured_small': True,
+#         # Show featured posts on mobile.
+#         'featured_on_mobile': True,
+#         # Show image in `featured_large` on mobile.
+#         # `featured_small` displays them only on desktop.
+#         'featured_large_image_on_mobile': False,
+#         # Strip HTML from featured post text.
+#         'featured_strip_html': True,
+#         # Contents of the sidebar, If empty, the sidebar is not displayed.
+#         'sidebar': ''
+#     }
+# }
+
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 # (translatable)
 #
@@ -231,7 +253,6 @@ PAGES = (
     ("pages/*.html", "", "story.tmpl"),
     ("pages/*.md", "", "story.tmpl"),
 )
-
 
 # Below this point, everything is optional
 
