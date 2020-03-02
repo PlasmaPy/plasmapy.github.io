@@ -1214,11 +1214,11 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # it appears on the navigation bar:
 #
 # SEARCH_FORM = """
-SEARCH_FORM = """
-<form class="navbar-search pull-right" action="/search/" role="search">
-    <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
-</form>
-"""
+# SEARCH_FORM = """
+# <form class="navbar-search pull-right" action="/search/" role="search">
+#     <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+# </form>
+# """
 # <!-- DuckDuckGo custom search -->
 # <form method="get" id="search" action="https://duckduckgo.com/"
 #  class="navbar-form pull-left">
