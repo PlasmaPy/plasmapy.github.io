@@ -168,12 +168,12 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-#                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
                 (TWITTER, "Twitter"),
-#                # (TELECON_NOTES, "Notes from weekly meetups"),
-                (RITIEK, "GSoC 2018"),
+                # (TELECON_NOTES, "Notes from weekly meetups"),
+                # (RITIEK, "GSoC 2018"),
             ),
             "Community",
         ),
