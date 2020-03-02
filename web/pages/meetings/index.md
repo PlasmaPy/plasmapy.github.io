@@ -5,7 +5,7 @@ author: Erik T. Everson
 
 ----
 
-#### [2020 April:  PlasmaPy Mini-Conference](./2020_mini_conf_at_bryn_mawr)
+#### [2020 April:  1st PlasmaPy Workshop](1st_workshop_2020_at_bryn_mawr)
 April 20-22, 2020
 
 PlasmaPy's first mini-conference.  The conference is setup as
