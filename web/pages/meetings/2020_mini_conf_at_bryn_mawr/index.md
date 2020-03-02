@@ -1,7 +1,7 @@
 title:
 author: Erik T. Everson
 
-# PlasmaPy Mini-Conference
+# 1st PlasmaPy Mini-Conference
 #### April 20-22, 2020
 #### Bryn Mawr College, Pennsylvania
 <br/>
