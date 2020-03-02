@@ -16,30 +16,29 @@ import time
 # ! Option (b) is used for settings that are different in different languages.
 
 
-# Data about this site
+# -- General Site Data --
 BLOG_AUTHOR = "PlasmaPy Developers"  # (translatable)
 BLOG_TITLE = "PlasmaPy"  # (translatable)
+BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
+
+# -- Links --
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://plasmapy.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BASE_URL = "https://plasmapy.github.io/"
-PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
-BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
-
+BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
-RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
-TWITTER = "https://twitter.com/plasmapy"
-MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
-RITIEK = "https://ritiek.github.io/posts/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
+MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
+PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
+RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
+RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TELECON_LINK = "https://jitsi.riot.im/plasmapy"
-TELECON_NOTES = (
-    "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
-)
-BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
+TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
+TWITTER = "https://twitter.com/plasmapy"
 
 # Nikola is multilingual!
 #
@@ -362,7 +361,7 @@ WRITE_TAG_CLOUD = True
 
 # Generate pages for each section. The site must have at least two sections
 # for this option to take effect. It wouldn't build for just one section.
-#POSTS_SECTIONS = True
+# POSTS_SECTIONS = True
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
@@ -1248,7 +1247,7 @@ MARKDOWN_EXTENSIONS = [
 # <input type="text" name="q" class="form-control" placeholder="Search">
 # </div>
 # <button type="submit" class="btn btn-primary">
-# 	<span class="glyphicon glyphicon-search"></span>
+#     <span class="glyphicon glyphicon-search"></span>
 # </button>
 # <input type="hidden" name="sitesearch" value="%s">
 # </form>
