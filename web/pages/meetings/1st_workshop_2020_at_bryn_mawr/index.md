@@ -7,8 +7,11 @@ author: Erik T. Everson
 <br/>
 [Overview](#Overview)<br/>
 [Agenda](#Agenda)<br/>
-[Housing](#Housing)<br/>
-[Web Participation](#Web-Participation)
+[Registration]()<br/>
+[Travel & Housing](#Travel-Housing)<br/>
+[Travel Funding for Students](#Travel-Funding-for-Students)<br/>
+[Web Participation](#Web-Participation)<br/>
+[Support & Acknowledgements](#Support-Ack)
 
 ### <a name="Overview"></a> Overview
 
@@ -101,9 +104,28 @@ an relevant questions, getting help on existing projects, etc.
 
 <br/>
 
-### <a name="Housing"></a> Housing
+### <a name="Travel-Housing"></a> Travel & Housing
 
-In the near future we will post a few suggested housing locations around Bryn Mawr.
+---
+**NOTE**
+
+Due to the ongoing development of the novel coronavirus (COVID-19), travel restrictions
+may be in place when this workshop occurs.  If this is the case, we will still proceed 
+with the workshop via a [web-cast](#Web-Participation).
+
+---
+
+In the near future we will post a few recommendations for travel to and housing 
+locations around Bryn Mawr.
+
+<br/>
+
+### <a name="Travel-Funding-for-Students"></a> Travel Funding for Students
+
+As part of our support from the NSF-CSSI program, we will offer some amount of travel
+funding for interested students to attend.  **The exact amount will depend on the 
+number of participating students.  Please check back soon as we will update with
+instructions on how to apply for travel funding.**
 
 <br/>
 
@@ -112,3 +134,15 @@ In the near future we will post a few suggested housing locations around Bryn Ma
 We currently plan to have days 2 & 3 available on web-cast so non-attendees and still 
 participate.  As the meeting approaches, we will post info on how to attend via the
 web-cast.
+
+<br/>
+
+### <a name="Support-Ack"></a> Support & Acknowledgments
+
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation 
+(NSF) and NASA, with many contributions from the broader plasma physics and open source 
+communities. Early development of PlasmaPy was supported by the U.S. Department of 
+Energy, the Smithsonian Institution, and Google Summer of Code.
+
+Support for this workshop is provided through a grant from the NSF Cyberinfrastructure for 
+Sustained Scientific Innovation (CSSI)  program.
