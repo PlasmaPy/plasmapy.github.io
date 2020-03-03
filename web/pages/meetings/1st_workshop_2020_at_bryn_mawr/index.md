@@ -1,5 +1,6 @@
-title:
+title: 1st PlasmaPy Mini-Conference
 author: Erik T. Everson
+hidetitle: True
 
 # 1st PlasmaPy Workshop
 #### April 20-22, 2020

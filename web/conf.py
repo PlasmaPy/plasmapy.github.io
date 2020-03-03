@@ -23,10 +23,10 @@ BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 # -- Links --
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://plasmapy.org/"
+SITE_URL = "https://www.plasmapy.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "https://plasmapy.org/"
+BASE_URL = "https://www.plasmapy.org/"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
@@ -1209,16 +1209,16 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # Default is no search form.
 # (translatable)
 # SEARCH_FORM = ""
+SEARCH_FORM = """
+<form class="navbar-search pull-right" action="/search/" role="search">
+    <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+</form>
+"""
 #
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
 # SEARCH_FORM = """
-# SEARCH_FORM = """
-# <form class="navbar-search pull-right" action="/search/" role="search">
-#     <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
-# </form>
-# """
 # <!-- DuckDuckGo custom search -->
 # <form method="get" id="search" action="https://duckduckgo.com/"
 #  class="navbar-form pull-left">
