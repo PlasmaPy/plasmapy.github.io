@@ -15,7 +15,7 @@ author: Erik T. Everson
 
 ### <a name="Overview"></a> Overview
 
-PlasmaPy's first workshop, which is setup as a 3 day meeting for PlasmaPy developers and 
+PlasmaPy's first workshop, which is set up as a 3 day meeting for PlasmaPy developers and 
 the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to 
 discuss code development and project direction.  The remaining two days (4/21-4/22) are 
 designed for community interaction.  Goals of the meeting are to (1) further develop 
