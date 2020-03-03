@@ -2,24 +2,27 @@ title: 1st PlasmaPy Mini-Conference
 author: Erik T. Everson
 hidetitle: True
 
-# 1st PlasmaPy Mini-Conference
+# 1st PlasmaPy Workshop
 #### April 20-22, 2020
 #### Bryn Mawr College, Pennsylvania
 <br/>
 [Overview](#Overview)<br/>
 [Agenda](#Agenda)<br/>
-[Housing](#Housing)<br/>
-[Web Participation](#Web-Participation)
+[Registration](https://docs.google.com/forms/d/e/1FAIpQLSemaDDWHHq2li5B5W3vyYlnGjWEXGAD3Z3u1jSEG7vhpG22Dg/viewform?usp=sf_link)<br/>
+[Travel & Housing](#Travel-Housing)<br/>
+[Travel Funding for Students](#Travel-Funding-for-Students)<br/>
+[Web Participation](#Web-Participation)<br/>
+[Support & Acknowledgements](#Support-Ack)
 
 ### <a name="Overview"></a> Overview
 
-PlasmaPy's first mini-conference.  The conference is setup as a 3 day meeting for 
-PlasmaPy developers and the PlasmaPy community. The first day (4/20) is 
-designated for the PlasmaPy Development Team and the remaining two days (4/21-4/22) are 
-designed for community interaction.  Goals of the meeting are to (1) further develop
+PlasmaPy's first workshop, which is set up as a 3 day meeting for PlasmaPy developers and 
+the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to 
+discuss code development and project direction.  The remaining two days (4/21-4/22) are 
+designed for community interaction.  Goals of the meeting are to (1) further develop 
 PlasmaPy's roadmap, (2) inform the broader PlasmaPy community of PlasmaPy's objectives 
-and direction, (3) demonstrate PlasmaPy's capabilities to the community, and 
-(4) receive valuable feedback from the community.<br/><br/>
+and direction, (3) demonstrate PlasmaPy's capabilities to the community, and (4) receive 
+valuable feedback from the community.<br/><br/>
 
 ### <a name="Agenda"></a> Agenda
 
@@ -27,7 +30,7 @@ and direction, (3) demonstrate PlasmaPy's capabilities to the community, and
 **NOTE**
 
 As the meeting approaches, please check the agenda for updates.  As presentation material
-becomes available we will post links for slides and such.
+becomes available we will post links for slides and additional information.
 ___
 
 
@@ -42,11 +45,11 @@ package development, community outreach, and education.
 | 08:30 - 09:00 | 0  | **ARRIVAL & COFFEE** |  |
 | 09:00 - 09:15 | 1  | Welcome: Introduction & Overview |  |
 | 09:15 - 09:35 | 2  | Roadmap: Overview & Current Projections |  |
-| 09:35 - 10:35 | 3  | Roadmap: Formulary Development |  |
-| 10:35 - 10:50 |    | **COFFEE BREAK** |  |
-| 10:50 - 11:35 | 4  | Roadmap: Simulations Development |  |
-| 11:35 - 12:20 | 5  | Roadmap: Experimental Diagnostics Development |  |
-| 12:20 - 13:30 |    | **LUNCH BREAK** |  |
+| 09:35 - 10:20 | 3  | Roadmap: Formulary Development |  |
+| 10:20 - 10:35 |    | **COFFEE BREAK** |  |
+| 10:35 - 11:20 | 4  | Roadmap: Simulations Development |  |
+| 11:20 - 12:05 | 5  | Roadmap: Experimental Diagnostics Development |  |
+| 12:05 - 13:30 |    | **LUNCH BREAK** |  |
 | 13:30 - 14:15 | 6  | Roadmap: Development of Remaining Elements |  |
 | 14:15 - 15:00 | 7  | Community Interaction & Contribution |  |
 | 15:00 - 15:15 |    | **COFFEE BREAK** |  |
@@ -102,9 +105,29 @@ an relevant questions, getting help on existing projects, etc.
 
 <br/>
 
-### <a name="Housing"></a> Housing
+### <a name="Travel-Housing"></a> Travel & Housing
 
-In the near future we will post a few suggested housing locations around Bryn Mawr.
+---
+**NOTE**
+
+Due to the ongoing development of the novel coronavirus (COVID-19), travel restrictions
+may be in place when this workshop occurs.  If this is the case, we will still proceed 
+with the workshop via a [web-cast](#Web-Participation).  Additionally, we strongly
+recommend that any booked travel plans are refundable.
+
+---
+
+In the near future we will post a few recommendations for travel to and housing 
+locations around Bryn Mawr.
+
+<br/>
+
+### <a name="Travel-Funding-for-Students"></a> Travel Funding for Students
+
+As part of our support from the NSF-CSSI program, we will offer some amount of travel
+funding for interested students to attend.  **The exact amount will depend on the 
+number of participating students.  Please check back soon as we will update with
+instructions on how to apply for travel funding.**
 
 <br/>
 
@@ -113,3 +136,15 @@ In the near future we will post a few suggested housing locations around Bryn Ma
 We currently plan to have days 2 & 3 available on web-cast so non-attendees and still 
 participate.  As the meeting approaches, we will post info on how to attend via the
 web-cast.
+
+<br/>
+
+### <a name="Support-Ack"></a> Support & Acknowledgments
+
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation 
+(NSF) and NASA, with many contributions from the broader plasma physics and open source 
+communities. Early development of PlasmaPy was supported by the U.S. Department of 
+Energy, the Smithsonian Institution, and Google Summer of Code.
+
+Support for this workshop is provided through a grant from the NSF Cyberinfrastructure for 
+Sustained Scientific Innovation (CSSI)  program.
