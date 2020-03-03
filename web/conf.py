@@ -15,30 +15,29 @@ import time
 # ! Option (b) is used for settings that are different in different languages.
 
 
-# Data about this site
+# -- General Site Data --
 BLOG_AUTHOR = "PlasmaPy Developers"  # (translatable)
 BLOG_TITLE = "PlasmaPy"  # (translatable)
-# This is the main URL for your site. It will be used
-# in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://plasmapy.github.io/"
-# This is the URL where Nikola's output will be deployed.
-# If not set, defaults to SITE_URL
-BASE_URL = "https://plasmapy.github.io/"
-PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 
+# -- Links --
+# This is the main URL for your site. It will be used
+# in a prominent link. Don't forget the protocol (http/https)!
+SITE_URL = "https://plasmapy.org/"
+# This is the URL where Nikola's output will be deployed.
+# If not set, defaults to SITE_URL
+BASE_URL = "https://plasmapy.org/"
+BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
-RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
-TWITTER = "https://twitter.com/plasmapy"
-MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
-RITIEK = "https://ritiek.github.io/posts/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
+MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
+PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
+RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
+RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TELECON_LINK = "https://jitsi.riot.im/plasmapy"
-TELECON_NOTES = (
-    "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
-)
-BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
+TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
+TWITTER = "https://twitter.com/plasmapy"
 
 # Nikola is multilingual!
 #
@@ -156,7 +155,7 @@ NAVIGATION_LINKS = {
             (
                 ("/about", "About PlasmaPy"),
                 ("/news", "News"),
-                (PROJECT_REPOSITORY, "Repository"),
+                (PROJECT_REPOSITORY, "GitHub Repository"),
                 ("/acknowledging", "Acknowledging"),
                 ("/conduct", "Code of Conduct"),
             ),
@@ -174,11 +173,12 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-#                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
+                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
+                ("/meetings", "Meetings"),
                 (TWITTER, "Twitter"),
-#                # (TELECON_NOTES, "Notes from weekly meetups"),
-                (RITIEK, "GSoC 2018"),
+                # (TELECON_NOTES, "Notes from weekly meetups"),
+                # (RITIEK, "GSoC 2018"),
             ),
             "Community",
         ),
@@ -207,23 +207,28 @@ THEME_COLOR = '#5670d4'
 # bootblog4 supports: featured_large featured_small featured_on_mobile
 #                     featured_large_image_on_mobile featured_strip_html sidebar
 # bootstrap4 supports: navbar_light (defaults to False)
-THEME_CONFIG = {
-    DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
-        # Show featured posts on mobile.
-        'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
-        'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
-    }
-}
+#
+# Add a Featured Post Banner and/or sidebar to the main page
+#  https://nikola.readthedocs.io/en/latest/manual/#featured-posts
+#  - This currently (2020 Feb 28) works with bootblog4 but not bootstrap4
+#
+# THEME_CONFIG = {
+#     DEFAULT_LANG: {
+#         # Show the latest featured post in a large box, with the previewimage as its background.
+#         'featured_large': False,
+#         # Show the first (remaining) two featured posts in small boxes.
+#         'featured_small': False,
+#         # Show featured posts on mobile.
+#         'featured_on_mobile': True,
+#         # Show image in `featured_large` on mobile.
+#         # `featured_small` displays them only on desktop.
+#         'featured_large_image_on_mobile': True,
+#         # Strip HTML from featured post text.
+#         'featured_strip_html': False,
+#         # Contents of the sidebar, If empty, the sidebar is not displayed.
+#         'sidebar': ''
+#     }
+# }
 
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
@@ -275,7 +280,6 @@ PAGES = (
     ("pages/*.txt", "", "page.tmpl"),
     ("pages/*.html", "", "page.tmpl"),
 )
-
 
 # Below this point, everything is optional
 
@@ -1210,6 +1214,11 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # it appears on the navigation bar:
 #
 # SEARCH_FORM = """
+# SEARCH_FORM = """
+# <form class="navbar-search pull-right" action="/search/" role="search">
+#     <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
+# </form>
+# """
 # <!-- DuckDuckGo custom search -->
 # <form method="get" id="search" action="https://duckduckgo.com/"
 #  class="navbar-form pull-left">
@@ -1225,19 +1234,19 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # """ % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
-SEARCH_FORM = """
-<!-- Google custom search -->
-<form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
-<div class="form-group">
-<input type="text" name="q" class="form-control" placeholder="Search">
-</div>
-<button type="submit" class="btn btn-primary">
-	<span class="glyphicon glyphicon-search"></span>
-</button>
-<input type="hidden" name="sitesearch" value="%s">
-</form>
-<!-- End of custom search -->
-""" % SITE_URL
+# SEARCH_FORM = """
+# <!-- Google custom search -->
+# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+# <div class="form-group">
+# <input type="text" name="q" class="form-control" placeholder="Search">
+# </div>
+# <button type="submit" class="btn btn-primary">
+# 	<span class="glyphicon glyphicon-search"></span>
+# </button>
+# <input type="hidden" name="sitesearch" value="%s">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1257,6 +1266,7 @@ SEARCH_FORM = """
 # before </head>
 # (translatable)
 EXTRA_HEAD_DATA = r"""
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
 """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
