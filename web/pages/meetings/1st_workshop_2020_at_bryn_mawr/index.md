@@ -15,13 +15,13 @@ author: Erik T. Everson
 
 ### <a name="Overview"></a> Overview
 
-PlasmaPy's first mini-conference.  The conference is setup as a 3 day meeting for 
-PlasmaPy developers and the PlasmaPy community. The first day (4/20) is 
-designated for the PlasmaPy Development Team and the remaining two days (4/21-4/22) are 
-designed for community interaction.  Goals of the meeting are to (1) further develop
+PlasmaPy's first workshop, which is setup as a 3 day meeting for PlasmaPy developers and 
+the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to 
+discuss code development and project direction.  The remaining two days (4/21-4/22) are 
+designed for community interaction.  Goals of the meeting are to (1) further develop 
 PlasmaPy's roadmap, (2) inform the broader PlasmaPy community of PlasmaPy's objectives 
-and direction, (3) demonstrate PlasmaPy's capabilities to the community, and 
-(4) receive valuable feedback from the community.<br/><br/>
+and direction, (3) demonstrate PlasmaPy's capabilities to the community, and (4) receive 
+valuable feedback from the community.<br/><br/>
 
 ### <a name="Agenda"></a> Agenda
 
@@ -29,7 +29,7 @@ and direction, (3) demonstrate PlasmaPy's capabilities to the community, and
 **NOTE**
 
 As the meeting approaches, please check the agenda for updates.  As presentation material
-becomes available we will post links for slides and such.
+becomes available we will post links for slides and additional information.
 ___
 
 
@@ -44,11 +44,11 @@ package development, community outreach, and education.
 | 08:30 - 09:00 | 0  | **ARRIVAL & COFFEE** |  |
 | 09:00 - 09:15 | 1  | Welcome: Introduction & Overview |  |
 | 09:15 - 09:35 | 2  | Roadmap: Overview & Current Projections |  |
-| 09:35 - 10:35 | 3  | Roadmap: Formulary Development |  |
-| 10:35 - 10:50 |    | **COFFEE BREAK** |  |
-| 10:50 - 11:35 | 4  | Roadmap: Simulations Development |  |
-| 11:35 - 12:20 | 5  | Roadmap: Experimental Diagnostics Development |  |
-| 12:20 - 13:30 |    | **LUNCH BREAK** |  |
+| 09:35 - 10:20 | 3  | Roadmap: Formulary Development |  |
+| 10:20 - 10:35 |    | **COFFEE BREAK** |  |
+| 10:35 - 11:20 | 4  | Roadmap: Simulations Development |  |
+| 11:20 - 12:05 | 5  | Roadmap: Experimental Diagnostics Development |  |
+| 12:05 - 13:30 |    | **LUNCH BREAK** |  |
 | 13:30 - 14:15 | 6  | Roadmap: Development of Remaining Elements |  |
 | 14:15 - 15:00 | 7  | Community Interaction & Contribution |  |
 | 15:00 - 15:15 |    | **COFFEE BREAK** |  |
