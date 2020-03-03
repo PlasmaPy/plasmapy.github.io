@@ -7,7 +7,7 @@ author: Erik T. Everson
 <br/>
 [Overview](#Overview)<br/>
 [Agenda](#Agenda)<br/>
-[Registration]()<br/>
+[Registration](https://docs.google.com/forms/d/e/1FAIpQLSemaDDWHHq2li5B5W3vyYlnGjWEXGAD3Z3u1jSEG7vhpG22Dg/viewform?usp=sf_link)<br/>
 [Travel & Housing](#Travel-Housing)<br/>
 [Travel Funding for Students](#Travel-Funding-for-Students)<br/>
 [Web Participation](#Web-Participation)<br/>
