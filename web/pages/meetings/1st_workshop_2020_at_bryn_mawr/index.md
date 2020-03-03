@@ -111,7 +111,8 @@ an relevant questions, getting help on existing projects, etc.
 
 Due to the ongoing development of the novel coronavirus (COVID-19), travel restrictions
 may be in place when this workshop occurs.  If this is the case, we will still proceed 
-with the workshop via a [web-cast](#Web-Participation).
+with the workshop via a [web-cast](#Web-Participation).  Additionally, we strongly
+recommend that any booked travel plans are refundable.
 
 ---
 
