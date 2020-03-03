@@ -23,10 +23,10 @@ BLOG_DESCRIPTION = "Webpage for PlasmaPy."  # (translatable)
 # -- Links --
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://plasmapy.org/"
+SITE_URL = "https://www.plasmapy.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "https://plasmapy.org/"
+BASE_URL = "https://www.plasmapy.org/"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
