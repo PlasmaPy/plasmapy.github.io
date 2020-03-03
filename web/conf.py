@@ -1214,11 +1214,6 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # it appears on the navigation bar:
 #
 # SEARCH_FORM = """
-# SEARCH_FORM = """
-# <form class="navbar-search pull-right" action="/search/" role="search">
-#     <input type="text" class="form-control" id="tipue_search_input" name="q" placeholder="Search" autocomplete="off">
-# </form>
-# """
 # <!-- DuckDuckGo custom search -->
 # <form method="get" id="search" action="https://duckduckgo.com/"
 #  class="navbar-form pull-left">
@@ -1247,6 +1242,23 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # </form>
 # <!-- End of custom search -->
 # """ % SITE_URL
+# SEARCH_FORM = """
+# <!-- Google custom search -->
+# <form class="navbar-search pull-right"
+#       action="https://www.google.com/search"
+#       role="search"
+#       method="GET">
+#     <input type="text" name="q" class="form-control" placeholder="Search">
+#     <input type="hidden" name="sitesearch" value="%s">
+# </form>
+# <!-- End of custom search -->
+# """ % SITE_URL
+SEARCH_FORM = """
+<!-- Google custom search -->
+<script async src="/assets/search_settings.js"></script>
+<div class="gcse-searchbox-only" data-resultsUrl="/search_results"></div>
+<!-- End of custom search -->
+"""
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
