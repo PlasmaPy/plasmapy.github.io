@@ -6,6 +6,32 @@ hidetitle: True
 #### April 20-22, 2020
 #### Bryn Mawr College, Pennsylvania
 <br/>
+
+<div class="plasmapy-note">
+    <p class="plasmapy-note-title">
+        !! -- Workshop Cancelled
+    </p>
+    <p>
+        Due to the rapid development of COVID-19 (coronavirus) and out of an abundance
+        of caution, the PlasmaPy workshop organizers have decided to cancel PlasmaPy's 
+        first workshop.
+    </p>
+    <p>
+        We originally intended to web-cast portions of the workshop, but, with no 
+        in-person attendees, we feel this format would lead to a poor transmission of 
+        ideas between PlasmaPy and its community.  At this time, it is crucial that 
+        PlasmaPy fosters a strong community interaction to not only to convey its 
+        goals and ambitions, but to receive vital feed back from our community.  
+        <strong>Thus, we have decided to replace this workshop with a webinar 
+        series that will be given over the coming months.</strong>  As more information 
+        on the series becomes available we will update the community.
+    </p>
+    <p>
+        Thank you for your continued support,<br>
+        The PlasmaPy Workshop Organizers
+    </p>
+</div>
+
 [Overview](#Overview)<br/>
 [Agenda](#Agenda)<br/>
 [Registration](https://docs.google.com/forms/d/e/1FAIpQLSemaDDWHHq2li5B5W3vyYlnGjWEXGAD3Z3u1jSEG7vhpG22Dg/viewform?usp=sf_link)<br/>
