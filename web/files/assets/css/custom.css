@@ -5,7 +5,6 @@
     margin-bottom: 25px;
 }
 
-
 .main-text-block {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -16,6 +15,26 @@
     text-align: center;
     margin: auto;
 }
+
+.plasmapy-note {
+    background-color: #e6fafa;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.plasmapy-note-title {
+    background: #58a8a8;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    font-family: inherit;
+}
+
+/* .plasmapy-note-title:before{content: "⚠"}
 
 /* Tables */
 table {
