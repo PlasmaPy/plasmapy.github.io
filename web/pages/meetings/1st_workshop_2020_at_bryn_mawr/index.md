@@ -17,13 +17,13 @@ hidetitle: True
         first workshop.
     </p>
     <p>
-        We originally intended to web-cast portions of the workshop, but, with no 
-        in-person attendees, we feel this format would lead to a poor transmission of 
+        We originally intended to web-cast portions of the workshop, but with no 
+        in-person attendees we feel this format would lead to a poor transmission of 
         ideas between PlasmaPy and its community.  At this time, it is crucial that 
         PlasmaPy fosters a strong community interaction to not only to convey its 
         goals and ambitions, but to receive vital feed back from our community.  
-        <strong>Thus, we have decided to replace this workshop with a webinar 
-        series that will be given over the coming months.</strong>  As more information 
+        <strong>Thus, we have decided to replace this workshop with a series of webinars
+        and discussions to be held over the coming months.</strong>  As more information 
         on the series becomes available we will update the community.
     </p>
     <p>
