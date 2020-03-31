@@ -64,7 +64,7 @@ a great idea for something to include in the package, start hacking away on
 that! However, please announce your intent first in the relevant issue (or make
 one if necessary) to make sure there is no work duplication.
 
-You can find most of what you should know in the [Contributing Guide](http://docs.plasmapy.org/en/master/development/index.html).
+You can find most of what you should know in the [Contributing Guide](http://docs.plasmapy.org/en/latest/development/index.html).
 
 Please note that PlasmaPy has a [Code of Conduct](/conduct).
 
