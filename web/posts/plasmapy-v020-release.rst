@@ -12,6 +12,6 @@ A few days ago the long overdue PlasmaPy release v0.2.0 `hit PyPI <https://pypi.
 
 If you'd rather use `conda <https://docs.conda.io/en/latest/>`_, though, you now have the option, and that is why we delayed the announcement: we now have `our very own conda-forge feedstock <https://github.com/conda-forge/plasmapy-feedstock>`_ and you can install PlasmaPy using `conda install -c conda-forge plasmapy`.
 
-Please refer to the `release notes <http://docs.plasmapy.org/en/stable/about/release_notes.html#version-0-2-0>`_ to see what's changed.
+Please refer to the `release notes <http://docs.plasmapy.org/en/latest/whatsnew/0.2.0.html>`_ to see what's changed.
 
 Happy coding, everyone!
