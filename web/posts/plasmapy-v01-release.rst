@@ -13,7 +13,7 @@
 
    We are faced with the very newest of releases.
 
-   GitHub calls this one `PlasmaPy v0.1.0 <http://plasmapy.readthedocs.io/en/master/about/release_notes.html#version-0-1-0>`_, the first of the alphas.
+   GitHub calls this one `PlasmaPy v0.1.0 <http://docs.plasmapy.org/en/v0.1/about/release_notes.html#version-0-1-0>`_, the first of the alphas.
 
    And yet, for the first time in the history of this project our team has the
    technology to prevent its own procrastination.
@@ -34,11 +34,11 @@
    through `all of our ~2000 commits <https://github.com/PlasmaPy/PlasmaPy/commits/master>`_,
    there is one thing that has nourished our souls, and pushed us to complete
    this release, and that is our `pretty plots
-   <http://docs.plasmapy.org/en/master/auto_examples/index.html>`_. Oh, and the
+   <http://docs.plasmapy.org/en/latest/auto_examples/index.html>`_. Oh, and the
    possibility to 
-   `apply <http://docs.plasmapy.org/en/en/master/atomic/decorators.html#passing-particle-instances-to-functions-and-methods>`_
-   `more <http://docs.plasmapy.org/en/master/api/plasmapy.utils.checks.check_relativistic.html#plasmapy.utils.checks.check_relativistic>`_
-   `decorators <http://docs.plasmapy.org/en/master/api/plasmapy.utils.checks.check_quantity.html#plasmapy.utils.checks.check_quantity>`_.
+   `apply <http://docs.plasmapy.org/en/v0.1/atomic/decorators.html#passing-particle-instances-to-functions-and-methods>`_
+   `more <http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_relativistic.html#plasmapy.utils.checks.check_relativistic>`_
+   `decorators <http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_quantity.html#plasmapy.utils.checks.check_quantity>`_.
 
    The dreams of the entire PlasmaPy community are focused tonight on these `31
    brave committers <https://github.com/PlasmaPy/PlasmaPy/graphs/contributors>`_,
@@ -47,7 +47,7 @@
    And may we all, plasma enthusiasts the world over, see this release through.
 
    `Thermal speed
-   <http://docs.plasmapy.org/en/master/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed>`_,
+   <http://docs.plasmapy.org/en/v0.1/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed>`_,
    and a :math:`\sqrt{2}` to you,
   
    ~PlasmaPy
