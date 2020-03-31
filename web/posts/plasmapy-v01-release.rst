@@ -13,7 +13,7 @@
 
    We are faced with the very newest of releases.
 
-   GitHub calls this one `PlasmaPy v0.1.0 <http://plasmapy.readthedocs.io/en/master/about/release_notes.html#version-0-1-0>`_, the first of the alphas.
+   GitHub calls this one `PlasmaPy v0.1.0 <http://docs.plasmapy.org/en/master/about/release_notes.html#version-0-1-0>`_, the first of the alphas.
 
    And yet, for the first time in the history of this project our team has the
    technology to prevent its own procrastination.
