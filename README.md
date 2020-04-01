@@ -1,22 +1,24 @@
+<div align="center"><img src="https://raw.githubusercontent.com/PlasmaPy/PlasmaPy-logo/master/exports/with-text-dark.png" width="600"/></div
+
 # PlasmaPy Website
 
 [![Build Status](https://travis-ci.org/PlasmaPy/plasmapy.github.io.svg?branch=src)](https://travis-ci.org/PlasmaPy/plasmapy.github.io)
+[![Matrix](https://matrix.to/img/matrix-badge.svg)](https://riot.im/app/#/room/#plasmapy:openastronomy.org)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PlasmaPy/Lobby)
 
 This repository contains the code for the website for the PlasmaPy
 project.  The URL of the website is: 
-[`http://plasmapy.org/`](http://plasmapy.org/)
+[`https://www.plasmapy.org/`](https://www.plasmapy.org/)
 
-## Building the website
+## Contributing
 
-1. Clone the repository.
-2. Install nikola (using `pip` for example).
-3. Go to `src` branch.
-4. Update data from [`PlasmaPy repository`](https://github.com/PlasmaPy/PlasmaPy) using `pull_from_github.py`.
-5. Build the website:
-    - Inside `web/` directory run `nikola build`
-    - Preview the changes with `nikola serve --browser`
-    - Deploy to github pages with `nikola github_deploy`
+The [contribution guide](./CONTRIBUTING.md) contains instructions
+on how to contribute code or content to PlasmaPy's website.
 
 ## License
 
 See [LICENSE.md](./LICENSE.md) for this repository's license.
+
+## Code of Conduct
+
+Development on this repository falls under the [PlasmaPy Community Code of Conduct](http://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html)
