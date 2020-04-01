@@ -3,14 +3,17 @@
 ## Prerequisites
 
 [PlasmaPy's website](https://www.plasmapy.org) is built using the 
-[Nikola](https://getnikola.com/) static website generator.  
-In order to build the website locally on your computer, you will need to
-[install Nikola](https://getnikola.com/getting-started.html#install).
-This may be done for your local Python installation using `pip`.
+[Nikola](https://getnikola.com/) static website generator.  In order to build 
+the website locally on your computer, you will need to [install 
+Nikola](https://getnikola.com/getting-started.html#install).  This may 
+be done for your local Python installation using `pip`.
    
 ```bash
 pip install nikola
 ```
+
+Many of the pages are written in [Markdown](https://www.markdownguide.org/)
+before Nikola converts them to HTML.
 
 ### Getting started
 
@@ -33,7 +36,7 @@ contribution of code or content to PlasmaPy's website.
    git remote add upstream https://github.com/PlasmaPy/plasmapy.github.io.git
    ```
    
-### Submitting a contribution
+### Submitting a code contribution
 
 1. Fetch the most recent updates to the repository. 
 
@@ -51,7 +54,8 @@ contribution of code or content to PlasmaPy's website.
    git push --set-upstream origin new-branch-name
    ```  
 
-3. Make and commit changes in the `web/` directory.  
+3. Make and commit changes in the `web/` directory.  Most of the pages
+   are in `web/pages/` while blog posts are in `web/posts/`.
 
    ```bash
    git add changed_file.md
@@ -76,3 +80,10 @@ contribution of code or content to PlasmaPy's website.
 7. The website will be rebuilt automatically after the pull request is merged. 
    The website will be down while it is rebuilding.  After five to ten minutes,
    check that the website is functioning nominally.  
+   
+### Getting help
+
+The quickest way to contact PlasmaPy developers is through the 
+[Matrix](https://riot.im/app/#/room/#plasmapy:openastronomy.org)/[Gitter](https://gitter.im/PlasmaPy/Lobby)
+channel.  [Nikola's documentation pages](https://getnikola.com/documentation.html)
+may also be helpful.
