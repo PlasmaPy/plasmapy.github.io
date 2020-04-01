@@ -12,10 +12,13 @@ be done for your local Python installation using `pip`.
 pip install nikola
 ```
 
-Many of the pages are written in [Markdown](https://www.markdownguide.org/)
-before Nikola converts them to HTML.
+## Resources
 
-### Getting started
+ - [git](https://git-scm.com/)
+ - [Nikola documentation](https://getnikola.com/documentation.html)
+ - [Markdown guide](https://www.markdownguide.org/)
+
+## Getting started
 
 The following steps will set up your local computer in order to submit a
 contribution of code or content to PlasmaPy's website.
@@ -36,7 +39,7 @@ contribution of code or content to PlasmaPy's website.
    git remote add upstream https://github.com/PlasmaPy/plasmapy.github.io.git
    ```
    
-### Submitting a code contribution
+## Submitting a code contribution
 
 1. Fetch the most recent updates to the repository. 
 
@@ -81,9 +84,8 @@ contribution of code or content to PlasmaPy's website.
    The website will be down while it is rebuilding.  After five to ten minutes,
    check that the website is functioning nominally.  
    
-### Getting help
+## Getting help
 
 The quickest way to contact PlasmaPy developers is through the 
 [Matrix](https://riot.im/app/#/room/#plasmapy:openastronomy.org)/[Gitter](https://gitter.im/PlasmaPy/Lobby)
-channel.  [Nikola's documentation pages](https://getnikola.com/documentation.html)
-may also be helpful.
+channel.  
