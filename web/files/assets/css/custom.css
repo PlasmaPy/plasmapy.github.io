@@ -94,11 +94,12 @@ table tr th :last-child, table tr td :last-child {
 }
 
 /* Responsive columns...3 columns move to 3 rows when columns are less
- * than 600px
+ * than 800px
  */
 @media screen and (max-width: 800px) {
     .feature-column {
         width: 100%;
+        margin: 5px;
     }
 }
 
