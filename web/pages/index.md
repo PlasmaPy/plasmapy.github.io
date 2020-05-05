@@ -1,4 +1,43 @@
 title: The PlasmaPy Project
+hidetitle: True
+
+<div class="feature-row">
+    <!-- Feature 1 -->
+    <div class="feature-column">
+        <a class="feature-link" href="https://pypi.org/project/plasmapy/">
+        <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #f96060">
+            <span class="feature-card-text">
+                <h1>v0.3.1 Release</h1>
+            </span>
+        </span>
+        </a>
+    </div>
+    <!-- Feature 2 -->
+    <div class="feature-column">
+        <a class="feature-link" href="meetings/weekly">
+        <span class="feature-card">
+            <span class="feature-card-text">
+                <h1>Weekly Community Meeting</h1>
+                <p>Tuesday 18:00 UTC</p>
+            </span>
+        </span>
+        </a>
+    </div>
+    <!-- Feature 3 -->
+    <div class="feature-column">
+        <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
+        <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #80cece">
+            <span class="feature-card-text">
+                <h1>Join</h1>
+                <h3>the</h3>
+                <h1>Chat</h1>
+            </span>
+        </span>
+        </a>
+    </div>
+</div>
+
+<br/>
 
 The goal of the PlasmaPy Project is to foster the creation of an open source [Python](https://www.python.org/) ecosystem for plasma research and education.  The PlasmaPy package contains core functionality for this software ecosystem, while affiliated packages will contain more specialized functionality.
 

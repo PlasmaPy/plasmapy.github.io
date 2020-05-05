@@ -38,26 +38,114 @@
 
 /* Tables */
 table {
-  padding: 0; }
-  table tr {
+    padding: 0;
+}
+table tr {
     border-top: 1px solid #cccccc;
     background-color: white;
     margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      text-align: left;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+}
+
+/************************************/
+/*   Feature Cards for Front Page   */
+/************************************/
+* {
+    box-sizing: border-box;
+}
+
+/* Float three columns side by side */
+.feature-column {
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.feature-row {margin: 0 -5px}
+
+/* Clear floats after the columns */
+.feature-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns...3 columns move to 3 rows when columns are less
+ * than 800px
+ */
+@media screen and (max-width: 800px) {
+    .feature-column {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+/* Graphics of the "feature card" to be placed in the .feature-column
+ *   Intended to be used with <span> so it can be nested inside a
+ *   hyperlink <a>
+ *
+ *   By default the PlasmaPy graphic will be placed as a background
+ *   image, but this can be changed by specifying a new value for the
+ *   background-image property.
+ */
+.feature-card {
+    position: relative;
+    display: block;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 200px;
+
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-width: 2px;
+    border-radius: 10px;
+
+    background-color: #f1f1f1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/plasmapy-graphic-circular.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-card:hover {
+    box-shadow: rgba(142, 176, 202, 0.5);
+    border-color: #017BFF
+}
+
+.feature-card-text {
+    position: absolute;
+    width: inherit;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Hyperlink without decoration */
+a.feature-link {
+    color: inherit;
+    text-decoration: inherit;
+}
