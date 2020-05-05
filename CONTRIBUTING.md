@@ -66,17 +66,10 @@ where *username* is your GitHub username.
    git commit -m "Updated changed_file.md"
    ```
    
-4. Inside the `web/` directory, build the website using:
+4. Inside the `web/` directory, build and preview the website using
 
    ```bash
-   nikola build
-   ```
-   
-5. Preview the changes in your web browser with:
-
-   ```bash
-   nikola serve --browser
-   ```
+   nikola auto --browser
    
 6. [Create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) 
    to the `src` branch on the main repository.
