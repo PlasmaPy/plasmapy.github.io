@@ -81,8 +81,7 @@ contribution of code or content to PlasmaPy's website.
    to the `src` branch on the main repository.
    
 7. The website will be rebuilt automatically after the pull request is merged. 
-   The website will be down while it is rebuilding.  After five to ten minutes,
-   check that the website is functioning nominally.  
+   After five to ten minutes, check that the website is functioning nominally.
    
 ## Getting help
 
