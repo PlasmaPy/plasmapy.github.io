@@ -5,10 +5,11 @@ author: Erik T. Everson
 
 ----
 
-#### [Weekly Community Meeting](./weekly)
-Every Tuesday at 18:00 UTC
+#### [Weekly Community Meeting](./weekly): Every Tuesday at 18:00 UTC
 
-# Past Meetings
+<br/>
+
+### Past Meetings
 
 ----
 
