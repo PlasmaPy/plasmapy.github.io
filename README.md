@@ -1,4 +1,4 @@
-<div align="center"><img src="https://raw.githubusercontent.com/PlasmaPy/PlasmaPy-logo/master/exports/with-text-dark.png" width="600"/></div
+<div align="center"><img src="https://raw.githubusercontent.com/PlasmaPy/PlasmaPy-logo/master/exports/with-text-dark.png" width="600"/></div>
 
 # PlasmaPy Website
 
