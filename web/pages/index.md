@@ -28,7 +28,9 @@ hidetitle: True
         <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
         <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #80cece">
             <span class="feature-card-text">
-                <h1>Chat Room</h1>
+                <h1>Join</h1>
+                <h3>the</h3>
+                <h1>Chat</h1>
             </span>
         </span>
         </a>
