@@ -11,10 +11,11 @@ hidetitle: True
 #### Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT
 <br/>
 
-Where: [on Jitsi][Jitsi] <br/>
-Time: Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT
-Minutes & Agenda: 
-Calendar: 
+**Where:** [on Jitsi][Jitsi] <br/>
+**Time:** Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT <br/>
+**Minutes & Agenda:** [on Google Drive][minutes and agenda] <br/>
+**Calendar:** [on Google Calendar][google calendar] <br/>
+<br/><br/>
 
 ### Overview
 
