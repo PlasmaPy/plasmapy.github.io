@@ -19,8 +19,8 @@ Calendar:
 ### Overview
 
 Every Tuesday PlasmaPy hosts its weekly online community meeting to cover the various 
-ongoing topics and development, with some occasional bonus puns from Nick Murphy.
+ongoing development topics, with some occasional bonus puns from Nick Murphy.
 This call is hosted on [Jitsi] with the [minutes and agenda] available on Google Drive.
 The schedule is also published on our [calendar][google calendar].  Each meeting 
-is generally announced on our [Matrix chat][chat], with any last minute changes 
-also being on the chat.
+is announced on our [Matrix chat][chat] about an hour before the start, with any last 
+minute changes also being announced there.
