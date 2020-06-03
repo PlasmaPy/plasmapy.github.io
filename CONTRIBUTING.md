@@ -33,6 +33,7 @@ contribution of code or content to PlasmaPy's website.
    ```
 
 where *username* is your GitHub username.
+
 3. [Add a remote](https://help.github.com/en/github/using-git/adding-a-remote)
    to connect to the upstream repository.
    
