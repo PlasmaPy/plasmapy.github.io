@@ -39,7 +39,10 @@ where *username* is your GitHub username.
    ```bash
    git remote add upstream https://github.com/PlasmaPy/plasmapy.github.io.git
    ```
-   
+
+### A note on branches
+
+Nikola's source files are located on the `src` git branch, and the built HTML files are located on the `master` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely shouldn't need to change files on `master`.
 ## Submitting a code contribution
 
 1. Fetch the most recent updates to the repository. 
