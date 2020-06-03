@@ -68,7 +68,9 @@ Nikola's source files are located on the `src` git branch, and the built HTML fi
    git add changed_file.md
    git commit -m "Updated changed_file.md"
    ```
-   
+
+   Pages and posts are predominantly written in markdown, but [`nikola` supports various file formats](https://getnikola.com/handbook.html#supported-input-formats) like HTML, reStructuredText, etc.  Please use the markdown format, unless it's absolutely necessary to use one of the others.
+
 4. Inside the `web/` directory, build and preview the website using
 
    ```bash
