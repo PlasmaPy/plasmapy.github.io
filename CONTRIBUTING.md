@@ -43,7 +43,7 @@ where *username* is your GitHub username.
 
 ### A note on branches
 
-Nikola's source files are located on the `src` git branch, and the built HTML files are located on the `master` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely shouldn't need to change files on `master`.
+Nikola's source files are located on the `src` git branch, and the built HTML files are located on the `master` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely do not need to change files on `master`.
 
 ## Submitting a code contribution
 
