@@ -12,8 +12,7 @@ project.  The URL of the website is:
 
 ## Contributing
 
-The [contribution guide](./CONTRIBUTING.md) contains instructions
-on how to contribute code or content to PlasmaPy's website.
+The [contribution guide](./CONTRIBUTING.md) contains instructions on how to contribute to the PlasmaPy website, which includes aspects like how to fork and clone the repository, how to build local copies of the website, etc."
 
 ## License
 
