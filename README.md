@@ -8,7 +8,6 @@
 
 This repository contains the code for the website for the PlasmaPy
 project.  The URL of the website is: 
-[`https://www.plasmapy.org/`](https://www.plasmapy.org/)
 
 ## Contributing
 
