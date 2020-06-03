@@ -6,8 +6,7 @@
 [![Matrix](https://matrix.to/img/matrix-badge.svg)](https://riot.im/app/#/room/#plasmapy:openastronomy.org)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PlasmaPy/Lobby)
 
-This repository contains the code for the website for the PlasmaPy
-project.  The URL of the website is: 
+This repository contains the code for the PlasmaPy website ([`https://www.plasmapy.org/`](https://www.plasmapy.org/)).
 
 ## Contributing
 
