@@ -1,5 +1,5 @@
 _site
-*.pyc
+*.py[cod]
 .DS_Store
 .doit.db
 cache/
@@ -12,3 +12,11 @@ web/.doit.db.bak
 web/.doit.db.dat
 web/.doit.db.db
 web/.doit.db.dir
+*~
+.idea
+*#
+#*
+*.egg
+.venv
+venv
+ENV
