@@ -39,6 +39,17 @@ hidetitle: True
 
 <br/>
 
+<div class="aspect-ratio-80pc">
+    <iframe src="https://www.youtube-nocookie.com/embed/E8RwQF5wcXM"
+            style="border: 1px solid black"
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+</div>
+
+<br/>
+
 The goal of the PlasmaPy Project is to foster the creation of an open source [Python](https://www.python.org/) ecosystem for plasma research and education.  The PlasmaPy package contains core functionality for this software ecosystem, while affiliated packages will contain more specialized functionality.
 
 ## Install PlasmaPy
