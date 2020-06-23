@@ -149,3 +149,21 @@ a.feature-link {
     color: inherit;
     text-decoration: inherit;
 }
+
+/* Graphic for Landing Page YouTube video */
+.aspect-ratio-80pc {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-bottom: 45.00%; /* to maintain 16:9 aspect ratio */
+    width: 80%;
+    margin: 0 10%;
+}
+
+.aspect-ratio-80pc iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
