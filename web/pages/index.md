@@ -4,10 +4,15 @@ hidetitle: True
 <div class="feature-row">
     <!-- Feature 1 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://pypi.org/project/plasmapy/">
-        <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #f96060">
+        <a class="feature-link" href="https://docs.plasmapy.org/en/latest/notebooks/thomson.html">
+        <span class="feature-card" 
+              style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
+                                       rgba(255, 255, 255, 0.7)), 
+                                       url('/images/features/thomson_spectral_density.png')">
             <span class="feature-card-text">
-                <h1>v0.3.1 Release</h1>
+                <h2>New Feature</h2>
+                <h3>Thomson Scattering</h3>
+                <h3>Spectral Density</h3>
             </span>
         </span>
         </a>
@@ -26,7 +31,11 @@ hidetitle: True
     <!-- Feature 3 -->
     <div class="feature-column">
         <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
-        <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #80cece">
+        <span class="feature-card" 
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
+                                       rgba(255, 255, 255, 0.5)), 
+                                       none; 
+                     background-color: #80cece">
             <span class="feature-card-text">
                 <h1>Join</h1>
                 <h3>the</h3>
