@@ -79,7 +79,7 @@ table tr th :last-child, table tr td :last-child {
 /* Float three columns side by side */
 .feature-column {
     float: left;
-    width: 33%;
+    width: 33.33%;
     padding: 0 5px;
 }
 
