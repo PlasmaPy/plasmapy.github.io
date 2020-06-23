@@ -10,7 +10,7 @@ hidetitle: True
                                        rgba(255, 255, 255, 0.7)), 
                                        url('/images/features/thomson_spectral_density.png')">
             <span class="feature-card-text">
-                <h2>New Featrure</h2>
+                <h2>New Feature</h2>
                 <h3>Thomson Scattering</h3>
                 <h3>Spectral Density</h3>
             </span>
