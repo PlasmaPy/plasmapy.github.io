@@ -38,6 +38,7 @@ TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam0
 TELECON_LINK = "https://jitsi.riot.im/plasmapy"
 TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 TWITTER = "https://twitter.com/plasmapy"
+YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 
 # Nikola is multilingual!
 #
@@ -156,6 +157,7 @@ NAVIGATION_LINKS = {
                 ("/about", "About PlasmaPy"),
                 ("/news", "News"),
                 (PROJECT_REPOSITORY, "GitHub Repository"),
+                (YOUTUBE_CHANNEL, "YouTube Channel"),
                 ("/acknowledging", "Acknowledging"),
                 ("/conduct", "Code of Conduct"),
             ),
