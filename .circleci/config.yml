@@ -1,0 +1,30 @@
+version: 2
+jobs:
+  build-website:
+    docker:
+      - image: continuumio/miniconda3
+    steps:
+      - checkout
+      - run: 
+          name: "Install nikola"
+          command: pip install nikola
+      - run:
+          name: "Build website with STRIP_INDEXES=False"
+          command: |
+            echo "STRIP_INDEXES=False" >> conf.py
+            nikola build
+      - store_artifacts:
+          path: output
+      - run:
+          name: "Built website is available at:"
+          command: DOCS_URL="${CIRCLE_BUILD_URL}/artifacts/${CIRCLE_NODE_INDEX}/output/posts/index.html"; echo $DOCS_URL
+
+workflows:
+  version: 2
+  test-documentation:
+    jobs:
+      - build-website
+
+notify:
+  webhooks:
+    - url: https://giles.cadair.dev/circleci
