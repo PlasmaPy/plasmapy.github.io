@@ -11,13 +11,14 @@ jobs:
       - run:
           name: "Build website with STRIP_INDEXES=False"
           command: |
+            cd web
             echo "STRIP_INDEXES=False" >> conf.py
             nikola build
       - store_artifacts:
-          path: output
+          path: web/output
       - run:
           name: "Built website is available at:"
-          command: DOCS_URL="${CIRCLE_BUILD_URL}/artifacts/${CIRCLE_NODE_INDEX}/output/posts/index.html"; echo $DOCS_URL
+          command: DOCS_URL="${CIRCLE_BUILD_URL}/artifacts/${CIRCLE_NODE_INDEX}/web/output/index.html"; echo $DOCS_URL
 
 workflows:
   version: 2
