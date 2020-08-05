@@ -47,7 +47,19 @@ hidetitle: True
     </div>
 </div>
 
-<br/>
+<!-- Survey Card -->
+<div class="feature-row" style="margin: 24px 0">
+    <div class="feature-column" style="width: 100%; padding: 0 10%">
+        <a class="feature-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeug7Wg1wWZdO10qV1X6dsOq1hn7kq3x8EXoDDjNYZ74ncuug/viewform">
+        <div class="feature-card feature-card-banner">
+            <div>
+                Please help us improve PlasmaPy and inform our development by 
+                taking the <b>2020 PlasmaPy Survey</b>.
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
 
 <!-- YouTube Video-->
 <div class="aspect-ratio-80pc">
