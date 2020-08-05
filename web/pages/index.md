@@ -1,47 +1,48 @@
 title: The PlasmaPy Project
 hidetitle: True
 
+<!-- Feature Cards -->
 <div class="feature-row">
     <!-- Feature 1 -->
     <div class="feature-column">
         <a class="feature-link" href="https://docs.plasmapy.org/en/latest/notebooks/thomson.html">
-        <span class="feature-card" 
+        <div class="feature-card" 
               style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
                                        rgba(255, 255, 255, 0.7)), 
                                        url('/images/features/thomson_spectral_density.png')">
-            <span class="feature-card-text">
+            <div>
                 <h2>New Feature</h2>
                 <h3>Thomson Scattering</h3>
                 <h3>Spectral Density</h3>
-            </span>
-        </span>
+            </div>
+        </div>
         </a>
     </div>
     <!-- Feature 2 -->
     <div class="feature-column">
         <a class="feature-link" href="meetings/weekly">
-        <span class="feature-card">
-            <span class="feature-card-text">
+        <div class="feature-card">
+            <div>
                 <h1>Weekly Community Meeting</h1>
-                <p>Tuesday 18:00 UTC</p>
-            </span>
-        </span>
+                Tuesday 18:00 UTC
+            </div>
+        </div>
         </a>
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
         <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
-        <span class="feature-card" 
+        <div class="feature-card" 
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
                                        rgba(255, 255, 255, 0.5)), 
                                        none; 
                      background-color: #80cece">
-            <span class="feature-card-text">
+            <div>
                 <h1>Join</h1>
                 <h3>the</h3>
                 <h1>Chat</h1>
-            </span>
-        </span>
+            </div>
+        </div>
         </a>
     </div>
 </div>
