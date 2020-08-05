@@ -138,13 +138,15 @@ table tr th :last-child, table tr td :last-child {
     border-color: #017BFF
 }
 
-.feature-card-text {
+/* Center (vertical & horizontal) div withing feature-card */
+.feature-card div {
     position: absolute;
-    width: inherit;
-    text-align: center;
+    width: 100%;
+    padding: 5%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Hyperlink without decoration */
