@@ -133,6 +133,16 @@ table tr th :last-child, table tr td :last-child {
     background-size: cover;
 }
 
+.feature-card-banner {
+    height: 36px;
+    background-image: none;
+    background-color: rgb(255, 237, 204);
+    box-shadow: none;
+    border-color: rgb(240, 179, 126);
+    border-width: 1px;
+    padding: 0 16px;
+}
+
 .feature-card:hover {
     box-shadow: 0 4px 8px 0 rgba(142, 176, 202, 0.5);
     border-color: #017BFF
