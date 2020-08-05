@@ -134,7 +134,7 @@ table tr th :last-child, table tr td :last-child {
 }
 
 .feature-card:hover {
-    box-shadow: rgba(142, 176, 202, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(142, 176, 202, 0.5);
     border-color: #017BFF
 }
 
