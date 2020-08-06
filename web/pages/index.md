@@ -1,53 +1,69 @@
 title: The PlasmaPy Project
 hidetitle: True
 
+<!-- Survey Card -->
+<div class="feature-row" style="margin: 24px 0">
+    <div class="feature-column" style="width: 100%; padding: 0 10%">
+        <a class="feature-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeug7Wg1wWZdO10qV1X6dsOq1hn7kq3x8EXoDDjNYZ74ncuug/viewform">
+        <div class="feature-card feature-card-banner">
+            <div>
+                Please help us improve PlasmaPy and inform our development by 
+                taking the <b>2020 PlasmaPy Survey</b>.
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
+
+<!-- Feature Cards -->
 <div class="feature-row">
     <!-- Feature 1 -->
     <div class="feature-column">
         <a class="feature-link" href="https://docs.plasmapy.org/en/latest/notebooks/thomson.html">
-        <span class="feature-card" 
+        <div class="feature-card" 
               style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
                                        rgba(255, 255, 255, 0.7)), 
                                        url('/images/features/thomson_spectral_density.png')">
-            <span class="feature-card-text">
+            <div>
                 <h2>New Feature</h2>
                 <h3>Thomson Scattering</h3>
                 <h3>Spectral Density</h3>
-            </span>
-        </span>
+            </div>
+        </div>
         </a>
     </div>
     <!-- Feature 2 -->
     <div class="feature-column">
         <a class="feature-link" href="meetings/weekly">
-        <span class="feature-card">
-            <span class="feature-card-text">
+        <div class="feature-card">
+            <div>
                 <h1>Weekly Community Meeting</h1>
-                <p>Tuesday 18:00 UTC</p>
-            </span>
-        </span>
+                Tuesday 18:00 UTC
+            </div>
+        </div>
         </a>
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
         <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
-        <span class="feature-card" 
+        <div class="feature-card" 
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
                                        rgba(255, 255, 255, 0.5)), 
                                        none; 
                      background-color: #80cece">
-            <span class="feature-card-text">
+            <div>
                 <h1>Join</h1>
                 <h3>the</h3>
                 <h1>Chat</h1>
-            </span>
-        </span>
+            </div>
+        </div>
         </a>
     </div>
 </div>
 
-<br/>
+<br>
 
+<!-- YouTube Video-->
 <div class="aspect-ratio-80pc">
     <iframe src="https://www.youtube-nocookie.com/embed/E8RwQF5wcXM"
             style="border: 1px solid black"

@@ -16,26 +16,6 @@
     margin: auto;
 }
 
-.plasmapy-note {
-    background-color: #e6fafa;
-    padding: 12px;
-    line-height: 24px;
-    margin-bottom: 24px;
-}
-
-.plasmapy-note-title {
-    background: #58a8a8;
-    font-weight: bold;
-    display: block;
-    color: #fff;
-    margin: -12px;
-    padding: 6px 12px;
-    margin-bottom: 12px;
-    font-family: inherit;
-}
-
-/* .plasmapy-note-title:before{content: "⚠"}
-
 /* Tables */
 table {
     padding: 0;
@@ -69,9 +49,32 @@ table tr th :last-child, table tr td :last-child {
     margin-bottom: 0;
 }
 
-/************************************/
-/*   Feature Cards for Front Page   */
-/************************************/
+/**********************************************************************
+ *  Admonitions
+ **********************************************************************/
+.plasmapy-note {
+    background-color: #e6fafa;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.plasmapy-note-title {
+    background: #58a8a8;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    margin: -12px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    font-family: inherit;
+}
+
+/* .plasmapy-note-title:before{content: "⚠"}
+
+/**********************************************************************
+ *   Feature Cards for Front Page
+ **********************************************************************/
 * {
     box-sizing: border-box;
 }
@@ -130,18 +133,30 @@ table tr th :last-child, table tr td :last-child {
     background-size: cover;
 }
 
+.feature-card-banner {
+    height: 36px;
+    background-image: none;
+    background-color: rgb(255, 237, 204);
+    box-shadow: none;
+    border-color: rgb(240, 179, 126);
+    border-width: 1px;
+    padding: 0 16px;
+}
+
 .feature-card:hover {
-    box-shadow: rgba(142, 176, 202, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(142, 176, 202, 0.5);
     border-color: #017BFF
 }
 
-.feature-card-text {
+/* Center (vertical & horizontal) div withing feature-card */
+.feature-card div {
     position: absolute;
-    width: inherit;
-    text-align: center;
+    width: 100%;
+    padding: 5%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 /* Hyperlink without decoration */
@@ -149,6 +164,10 @@ a.feature-link {
     color: inherit;
     text-decoration: inherit;
 }
+
+/**********************************************************************
+ *   For main page YouTube video
+ **********************************************************************/
 
 /* Graphic for Landing Page YouTube video */
 .aspect-ratio-80pc {
