@@ -134,7 +134,8 @@ table tr th :last-child, table tr td :last-child {
 }
 
 .feature-card-banner {
-    height: 36px;
+    min-height: 36px;
+    height: auto;
     background-image: none;
     background-color: rgb(255, 237, 204);
     box-shadow: none;
@@ -157,6 +158,15 @@ table tr th :last-child, table tr td :last-child {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.feature-card-banner div {
+    position: relative;
+    width: 100%;
+    padding: 5px 5%;
+    text-align: center;
+    top: auto;
+    left: auto;
+    transform: none;
 }
 
 /* Hyperlink without decoration */
