@@ -29,6 +29,7 @@ SITE_URL = "https://www.plasmapy.org/"
 BASE_URL = "https://www.plasmapy.org/"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
+FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
@@ -157,7 +158,6 @@ NAVIGATION_LINKS = {
                 ("/about", "About PlasmaPy"),
                 ("/news", "News"),
                 (PROJECT_REPOSITORY, "GitHub Repository"),
-                (YOUTUBE_CHANNEL, "YouTube Channel"),
                 ("/acknowledging", "Acknowledging"),
                 ("/conduct", "Code of Conduct"),
             ),
@@ -178,7 +178,9 @@ NAVIGATION_LINKS = {
                 # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
+                (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
+                (YOUTUBE_CHANNEL, "YouTube"),
                 # (TELECON_NOTES, "Notes from weekly meetups"),
                 # (RITIEK, "GSoC 2018"),
             ),
@@ -985,7 +987,15 @@ License
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date} <a href="{repo}">{author}</a> - {license} - <a href="{twitter}">Twitter</a> - <a href="{riot}">Chat</a> - Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
+CONTENT_FOOTER = (
+    'Contents &copy; {date} {author}'
+    '- <a href="{repo}">GitHub</a> '
+    '- {license} '
+    '- <a href="{facebook}">Facebook</a> '
+    '- <a href="{twitter}">Twitter</a> '
+    '- <a href="{youtube}">YouTube</a> '
+    '- <a href="{riot}">Chat</a> '
+    '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>')
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1008,7 +1018,9 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
+            "facebook": FACEBOOK,
             "twitter": TWITTER,
+            "youtube": YOUTUBE_CHANNEL,
             "riot": RIOT,
         },
     )
