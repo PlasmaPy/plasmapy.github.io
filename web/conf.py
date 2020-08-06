@@ -29,6 +29,7 @@ SITE_URL = "https://www.plasmapy.org/"
 BASE_URL = "https://www.plasmapy.org/"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 DOCS = "http://docs.plasmapy.org/"
+FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
@@ -178,6 +179,7 @@ NAVIGATION_LINKS = {
                 # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
+                (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
                 # (TELECON_NOTES, "Notes from weekly meetups"),
                 # (RITIEK, "GSoC 2018"),
