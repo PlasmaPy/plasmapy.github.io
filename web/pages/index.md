@@ -91,6 +91,9 @@ If you have a working installation of [conda](https://docs.conda.io/en/latest/),
 conda install -c conda-forge plasmapy
 ```
 
+If you are unfamiliar with Python, please check out the 
+[Python website](https://www.python.org/) for more information.
+
 ## Learn PlasmaPy
 
 [PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](http://docs.plasmapy.org/en/latest/auto_examples/index.html). 
