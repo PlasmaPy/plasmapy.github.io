@@ -85,6 +85,8 @@ PlasmaPy may be installed from the command line using [`pip`](https://pip.pypa.i
 pip install plasmapy
 ```
 
+Note: if you run into difficulty using pip, you may also try using pip3 as the command.
+
 If you have a working installation of [conda](https://docs.conda.io/en/latest/), then you may install PlasmaPy with
 
 ```shell
