@@ -93,7 +93,7 @@ conda install -c conda-forge plasmapy
 
 ## Learn PlasmaPy
 
-[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](http://docs.plasmapy.org/en/latest/auto_examples/index.html). 
+[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html). 
 
 ## Get Help
 
