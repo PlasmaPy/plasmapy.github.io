@@ -45,7 +45,7 @@ hidetitle: True
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
+        <a class="feature-link" href="https://app.element.io/#/room/#plasmapy:openastronomy.org">
         <div class="feature-card" 
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
                                        rgba(255, 255, 255, 0.5)), 
@@ -97,7 +97,7 @@ conda install -c conda-forge plasmapy
 
 ## Get Help
 
-The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's Riot chat room](https://riot.im/app/#/room/#plasmapy:openastronomy.org).  [PlasmaPy's Discourse group](https://plasmapy.discourse.group/) is an ideal place for longer discussions on more detailed topics.
+The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's Riot chat room](https://app.element.io/#/room/#plasmapy:openastronomy.org).  [PlasmaPy's Discourse group](https://plasmapy.discourse.group/) is an ideal place for longer discussions on more detailed topics.
 
 ## Contribute and Report Bugs
 

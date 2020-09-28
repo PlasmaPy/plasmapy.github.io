@@ -50,7 +50,7 @@ early stages of PlasmaPy development:
   [submit issues](https://github.com/PlasmaPy/plasmapy/issues) and
   review [pull requests](https://github.com/PlasmaPy/plasmapy/pulls).
 
-* The PlasmaPy [Matrix](https://riot.im/app/#/room/#plasmapy:matrix.org) or 
+* The PlasmaPy [Matrix](https://app.element.io/#/room/#plasmapy:openastronomy.org) or 
   [Gitter](https://gitter.im/PlasmaPy/Lobby) joint channel
   is a great place to have informal conversations, coordinate efforts,
   and share ideas.  

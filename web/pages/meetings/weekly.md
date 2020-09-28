@@ -5,7 +5,7 @@ hidetitle: True
 [Jitsi]: https://meet.jit.si/plasmapy
 [minutes and agenda]: https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing
 [google calendar]: https://calendar.google.com/calendar/embed?src=o5lovdqm3illjm4e9k07vrl9mg%40group.calendar.google.com
-[chat]: https://riot.im/app/#/room/#plasmapy:openastronomy.org
+[chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
 
 # Weekly PlasmaPy Community Meeting
 #### Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT
