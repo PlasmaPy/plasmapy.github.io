@@ -19,15 +19,15 @@ hidetitle: True
 <div class="feature-row">
     <!-- Feature 1 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://docs.plasmapy.org/en/latest/notebooks/thomson.html">
+        <a class="feature-link" href="meetings/office_hours">
         <div class="feature-card" 
               style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
                                        rgba(255, 255, 255, 0.7)), 
                                        url('/images/features/thomson_spectral_density.png')">
             <div>
-                <h2>New Feature</h2>
-                <h3>Thomson Scattering</h3>
-                <h3>Spectral Density</h3>
+                <h2>PlasmaPy</h2>
+                <h2>"Office" Hours</h2>
+                <h3>Oct. 7 & 8 at 18:00 UTC</h3>
             </div>
         </div>
         </a>
