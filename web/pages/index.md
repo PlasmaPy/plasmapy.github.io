@@ -22,7 +22,7 @@ hidetitle: True
         <a class="feature-link" href="meetings/office_hours">
         <div class="feature-card" 
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5),
-                                       rgba(249, 255, 255, 0.5)), 
+                                       rgba(255, 255, 255, 0.5)), 
                                        none;
               background-color: #f96060">
             <div>
