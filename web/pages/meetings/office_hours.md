@@ -18,3 +18,5 @@ If so, please join us for **informal PlasmaPy "office" hours** at the following 
 We will meet using this **[Zoom link]**.  
 We will post the passcode in [PlasmaPy's chat room], which you can also
 use to talk with members of the PlasmaPy community at any other time. 
+
+Please check back here later for announcements of future office hours. 
