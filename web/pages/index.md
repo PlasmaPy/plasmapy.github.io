@@ -21,9 +21,10 @@ hidetitle: True
     <div class="feature-column">
         <a class="feature-link" href="meetings/office_hours">
         <div class="feature-card" 
-              style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
-                                       rgba(255, 255, 255, 0.7)), 
-                                       url('/images/features/thomson_spectral_density.png')">
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+                                       rgba(249, 255, 255, 0.5)), 
+                                       none;
+              background-color: #f96060">
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
@@ -106,4 +107,3 @@ Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?templa
 ## Acknowledgments
 
 Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation and NASA, with many contributions from the broader plasma physics and open source communities.  Early development of PlasmaPy was supported by the U.S. Department of Energy, the Smithsonian Institution, and Google Summer of Code.
-
