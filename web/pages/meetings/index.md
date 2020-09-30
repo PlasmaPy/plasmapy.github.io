@@ -22,9 +22,6 @@ November 11 & 12, 2020
 
 <br/>
 
-
-<br/>
-
 ### Past Meetings
 
 ----
