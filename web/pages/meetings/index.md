@@ -7,9 +7,12 @@ author: Erik T. Everson
 
 #### [PlasmaPy "Office" Hours](./office_hours): October 7 & 8 from 2–3 pm EDT
 
-#### *Growing an open source software ecosystem for plasma science*: Mini-conference on November 11 & 12 at [APS DPP meeting](https://engage.aps.org/dpp/meetings/annual-meeting)
+<div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
-----
+#### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/annual-meeting/mini-conferences): Growing an open source software ecosystem for plasma science
+November 11 & 12, 2020
+
+<br/>
 
 ### Weekly Meetings
 
