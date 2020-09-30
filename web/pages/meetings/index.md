@@ -1,6 +1,14 @@
 title: PlasmaPy Meetings
 author: Erik T. Everson
 
+### Weekly Meetings
+
+----
+
+#### [Weekly Community Meeting](./weekly): Every Tuesday at 18:00 UTC
+
+<br/>
+
 ### Upcoming Meetings
 
 ----
@@ -14,11 +22,6 @@ November 11 & 12, 2020
 
 <br/>
 
-### Weekly Meetings
-
-----
-
-#### [Weekly Community Meeting](./weekly): Every Tuesday at 18:00 UTC
 
 <br/>
 
