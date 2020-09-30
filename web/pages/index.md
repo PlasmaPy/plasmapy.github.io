@@ -28,7 +28,7 @@ hidetitle: True
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
-                <h3>Oct. 7 & 8 at 18:00 UTC</h3>
+                <h3>Thursdays at 18:00 UTC</h3>
             </div>
         </div>
         </a>
