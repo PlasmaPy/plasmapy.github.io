@@ -1,11 +1,24 @@
 title: PlasmaPy Meetings
 author: Erik T. Everson
 
-### Upcoming Meetings
+### Weekly Meetings
 
 ----
 
 #### [Weekly Community Meeting](./weekly): Every Tuesday at 18:00 UTC
+
+<br/>
+
+### Upcoming Meetings
+
+----
+
+#### [PlasmaPy "Office" Hours](./office_hours): October 7 & 8 from 2–3 pm EDT
+
+<div style="height: 12px"><!-- Adding vertical whitespace --></div>
+
+#### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/annual-meeting/mini-conferences): Growing an open source software ecosystem for plasma science
+November 11 & 12, 2020
 
 <br/>
 

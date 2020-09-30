@@ -29,7 +29,7 @@
 
    Through all the chaos that is our Git tree, through all of the `PEP8
    <https://github.com/PlasmaPy/PlasmaPy/search?q=pep8&type=Commits>`_ and
-   the `Matrix discussion <https://riot.im/app/#/room/#plasmapy:openastronomy.org>`_,
+   the `Matrix discussion <https://app.element.io/#/room/#plasmapy:openastronomy.org>`_,
    through all the `pain of learning Sphinx <http://docs.plasmapy.org/>`_ and rebasing,
    through `all of our ~2000 commits <https://github.com/PlasmaPy/PlasmaPy/commits/master>`_,
    there is one thing that has nourished our souls, and pushed us to complete
