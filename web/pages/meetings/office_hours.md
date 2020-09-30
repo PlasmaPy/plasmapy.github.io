@@ -15,7 +15,7 @@ If so, please join us for **informal PlasmaPy "office" hours** at the following 
  - Wednesday, October 7 from 2–3 pm EDT
  - Thursday, October 8 from 2–3 pm EDT
 
-We will meet using this **[Zoom link]**.  
-Please check [PlasmaPy's chat room] if you have trouble joining. 
+We will meet using this **[Zoom link]**.  Please check [PlasmaPy's chat room] 
+if you have trouble joining. 
 
 Please check back here later for announcements of future office hours. 
