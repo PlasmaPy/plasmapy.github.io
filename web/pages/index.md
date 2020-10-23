@@ -85,7 +85,7 @@ PlasmaPy may be installed from the command line using [`pip`](https://pip.pypa.i
 pip install plasmapy
 ```
 
-Note: if you run into difficulty using pip, you may also try using pip3 as the command.
+**Note:** If you run into difficulty using `pip`, you may also try using `pip3` or `python -m pip` or `python3 -m pip` as the command.
 
 If you have a working installation of [conda](https://docs.conda.io/en/latest/), then you may install PlasmaPy with
 
@@ -108,4 +108,3 @@ Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?templa
 ## Acknowledgments
 
 Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation and NASA, with many contributions from the broader plasma physics and open source communities.  Early development of PlasmaPy was supported by the U.S. Department of Energy, the Smithsonian Institution, and Google Summer of Code.
-
