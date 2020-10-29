@@ -20,6 +20,12 @@ author: Erik T. Everson
 #### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/annual-meeting/mini-conferences): Growing an open source software ecosystem for plasma science
 November 11 & 12, 2020
 
+<div style="height: 12px"><!-- Adding vertical whitespace --></div>
+
+#### [62nd APS DPP - 11.04 Mini-Conference | Post-Meeting Discussions](./aps/62nd_dpp_mini_conf_followups)
+Day 1: November 17, 2020 at 21:00 UTC / 16:00 ET / 13:00 PT<br/>
+Day 2: November 19, 2020 at 19:00 UTC / 14:00 ET / 11:00 PT
+
 <br/>
 
 ### Past Meetings
