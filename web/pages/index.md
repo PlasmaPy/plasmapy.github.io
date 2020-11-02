@@ -108,4 +108,4 @@ Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?templa
 
 ## Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation and NASA, with many contributions from the broader plasma physics and open source communities.  Early development of PlasmaPy was supported by the U.S. Department of Energy, the Smithsonian Institution, and Google Summer of Code.
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation, with many contributions from the broader plasma physics and open source communities.  Past development of PlasmaPy has been supported by the U.S. Department of Energy, the Smithsonian Institution, NASA, and Google Summer of Code.
