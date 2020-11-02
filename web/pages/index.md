@@ -28,7 +28,7 @@ hidetitle: True
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
-                <h3>Thursdays at 18:00 UTC</h3>
+                <h3>Thursdays at 19 UTC</h3>
             </div>
         </div>
         </a>
@@ -39,7 +39,7 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>Weekly Community Meeting</h1>
-                Tuesday 18:00 UTC
+                Tuesday 19 UTC
             </div>
         </div>
         </a>
