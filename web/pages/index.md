@@ -28,7 +28,7 @@ hidetitle: True
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
-                <h3>Thursdays at 18:00 UTC</h3>
+                <h3>Thursdays at 19 UTC</h3>
             </div>
         </div>
         </a>
@@ -39,7 +39,7 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>Weekly Community Meeting</h1>
-                Tuesday 18:00 UTC
+                Tuesday 19 UTC
             </div>
         </div>
         </a>
@@ -108,4 +108,4 @@ Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?templa
 
 ## Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation and NASA, with many contributions from the broader plasma physics and open source communities.  Early development of PlasmaPy was supported by the U.S. Department of Energy, the Smithsonian Institution, and Google Summer of Code.
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation, with many contributions from the broader plasma physics and open source communities.  Past development of PlasmaPy has been supported by the U.S. Department of Energy, the Smithsonian Institution, NASA, and Google Summer of Code.

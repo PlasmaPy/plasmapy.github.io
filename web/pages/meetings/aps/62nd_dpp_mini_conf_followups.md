@@ -10,8 +10,8 @@ hidetitle: True
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
 **Where:** [On Zoom][Zoom Link] <br/>
-**Day 1:** Tuesday, November 17th at 21:00 UTC / 16:00 ET / 13:00 PT <br/>
-**Day 2:** Thursday, November 19th at 19:00 UTC / 14:00 ET / 11:00 PT <br/>
+**Day 1:** Tuesday, November 17th at 21 UTC / 4 pm EST / 1 pm PST <br/>
+**Day 2:** Thursday, November 19th at 19 UTC / 2 pm EST / 11 am PST <br/>
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 

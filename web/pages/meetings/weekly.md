@@ -8,11 +8,11 @@ hidetitle: True
 [chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
 
 # Weekly PlasmaPy Community Meeting
-#### Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT
+#### Every Tuesday at 19 UTC / 2 pm EST / 11 am PST
 <br/>
 
 **Where:** [on Jitsi][Jitsi] <br/>
-**Time:** Every Tuesday at 18:00 UTC / 14:00 ET / 11:00 PT <br/>
+**Time:** Every Tuesday at 19 UTC / 2 pm ET / 11 am PST <br/>
 **Minutes & Agenda:** [on Google Drive][minutes and agenda] <br/>
 **Calendar:** [on Google Calendar][google calendar] <br/>
 <br/><br/>
