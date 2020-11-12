@@ -37,8 +37,6 @@ PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
 RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
-TELECON_LINK = "https://jitsi.riot.im/plasmapy"
-TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 
@@ -176,13 +174,11 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
                 (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
                 (YOUTUBE_CHANNEL, "YouTube"),
-                # (TELECON_NOTES, "Notes from weekly meetups"),
                 # (RITIEK, "GSoC 2018"),
             ),
             "Community",
