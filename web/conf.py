@@ -184,6 +184,7 @@ NAVIGATION_LINKS = {
             "Community",
         ),
         ("/contribute", "Contribute"),
+        ("/affiliates", "Affiliated Packages"),
         # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
     )
