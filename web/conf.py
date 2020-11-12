@@ -34,7 +34,7 @@ FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
-RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
+CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
 RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TELECON_LINK = "https://jitsi.riot.im/plasmapy"
@@ -167,7 +167,7 @@ NAVIGATION_LINKS = {
         (DOCS, "Documentation"),
         (
             (
-                (RIOT, "Chat room"),
+                (CHAT, "Chat room"),
                 ("https://plasmapy.discourse.group/", "Discussion forum"),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
@@ -995,8 +995,9 @@ CONTENT_FOOTER = (
     '- <a href="{facebook}">Facebook</a> '
     '- <a href="{twitter}">Twitter</a> '
     '- <a href="{youtube}">YouTube</a> '
-    '- <a href="{riot}">Chat</a> '
-    '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>')
+    '- <a href="{chat}">Chat</a> '
+    '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
+)
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1022,7 +1023,7 @@ CONTENT_FOOTER_FORMATS = {
             "facebook": FACEBOOK,
             "twitter": TWITTER,
             "youtube": YOUTUBE_CHANNEL,
-            "riot": RIOT,
+            "chat": CHAT,
         },
     )
 }
