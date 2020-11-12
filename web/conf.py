@@ -186,7 +186,6 @@ NAVIGATION_LINKS = {
         ("/contribute", "Contribute"),
         # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
-        (BENCHMARKS, "Benchmarks"),
     )
 }
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -992,6 +991,7 @@ CONTENT_FOOTER = (
     '- <a href="{twitter}">Twitter</a> '
     '- <a href="{youtube}">YouTube</a> '
     '- <a href="{chat}">Chat</a> '
+    '- <a href="{benchmarks}">Benchmarks</a> '
     '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 )
 
@@ -1020,6 +1020,7 @@ CONTENT_FOOTER_FORMATS = {
             "twitter": TWITTER,
             "youtube": YOUTUBE_CHANNEL,
             "chat": CHAT,
+            "benchmarks": BENCHMARKS,
         },
     )
 }
