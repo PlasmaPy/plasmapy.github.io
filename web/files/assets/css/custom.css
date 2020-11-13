@@ -1,4 +1,15 @@
-#description { 
+:root {
+    --plasmapy-red: #ff2929;
+    --plasmapy-light-red: #f96060;
+    --plasmapy-bluegreen: #54bfbf;
+    --plasmapy-light-bluegreen: #80cece;
+    --plasmapy-grey: #eeeeee;
+    --plasmapy-darkblue: #435466;
+    --plasmapy-logo-circ: url("/images/plasmapy-graphic-circular.png");
+    --plasmapy-logo-white-txt: url("/images/with-text-light-small.png");
+}
+
+#description {
     text-align: center;
     max-width: 60%;
     margin: auto;
@@ -127,7 +138,7 @@ table tr th :last-child, table tr td :last-child {
     border-radius: 10px;
 
     background-color: #f1f1f1;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/plasmapy-graphic-circular.png");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--plasmapy-logo-circ);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
