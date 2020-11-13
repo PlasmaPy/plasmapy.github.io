@@ -12,17 +12,19 @@ submit a request **here** (I will make a google form for this).
 
 The packages are divided into two groups:
 
-[**Affiliated Packages:**](#Affiliated-Packages)
+**Affiliated Packages:** {{% affiliated_shield %}}
 
 : These packages have had interoperability with `plasmapy` designed into them. 
 
 
-[**Community Packages:**](#Community-Packages)
+**Community Packages:**
 
 : These packages do not have interoperability with `plasmapy`, but do provide
   crucial functionality to aspects of the plasma field that `plasmapy` may not
   or can not provide.
 
-### Affiliated Packages
 
-### Community Packages
+
+----
+
+{{% build_affiliated_pkg_list %}}
