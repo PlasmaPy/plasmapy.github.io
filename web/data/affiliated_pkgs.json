@@ -1,0 +1,48 @@
+{
+  "plasmapy": {
+    "maintainer": {
+      "name": null,
+      "contact": null
+    },
+    "urls": {
+      "home": "https://www.plasmapy.org",
+      "repo": "https://github.com/plasmapy/plasmapy",
+      "image": "/images/plasmapy-graphic-circular.png"
+    },
+    "description": {
+      "short": "A open-source Python 3 package for plasma physics.",
+      "long": "PlasmaPy is an open-source community developed Python 3 package for plasma physics.  PlasmaPy intends to be a collection of functionality commonly used and shared between plasma physicists and researchers globally."
+    },
+    "affiliated": true,
+    "keywords": ["plasma", "physics", "python 3"],
+    "dates": {
+      "added": "2020 November 12",
+      "last_updated": "2020 November 12"
+    },
+    "status": "perpetual beta",
+    "license": "BSD 3-clause with patent grant"
+  },
+  "tofu": {
+    "maintainer": {
+      "name": null,
+      "contact": null
+    },
+    "urls": {
+      "home": "",
+      "repo": "https://github.com/ToFuProject/tofu",
+      "image": ""
+    },
+    "description": {
+      "short": "<b>tofu</b> stands for <b>To</b>mography for <b>Fu</b>sion",
+      "long": "<b>tofu</b> stands for <b>To</b>mography for <b>Fu</b>sion.  tofu is an IMAS-compatible open-source machine independent python library with non-open source plugins containing machine-dependent routines."
+    },
+    "affiliated": false,
+    "keywords": ["plasma", "physics", "python 3", "fusion"],
+    "dates": {
+      "added": "2020 November 12",
+      "last_updated": "2020 November 12"
+    },
+    "status": "perpetual beta",
+    "license": "MIT"
+  }
+}
