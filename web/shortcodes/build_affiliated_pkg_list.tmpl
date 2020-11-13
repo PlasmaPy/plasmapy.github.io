@@ -11,26 +11,39 @@
     <div class="affiliated-pkg-block">
         <div class="aff-pkg-image-block">
             <a href="${url_home}">
-                <span class="feature-card" style="background-image: url('${image_path}')"></span>
+                <span class="feature-card"
+                      style="background-image: url('${image_path}')">
+                </span>
             </a>
         </div>
         <div class="aff-pkg-info-block">
         <table>
             <tr class="main">
                 <td style="text-align: left">
-                    <span style="font-size: 1.6em; font-weight: bold; margin-right: 8px">${pkg_name}</span>
+                    <span style="font-size: 1.6em;
+                                 font-weight: bold;
+                                 margin-right: 8px">
+                        ${pkg_name}
+                    </span>
+                    <!-- add affiliated badge -->
                     % if is_affiliated:
-                        <span style="position: absolute; padding-top: 8px">${shield.affiliates()}</span>
+                        <span style="position: absolute;
+                                     padding-top: 8px">
+                            ${shield.affiliates()}
+                        </span>
                     % endif
                 </td>
                 <td style="text-align: right; vertical-align: center">
                     <a href="${url_home}">home</a>
-                     |
+                    <span> | </span>
                     <a href="${url_repo}">repo</a>
                 </td>
             </tr>
             <tr class="description">
-                <td colspan="2" style="text-align: left; vertical-align: top">${long_description}</td>
+                <td colspan="2"
+                    style="text-align: left; vertical-align: top">
+                    ${long_description}
+                </td>
             </tr>
             <tr class="keywords">
                 <td colspan="2" style="text-align: left; vertical-align: bottom">
@@ -43,7 +56,7 @@
     </div>
 </%def>
 
-<div>
+<div class="affiliated-pkg-list">
     <% pkg_names = sorted(global_data['affiliated_pkgs'].keys()) %>
     % for pkg_name in pkg_names:
         <% pkg_info = global_data['affiliated_pkgs'][pkg_name] %>
