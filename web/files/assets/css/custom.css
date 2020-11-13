@@ -266,3 +266,26 @@ a.feature-link {
     padding-bottom: 3px;
     padding-top: 3px;
 }
+
+/* Button for submitting affiliate request */
+.btn-plasmapy-bluegreen {
+    max-height: 36px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--plasmapy-bluegreen);
+    border-color: var(--plasmapy-darkblue);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none;
+}
+
+.btn-plasmapy-bluegreen:hover {
+    background-image: none;
+    border-color: inherit;
+}
+
+.btn-plasmapy-bluegreen div {
+    line-height: 24px;
+    vertical-align: center;
+    padding: 0;
+}

@@ -8,22 +8,20 @@ when there are multiple efforts trying to build functionality for all aspects
 of the plasma field.  As such, we want to promote all ongoing efforts in the
 community.  This page displays all ongoing projects that have requested to be
 shown.  If you want to add your projected here and increase your visibility, please
-submit a request **here** (I will make a google form for this).
+submit a request.
 
-The packages are divided into two groups:
+<div style="width: 100%">
+    <a href=https://docs.google.com/forms/d/e/1FAIpQLSfz2djEihWkODbkr1ZC5splkX7ZKLAh_Kuy-aXOngTELIm3xQ/viewform?usp=sf_link
+            class="feature-card feature-link btn-plasmapy-bluegreen" 
+            style="width: 200px">
+        <div>Submit Request</div>
+    </a>
+</div>
+<br>
 
-**Affiliated Packages:** {{% affiliated_shield %}}
-
-: These packages have had interoperability with `plasmapy` designed into them. 
-
-
-**Community Packages:**
-
-: These packages do not have interoperability with `plasmapy`, but do provide
-  crucial functionality to aspects of the plasma field that `plasmapy` may not
-  or can not provide.
-
-
+All projects/packages are considered **Community Packages**, but packages design with
+`plasmapy` interoperability are marked as **Affiliated Packages**. 
+{{% affiliated_shield %}}
 
 ----
 
