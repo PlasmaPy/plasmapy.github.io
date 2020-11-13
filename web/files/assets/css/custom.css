@@ -200,12 +200,12 @@ a.feature-link {
 /**********************************************************************
  *   Affiliated Package Styling
  **********************************************************************/
-
+/* Main block */
 .affiliated-pkg-block {
     margin: 12px 0.5% 24px 0.5%;
     height: 200px;
 }
-
+/* left side image */
 .affiliated-pkg-block .aff-pkg-image-block {
     float: left;
     width: 20%;
@@ -217,7 +217,7 @@ a.feature-link {
     height: 100%;
     padding: 0;
 }
-
+/* left side info block */
 .affiliated-pkg-block .aff-pkg-info-block {
     float: left;
     width: 80%;
