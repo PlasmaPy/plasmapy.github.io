@@ -196,3 +196,62 @@ a.feature-link {
     left: 0;
     top: 0;
 }
+
+/**********************************************************************
+ *   Affiliated Package Styling
+ **********************************************************************/
+
+.affiliated-pkg-block {
+    margin: 12px 0.5% 24px 0.5%;
+    height: 200px;
+}
+
+.affiliated-pkg-block .aff-pkg-image-block {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 0;
+}
+
+.aff-pkg-image-block .feature-card {
+    height: 100%;
+    padding: 0;
+}
+
+.affiliated-pkg-block .aff-pkg-info-block {
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding: 6px 12px;
+}
+
+.aff-pkg-info-block table {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.aff-pkg-info-block table tr {
+    border: none;
+}
+
+.aff-pkg-info-block table tr:nth-child(even) {
+    background: none;
+}
+
+.aff-pkg-info-block table tr.main {
+    height: 36px;
+    border-bottom: 2px solid black;
+}
+
+.aff-pkg-info-block table tr.description {
+    height: auto;
+}
+.aff-pkg-info-block table tr.keywords {
+    height: 24px;
+}
+
+.aff-pkg-info-block table tr td {
+    border: none;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
