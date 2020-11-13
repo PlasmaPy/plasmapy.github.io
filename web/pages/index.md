@@ -24,7 +24,7 @@ hidetitle: True
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5),
                                        rgba(255, 255, 255, 0.5)), 
                                        none;
-              background-color: #f96060">
+              background-color: var(--plasmapy-light-red)">
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
@@ -51,7 +51,7 @@ hidetitle: True
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
                                        rgba(255, 255, 255, 0.5)), 
                                        none; 
-                     background-color: #80cece">
+                     background-color: var(--plasmapy-light-bluegreen)">
             <div>
                 <h1>Join</h1>
                 <h3>the</h3>
