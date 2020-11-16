@@ -1,5 +1,5 @@
 ## -*- coding: utf-8 -*-
-<%namespace name="shield" file="shields.tmpl" import="affiliates" />
+<%namespace name="shield" file="shields.tmpl" import="affiliated" />
 
 <%def name="pkg_block(pkg_name, pkg_info)">
     <% url_home = pkg_info['urls']['home'] %>
@@ -57,7 +57,11 @@
 </%def>
 
 <div class="affiliated-pkg-list">
-    <% pkg_names = sorted(global_data['affiliated_pkgs'].keys()) %>
+    <%
+          pkg_names = sorted(list(global_data['affiliated_pkgs'].keys()))
+          pkg_names.insert(0, pkg_names.pop(pkg_names.index("plasmapy")))
+    %>
+
     % for pkg_name in pkg_names:
         <% pkg_info = global_data['affiliated_pkgs'][pkg_name] %>
         ${self.pkg_block(pkg_name, pkg_info)}
