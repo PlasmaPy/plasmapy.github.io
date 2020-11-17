@@ -20,7 +20,7 @@ submit a request.
 <br>
 
 All projects/packages are considered **Community Packages** 
-<span style="vertical-align: 2px">{{% community_shield %}}</span>, but packages design with
+<span style="vertical-align: 2px">{{% community_shield %}}</span>, but packages designed with
 `plasmapy` interoperability are marked as **Affiliated Packages** 
 <span style="vertical-align: 2px">{{% affiliated_shield %}}</span>.
 
