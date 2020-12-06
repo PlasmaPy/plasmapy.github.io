@@ -216,11 +216,12 @@ a.feature-link {
     margin: 12px 0.5% 24px 0.5%;
     height: 200px;
 }
-/* left side image */
+
+/* -- left side image -- */
 .affiliated-pkg-block .aff-pkg-image-block {
     float: left;
     width: 20%;
-    height: 100%;
+    height: inherit;
     padding: 0;
 }
 
@@ -228,43 +229,76 @@ a.feature-link {
     height: 100%;
     padding: 0;
 }
-/* left side info block */
-.affiliated-pkg-block .aff-pkg-info-block {
+
+/* -- right side info block -- */
+/* Table setup */
+table.aff-pkg-info-block {
+    display: block;
     float: left;
     width: 80%;
-    height: 100%;
-    padding: 6px 12px;
-}
+    height: inherit;
+    padding: 0;
+    padding-left: 12px;
+    padding-right: 8px;
 
-.aff-pkg-info-block table {
     border: none;
+}
+table.aff-pkg-info-block tbody {
+    display: inherit;
     width: 100%;
-    height: 100%;
+    height: inherit;
 }
-.aff-pkg-info-block table tr {
+table.aff-pkg-info-block tr {
     border: none;
 }
-
-.aff-pkg-info-block table tr:nth-child(even) {
+table.aff-pkg-info-block tr td {
+    border: none;
+    padding: 0 4px;
+}
+table.aff-pkg-info-block tr:nth-child(even) {
     background: none;
 }
 
-.aff-pkg-info-block table tr.main {
-    height: 36px;
+/* Top Row */
+table.aff-pkg-info-block tr.main {
+    height: 42px;
     border-bottom: 2px solid black;
 }
-
-.aff-pkg-info-block table tr.description {
-    height: auto;
+table.aff-pkg-info-block tr.main td {
+    height: 40px;
+    padding-bottom: 2px;
+    padding-top: 2px;
 }
-.aff-pkg-info-block table tr.keywords {
-    height: 24px;
+table.aff-pkg-info-block tr.main td.pkg-name {
+    text-align: left;
+}
+table.aff-pkg-info-block tr.main td.pkg-links {
+    width: 120px;
+    text-align: right;
 }
 
-.aff-pkg-info-block table tr td {
-    border: none;
-    padding-bottom: 3px;
-    padding-top: 3px;
+/* Description Row */
+table.aff-pkg-info-block tr.description {
+    height: 102px;
+}
+table.aff-pkg-info-block tr.description td {
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+table.aff-pkg-info-block tr.description td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+/* License & Keyword Rows */
+table.aff-pkg-info-block tr.license, tr.keywords {
+    height: 28px;
+}
+table.aff-pkg-info-block tr.license, tr.keywords td {
+    text-align: left;
+    vertical-align: bottom;
 }
 
 /* Button for submitting affiliate request */

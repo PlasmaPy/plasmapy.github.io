@@ -6,6 +6,7 @@
     <% url_repo = pkg_info['urls']['repo'] %>
     <% image_path = pkg_info['urls']['image'] %>
     <% long_description = pkg_info['description']['long'] %>
+    <% _license = pkg_info['license'] %>
     <% keywords = ", ".join(sorted(pkg_info["keywords"])) %>
     <% is_affiliated = pkg_info['affiliated'] %>
     <div class="affiliated-pkg-block">
@@ -16,43 +17,45 @@
                 </span>
             </a>
         </div>
-        <div class="aff-pkg-info-block">
-        <table>
+        <table class="aff-pkg-info-block">
             <tr class="main">
-                <td style="text-align: left">
-                    <span style="font-size: 1.6em;
+                <td class="pkg-name">
+                    <span style="font-size: 1.5em;
                                  font-weight: bold;
                                  margin-right: 8px">
                         ${pkg_name}
                     </span>
                     <!-- add affiliated badge -->
                     % if is_affiliated:
-                        <span style="position: absolute;
-                                     padding-top: 8px">
+##                         <span style="position: absolute;
+##                                      padding-top: 8px">
+                        <span style="display: inline-block; vertical-align: 4px">
                             ${shield.affiliated()}
                         </span>
                     % endif
                 </td>
-                <td style="text-align: right; vertical-align: center">
+                <td class="pkg-links">
                     <a href="${url_home}">home</a>
                     <span> | </span>
                     <a href="${url_repo}">repo</a>
                 </td>
             </tr>
             <tr class="description">
-                <td colspan="2"
-                    style="text-align: left; vertical-align: top">
-                    ${long_description}
+                <td colspan="2">
+                    <p>${long_description}</p>
+                </td>
+            </tr>
+            <tr class="license">
+                <td colspan="2">
+                    <b>License:</b> ${_license}
                 </td>
             </tr>
             <tr class="keywords">
-                <td colspan="2" style="text-align: left; vertical-align: bottom">
-                    <b>Keywords:</b>
-                    ${keywords}
+                <td colspan="2">
+                    <b>Keywords:</b> ${keywords}
                 </td>
             </tr>
         </table>
-        </div>
     </div>
 </%def>
 
