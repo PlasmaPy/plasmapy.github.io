@@ -292,9 +292,15 @@ table.aff-pkg-info-block tr.description td p {
 table.aff-pkg-info-block tr.license, tr.keywords {
     height: 28px;
 }
-table.aff-pkg-info-block tr.license, tr.keywords td {
+table.aff-pkg-info-block tr.license td, tr.keywords td {
+    height: inherit;
     text-align: left;
     vertical-align: bottom;
+}
+table.aff-pkg-info-block tr.license td p, tr.keywords td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
 }
 
 /* Button for submitting affiliate request */
