@@ -12,8 +12,7 @@
 #description {
     text-align: center;
     max-width: 60%;
-    margin: auto;
-    margin-bottom: 25px;
+    margin: auto auto 25px;
 }
 
 .main-text-block {
@@ -75,9 +74,8 @@ table tr th :last-child, table tr td :last-child {
     font-weight: bold;
     display: block;
     color: #fff;
-    margin: -12px;
     padding: 6px 12px;
-    margin-bottom: 12px;
+    margin: -12px -12px 12px;
     font-family: inherit;
 }
 
@@ -237,9 +235,7 @@ table.aff-pkg-info-block {
     float: left;
     width: 80%;
     height: inherit;
-    padding: 0;
-    padding-left: 12px;
-    padding-right: 8px;
+    padding: 0 8px 0 12px;
 
     border: none;
 }
