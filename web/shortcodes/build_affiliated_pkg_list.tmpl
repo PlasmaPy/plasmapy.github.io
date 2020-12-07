@@ -7,7 +7,7 @@
     <% image_path = pkg_info['urls']['image'] %>
     <% long_description = pkg_info['description']['long'] %>
     <% _license = pkg_info['license'] %>
-    <% keywords = ", ".join(sorted(pkg_info["keywords"])) %>
+    <% keywords = ", ".join(sorted(pkg_info["keywords"], key=str.casefold)) %>
     <% is_affiliated = pkg_info['affiliated'] %>
     <div class="affiliated-pkg-block">
         <div class="aff-pkg-image-block">
@@ -57,12 +57,12 @@
             </tr>
             <tr class="license">
                 <td colspan="2">
-                    <b>License:</b> ${_license}
+                    <p><b>License:</b> ${_license}</p>
                 </td>
             </tr>
             <tr class="keywords">
                 <td colspan="2">
-                    <b>Keywords:</b> ${keywords}
+                    <p><b>Keywords:</b> ${keywords}</p>
                 </td>
             </tr>
         </table>
