@@ -11,10 +11,20 @@
     <% is_affiliated = pkg_info['affiliated'] %>
     <div class="affiliated-pkg-block">
         <div class="aff-pkg-image-block">
-            <a href="${url_home}">
-                <span class="feature-card"
-                      style="background-image: url('${image_path}')">
-                </span>
+            <a class="feature-link" href="${url_home}">
+                % if image_path is not None:
+                    <div class="feature-card"
+                          style="background-image: url('${image_path}')">
+                    </div>
+                % else:
+                    <div class="feature-card"
+                          style="background-image: url('${image_path}')">
+                        <div>
+                            <h2>${pkg_name}</h2>
+                        </div>
+                    </div>
+                % endif
+##                 <span class="feature-card">${image_path}</span>
             </a>
         </div>
         <table class="aff-pkg-info-block">
