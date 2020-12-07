@@ -2,13 +2,12 @@ title: Plasma Packages
 hidetitle: True
 author: Erik T. Everson
 
-A part of the PlasmaPy's charter is to promote open-source software for all of the 
-plasma community, and not just `plasmapy`.  We feel the entire community benefits 
-when there are multiple efforts trying to build functionality for all aspects
-of the plasma field.  As such, we want to promote all ongoing efforts in the
-community.  This page displays all ongoing projects that have requested to be
-shown.  If you want to add your projected here and increase your visibility, please
-submit a request.
+The PlasmaPy's charter includes promoting open-source software for all of 
+the plasma community, and not just `plasmapy`.  We feel the entire community 
+benefits when there are multiple efforts trying to build functionality for all 
+aspects of the plasma field.  As such, we want to promote any ongoing effort.  This
+page displays projects that have requested to be shown.  If you want your 
+project include, and increase its visibility, then please submit a request.
 
 <div style="width: 100%">
     <a href=https://docs.google.com/forms/d/e/1FAIpQLSfz2djEihWkODbkr1ZC5splkX7ZKLAh_Kuy-aXOngTELIm3xQ/viewform?usp=sf_link
