@@ -179,7 +179,6 @@ NAVIGATION_LINKS = {
                 (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
                 (YOUTUBE_CHANNEL, "YouTube"),
-                # (RITIEK, "GSoC 2018"),
             ),
             "Community",
         ),
