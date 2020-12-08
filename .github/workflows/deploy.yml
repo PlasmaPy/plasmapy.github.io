@@ -1,0 +1,18 @@
+name: Build and deploy site
+
+on:
+  push:
+    branches:
+    - src
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build and Deploy Nikola
+      uses: getnikola/nikola-action@v3
+      with:
+        dry_run: false
