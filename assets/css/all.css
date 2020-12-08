@@ -1,368 +1,514 @@
-/*
-:Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 7952 2016-07-26 18:15:59Z milde $
-:Copyright: This stylesheet has been placed in the public domain.
+/* Minimal style sheet for the HTML output of Docutils.                    */
+/*                                                                         */
+/* :Author: Günter Milde, based on html4css1.css by David Goodger          */
+/* :Id: $Id: minimal.css 7952 2016-07-26 18:15:59Z milde $               */
+/* :Copyright: © 2015 Günter Milde.                                        */
+/* :License: Released under the terms of the `2-Clause BSD license`_,      */
+/*    in short:                                                            */
+/*                                                                         */
+/*    Copying and distribution of this file, with or without modification, */
+/*    are permitted in any medium without royalty provided the copyright   */
+/*    notice and this notice are preserved.                                */
+/*                                                                         */
+/*    This file is offered as-is, without any warranty.                    */
+/*                                                                         */
+/* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
 
-Default cascading style sheet for the HTML output of Docutils.
+/* This CSS2.1_ stylesheet defines rules for Docutils elements without    */
+/* HTML equivalent. It is required to make the document semantic visible. */
+/*                                                                        */
+/* .. _CSS2.1: http://www.w3.org/TR/CSS2                                  */
+/* .. _validates: http://jigsaw.w3.org/css-validator/validator$link       */
 
-See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
-customize this style sheet.
-*/
+/* alignment of text and inline objects inside block objects*/
+.align-left   { text-align: left; }
+.align-right  { text-align: right; }
+.align-center { clear: both; text-align: center; }
+.align-top    { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
 
-/* used to remove borders from tables and images */
-.borderless, table.borderless td, table.borderless th {
-  border: 0 }
-
-table.borderless td, table.borderless th {
-  /* Override padding for "table.docutils td" with "! important".
-     The right padding separates the table cells. */
-  padding: 0 0.5em 0 0 ! important }
-
-.first {
-  /* Override more specific margin styles with "! important". */
-  margin-top: 0 ! important }
-
-.last, .with-subtitle {
-  margin-bottom: 0 ! important }
-
-.hidden {
-  display: none }
-
-.subscript {
-  vertical-align: sub;
-  font-size: smaller }
-
-.superscript {
-  vertical-align: super;
-  font-size: smaller }
-
+/* titles */
+h1.title, p.subtitle {
+  text-align: center;
+}
+p.admonition-title,
+p.topic-title,
+p.sidebar-title,
+p.rubric,
+p.system-message-title {
+  font-weight: bold;
+}
+h1 + p.subtitle,
+h1 + p.section-subtitle {
+  font-size: 1.6em;
+}
+h2 + p.section-subtitle { font-size: 1.28em; }
+p.subtitle,
+p.section-subtitle,
+p.sidebar-subtitle {
+  font-weight: bold;
+  margin-top: -0.5em;
+}
+p.sidebar-title,
+p.rubric {
+  font-size: larger;
+}
+p.rubric { color: maroon; }
 a.toc-backref {
-  text-decoration: none ;
-  color: black }
+  color: black;
+  text-decoration: none; }
 
-blockquote.epigraph {
-  margin: 2em 5em ; }
-
-dl.docutils dd {
-  margin-bottom: 0.5em }
-
-object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
-  overflow: hidden;
+/* Warnings, Errors */
+div.caution p.admonition-title,
+div.attention p.admonition-title,
+div.danger p.admonition-title,
+div.error p.admonition-title,
+div.warning p.admonition-title,
+div.system-messages h1,
+div.error,
+span.problematic,
+p.system-message-title {
+  color: red;
 }
 
-/* Uncomment (and remove this text!) to get bold-faced definition list terms
-dl.docutils dt {
-  font-weight: bold }
-*/
+/* inline literals */
+span.docutils.literal {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+/* do not wraph at hyphens and similar: */
+.literal > span.pre { white-space: nowrap; }
 
-div.abstract {
-  margin: 2em 5em }
+/* Lists */
 
-div.abstract p.topic-title {
-  font-weight: bold ;
-  text-align: center }
+/* compact and simple lists: no margin between items */
+.simple  li, .compact li,
+.simple  ul, .compact ul,
+.simple  ol, .compact ol,
+.simple > li p, .compact > li p,
+dl.simple > dd, dl.compact > dd {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-div.admonition, div.attention, div.caution, div.danger, div.error,
-div.hint, div.important, div.note, div.tip, div.warning {
-  margin: 2em ;
-  border: medium outset ;
-  padding: 1em }
+/* Table of Contents */
+/*div.topic.contents { margin: 0; }*/
+ul.auto-toc {
+  list-style-type: none;
+  padding-left: 1.5em; }
 
-div.admonition p.admonition-title, div.hint p.admonition-title,
-div.important p.admonition-title, div.note p.admonition-title,
-div.tip p.admonition-title {
-  font-weight: bold ;
-  font-family: sans-serif }
+/* Enumerated Lists */
+ol.arabic     { list-style: decimal }
+ol.loweralpha { list-style: lower-alpha }
+ol.upperalpha { list-style: upper-alpha }
+ol.lowerroman { list-style: lower-roman }
+ol.upperroman { list-style: upper-roman }
 
-div.attention p.admonition-title, div.caution p.admonition-title,
-div.danger p.admonition-title, div.error p.admonition-title,
-div.warning p.admonition-title, .code .error {
-  color: red ;
-  font-weight: bold ;
-  font-family: sans-serif }
+dt span.classifier { font-style: italic }
+dt span.classifier:before {
+  font-style: normal;
+  margin: 0.5em;
+  content: ":";
+}
 
-/* Uncomment (and remove this text!) to get reduced vertical space in
-   compound paragraphs.
-div.compound .compound-first, div.compound .compound-middle {
-  margin-bottom: 0.5em }
+/* Field Lists and drivatives */
+/* bold field name, content starts on the same line */
+dl.field-list > dt,
+dl.option-list > dt,
+dl.docinfo > dt,
+dl.footnote > dt,
+dl.citation > dt {
+  font-weight: bold;
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5em;
+}
+/* Offset for field content (corresponds to the --field-name-limit option) */
+dl.field-list > dd,
+dl.option-list > dd,
+dl.docinfo > dd {
+  margin-left:  9em; /* ca. 14 chars in the test examples */
+}
+/* start field-body on a new line after long field names */
+dl.field-list > dd > *:first-child,
+dl.option-list > dd > *:first-child
+{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+/* field names followed by a colon */
+dl.field-list > dt:after,
+dl.docinfo > dt:after {
+  content: ":";
+}
 
-div.compound .compound-last, div.compound .compound-middle {
-  margin-top: 0.5em }
-*/
+/* Bibliographic Fields (docinfo) */
+pre.address { font: inherit; }
+dd.authors > p { margin: 0; }
 
-div.dedication {
-  margin: 2em 5em ;
-  text-align: center ;
-  font-style: italic }
+/* Option Lists */
+dl.option-list { margin-left: 40px; }
+dl.option-list > dt { font-weight: normal; }
+span.option { white-space: nowrap; }
 
-div.dedication p.topic-title {
-  font-weight: bold ;
-  font-style: normal }
+/* Footnotes and Citations  */
+dl.footnote.superscript > dd {margin-left: 1em; }
+dl.footnote.brackets > dd {margin-left: 2em; }
+dl > dt.label { font-weight: normal; }
+a.footnote-reference.brackets:before,
+dt.label > span.brackets:before { content: "["; }
+a.footnote-reference.brackets:after,
+dt.label > span.brackets:after { content: "]"; }
+a.footnote-reference.superscript,
+dl.footnote.superscript > dt.label {
+  vertical-align: super;
+  font-size: smaller;
+}
+dt.label > span.fn-backref { margin-left: 0.2em; }
+dt.label > span.fn-backref > a { font-style: italic; }
 
-div.figure {
-  margin-left: 2em ;
-  margin-right: 2em }
-
-div.footer, div.header {
-  clear: both;
-  font-size: smaller }
-
-div.line-block {
-  display: block ;
-  margin-top: 1em ;
-  margin-bottom: 1em }
-
+/* Line Blocks */
+div.line-block { display: block; }
 div.line-block div.line-block {
-  margin-top: 0 ;
-  margin-bottom: 0 ;
-  margin-left: 1.5em }
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 40px;
+}
 
-div.sidebar {
-  margin: 0 0 0.5em 1em ;
-  border: medium outset ;
-  padding: 1em ;
-  background-color: #ffffee ;
-  width: 40% ;
-  float: right ;
-  clear: right }
-
-div.sidebar p.rubric {
-  font-family: sans-serif ;
-  font-size: medium }
-
-div.system-messages {
-  margin: 5em }
-
-div.system-messages h1 {
-  color: red }
-
-div.system-message {
-  border: medium outset ;
-  padding: 1em }
-
-div.system-message p.system-message-title {
-  color: red ;
-  font-weight: bold }
-
-div.topic {
-  margin: 2em }
-
-h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
-h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
-  margin-top: 0.4em }
-
-h1.title {
-  text-align: center }
-
-h2.subtitle {
-  text-align: center }
-
-hr.docutils {
-  width: 75% }
-
-img.align-left, .figure.align-left, object.align-left, table.align-left {
-  clear: left ;
-  float: left ;
-  margin-right: 1em }
-
-img.align-right, .figure.align-right, object.align-right, table.align-right {
-  clear: right ;
-  float: right ;
-  margin-left: 1em }
-
-img.align-center, .figure.align-center, object.align-center {
-  display: block;
-  margin-left: auto;
+/* Figures, Images, and Tables */
+.figure.align-left,
+img.align-left,
+object.align-left,
+table.align-left {
   margin-right: auto;
 }
-
+.figure.align-center,
+img.align-center,
+object.align-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 table.align-center {
   margin-left: auto;
   margin-right: auto;
 }
+.figure.align-right,
+img.align-right,
+object.align-right,
+table.align-right {
+  margin-left: auto;
+}
+/* reset inner alignment in figures and tables */
+div.align-left, div.align-center, div.align-right,
+table.align-left, table.align-center, table.align-right
+{ text-align: inherit }
 
-.align-left {
-  text-align: left }
+/* Admonitions and System Messages */
+div.admonition,
+div.system-message,
+div.sidebar{
+  margin: 40px;
+  border: medium outset;
+  padding-right: 1em;
+  padding-left: 1em;
+}
 
-.align-center {
-  clear: both ;
-  text-align: center }
+/* Sidebar */
+div.sidebar {
+  width: 30%;
+  max-width: 26em;
+  float: right;
+  clear: right;
+}
 
-.align-right {
-  text-align: right }
+/* Text Blocks */
+div.topic,
+pre.literal-block,
+pre.doctest-block,
+pre.math,
+pre.code {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+pre.code .ln { color: gray; } /* line numbers */
 
-/* reset inner alignment in figures */
-div.align-right {
-  text-align: inherit }
+/* Tables */
+table.docutils { border-collapse: collapse; }
+table.docutils > td, table.docutils > th {
+  border-style: solid;
+  border-color: silver;
+  padding: 0 1ex;
+  border-width: thin;
+}
+table.docutils > td > p:first-child, table.docutils > th > p:first-child { margin-top: 0; }
+table.docutils > td > p, table.docutils > th > p { margin-bottom: 0; }
 
-/* div.align-center * { */
-/*   text-align: left } */
+table.docutils > caption {
+  text-align: left;
+  margin-bottom: 0.25em
+}
 
-.align-top    {
-  vertical-align: top }
+table.borderless td, table.borderless th {
+  border: 0;
+  padding: 0;
+  padding-right: 0.5em /* separate table cells */
+}
 
-.align-middle {
-  vertical-align: middle }
+/* CSS31_ style sheet for the output of Docutils HTML writers.             */
+/* Rules for easy reading and pre-defined style variants.                  */
+/*                                                                         */
+/* :Author: Günter Milde, based on html4css1.css by David Goodger          */
+/* :Id: $Id: plain.css 7952 2016-07-26 18:15:59Z milde $               */
+/* :Copyright: © 2015 Günter Milde.                                        */
+/* :License: Released under the terms of the `2-Clause BSD license`_,      */
+/*    in short:                                                            */
+/*                                                                         */
+/*    Copying and distribution of this file, with or without modification, */
+/*    are permitted in any medium without royalty provided the copyright   */
+/*    notice and this notice are preserved.                                */
+/*                                                                         */
+/*    This file is offered as-is, without any warranty.                    */
+/*                                                                         */
+/* .. _2-Clause BSD license: http://www.spdx.org/licenses/BSD-2-Clause     */
+/* .. _CSS3: http://www.w3.org/TR/CSS3                                     */
 
-.align-bottom {
-  vertical-align: bottom }
 
-ol.simple, ul.simple {
-  margin-bottom: 1em }
+/* Document Structure */
+/* ****************** */
 
-ol.arabic {
-  list-style: decimal }
+/* Sections */
 
-ol.loweralpha {
-  list-style: lower-alpha }
+/* Transitions */
 
-ol.upperalpha {
-  list-style: upper-alpha }
+hr.docutils {
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  clear: both;
+}
 
-ol.lowerroman {
-  list-style: lower-roman }
+/* Paragraphs               */
+/* ==========               */
 
-ol.upperroman {
-  list-style: upper-roman }
+/* vertical space (parskip) */
+/*p, ol, ul, dl,*/
+/*div.line-block,*/
+/*table{*/
+  /*margin-top: 0.5em;*/
+  /*margin-bottom: 0.5em;*/
+/*}*/
+/*h1, h2, h3, h4, h5, h6, */
+dl > dd {
+  margin-bottom: 0.5em;
+}
 
-p.attribution {
-  text-align: right ;
-  margin-left: 50% }
+/* Lists                    */
+/* ==========               */
 
-p.caption {
-  font-style: italic }
+/* Definition Lists         */
 
-p.credits {
-  font-style: italic ;
-  font-size: smaller }
+dl > dd p:first-child { margin-top: 0; }
+/* :last-child is not part of CSS 2.1 (introduced in CSS 3) */
+/* dl > dd p:last-child  { margin-bottom: 0; } */
 
-p.label {
-  white-space: nowrap }
+/* lists nested in definition lists */
+/* :only-child is not part of CSS 2.1 (introduced in CSS 3) */
+dd > ul:only-child, dd > ol:only-child { padding-left: 1em; }
 
-p.rubric {
-  font-weight: bold ;
-  font-size: larger ;
-  color: maroon ;
-  text-align: center }
+/* Description Lists */
+/* styled like in most dictionaries, encyclopedias etc. */
+dl.description > dt {
+  font-weight: bold;
+  clear: left;
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5em;
+}
 
-p.sidebar-title {
-  font-family: sans-serif ;
-  font-weight: bold ;
-  font-size: larger }
+/* Field Lists */
 
-p.sidebar-subtitle {
-  font-family: sans-serif ;
-  font-weight: bold }
+/* example for custom field-name width */
+dl.field-list.narrow > dd {
+  margin-left: 5em;
+}
+/* run-in: start field-body on same line after long field names */
+dl.field-list.run-in > dd p {
+  display: block;
+}
 
-p.topic-title {
-  font-weight: bold }
+/* Bibliographic Fields */
 
-pre.address {
-  margin-bottom: 0 ;
-  margin-top: 0 ;
-  font: inherit }
+/* generally, bibliographic fields use special definition list dl.docinfo */
+/* but dedication and abstract are placed into "topic" divs */
+div.abstract p.topic-title {
+  text-align: center;
+}
+div.dedication {
+  margin: 2em 5em;
+  text-align: center;
+  font-style: italic;
+}
+div.dedication p.topic-title {
+  font-style: normal;
+}
 
-pre.literal-block, pre.doctest-block, pre.math, pre.code {
-  margin-left: 2em ;
-  margin-right: 2em }
+/* Citations */
+dl.citation dt.label {
+  font-weight: bold;
+}
+span.fn-backref {
+  font-weight: normal;
+}
 
-pre.code .ln { color: grey; } /* line numbers */
-pre.code, code { background-color: #eeeeee }
-pre.code .comment, code .comment { color: #5C6576 }
-pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
-pre.code .literal.string, code .literal.string { color: #0C5404 }
-pre.code .name.builtin, code .name.builtin { color: #352B84 }
-pre.code .deleted, code .deleted { background-color: #DEB0A1}
-pre.code .inserted, code .inserted { background-color: #A3D289}
+/* Text Blocks           */
+/* ============          */
 
-span.classifier {
-  font-family: sans-serif ;
-  font-style: oblique }
+/* Literal Blocks           */
+pre.literal-block, pre.doctest-block,
+pre.math, pre.code {
+  margin-left: 1.5em;
+  margin-right: 1.5em
+}
 
-span.classifier-delimiter {
-  font-family: sans-serif ;
-  font-weight: bold }
+/* Block Quotes             */
 
-span.interpreted {
-  font-family: sans-serif }
+blockquote,
+div.topic {
+  margin-left: 1.5em;
+  margin-right: 1.5em
+}
+blockquote > table,
+div.topic > table {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote p.attribution,
+div.topic p.attribution {
+  text-align: right;
+  margin-left: 20%;
+}
 
-span.option {
-  white-space: nowrap }
+/* Tables                   */
+/* ======                   */
 
-span.pre {
-  white-space: pre }
+/* th { vertical-align: bottom; } */
 
-span.problematic {
-  color: red }
-
-span.section-subtitle {
-  /* font-size relative to parent (h1..h6 element) */
-  font-size: 80% }
-
-table.citation {
-  border-left: solid 1px gray;
-  margin-left: 1px }
-
-table.docinfo {
-  margin: 2em 4em }
-
-table.docutils {
-  margin-top: 0.5em ;
-  margin-bottom: 0.5em }
-
-table.footnote {
-  border-left: solid 1px black;
-  margin-left: 1px }
-
-table.docutils td, table.docutils th,
-table.docinfo td, table.docinfo th {
-  padding-left: 0.5em ;
-  padding-right: 0.5em ;
-  vertical-align: top }
-
-table.docutils th.field-name, table.docinfo th.docinfo-name {
-  font-weight: bold ;
-  text-align: left ;
-  white-space: nowrap ;
-  padding-left: 0 }
+table tr { text-align: left; }
 
 /* "booktabs" style (no vertical lines) */
-table.docutils.booktabs {
-  border: 0px;
+table.booktabs {
+  border: 0;
   border-top: 2px solid;
   border-bottom: 2px solid;
   border-collapse: collapse;
 }
-table.docutils.booktabs * {
-  border: 0px;
+table.booktabs * {
+  border: 0;
 }
-table.docutils.booktabs th {
+table.booktabs th {
   border-bottom: thin solid;
-  text-align: left;
 }
 
-h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
-h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
-  font-size: 100% }
+/* numbered tables (counter defined in div.document) */
+table.numbered > caption:before {
+  counter-increment: table;
+  content: "Table " counter(table) ": ";
+  font-weight: bold;
+}
 
-ul.auto-toc {
-  list-style-type: none }
+/* Explicit Markup Blocks   */
+/* ======================   */
+
+/* Footnotes and Citations  */
+/* -----------------------  */
+
+/* line on the left */
+dl.footnote {
+  padding-left: 1ex;
+  border-left: solid;
+  border-left-width: thin;
+}
+
+/* Directives               */
+/* ----------               */
+
+/* Body Elements            */
+/* ~~~~~~~~~~~~~            */
+
+/* Images and Figures */
+
+/* let content flow to the side of aligned images and figures */
+.figure.align-left,
+img.align-left,
+object.align-left {
+  display: block;
+  clear: left;
+  float: left;
+  margin-right: 1em
+}
+.figure.align-right,
+img.align-right,
+object.align-right {
+  display: block;
+  clear: right;
+  float: right;
+  margin-left: 1em
+}
+
+/* Sidebar */
+
+/* Move into the margin. In a layout with fixed margins, */
+/* it can be moved into the margin completely.           */
+div.sidebar {
+  width: 30%;
+  max-width: 26em;
+  margin-left: 1em;
+  margin-right: -5.5%;
+  background-color: #ffffee ;
+}
 
 div.admonition, div.attention, div.caution, div.danger, div.error,
-div.hint, div.important, div.note, div.tip, div.warning, div.sidebar {
-/* stolen from Boostrap 3 (.panel .panel-default) */
-  margin-bottom: 20px;
+div.hint, div.important, div.note, div.tip, div.warning, div.sidebar,
+div.system-message {
+/* stolen from Boostrap 4 (.card) */
+  margin-bottom: 2rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
   background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-  padding: 0 15px 15px 15px;
+  color: #212529;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  padding: 0;
 }
 
 div.attention, div.caution, div.danger, div.error, div.warning {
-  /* stolen from Boostrap 3 (.panel .panel-danger) */
-  border-color: #EBCCD1;
+  /* stolen from Boostrap 3 (.border-danger) */
+  border-color: #dc3545!important;
+}
+
+div.admonition p, div.hint p,
+div.important p, div.note p,
+div.tip p, div.sidebar p,
+div.attention p, div.caution p,
+div.danger p, div.error p,
+div.warning p, div.system-message p {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 div.admonition p.admonition-title, div.hint p.admonition-title,
@@ -370,175 +516,143 @@ div.important p.admonition-title, div.note p.admonition-title,
 div.tip p.admonition-title, div.sidebar p.sidebar-title,
 div.attention p.admonition-title, div.caution p.admonition-title,
 div.danger p.admonition-title, div.error p.admonition-title,
-div.warning p.admonition-title {
-/* stolen from Boostrap 3 (.panel .panel-default .panel-heading) */
-  font-size: 16px;
-  color: #333;
-  background-color: #F5F5F5;
-  padding: 10px 15px;
-  margin-left: -15px;
-  margin-right: -15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  color: #333;
-  background-color: #F5F5F5;
-  border-color: #DDD;
+div.warning p.admonition-title, div.system-message p.system-message-title {
+/* stolen from Boostrap 4 (.card .card-header) */
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 div.attention p.admonition-title, div.caution p.admonition-title,
 div.danger p.admonition-title, div.error p.admonition-title,
-div.warning p.admonition-title {
-  /* stolen from Boostrap 3 (.panel .panel-danger) */
-  color: #A94442;
-  background-color: #F2DEDE;
-  border-color: #EBCCD1;
+div.warning p.admonition-title, div.system-message p.system-message-title {
+  /* stolen from Boostrap 4 (.card .card-header .bg-danger) */
+  background-color: #dc3545;
+  color: white;
+}
+
+div.sidebar {
+    margin-right: 0;
+}
+
+/* Improved margin overrides */
+div.topic,
+pre.literal-block,
+pre.doctest-block,
+pre.math,
+pre.code,
+div.code {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+div.code {
+    margin-bottom: 1rem;
 }
 
 /* code.css file generated by Nikola */
-pre.code .hll { background-color: #ffffcc }
-pre.code  { background: #f8f8f8; }
-pre.code .c { color: #408080; font-style: italic } /* Comment */
-pre.code .err { border: 1px solid #FF0000 } /* Error */
-pre.code .k { color: #008000; font-weight: bold } /* Keyword */
-pre.code .o { color: #666666 } /* Operator */
-pre.code .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-pre.code .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-pre.code .cp { color: #BC7A00 } /* Comment.Preproc */
-pre.code .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-pre.code .c1 { color: #408080; font-style: italic } /* Comment.Single */
-pre.code .cs { color: #408080; font-style: italic } /* Comment.Special */
-pre.code .gd { color: #A00000 } /* Generic.Deleted */
-pre.code .ge { font-style: italic } /* Generic.Emph */
-pre.code .gr { color: #FF0000 } /* Generic.Error */
-pre.code .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-pre.code .gi { color: #00A000 } /* Generic.Inserted */
-pre.code .go { color: #888888 } /* Generic.Output */
-pre.code .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
-pre.code .gs { font-weight: bold } /* Generic.Strong */
-pre.code .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
-pre.code .gt { color: #0044DD } /* Generic.Traceback */
-pre.code .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
-pre.code .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
-pre.code .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
-pre.code .kp { color: #008000 } /* Keyword.Pseudo */
-pre.code .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
-pre.code .kt { color: #B00040 } /* Keyword.Type */
-pre.code .m { color: #666666 } /* Literal.Number */
-pre.code .s { color: #BA2121 } /* Literal.String */
-pre.code .na { color: #7D9029 } /* Name.Attribute */
-pre.code .nb { color: #008000 } /* Name.Builtin */
-pre.code .nc { color: #0000FF; font-weight: bold } /* Name.Class */
-pre.code .no { color: #880000 } /* Name.Constant */
-pre.code .nd { color: #AA22FF } /* Name.Decorator */
-pre.code .ni { color: #999999; font-weight: bold } /* Name.Entity */
-pre.code .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
-pre.code .nf { color: #0000FF } /* Name.Function */
-pre.code .nl { color: #A0A000 } /* Name.Label */
-pre.code .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
-pre.code .nt { color: #008000; font-weight: bold } /* Name.Tag */
-pre.code .nv { color: #19177C } /* Name.Variable */
-pre.code .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-pre.code .w { color: #bbbbbb } /* Text.Whitespace */
-pre.code .mb { color: #666666 } /* Literal.Number.Bin */
-pre.code .mf { color: #666666 } /* Literal.Number.Float */
-pre.code .mh { color: #666666 } /* Literal.Number.Hex */
-pre.code .mi { color: #666666 } /* Literal.Number.Integer */
-pre.code .mo { color: #666666 } /* Literal.Number.Oct */
-pre.code .sa { color: #BA2121 } /* Literal.String.Affix */
-pre.code .sb { color: #BA2121 } /* Literal.String.Backtick */
-pre.code .sc { color: #BA2121 } /* Literal.String.Char */
-pre.code .dl { color: #BA2121 } /* Literal.String.Delimiter */
-pre.code .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
-pre.code .s2 { color: #BA2121 } /* Literal.String.Double */
-pre.code .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
-pre.code .sh { color: #BA2121 } /* Literal.String.Heredoc */
-pre.code .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
-pre.code .sx { color: #008000 } /* Literal.String.Other */
-pre.code .sr { color: #BB6688 } /* Literal.String.Regex */
-pre.code .s1 { color: #BA2121 } /* Literal.String.Single */
-pre.code .ss { color: #19177C } /* Literal.String.Symbol */
-pre.code .bp { color: #008000 } /* Name.Builtin.Pseudo */
-pre.code .fm { color: #0000FF } /* Name.Function.Magic */
-pre.code .vc { color: #19177C } /* Name.Variable.Class */
-pre.code .vg { color: #19177C } /* Name.Variable.Global */
-pre.code .vi { color: #19177C } /* Name.Variable.Instance */
-pre.code .vm { color: #19177C } /* Name.Variable.Magic */
-pre.code .il { color: #666666 } /* Literal.Number.Integer.Long */
-table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
+pre { line-height: 125%; }
+td.linenos pre { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: #000000; background-color: #f0f0f0; padding-left: 5px; padding-right: 5px; }
+td.linenos pre.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+pre.code .hll, .code .codetable .hll, .highlight pre .hll { background-color: #ffffcc }
+pre.code , .code .codetable , .highlight pre { background: #f8f8f8; }
+pre.code .c, .code .codetable .c, .highlight pre .c { color: #408080; font-style: italic } /* Comment */
+pre.code .err, .code .codetable .err, .highlight pre .err { border: 1px solid #FF0000 } /* Error */
+pre.code .k, .code .codetable .k, .highlight pre .k { color: #008000; font-weight: bold } /* Keyword */
+pre.code .o, .code .codetable .o, .highlight pre .o { color: #666666 } /* Operator */
+pre.code .ch, .code .codetable .ch, .highlight pre .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
+pre.code .cm, .code .codetable .cm, .highlight pre .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+pre.code .cp, .code .codetable .cp, .highlight pre .cp { color: #BC7A00 } /* Comment.Preproc */
+pre.code .cpf, .code .codetable .cpf, .highlight pre .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
+pre.code .c1, .code .codetable .c1, .highlight pre .c1 { color: #408080; font-style: italic } /* Comment.Single */
+pre.code .cs, .code .codetable .cs, .highlight pre .cs { color: #408080; font-style: italic } /* Comment.Special */
+pre.code .gd, .code .codetable .gd, .highlight pre .gd { color: #A00000 } /* Generic.Deleted */
+pre.code .ge, .code .codetable .ge, .highlight pre .ge { font-style: italic } /* Generic.Emph */
+pre.code .gr, .code .codetable .gr, .highlight pre .gr { color: #FF0000 } /* Generic.Error */
+pre.code .gh, .code .codetable .gh, .highlight pre .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+pre.code .gi, .code .codetable .gi, .highlight pre .gi { color: #00A000 } /* Generic.Inserted */
+pre.code .go, .code .codetable .go, .highlight pre .go { color: #888888 } /* Generic.Output */
+pre.code .gp, .code .codetable .gp, .highlight pre .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+pre.code .gs, .code .codetable .gs, .highlight pre .gs { font-weight: bold } /* Generic.Strong */
+pre.code .gu, .code .codetable .gu, .highlight pre .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+pre.code .gt, .code .codetable .gt, .highlight pre .gt { color: #0044DD } /* Generic.Traceback */
+pre.code .kc, .code .codetable .kc, .highlight pre .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+pre.code .kd, .code .codetable .kd, .highlight pre .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+pre.code .kn, .code .codetable .kn, .highlight pre .kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+pre.code .kp, .code .codetable .kp, .highlight pre .kp { color: #008000 } /* Keyword.Pseudo */
+pre.code .kr, .code .codetable .kr, .highlight pre .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+pre.code .kt, .code .codetable .kt, .highlight pre .kt { color: #B00040 } /* Keyword.Type */
+pre.code .m, .code .codetable .m, .highlight pre .m { color: #666666 } /* Literal.Number */
+pre.code .s, .code .codetable .s, .highlight pre .s { color: #BA2121 } /* Literal.String */
+pre.code .na, .code .codetable .na, .highlight pre .na { color: #7D9029 } /* Name.Attribute */
+pre.code .nb, .code .codetable .nb, .highlight pre .nb { color: #008000 } /* Name.Builtin */
+pre.code .nc, .code .codetable .nc, .highlight pre .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+pre.code .no, .code .codetable .no, .highlight pre .no { color: #880000 } /* Name.Constant */
+pre.code .nd, .code .codetable .nd, .highlight pre .nd { color: #AA22FF } /* Name.Decorator */
+pre.code .ni, .code .codetable .ni, .highlight pre .ni { color: #999999; font-weight: bold } /* Name.Entity */
+pre.code .ne, .code .codetable .ne, .highlight pre .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+pre.code .nf, .code .codetable .nf, .highlight pre .nf { color: #0000FF } /* Name.Function */
+pre.code .nl, .code .codetable .nl, .highlight pre .nl { color: #A0A000 } /* Name.Label */
+pre.code .nn, .code .codetable .nn, .highlight pre .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+pre.code .nt, .code .codetable .nt, .highlight pre .nt { color: #008000; font-weight: bold } /* Name.Tag */
+pre.code .nv, .code .codetable .nv, .highlight pre .nv { color: #19177C } /* Name.Variable */
+pre.code .ow, .code .codetable .ow, .highlight pre .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+pre.code .w, .code .codetable .w, .highlight pre .w { color: #bbbbbb } /* Text.Whitespace */
+pre.code .mb, .code .codetable .mb, .highlight pre .mb { color: #666666 } /* Literal.Number.Bin */
+pre.code .mf, .code .codetable .mf, .highlight pre .mf { color: #666666 } /* Literal.Number.Float */
+pre.code .mh, .code .codetable .mh, .highlight pre .mh { color: #666666 } /* Literal.Number.Hex */
+pre.code .mi, .code .codetable .mi, .highlight pre .mi { color: #666666 } /* Literal.Number.Integer */
+pre.code .mo, .code .codetable .mo, .highlight pre .mo { color: #666666 } /* Literal.Number.Oct */
+pre.code .sa, .code .codetable .sa, .highlight pre .sa { color: #BA2121 } /* Literal.String.Affix */
+pre.code .sb, .code .codetable .sb, .highlight pre .sb { color: #BA2121 } /* Literal.String.Backtick */
+pre.code .sc, .code .codetable .sc, .highlight pre .sc { color: #BA2121 } /* Literal.String.Char */
+pre.code .dl, .code .codetable .dl, .highlight pre .dl { color: #BA2121 } /* Literal.String.Delimiter */
+pre.code .sd, .code .codetable .sd, .highlight pre .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+pre.code .s2, .code .codetable .s2, .highlight pre .s2 { color: #BA2121 } /* Literal.String.Double */
+pre.code .se, .code .codetable .se, .highlight pre .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+pre.code .sh, .code .codetable .sh, .highlight pre .sh { color: #BA2121 } /* Literal.String.Heredoc */
+pre.code .si, .code .codetable .si, .highlight pre .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+pre.code .sx, .code .codetable .sx, .highlight pre .sx { color: #008000 } /* Literal.String.Other */
+pre.code .sr, .code .codetable .sr, .highlight pre .sr { color: #BB6688 } /* Literal.String.Regex */
+pre.code .s1, .code .codetable .s1, .highlight pre .s1 { color: #BA2121 } /* Literal.String.Single */
+pre.code .ss, .code .codetable .ss, .highlight pre .ss { color: #19177C } /* Literal.String.Symbol */
+pre.code .bp, .code .codetable .bp, .highlight pre .bp { color: #008000 } /* Name.Builtin.Pseudo */
+pre.code .fm, .code .codetable .fm, .highlight pre .fm { color: #0000FF } /* Name.Function.Magic */
+pre.code .vc, .code .codetable .vc, .highlight pre .vc { color: #19177C } /* Name.Variable.Class */
+pre.code .vg, .code .codetable .vg, .highlight pre .vg { color: #19177C } /* Name.Variable.Global */
+pre.code .vi, .code .codetable .vi, .highlight pre .vi { color: #19177C } /* Name.Variable.Instance */
+pre.code .vm, .code .codetable .vm, .highlight pre .vm { color: #19177C } /* Name.Variable.Magic */
+pre.code .il, .code .codetable .il, .highlight pre .il { color: #666666 } /* Literal.Number.Integer.Long */
+.highlight table, .highlight tr, .highlight td, .code table, .code tr, .code td { border-spacing: 0; border-collapse: separate; padding: 0 }
+.highlight pre, .code pre { white-space: pre-wrap; line-height: normal }
+.highlighttable td.linenos, .codetable td.linenos { vertical-align: top; padding-left: 10px; padding-right: 10px; user-select: none; -webkit-user-select: none }
+.highlighttable td.linenos code:before, .codetable td.linenos code:before { content: attr(data-line-number) }
+.highlighttable td.code, .codetable td.code { overflow-wrap: normal; border-collapse: collapse }
+.highlighttable td.code code, .codetable td.code code { overflow: unset; border: none; padding: 0; margin: 0; white-space: pre-wrap; line-height: unset; background: none }
+.highlight .lineno.nonumber, .code .lineno.nonumber { list-style: none }
+table.codetable, table.highlighttable { width: 100%;}
+.codetable td.linenos, td.linenos { text-align: right; width: 3.5em; padding-right: 0.5em; background: rgba(127, 127, 127, 0.2) }
+.codetable td.code, td.code { padding-left: 0.5em; }
 
-/*
-    Colorbox Core Style:
-    The following CSS is consistent between example themes and should not be altered.
-*/
-#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
-#cboxWrapper {max-width:none;}
-#cboxOverlay{position:fixed; width:100%; height:100%;}
-#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
-#cboxContent{position:relative;}
-#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
-#cboxTitle{margin:0;}
-#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
-#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
-.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
-.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
-#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
-
-/* 
-    User Style:
-    Change the following styles to modify the appearance of Colorbox.  They are
-    ordered & tabbed in a way that represents the nesting of the generated HTML.
-*/
-#cboxOverlay{background:#000; opacity: 0.9; filter: alpha(opacity = 90);}
-#colorbox{outline:0;}
-    #cboxContent{margin-top:20px;background:#000;}
-        .cboxIframe{background:#fff;}
-        #cboxError{padding:50px; border:1px solid #ccc;}
-        #cboxLoadedContent{border:5px solid #000; background:#fff;}
-        #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}
-        #cboxCurrent{position:absolute; top:-20px; right:0px; color:#ccc;}
-        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
-
-        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
-        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
-        
-        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
-        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
-        
-        #cboxSlideshow{position:absolute; top:-20px; right:90px; color:#fff;}
-        #cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top left; width:28px; height:65px; text-indent:-9999px;}
-        #cboxPrevious:hover{background-position:bottom left;}
-        #cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url(images/controls.png) no-repeat top right; width:28px; height:65px; text-indent:-9999px;}
-        #cboxNext:hover{background-position:bottom right;}
-        #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
-        #cboxClose:hover{background-position:bottom center;}
-
-#container {
-    width: 960px;
-    margin: 0 auto;
-}
-
-#contentcolumn {
-    max-width: 760px;
-}
-#q {
-    width: 150px;
-}
-
+/*!
+ * baguetteBox.js
+ * @author  feimosi
+ * @version 1.11.1
+ * @url https://github.com/feimosi/baguetteBox.js
+ */#baguetteBox-overlay{display:none;opacity:0;position:fixed;overflow:hidden;top:0;left:0;width:100%;height:100%;z-index:1000000;background-color:#222;background-color:rgba(0,0,0,.8);-webkit-transition:opacity .5s ease;transition:opacity .5s ease}#baguetteBox-overlay.visible{opacity:1}#baguetteBox-overlay .full-image{display:inline-block;position:relative;width:100%;height:100%;text-align:center}#baguetteBox-overlay .full-image figure{display:inline;margin:0;height:100%}#baguetteBox-overlay .full-image img{display:inline-block;width:auto;height:auto;max-height:100%;max-width:100%;vertical-align:middle;-webkit-box-shadow:0 0 8px rgba(0,0,0,.6);-moz-box-shadow:0 0 8px rgba(0,0,0,.6);box-shadow:0 0 8px rgba(0,0,0,.6)}#baguetteBox-overlay .full-image figcaption{display:block;position:absolute;bottom:0;width:100%;text-align:center;line-height:1.8;white-space:normal;color:#ccc;background-color:#000;background-color:rgba(0,0,0,.6);font-family:sans-serif}#baguetteBox-overlay .full-image:before{content:"";display:inline-block;height:50%;width:1px;margin-right:-1px}#baguetteBox-slider{position:absolute;left:0;top:0;height:100%;width:100%;white-space:nowrap;-webkit-transition:left .4s ease,-webkit-transform .4s ease;transition:left .4s ease,-webkit-transform .4s ease;transition:left .4s ease,transform .4s ease;transition:left .4s ease,transform .4s ease,-webkit-transform .4s ease,-moz-transform .4s ease}#baguetteBox-slider.bounce-from-right{-webkit-animation:bounceFromRight .4s ease-out;animation:bounceFromRight .4s ease-out}#baguetteBox-slider.bounce-from-left{-webkit-animation:bounceFromLeft .4s ease-out;animation:bounceFromLeft .4s ease-out}@-webkit-keyframes bounceFromRight{0%,100%{margin-left:0}50%{margin-left:-30px}}@keyframes bounceFromRight{0%,100%{margin-left:0}50%{margin-left:-30px}}@-webkit-keyframes bounceFromLeft{0%,100%{margin-left:0}50%{margin-left:30px}}@keyframes bounceFromLeft{0%,100%{margin-left:0}50%{margin-left:30px}}.baguetteBox-button#next-button,.baguetteBox-button#previous-button{top:50%;top:calc(50% - 30px);width:44px;height:60px}.baguetteBox-button{position:absolute;cursor:pointer;outline:0;padding:0;margin:0;border:0;-moz-border-radius:15%;border-radius:15%;background-color:#323232;background-color:rgba(50,50,50,.5);color:#ddd;font:1.6em sans-serif;-webkit-transition:background-color .4s ease;transition:background-color .4s ease}.baguetteBox-button:focus,.baguetteBox-button:hover{background-color:rgba(50,50,50,.9)}.baguetteBox-button#next-button{right:2%}.baguetteBox-button#previous-button{left:2%}.baguetteBox-button#close-button{top:20px;right:2%;right:calc(2% + 6px);width:30px;height:30px}.baguetteBox-button svg{position:absolute;left:0;top:0}.baguetteBox-spinner{width:40px;height:40px;display:inline-block;position:absolute;top:50%;left:50%;margin-top:-20px;margin-left:-20px}.baguetteBox-double-bounce1,.baguetteBox-double-bounce2{width:100%;height:100%;-moz-border-radius:50%;border-radius:50%;background-color:#fff;opacity:.6;position:absolute;top:0;left:0;-webkit-animation:bounce 2s infinite ease-in-out;animation:bounce 2s infinite ease-in-out}.baguetteBox-double-bounce2{-webkit-animation-delay:-1s;animation-delay:-1s}@-webkit-keyframes bounce{0%,100%{-webkit-transform:scale(0);transform:scale(0)}50%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes bounce{0%,100%{-webkit-transform:scale(0);-moz-transform:scale(0);transform:scale(0)}50%{-webkit-transform:scale(1);-moz-transform:scale(1);transform:scale(1)}}
 img {
-    max-width: 90%;
-}
-
-.postbox {
-    border-bottom: 2px solid darkgrey;
-    margin-bottom: 12px;
+    max-width: 100%;
 }
 
 .titlebox {
     text-align: right;
 }
 
-#addthisbox {margin-bottom: 12px;}
 
 td.label {
     /* Issue #290 */
@@ -550,7 +664,6 @@ td.label {
     vertical-align: super;
     font-size: xx-small;
 }
-
 
 .caption {
     /* Issue 292 */
@@ -567,7 +680,7 @@ div.figure > a > img {
 }
 
 blockquote p, blockquote {
-  font-size: 17.5px;
+  font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -580,10 +693,6 @@ ul.bricks > li {
     line-height: 3;
     white-space:nowrap;
     margin: 3px;
-}
-
-.at300b, .stMainServices, .stButton, .stButton_gradient {
-    box-sizing: content-box;
 }
 
 pre, pre code {
@@ -601,10 +710,6 @@ article.post-micro {
     display: inline-block;
 }
 
-.flowr_row {
-    width: 100%;
-}
-
 .tags {
     padding-left: 0;
     margin-left: -5px;
@@ -615,72 +720,52 @@ article.post-micro {
 
 .tags > li {
     display: inline-block;
-    min-width: 10px;
-    padding: 3px 7px;
-    font-size: 12px;
-    font-weight: bold;
+}
+.tags > li a {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
     line-height: 1;
     color: #fff;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    background-color: #999;
-    border-radius: 10px;
+    border-radius: .25rem;
+    background-color: #868e96;
 }
 
-.tags > li a {
+.tags > li a:hover {
     color: #fff;
+    text-decoration: none;
+    background-color: #6c757d;
 }
 
 .metadata p:before,
-.postlist .listdate:after,
-.translationslist p:before {
+.postlist .listdate:after {
     content: " — ";
 }
 
-.metadata p:first-of-type:before,
-.translationslist p:first-of-type:before {
+.metadata p:first-of-type:before {
     content: "";
 }
 
-.metadata p,
-.translationslist p {
+.metadata p {
     display: inline;
 }
 
-.posttranslations h3, .translationslist h3 {
+.posttranslations h3 {
     display: inline;
     font-size: 1em;
     font-weight: bold;
 }
 
-.posttranslations h3:last-child, .translationslist h3:last-child {
+.posttranslations h3:last-child {
     display: none;
 }
 
 .entry-content {
     margin-top: 1em;
-}
-
-.navbar-brand {
-    padding: 0 15px;
-}
-
-.navbar-brand #blog-title {
-    padding: 15px 0;
-    display: inline-block;
-}
-
-.navbar-brand #logo {
-    max-width: 100%;
-}
-
-.navbar-brand>img {
-    display: inline;
-}
-
-.row {
-    margin: 0;
 }
 
 /* for alignment with Bootstrap's .entry-content styling */
@@ -693,14 +778,6 @@ article.post-micro {
     padding-top: 19px;
     color: #777;
     border-top: 1px solid #e5e5e5;
-}
-
-.codetable {
-    table-layout: fixed;
-}
-
-.codetable pre {
-    overflow-x: scroll;
 }
 
 /* hat tip bootstrap/html5 boilerplate */
@@ -732,13 +809,91 @@ article.post-micro {
     }
 }
 
-#description { 
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
-    margin-bottom: 25px;
+pre, .codetable {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
 }
 
+pre {
+    padding: 0.75rem;
+}
+
+.codetable tr:first-child td.linenos {
+    border-top-left-radius: 0.25rem;
+}
+
+.codetable tr:last-child td.linenos {
+    border-bottom-left-radius: 0.25rem;
+}
+
+.postindexpager {
+    padding-bottom: 1rem;
+}
+
+ul.navbar-nav {
+    margin-top: 0;
+}
+
+ul.pager {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    padding-left: 0;
+    margin: 0.5rem 0;
+}
+
+ul.pager li.previous {
+    margin-right: auto;
+    display: inline;
+}
+
+ul.pager li.next {
+    margin-left: auto;
+    display: inline;
+}
+
+
+ul.pager li a {
+    display: inline;
+    position: relative;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+}
+
+pre.code {
+    white-space: pre-wrap;
+}
+
+.byline a:not(:last-child):after {
+    content: ",";
+}
+
+/* Override incorrect Bootstrap 4 default */
+html[dir="rtl"] body {
+    text-align: right;
+}
+
+:root {
+    --plasmapy-red: #ff2929;
+    --plasmapy-light-red: #f96060;
+    --plasmapy-bluegreen: #54bfbf;
+    --plasmapy-light-bluegreen: #80cece;
+    --plasmapy-grey: #eeeeee;
+    --plasmapy-darkblue: #435466;
+    --plasmapy-logo-circ: url("/images/plasmapy-graphic-circular.png");
+    --plasmapy-logo-white-txt: url("/images/with-text-light-small.png");
+}
+
+#description {
+    text-align: center;
+    max-width: 60%;
+    margin: auto auto 25px;
+}
 
 .main-text-block {
     margin-top: 25px;
@@ -749,4 +904,304 @@ article.post-micro {
 .p-name.entry-title {
     text-align: center;
     margin: auto;
+}
+
+/* Tables */
+table {
+    padding: 0;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+}
+
+/**********************************************************************
+ *  Admonitions
+ **********************************************************************/
+.plasmapy-note {
+    background-color: #e6fafa;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.plasmapy-note-title {
+    background: #58a8a8;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    padding: 6px 12px;
+    margin: -12px -12px 12px;
+    font-family: inherit;
+}
+
+/* .plasmapy-note-title:before{content: "⚠"}
+
+/**********************************************************************
+ *   Feature Cards for Front Page
+ **********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+/* Float three columns side by side */
+.feature-column {
+    float: left;
+    width: 33.33%;
+    padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.feature-row {margin: 0 -5px}
+
+/* Clear floats after the columns */
+.feature-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns...3 columns move to 3 rows when columns are less
+ * than 800px
+ */
+@media screen and (max-width: 800px) {
+    .feature-column {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+/* Graphics of the "feature card" to be placed in the .feature-column
+ *   Intended to be used with <span> so it can be nested inside a
+ *   hyperlink <a>
+ *
+ *   By default the PlasmaPy graphic will be placed as a background
+ *   image, but this can be changed by specifying a new value for the
+ *   background-image property.
+ */
+.feature-card {
+    position: relative;
+    display: block;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 200px;
+
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-width: 2px;
+    border-radius: 10px;
+
+    background-color: #f1f1f1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--plasmapy-logo-circ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-card-banner {
+    min-height: 36px;
+    height: auto;
+    background-image: none;
+    background-color: rgb(255, 237, 204);
+    box-shadow: none;
+    border-color: rgb(240, 179, 126);
+    border-width: 1px;
+    padding: 0 16px;
+}
+
+.feature-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(142, 176, 202, 0.5);
+    border-color: #017BFF
+}
+
+/* Center (vertical & horizontal) div withing feature-card */
+.feature-card div {
+    position: absolute;
+    width: 100%;
+    padding: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.feature-card-banner div {
+    position: relative;
+    width: 100%;
+    padding: 5px 5%;
+    text-align: center;
+    top: auto;
+    left: auto;
+    transform: none;
+}
+
+/* Hyperlink without decoration */
+a.feature-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/**********************************************************************
+ *   For main page YouTube video
+ **********************************************************************/
+
+/* Graphic for Landing Page YouTube video */
+.aspect-ratio-80pc {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-bottom: 45.00%; /* to maintain 16:9 aspect ratio */
+    width: 80%;
+    margin: 0 10%;
+}
+
+.aspect-ratio-80pc iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/**********************************************************************
+ *   Affiliated Package Styling
+ **********************************************************************/
+/* Main block */
+.affiliated-pkg-block {
+    margin: 12px 0.5% 24px 0.5%;
+    height: 200px;
+}
+
+/* -- left side image -- */
+.affiliated-pkg-block .aff-pkg-image-block {
+    float: left;
+    width: 20%;
+    height: inherit;
+    padding: 0;
+}
+
+.aff-pkg-image-block .feature-card {
+    height: 100%;
+    padding: 0;
+}
+
+/* -- right side info block -- */
+/* Table setup */
+table.aff-pkg-info-block {
+    display: block;
+    float: left;
+    width: 80%;
+    height: inherit;
+    padding: 0 8px 0 12px;
+
+    border: none;
+}
+table.aff-pkg-info-block tbody {
+    display: inherit;
+    width: 100%;
+    height: inherit;
+}
+table.aff-pkg-info-block tr {
+    border: none;
+}
+table.aff-pkg-info-block tr td {
+    border: none;
+    padding: 0 4px;
+}
+table.aff-pkg-info-block tr:nth-child(even) {
+    background: none;
+}
+
+/* Top Row */
+table.aff-pkg-info-block tr.main {
+    height: 42px;
+    border-bottom: 2px solid black;
+}
+table.aff-pkg-info-block tr.main td {
+    height: 40px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+table.aff-pkg-info-block tr.main td.pkg-name {
+    text-align: left;
+}
+table.aff-pkg-info-block tr.main td.pkg-links {
+    width: 120px;
+    text-align: right;
+}
+
+/* Description Row */
+table.aff-pkg-info-block tr.description {
+    height: 102px;
+}
+table.aff-pkg-info-block tr.description td {
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+table.aff-pkg-info-block tr.description td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+/* License & Keyword Rows */
+table.aff-pkg-info-block tr.license, tr.keywords {
+    height: 28px;
+}
+table.aff-pkg-info-block tr.license td, tr.keywords td {
+    height: inherit;
+    text-align: left;
+    vertical-align: bottom;
+}
+table.aff-pkg-info-block tr.license td p, tr.keywords td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+/* Button for submitting affiliate request */
+.btn-plasmapy-bluegreen {
+    max-height: 36px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--plasmapy-bluegreen);
+    border-color: var(--plasmapy-darkblue);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none;
+}
+
+.btn-plasmapy-bluegreen:hover {
+    background-image: none;
+    border-color: inherit;
+}
+
+.btn-plasmapy-bluegreen div {
+    line-height: 24px;
+    vertical-align: center;
+    padding: 0;
 }

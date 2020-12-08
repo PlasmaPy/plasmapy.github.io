@@ -1,10 +1,19 @@
-#description { 
-    text-align: center;
-    max-width: 60%;
-    margin: auto;
-    margin-bottom: 25px;
+:root {
+    --plasmapy-red: #ff2929;
+    --plasmapy-light-red: #f96060;
+    --plasmapy-bluegreen: #54bfbf;
+    --plasmapy-light-bluegreen: #80cece;
+    --plasmapy-grey: #eeeeee;
+    --plasmapy-darkblue: #435466;
+    --plasmapy-logo-circ: url("/images/plasmapy-graphic-circular.png");
+    --plasmapy-logo-white-txt: url("/images/with-text-light-small.png");
 }
 
+#description {
+    text-align: center;
+    max-width: 60%;
+    margin: auto auto 25px;
+}
 
 .main-text-block {
     margin-top: 25px;
@@ -15,4 +24,304 @@
 .p-name.entry-title {
     text-align: center;
     margin: auto;
+}
+
+/* Tables */
+table {
+    padding: 0;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+    margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+    margin-bottom: 0;
+}
+
+/**********************************************************************
+ *  Admonitions
+ **********************************************************************/
+.plasmapy-note {
+    background-color: #e6fafa;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.plasmapy-note-title {
+    background: #58a8a8;
+    font-weight: bold;
+    display: block;
+    color: #fff;
+    padding: 6px 12px;
+    margin: -12px -12px 12px;
+    font-family: inherit;
+}
+
+/* .plasmapy-note-title:before{content: "⚠"}
+
+/**********************************************************************
+ *   Feature Cards for Front Page
+ **********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+/* Float three columns side by side */
+.feature-column {
+    float: left;
+    width: 33.33%;
+    padding: 0 5px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.feature-row {margin: 0 -5px}
+
+/* Clear floats after the columns */
+.feature-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns...3 columns move to 3 rows when columns are less
+ * than 800px
+ */
+@media screen and (max-width: 800px) {
+    .feature-column {
+        width: 100%;
+        margin: 5px;
+    }
+}
+
+/* Graphics of the "feature card" to be placed in the .feature-column
+ *   Intended to be used with <span> so it can be nested inside a
+ *   hyperlink <a>
+ *
+ *   By default the PlasmaPy graphic will be placed as a background
+ *   image, but this can be changed by specifying a new value for the
+ *   background-image property.
+ */
+.feature-card {
+    position: relative;
+    display: block;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 200px;
+
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-width: 2px;
+    border-radius: 10px;
+
+    background-color: #f1f1f1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), var(--plasmapy-logo-circ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-card-banner {
+    min-height: 36px;
+    height: auto;
+    background-image: none;
+    background-color: rgb(255, 237, 204);
+    box-shadow: none;
+    border-color: rgb(240, 179, 126);
+    border-width: 1px;
+    padding: 0 16px;
+}
+
+.feature-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(142, 176, 202, 0.5);
+    border-color: #017BFF
+}
+
+/* Center (vertical & horizontal) div withing feature-card */
+.feature-card div {
+    position: absolute;
+    width: 100%;
+    padding: 5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.feature-card-banner div {
+    position: relative;
+    width: 100%;
+    padding: 5px 5%;
+    text-align: center;
+    top: auto;
+    left: auto;
+    transform: none;
+}
+
+/* Hyperlink without decoration */
+a.feature-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/**********************************************************************
+ *   For main page YouTube video
+ **********************************************************************/
+
+/* Graphic for Landing Page YouTube video */
+.aspect-ratio-80pc {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-bottom: 45.00%; /* to maintain 16:9 aspect ratio */
+    width: 80%;
+    margin: 0 10%;
+}
+
+.aspect-ratio-80pc iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/**********************************************************************
+ *   Affiliated Package Styling
+ **********************************************************************/
+/* Main block */
+.affiliated-pkg-block {
+    margin: 12px 0.5% 24px 0.5%;
+    height: 200px;
+}
+
+/* -- left side image -- */
+.affiliated-pkg-block .aff-pkg-image-block {
+    float: left;
+    width: 20%;
+    height: inherit;
+    padding: 0;
+}
+
+.aff-pkg-image-block .feature-card {
+    height: 100%;
+    padding: 0;
+}
+
+/* -- right side info block -- */
+/* Table setup */
+table.aff-pkg-info-block {
+    display: block;
+    float: left;
+    width: 80%;
+    height: inherit;
+    padding: 0 8px 0 12px;
+
+    border: none;
+}
+table.aff-pkg-info-block tbody {
+    display: inherit;
+    width: 100%;
+    height: inherit;
+}
+table.aff-pkg-info-block tr {
+    border: none;
+}
+table.aff-pkg-info-block tr td {
+    border: none;
+    padding: 0 4px;
+}
+table.aff-pkg-info-block tr:nth-child(even) {
+    background: none;
+}
+
+/* Top Row */
+table.aff-pkg-info-block tr.main {
+    height: 42px;
+    border-bottom: 2px solid black;
+}
+table.aff-pkg-info-block tr.main td {
+    height: 40px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+table.aff-pkg-info-block tr.main td.pkg-name {
+    text-align: left;
+}
+table.aff-pkg-info-block tr.main td.pkg-links {
+    width: 120px;
+    text-align: right;
+}
+
+/* Description Row */
+table.aff-pkg-info-block tr.description {
+    height: 102px;
+}
+table.aff-pkg-info-block tr.description td {
+    height: inherit;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+table.aff-pkg-info-block tr.description td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+/* License & Keyword Rows */
+table.aff-pkg-info-block tr.license, tr.keywords {
+    height: 28px;
+}
+table.aff-pkg-info-block tr.license td, tr.keywords td {
+    height: inherit;
+    text-align: left;
+    vertical-align: bottom;
+}
+table.aff-pkg-info-block tr.license td p, tr.keywords td p {
+    height: inherit;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+/* Button for submitting affiliate request */
+.btn-plasmapy-bluegreen {
+    max-height: 36px;
+    padding: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--plasmapy-bluegreen);
+    border-color: var(--plasmapy-darkblue);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none;
+}
+
+.btn-plasmapy-bluegreen:hover {
+    background-image: none;
+    border-color: inherit;
+}
+
+.btn-plasmapy-bluegreen div {
+    line-height: 24px;
+    vertical-align: center;
+    padding: 0;
 }
