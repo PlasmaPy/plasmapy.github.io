@@ -1,0 +1,82 @@
+## -*- coding: utf-8 -*-
+<%namespace name="shield" file="shields.tmpl" import="affiliated" />
+
+<%def name="pkg_block(pkg_name, pkg_info)">
+    <% url_home = pkg_info['urls']['home'] %>
+    <% url_repo = pkg_info['urls']['repo'] %>
+    <% image_path = pkg_info['urls']['image'] %>
+    <% long_description = pkg_info['description']['long'] %>
+    <% _license = pkg_info['license'] %>
+    <% keywords = ", ".join(sorted(pkg_info["keywords"], key=str.casefold)) %>
+    <% is_affiliated = pkg_info['affiliated'] %>
+    <div class="affiliated-pkg-block">
+        <div class="aff-pkg-image-block">
+            <a class="feature-link" href="${url_home}">
+                % if image_path is not None:
+                    <div class="feature-card"
+                          style="background-image: url('${image_path}')">
+                    </div>
+                % else:
+                    <div class="feature-card"
+                          style="background-image: url('${image_path}')">
+                        <div>
+                            <h2>${pkg_name}</h2>
+                        </div>
+                    </div>
+                % endif
+##                 <span class="feature-card">${image_path}</span>
+            </a>
+        </div>
+        <table class="aff-pkg-info-block">
+            <tr class="main">
+                <td class="pkg-name">
+                    <span style="font-size: 1.5em;
+                                 font-weight: bold;
+                                 margin-right: 8px">
+                        ${pkg_name}
+                    </span>
+                    <!-- add affiliated badge -->
+                    % if is_affiliated:
+##                         <span style="position: absolute;
+##                                      padding-top: 8px">
+                        <span style="display: inline-block; vertical-align: 4px">
+                            ${shield.affiliated()}
+                        </span>
+                    % endif
+                </td>
+                <td class="pkg-links">
+                    <a href="${url_home}">home</a>
+                    <span> | </span>
+                    <a href="${url_repo}">repo</a>
+                </td>
+            </tr>
+            <tr class="description">
+                <td colspan="2">
+                    <p>${long_description}</p>
+                </td>
+            </tr>
+            <tr class="license">
+                <td colspan="2">
+                    <p><b>License:</b> ${_license}</p>
+                </td>
+            </tr>
+            <tr class="keywords">
+                <td colspan="2">
+                    <p><b>Keywords:</b> ${keywords}</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</%def>
+
+<div class="affiliated-pkg-list">
+    <%
+          pkg_names = sorted(list(global_data['affiliated_pkgs'].keys()))
+          pkg_names.insert(0, pkg_names.pop(pkg_names.index("plasmapy")))
+    %>
+
+    % for pkg_name in pkg_names:
+        <% pkg_info = global_data['affiliated_pkgs'][pkg_name] %>
+        ${self.pkg_block(pkg_name, pkg_info)}
+    % endfor
+</div>

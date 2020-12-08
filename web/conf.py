@@ -34,11 +34,9 @@ FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
-RIOT = "https://riot.im/app/#/room/#plasmapy:openastronomy.org"
+CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
 RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
-TELECON_LINK = "https://jitsi.riot.im/plasmapy"
-TELECON_NOTES = "https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 
@@ -167,7 +165,7 @@ NAVIGATION_LINKS = {
         (DOCS, "Documentation"),
         (
             (
-                (RIOT, "Chat room"),
+                (CHAT, "Chat room"),
                 ("https://plasmapy.discourse.group/", "Discussion forum"),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
@@ -176,21 +174,18 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                # (TELECON_LINK, "Teleconference room (Jitsi Meet)"),
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
                 (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
                 (YOUTUBE_CHANNEL, "YouTube"),
-                # (TELECON_NOTES, "Notes from weekly meetups"),
-                # (RITIEK, "GSoC 2018"),
             ),
             "Community",
         ),
         ("/contribute", "Contribute"),
+        ("/affiliates", "Affiliated Packages"),
         # ("/quickstart", "Quickstart guide"),
         # ("/team", "Team"),
-        (BENCHMARKS, "Benchmarks"),
     )
 }
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
@@ -995,8 +990,10 @@ CONTENT_FOOTER = (
     '- <a href="{facebook}">Facebook</a> '
     '- <a href="{twitter}">Twitter</a> '
     '- <a href="{youtube}">YouTube</a> '
-    '- <a href="{riot}">Chat</a> '
-    '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>')
+    '- <a href="{chat}">Chat</a> '
+    '- <a href="{benchmarks}">Benchmarks</a> '
+    '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
+)
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1022,7 +1019,8 @@ CONTENT_FOOTER_FORMATS = {
             "facebook": FACEBOOK,
             "twitter": TWITTER,
             "youtube": YOUTUBE_CHANNEL,
-            "riot": RIOT,
+            "chat": CHAT,
+            "benchmarks": BENCHMARKS,
         },
     )
 }
@@ -1181,7 +1179,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
 # """
 
 # Show link to source for the posts?
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
