@@ -2,7 +2,7 @@ title: Plasma Packages
 hidetitle: True
 author: Erik T. Everson
 
-The PlasmaPy's charter includes promoting open-source software for all of 
+PlasmaPy's charter includes promoting open-source software for all of 
 the plasma community, and not just `plasmapy`.  We feel the entire community 
 benefits when there are multiple efforts trying to build functionality for all 
 aspects of the plasma field.  As such, we want to promote any ongoing effort.  This
