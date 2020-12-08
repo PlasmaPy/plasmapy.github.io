@@ -19,15 +19,16 @@ hidetitle: True
 <div class="feature-row">
     <!-- Feature 1 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://docs.plasmapy.org/en/latest/notebooks/thomson.html">
+        <a class="feature-link" href="meetings/office_hours">
         <div class="feature-card" 
-              style="background-image: linear-gradient(rgba(249, 96, 96, 0.55),
-                                       rgba(255, 255, 255, 0.7)), 
-                                       url('/images/features/thomson_spectral_density.png')">
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+                                       rgba(255, 255, 255, 0.5)), 
+                                       none;
+              background-color: var(--plasmapy-light-red)">
             <div>
-                <h2>New Feature</h2>
-                <h3>Thomson Scattering</h3>
-                <h3>Spectral Density</h3>
+                <h2>PlasmaPy</h2>
+                <h2>"Office" Hours</h2>
+                <h3>Thursdays at 19 UTC</h3>
             </div>
         </div>
         </a>
@@ -38,19 +39,19 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>Weekly Community Meeting</h1>
-                Tuesday 18:00 UTC
+                Tuesday 19 UTC
             </div>
         </div>
         </a>
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://riot.im/app/#/room/#plasmapy:openastronomy.org">
+        <a class="feature-link" href="https://app.element.io/#/room/#plasmapy:openastronomy.org">
         <div class="feature-card" 
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
                                        rgba(255, 255, 255, 0.5)), 
                                        none; 
-                     background-color: #80cece">
+                     background-color: var(--plasmapy-light-bluegreen)">
             <div>
                 <h1>Join</h1>
                 <h3>the</h3>
@@ -85,6 +86,8 @@ PlasmaPy may be installed from the command line using [`pip`](https://pip.pypa.i
 pip install plasmapy
 ```
 
+**Note:** If you run into difficulty using `pip`, you may also try using `pip3` or `python -m pip` or `python3 -m pip` as the command.
+
 If you have a working installation of [conda](https://docs.conda.io/en/latest/), then you may install PlasmaPy with
 
 ```shell
@@ -98,11 +101,11 @@ If you are unfamiliar with Python, please check out the
 
 ## Learn PlasmaPy
 
-[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](http://docs.plasmapy.org/en/latest/auto_examples/index.html). 
+[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html). 
 
 ## Get Help
 
-The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's Riot chat room](https://riot.im/app/#/room/#plasmapy:openastronomy.org).  [PlasmaPy's Discourse group](https://plasmapy.discourse.group/) is an ideal place for longer discussions on more detailed topics.
+The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's Riot chat room](https://app.element.io/#/room/#plasmapy:openastronomy.org).  [PlasmaPy's Discourse group](https://plasmapy.discourse.group/) is an ideal place for longer discussions on more detailed topics.
 
 ## Contribute and Report Bugs
 
@@ -110,5 +113,4 @@ Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?templa
 
 ## Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation and NASA, with many contributions from the broader plasma physics and open source communities.  Early development of PlasmaPy was supported by the U.S. Department of Energy, the Smithsonian Institution, and Google Summer of Code.
-
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation, with many contributions from the broader plasma physics and open source communities.  Past development of PlasmaPy has been supported by the U.S. Department of Energy, the Smithsonian Institution, NASA, and Google Summer of Code.

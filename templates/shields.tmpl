@@ -1,0 +1,21 @@
+## shield.io's used for PlasmaPy
+
+<%def name="affiliated_src()">
+    ##  source url for the affiliated PlasmaPy shield.io
+    https://img.shields.io/badge/Affiliated-PlasmaPy-ff2929?labelColor=435466&logo=${global_data['vars']['plasmapy_logo_base64']}
+</%def>
+
+<%def name="affiliated()">
+    ##  html for the affiliated PlasmaPy shield.io
+    <img src=${affiliated_src()}>
+</%def>
+
+<%def name="community_src()">
+    ##  source url for the community PlsamaPy shield.io
+    https://img.shields.io/badge/Community-PlasmaPy-54bfbf?labelColor=435466&logo=${global_data['vars']['plasmapy_logo_base64']}
+</%def>
+
+<%def name="community()">
+    ##  html for the community PlasmaPy shield.io
+    <img src=${community_src()}>
+</%def>
