@@ -13,11 +13,13 @@ author: Erik T. Everson
 
 <br/>
 
+<!--
 ### Upcoming Meetings
 
 ----
 
 <br/>
+-->
 
 ### Past Meetings
 
