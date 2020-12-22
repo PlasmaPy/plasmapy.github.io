@@ -8,7 +8,9 @@ hidetitle: True
 [chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
 
 # Weekly PlasmaPy Community Meeting
-#### Every Tuesday at 19 UTC / 2 pm EST / 11 am PST
+#### Tuesdays at 19 UTC / 2 pm EST / 11 am PST
+<p style="color: var(--plasmapy-red)"><b>Note: No community meeting will be held on 2020 December 29.  Regularly
+scheduled meetings will begin again on 2021 January 5.</b></p>
 <br/>
 
 **Where:** [on Jitsi][Jitsi] <br/>
@@ -19,7 +21,7 @@ hidetitle: True
 
 ### Overview
 
-Every Tuesday PlasmaPy hosts its weekly online community meeting to cover the various 
+On Tuesdays PlasmaPy hosts its weekly online community meeting to cover the various 
 ongoing development topics, with some occasional bonus puns from Nick Murphy.
 This call is hosted on [Jitsi] with the [minutes and agenda] available on Google Drive.
 The schedule is also published on our [calendar][google calendar].  Each meeting 
