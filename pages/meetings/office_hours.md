@@ -7,7 +7,7 @@ hidetitle: True
 
 # PlasmaPy "Office" Hours
 
-**Note: We will not be holding office hours on 2020 December 24 or 2020 December 31.**
+**Note: We will not be holding office hours on 2020 December 24 or 2020 December 31, but will return to our regularly scheduled programming on 2021 January 7th.**
 
 Do you have a question about PlasmaPy?  Would you like to learn how to
 become active in the PlasmaPy project?  Do you have an idea for a great
