@@ -1,19 +1,32 @@
 title: The PlasmaPy Project
 hidetitle: True
 
-<!-- Announcement Card -->
+<!-- Survey Card -->
+<!--
 <div class="feature-row" style="margin: 24px 0">
     <div class="feature-column" style="width: 100%; padding: 0 10%">
         <a class="feature-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeug7Wg1wWZdO10qV1X6dsOq1hn7kq3x8EXoDDjNYZ74ncuug/viewform">
         <div class="feature-card feature-card-banner">
             <div>
-                Note: PlasmaPy community meetings and office hours are
+                Please help us improve PlasmaPy and inform our development by
+                taking the <b>2020 PlasmaPy Survey</b>.
+            </div>
+        </div>
+        </a>
+    </div>
+</div>
+-->
+<!-- Announcement Card -->
+<div class="feature-row" style="margin: 24px 0">
+    <div class="feature-column" style="width: 100%; padding: 0 10%">
+        <div class="feature-card feature-card-banner">
+            <div style="padding-left: 5px; padding-right: 5px">
+                <b>Note:</b> PlasmaPy community meetings and office hours are
                 cancelled between 2020 December 24 and 2021 January 4
                 for the winter holiday.  Meetings will begin again on
                 2021 January 5 following the usual schedule.
             </div>
         </div>
-        </a>
     </div>
 </div>
 
