@@ -9,6 +9,8 @@ hidetitle: True
 
 # Weekly PlasmaPy Community Meeting
 #### Tuesdays at 19 UTC / 2 pm EST / 11 am PST
+<p style="color: var(--plasmapy-red)"><b>Note: No community meeting will be held on 2020 December 29.  Regularly
+scheduled meetings will begin again on 2021 January 5.</b></p>
 <br/>
 
 **Where:** [on Jitsi][Jitsi] <br/>
@@ -25,6 +27,3 @@ This call is hosted on [Jitsi] with the [minutes and agenda] available on Google
 The schedule is also published on our [calendar][google calendar].  Each meeting 
 is announced on our [Matrix chat][chat] about an hour before the start, with any last 
 minute changes also being announced there.
-
-**Note: No community meeting will be held on 2020 December 29.  Regularly
-scheduled meetings will begin again on 2021 January 5.**
