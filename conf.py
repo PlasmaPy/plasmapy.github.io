@@ -166,7 +166,7 @@ NAVIGATION_LINKS = {
         (
             (
                 (CHAT, "Chat room"),
-                ("https://plasmapy.discourse.group/", "Discussion forum"),
+                ("https://github.com/PlasmaPy/PlasmaPy/discussions", "GitHub Discussions"),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
             ),
