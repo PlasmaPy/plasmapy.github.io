@@ -120,7 +120,11 @@ If you are unfamiliar with Python, please check out the
 
 ## Get Help
 
-The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's Riot chat room](https://app.element.io/#/room/#plasmapy:openastronomy.org).  [PlasmaPy's Discourse group](https://plasmapy.discourse.group/) is an ideal place for longer discussions on more detailed topics.
+The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's
+Element chat room](https://app.element.io/#/room/#plasmapy:openastronomy.org).
+[PlasmaPy's GitHub Discussions
+page](https://github.com/PlasmaPy/PlasmaPy/discussions) is an ideal place for
+longer discussions on more detailed topics.
 
 ## Contribute and Report Bugs
 
