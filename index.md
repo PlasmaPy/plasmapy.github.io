@@ -16,20 +16,6 @@ hidetitle: True
     </div>
 </div>
 -->
-<!-- Announcement Card -->
-<div class="feature-row" style="margin: 24px 0">
-    <div class="feature-column" style="width: 100%; padding: 0 10%">
-        <div class="feature-card feature-card-banner">
-            <div style="padding-left: 5px; padding-right: 5px">
-                <b>Note:</b> PlasmaPy community meetings and office hours are
-                cancelled between 2020 December 24 and 2021 January 4
-                for the winter holiday.  Meetings will begin again on
-                2021 January 5 following the usual schedule.
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Feature Cards -->
 <div class="feature-row">
     <!-- Feature 1 -->
