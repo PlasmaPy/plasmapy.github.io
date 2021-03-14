@@ -1,0 +1,21 @@
+name: Build PR
+
+on:
+  pull-request:
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build and Deploy Nikola
+      uses: getnikola/nikola-action@v3
+      with:
+        dry_run: true
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Built website
+        path: output
