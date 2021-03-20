@@ -18,6 +18,18 @@ hidetitle: True
 
 <!-- Feature Cards -->
 <div class="feature-row">
+    <!-- Feature 0 -->
+    <div class="feature-column">
+        <a class="feature-link" href="posts/plasmapy-v060-release">
+            <span class="feature-card" style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), none; background-color: #f96060">
+                <div class="feature-card-text">
+                    <h1>v0.6.0 Release</h1>
+                </div>
+            </span>
+        </a>
+    </div>
+
+
     <!-- Feature 1 -->
     <div class="feature-column">
         <a class="feature-link" href="meetings/office_hours">
