@@ -16,7 +16,7 @@ We're really happy to announce that we've just released [PlasmaPy version
 to 0.5.0, the last post here is about [version 0.4.0](plasmapy-v0_4-0-release),
 you may ask? Well, we forgot to announce that here. So, that happened.
 
-Anyway!  We'd also like to thank the wonderful people who have contributed to this release:
+Anyway!  We'd like to thank the wonderful people who have contributed to this release:
 
 * Anthony Vo
 * Dhawal Modi *
@@ -31,7 +31,7 @@ Anyway!  We'd also like to thank the wonderful people who have contributed to th
 
 Where a * indicates their first contribution to PlasmaPy.
 
-Note also that **this is the first release to drop Python 3.6 support**; we now
+Note also that **this release drops Python 3.6 support**; we now
 require Python 3.7, following NumPy's [NEP
 29](https://numpy.org/neps/nep-0029-deprecation_policy.html)
 
@@ -69,15 +69,15 @@ now](https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics).
 [![Langmuir probe sweep](https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png)](https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html)
 </center>
 
-Erik Everson is spearheading work on our analysis & diagnostic framework, about
-which you can read [here](https://docs.plasmapy.org/en/stable/ad/index.html).
-As the first example, we've got a new and improved set of tools for swept Langmuir
-analysis. Check it out [here](https://docs.plasmapy.org/en/stable/ad/index.html).
+Erik Everson is spearheading work on our [analysis & diagnostic
+framework](https://docs.plasmapy.org/en/stable/ad/index.html).  As the
+first example, we've got a new and improved set of [tools for swept Langmuir
+analysis](https://docs.plasmapy.org/en/stable/ad/index.html).
 
 # What's next?
 
 For this year, we're planning to have a roughly 3-month cadence for releases. Thus,
-the next release will come by mid June.
+the next release is anticipated around mid June.
 
 It should contain a refactored particle tracker, support for neoclassical
 transport coefficient calculations for axisymmetric devices along with our
