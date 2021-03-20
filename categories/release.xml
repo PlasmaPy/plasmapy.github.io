@@ -2,7 +2,64 @@
 <?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlasmaPy (Posts about release)</title><link>https://www.plasmapy.org/</link><description></description><atom:link href="https://www.plasmapy.org/categories/release.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2021 &lt;a href=https://github.com/PlasmaPy/PlasmaPy&gt;PlasmaPy Developers&lt;/a&gt; 
 &lt;a href="/license"&gt;
 License
-&lt;/a&gt;</copyright><lastBuildDate>Wed, 13 Jan 2021 17:40:19 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.4.0 release</title><link>https://www.plasmapy.org/posts/plasmapy-v0_4_0-release/</link><dc:creator>Nick Murphy</dc:creator><description>&lt;div&gt;&lt;p&gt;We are pleased to announce the release of &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/whatsnew/0.4.0.html"&gt;PlasmaPy version 0.4.0&lt;/a&gt;.  This
+&lt;/a&gt;</copyright><lastBuildDate>Sat, 20 Mar 2021 10:53:52 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;div&gt;&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
+&lt;p&gt;We're really happy to announce that we've just released &lt;a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html"&gt;PlasmaPy version
+0.6.0&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;We'd like to thank the wonderful people who have contributed to this release:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anthony Vo&lt;/li&gt;
+&lt;li&gt;Dhawal Modi *&lt;/li&gt;
+&lt;li&gt;Dominik Stańczak&lt;/li&gt;
+&lt;li&gt;Drozdov David *&lt;/li&gt;
+&lt;li&gt;Erik Everson&lt;/li&gt;
+&lt;li&gt;Kevin Montes *&lt;/li&gt;
+&lt;li&gt;Nick Murphy&lt;/li&gt;
+&lt;li&gt;Peter Heuer&lt;/li&gt;
+&lt;li&gt;Ramiz Qudsi&lt;/li&gt;
+&lt;li&gt;Tiger Du&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Where a * indicates their first contribution to PlasmaPy.&lt;/p&gt;
+&lt;p&gt;Note also that &lt;strong&gt;this release drops Python 3.6 support&lt;/strong&gt;; we now
+require Python 3.7, following NumPy's &lt;a href="https://numpy.org/neps/nep-0029-deprecation_policy.html"&gt;NEP
+29&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;The cool new features&lt;/h2&gt;
+&lt;p&gt;Note: these are my (Dominik's) personal highlights. There's more, but these make the
+prettiest plots right now.&lt;/p&gt;
+&lt;h3&gt;Two-fluid dispersion relations&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"&gt;&lt;img alt="Dispersion relations for two fluid systems" src="https://docs.plasmapy.org/en/stable/_images/notebooks_dispersion_two_fluid_dispersion_18_1.png"&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;In &lt;a href="https://github.com/plasmapy/plasmapy/pull/932"&gt;PR #932&lt;/a&gt; Ramiz Qudsi
+implemented P. M. Bellan's 2012 full two-fluid dispersion relation for any
+electron-ion system. Take a look at &lt;a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"&gt;the notebook introducing
+that&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Proton radiography&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/diagnostics/proton_radiography_particle_tracing.html"&gt;&lt;img alt="Proton radiograph" src="https://docs.plasmapy.org/en/stable/_images/notebooks_diagnostics_proton_radiography_particle_tracing_14_0.png"&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;Peter Heuer designed and implemented a framework for synthetic proton
+radiography. This is a multi-PR tour de force that simulates particles moving
+through EM fields and hitting a detector plane, generating histograms such as
+the above. I'd point you to the notebook on that, but &lt;a href="https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics"&gt;there's three right
+now&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Analysis &amp;amp; Diagnostic framework; Langmuir probes&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;&lt;center&gt;
+&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html"&gt;&lt;img alt="Langmuir probe sweep" src="https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png"&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;p&gt;Erik Everson is spearheading work on our &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;analysis &amp;amp; diagnostic
+framework&lt;/a&gt;.  As the
+first example, we've got a new and improved set of &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;tools for swept Langmuir
+analysis&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;What's next?&lt;/h2&gt;
+&lt;p&gt;For this year, we're planning to have a roughly 3-month cadence for releases. Thus,
+the next release is anticipated around mid June.&lt;/p&gt;
+&lt;p&gt;It should contain a refactored particle tracker, support for neoclassical
+transport coefficient calculations for axisymmetric devices along with our
+first forays into tools for fusion.&lt;/p&gt;
+&lt;p&gt;One final note: we're discussing transitioning to some form of &lt;a href="https://calver.org/"&gt;Calendar
+Versioning&lt;/a&gt;. If you have thoughts on that, we'd be happy
+to hear them!  Come join the discussion on &lt;a href="https://app.element.io/#/room/#plasmapy:openastronomy.org"&gt;our Matrix
+chatroom&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>plasmapy</category><category>release</category><guid>https://www.plasmapy.org/posts/plasmapy-v060-release/</guid><pubDate>Sun, 14 Mar 2021 16:08:56 GMT</pubDate></item><item><title>PlasmaPy v0.4.0 release</title><link>https://www.plasmapy.org/posts/plasmapy-v0_4_0-release/</link><dc:creator>Nick Murphy</dc:creator><description>&lt;div&gt;&lt;p&gt;We are pleased to announce the release of &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/whatsnew/0.4.0.html"&gt;PlasmaPy version 0.4.0&lt;/a&gt;.  This
 release adds several new functions to &lt;code class="docutils literal"&gt;plasmapy.formulary&lt;/code&gt;, aliases
 (with trailing underscores) for the most commonly used formulary
 functions, classes to represent custom and dimensionless particles,

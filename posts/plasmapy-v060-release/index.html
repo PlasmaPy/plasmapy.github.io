@@ -3,27 +3,28 @@
 " lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Release of PlasmaPy version 0.6.0">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PlasmaPy "Office" Hours | PlasmaPy</title>
+<title>PlasmaPy v0.6.0 release! | PlasmaPy</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://www.plasmapy.org/meetings/office_hours/">
+<link rel="canonical" href="https://www.plasmapy.org/posts/plasmapy-v060-release/">
 <link rel="icon" href="../../images/favicon-16.png" sizes="16x16">
 <link rel="icon" href="../../images/favicon-128.png" sizes="128x128">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><link rel="stylesheet" type="text/css" href="../../assets/css/tipuesearch.css">
 <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett">
-<meta name="author" content="Nick Murphy">
+<meta name="author" content="Dominik Stańczak">
+<link rel="prev" href="../plasmapy-v0_4_0-release/" title="PlasmaPy v0.4.0 release" type="text/html">
 <meta property="og:site_name" content="PlasmaPy">
-<meta property="og:title" content='PlasmaPy "Office" Hours'>
-<meta property="og:url" content="https://www.plasmapy.org/meetings/office_hours/">
-<meta property="og:description" content='PlasmaPy "Office" Hours
-Do you have a question about PlasmaPy?  Would you like to learn how to
-become active in the PlasmaPy project?  Do you have an idea for a great
-new feature or want to start an a'>
+<meta property="og:title" content="PlasmaPy v0.6.0 release!">
+<meta property="og:url" content="https://www.plasmapy.org/posts/plasmapy-v060-release/">
+<meta property="og:description" content="Release of PlasmaPy version 0.6.0">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2021-03-20T12:53:36+02:00">
+<meta property="article:published_time" content="2021-03-14T18:08:56+02:00">
+<meta property="article:tag" content="plasmapy">
+<meta property="article:tag" content="release">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -100,23 +101,95 @@ bg-dark
         
         
         
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header></header><div class="e-content entry-content" itemprop="articleBody text">
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">PlasmaPy v0.6.0 release!</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard p-author h-card"><span class="byline-name fn p-name" itemprop="author">
+                    <a class="u-url" href="../../authors/dominik-stanczak/">Dominik Stańczak</a>
+            </span></p>
+            <p class="dateline">
+            <a href="." rel="bookmark">
+            <time class="published dt-published" datetime="2021-03-14T18:08:56+02:00" itemprop="datePublished" title="2021-03-14 18:08">2021-03-14 18:08</time></a>
+            </p>
+            
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<h2>PlasmaPy "Office" Hours</h2>
-<p>Do you have a question about PlasmaPy?  Would you like to learn how to
-become active in the PlasmaPy project?  Do you have an idea for a great
-new feature or want to start an affiliated package?</p>
-<p>If so, then <strong>please join us for informal PlasmaPy "office" hours on
-Thursdays at 19 UTC (2 pm EST / 11 am PST)</strong>.  We will meet using this 
-<a href="https://harvard.zoom.us/j/91600794594?pwd=L09iTGtTRUN1RmpsVnNvU05LRnNwQT09">Zoom link</a>.  Any last minute changes will be announced in PlasmaPy's 
-<a href="https://app.element.io/#/room/#plasmapy:openastronomy.org">chat room</a>.</p>
-<p>The <a href="https://app.element.io/#/room/#plasmapy:openastronomy.org">chat room</a> can be used to reach PlasmaPy developers at other times,
-in particular if the time for "office" hours does not work for you.</p>
+<h2>PlasmaPy 0.6.0</h2>
+<p>We're really happy to announce that we've just released <a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html">PlasmaPy version
+0.6.0</a>! </p>
+<p>We'd like to thank the wonderful people who have contributed to this release:</p>
+<ul>
+<li>Anthony Vo</li>
+<li>Dhawal Modi *</li>
+<li>Dominik Stańczak</li>
+<li>Drozdov David *</li>
+<li>Erik Everson</li>
+<li>Kevin Montes *</li>
+<li>Nick Murphy</li>
+<li>Peter Heuer</li>
+<li>Ramiz Qudsi</li>
+<li>Tiger Du</li>
+</ul>
+<p>Where a * indicates their first contribution to PlasmaPy.</p>
+<p>Note also that <strong>this release drops Python 3.6 support</strong>; we now
+require Python 3.7, following NumPy's <a href="https://numpy.org/neps/nep-0029-deprecation_policy.html">NEP
+29</a>.</p>
+<h2>The cool new features</h2>
+<p>Note: these are my (Dominik's) personal highlights. There's more, but these make the
+prettiest plots right now.</p>
+<h3>Two-fluid dispersion relations</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"><img alt="Dispersion relations for two fluid systems" src="https://docs.plasmapy.org/en/stable/_images/notebooks_dispersion_two_fluid_dispersion_18_1.png"></a>
+</center>
+<p>In <a href="https://github.com/plasmapy/plasmapy/pull/932">PR #932</a> Ramiz Qudsi
+implemented P. M. Bellan's 2012 full two-fluid dispersion relation for any
+electron-ion system. Take a look at <a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html">the notebook introducing
+that</a>.</p>
+<h3>Proton radiography</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/diagnostics/proton_radiography_particle_tracing.html"><img alt="Proton radiograph" src="https://docs.plasmapy.org/en/stable/_images/notebooks_diagnostics_proton_radiography_particle_tracing_14_0.png"></a>
+</center>
+<p>Peter Heuer designed and implemented a framework for synthetic proton
+radiography. This is a multi-PR tour de force that simulates particles moving
+through EM fields and hitting a detector plane, generating histograms such as
+the above. I'd point you to the notebook on that, but <a href="https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics">there's three right
+now</a>.</p>
+<h3>Analysis &amp; Diagnostic framework; Langmuir probes</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html"><img alt="Langmuir probe sweep" src="https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png"></a>
+</center>
+<p>Erik Everson is spearheading work on our <a href="https://docs.plasmapy.org/en/stable/ad/index.html">analysis &amp; diagnostic
+framework</a>.  As the
+first example, we've got a new and improved set of <a href="https://docs.plasmapy.org/en/stable/ad/index.html">tools for swept Langmuir
+analysis</a>.</p>
+<h2>What's next?</h2>
+<p>For this year, we're planning to have a roughly 3-month cadence for releases. Thus,
+the next release is anticipated around mid June.</p>
+<p>It should contain a refactored particle tracker, support for neoclassical
+transport coefficient calculations for axisymmetric devices along with our
+first forays into tools for fusion.</p>
+<p>One final note: we're discussing transitioning to some form of <a href="https://calver.org/">Calendar
+Versioning</a>. If you have thoughts on that, we'd be happy
+to hear them!  Come join the discussion on <a href="https://app.element.io/#/room/#plasmapy:openastronomy.org">our Matrix
+chatroom</a>.</p>
 </div>
     </div>
-    
-
-</article><!--End of body content--><footer id="footer">
+    <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
+<li><a class="tag p-category" href="../../categories/plasmapy/" rel="tag">plasmapy</a></li>
+            <li><a class="tag p-category" href="../../categories/release/" rel="tag">release</a></li>
+        </ul>
+<ul class="pager hidden-print">
+<li class="previous">
+                <a href="../plasmapy-v0_4_0-release/" rel="prev" title="PlasmaPy v0.4.0 release">Previous post</a>
+            </li>
+        </ul></nav></aside></article><!--End of body content--><footer id="footer">
             Contents © 2021 PlasmaPy Developers- <a href="https://github.com/PlasmaPy/PlasmaPy">GitHub</a> - 
 <a href="../../license">
 License

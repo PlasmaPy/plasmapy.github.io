@@ -97,7 +97,82 @@ bg-dark
 
     
 <div class="postindex">
-    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="../posts/plasmapy-v0_4_0-release/" class="u-url">PlasmaPy v0.4.0 release</a></h1>
+    <article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="../posts/plasmapy-v060-release/" class="u-url">PlasmaPy v0.6.0 release!</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                <a href="../authors/dominik-stanczak/">Dominik Stańczak</a>
+            </span></p>
+            <p class="dateline">
+            <a href="../posts/plasmapy-v060-release/" rel="bookmark">
+            <time class="published dt-published" datetime="2021-03-14T18:08:56+02:00" itemprop="datePublished" title="2021-03-14 18:08">2021-03-14 18:08</time></a>
+            </p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
+<h2>PlasmaPy 0.6.0</h2>
+<p>We're really happy to announce that we've just released <a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html">PlasmaPy version
+0.6.0</a>! </p>
+<p>We'd like to thank the wonderful people who have contributed to this release:</p>
+<ul>
+<li>Anthony Vo</li>
+<li>Dhawal Modi *</li>
+<li>Dominik Stańczak</li>
+<li>Drozdov David *</li>
+<li>Erik Everson</li>
+<li>Kevin Montes *</li>
+<li>Nick Murphy</li>
+<li>Peter Heuer</li>
+<li>Ramiz Qudsi</li>
+<li>Tiger Du</li>
+</ul>
+<p>Where a * indicates their first contribution to PlasmaPy.</p>
+<p>Note also that <strong>this release drops Python 3.6 support</strong>; we now
+require Python 3.7, following NumPy's <a href="https://numpy.org/neps/nep-0029-deprecation_policy.html">NEP
+29</a>.</p>
+<h2>The cool new features</h2>
+<p>Note: these are my (Dominik's) personal highlights. There's more, but these make the
+prettiest plots right now.</p>
+<h3>Two-fluid dispersion relations</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"><img alt="Dispersion relations for two fluid systems" src="https://docs.plasmapy.org/en/stable/_images/notebooks_dispersion_two_fluid_dispersion_18_1.png"></a>
+</center>
+<p>In <a href="https://github.com/plasmapy/plasmapy/pull/932">PR #932</a> Ramiz Qudsi
+implemented P. M. Bellan's 2012 full two-fluid dispersion relation for any
+electron-ion system. Take a look at <a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html">the notebook introducing
+that</a>.</p>
+<h3>Proton radiography</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/diagnostics/proton_radiography_particle_tracing.html"><img alt="Proton radiograph" src="https://docs.plasmapy.org/en/stable/_images/notebooks_diagnostics_proton_radiography_particle_tracing_14_0.png"></a>
+</center>
+<p>Peter Heuer designed and implemented a framework for synthetic proton
+radiography. This is a multi-PR tour de force that simulates particles moving
+through EM fields and hitting a detector plane, generating histograms such as
+the above. I'd point you to the notebook on that, but <a href="https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics">there's three right
+now</a>.</p>
+<h3>Analysis &amp; Diagnostic framework; Langmuir probes</h3>
+<p></p>
+<center>
+<a href="https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html"><img alt="Langmuir probe sweep" src="https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png"></a>
+</center>
+<p>Erik Everson is spearheading work on our <a href="https://docs.plasmapy.org/en/stable/ad/index.html">analysis &amp; diagnostic
+framework</a>.  As the
+first example, we've got a new and improved set of <a href="https://docs.plasmapy.org/en/stable/ad/index.html">tools for swept Langmuir
+analysis</a>.</p>
+<h2>What's next?</h2>
+<p>For this year, we're planning to have a roughly 3-month cadence for releases. Thus,
+the next release is anticipated around mid June.</p>
+<p>It should contain a refactored particle tracker, support for neoclassical
+transport coefficient calculations for axisymmetric devices along with our
+first forays into tools for fusion.</p>
+<p>One final note: we're discussing transitioning to some form of <a href="https://calver.org/">Calendar
+Versioning</a>. If you have thoughts on that, we'd be happy
+to hear them!  Come join the discussion on <a href="https://app.element.io/#/room/#plasmapy:openastronomy.org">our Matrix
+chatroom</a>.</p>
+</div>
+    </div>
+    </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="../posts/plasmapy-v0_4_0-release/" class="u-url">PlasmaPy v0.4.0 release</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                 <a href="../authors/nick-murphy/">Nick Murphy</a>
