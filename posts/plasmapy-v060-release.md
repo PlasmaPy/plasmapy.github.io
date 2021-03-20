@@ -81,9 +81,6 @@ It should contain a refactored particle tracker, support for neoclassical
 transport coefficient calculations for axisymmetric devices along with our
 first forays into tools for fusion.
 
-Also, for the first time in the history of PlasmaPy, we've got [a roadmap for
-the year](https://hackmd.io/@plasmapy/ry0mmnj6v/edit).
-
 One final note: we're discussing transitioning to some form of [Calendar
 Versioning](https://calver.org/). If you have thoughts on that, we'd be happy
 to hear them!  Come join the discussion on [our Matrix
