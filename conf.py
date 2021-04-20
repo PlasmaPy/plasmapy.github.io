@@ -35,10 +35,10 @@ FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
-RITIEK = "https://ritiek.github.io/posts/"
 TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
+JITSI = "https://meet.jit.si/plasmapy"
 
 # Nikola is multilingual!
 #
@@ -670,7 +670,10 @@ ATOM_FILENAME_BASE = "feed"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("chat/index.html", CHAT)]
+REDIRECTIONS = [
+    ("chat/index.html", CHAT),
+    ("jitsi/index.html", JITSI),
+]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
