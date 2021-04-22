@@ -29,7 +29,7 @@ hidetitle: True
             <div>
                 <h2>PlasmaPy</h2>
                 <h2>"Office" Hours</h2>
-                <h3>Thursdays at 19 UTC</h3>
+                <h3>Thursdays at 2:00 pm ET</h3>
             </div>
         </div>
         </a>
@@ -40,23 +40,22 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>Weekly Community Meeting</h1>
-                Tuesday 19 UTC
+                Tuesday 2:00 pm ET
             </div>
         </div>
         </a>
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://app.element.io/#/room/#plasmapy:openastronomy.org">
+        <a class="feature-link" href="https://hack.plasmapy.org">
         <div class="feature-card" 
-              style="background-image: linear-gradient(rgba(255, 255, 255, 0.5), 
-                                       rgba(255, 255, 255, 0.5)), 
-                                       none; 
-                     background-color: var(--plasmapy-light-bluegreen)">
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.0), 
+                                       rgba(255, 255, 255, 0.0)), 
+                                       none;
+                     background-color: var(--plasmapy-darkblue)">
             <div>
-                <h1>Join</h1>
-                <h3>the</h3>
-                <h1>Chat</h1>
+                <h1 style="color: #d8d8d8; margin-bottom: 18px">Hack Week</h1>
+                <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
             </div>
         </div>
         </a>
