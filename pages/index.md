@@ -40,7 +40,7 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>Weekly Community Meeting</h1>
-                Tuesday 19 UTC
+                Tuesday 2:00 pm ET
             </div>
         </div>
         </a>
