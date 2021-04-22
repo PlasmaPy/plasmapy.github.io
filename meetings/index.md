@@ -5,11 +5,11 @@ author: Erik T. Everson
 
 ----
 
-#### [Weekly Community Meeting](./weekly): Every Tuesday at 19 UTC / 11 am PST / 2 pm EST
+#### [Weekly Community Meeting](./weekly): Every Tuesday at 11 am PT / 2 pm ET
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
-#### [PlasmaPy "Office" Hours](./office_hours): Every Thursday at 19 UTC / 11 am PST/ 2 pm EST
+#### [PlasmaPy "Office" Hours](./office_hours): Every Thursday at 11 am PT / 2 pm ET
 
 <br/>
 
