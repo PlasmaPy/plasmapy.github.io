@@ -31,7 +31,7 @@
    <https://github.com/PlasmaPy/PlasmaPy/search?q=pep8&type=Commits>`_ and
    the `Matrix discussion <https://app.element.io/#/room/#plasmapy:openastronomy.org>`_,
    through all the `pain of learning Sphinx <http://docs.plasmapy.org/>`_ and rebasing,
-   through `all of our ~2000 commits <https://github.com/PlasmaPy/PlasmaPy/commits/master>`_,
+   through `all of our ~2000 commits <https://github.com/PlasmaPy/PlasmaPy/commits/main>`_,
    there is one thing that has nourished our souls, and pushed us to complete
    this release, and that is our `pretty plots
    <http://docs.plasmapy.org/en/latest/auto_examples/index.html>`_. Oh, and the
@@ -42,7 +42,7 @@
 
    The dreams of the entire PlasmaPy community are focused tonight on these `31
    brave committers <https://github.com/PlasmaPy/PlasmaPy/graphs/contributors>`_,
-   pushing onto the master branch.
+   pushing onto the main branch.
 
    And may we all, plasma enthusiasts the world over, see this release through.
 
