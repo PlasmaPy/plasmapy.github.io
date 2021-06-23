@@ -2,6 +2,7 @@ _site
 *.py[cod]
 .DS_Store
 .doit.db
+.doit.db.db
 cache/
 output/
 id_rsa

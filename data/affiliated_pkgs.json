@@ -44,5 +44,28 @@
     },
     "status": "stable",
     "license": "MIT"
+  },
+  "omfit": {
+    "maintainer": {
+      "name": "Sterling Smith",
+      "contact": "smithsp@fusion.gat.com"
+    },
+    "urls": {
+      "home": "https://omfit.io",
+      "repo": "https://github.com/gafusion/OMFIT-source/",
+      "image": "/images/affiliated_pkg_logos/OMFIT_logo.gif"
+    },
+    "description": {
+      "short": "A open-source Python 3 package for plasma physics.",
+      "long": "OMFIT - One Modeling Framework for Integrated Tasks - is an integrated modeling  and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
+    },
+    "affiliated": false,
+    "keywords": ["plasma", "physics", "Python", "Python 3", "fusion", "simulation", "diagnostics"],
+    "dates": {
+      "added": "2021 June 22",
+      "last_updated": "2021 June 22"
+    },
+    "status": "stable",
+    "license": "<a href='https://form.omfit.io'>User Agreement</a>"
   }
 }

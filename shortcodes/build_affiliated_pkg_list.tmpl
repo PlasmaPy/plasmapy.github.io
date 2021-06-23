@@ -14,7 +14,8 @@
             <a class="feature-link" href="${url_home}">
                 % if image_path is not None:
                     <div class="feature-card"
-                          style="background-image: url('${image_path}')">
+                          style="background-image: url('${image_path}');
+                                 background-size: contain">
                     </div>
                 % else:
                     <div class="feature-card"
