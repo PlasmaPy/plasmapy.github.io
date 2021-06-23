@@ -72,7 +72,7 @@
 
 <div class="affiliated-pkg-list">
     <%
-          pkg_names = sorted(list(global_data['affiliated_pkgs'].keys()))
+          pkg_names = sorted(list(global_data['affiliated_pkgs'].keys()), key=str.casefold)
           pkg_names.insert(0, pkg_names.pop(pkg_names.index("plasmapy")))
     %>
 
