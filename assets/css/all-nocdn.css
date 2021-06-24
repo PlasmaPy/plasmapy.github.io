@@ -1121,8 +1121,7 @@ a.feature-link {
 }
 
 /* -- right side info block -- */
-/* Table setup */
-table.aff-pkg-info-block {
+div.aff-pkg-info-block {
     display: block;
     float: left;
     width: 80%;
@@ -1131,65 +1130,74 @@ table.aff-pkg-info-block {
 
     border: none;
 }
-table.aff-pkg-info-block tbody {
+/* Table setup */
+div.aff-pkg-info-block table {
+    table-layout: fixed;
+    float: left;
+    width: 100%;
+    height: inherit;
+
+    border: none;
+}
+div.aff-pkg-info-block table tbody {
     display: inherit;
     width: 100%;
     height: inherit;
 }
-table.aff-pkg-info-block tr {
+div.aff-pkg-info-block table tr {
     border: none;
 }
-table.aff-pkg-info-block tr td {
+div.aff-pkg-info-block table tr td {
     border: none;
     padding: 0 4px;
 }
-table.aff-pkg-info-block tr:nth-child(even) {
+div.aff-pkg-info-block table tr:nth-child(even) {
     background: none;
 }
 
 /* Top Row */
-table.aff-pkg-info-block tr.main {
+div.aff-pkg-info-block table tr.main {
     height: 42px;
     border-bottom: 2px solid black;
 }
-table.aff-pkg-info-block tr.main td {
+div.aff-pkg-info-block table tr.main td {
     height: 40px;
     padding-bottom: 2px;
     padding-top: 2px;
 }
-table.aff-pkg-info-block tr.main td.pkg-name {
+div.aff-pkg-info-block table tr.main td.pkg-name {
     text-align: left;
 }
-table.aff-pkg-info-block tr.main td.pkg-links {
+div.aff-pkg-info-block table tr.main td.pkg-links {
     width: 120px;
     text-align: right;
 }
 
 /* Description Row */
-table.aff-pkg-info-block tr.description {
+div.aff-pkg-info-block table tr.description {
     height: 102px;
 }
-table.aff-pkg-info-block tr.description td {
+div.aff-pkg-info-block table tr.description td {
     height: inherit;
     padding-top: 0;
     padding-bottom: 0;
 }
-table.aff-pkg-info-block tr.description td p {
+div.aff-pkg-info-block table tr.description td p {
     height: inherit;
     text-align: left;
     overflow-y: scroll;
 }
 
 /* License & Keyword Rows */
-table.aff-pkg-info-block tr.license, tr.keywords {
+div.aff-pkg-info-block table tr.license, tr.keywords {
     height: 28px;
 }
-table.aff-pkg-info-block tr.license td, tr.keywords td {
+div.aff-pkg-info-block table tr.license td, tr.keywords td {
     height: inherit;
     text-align: left;
     vertical-align: bottom;
 }
-table.aff-pkg-info-block tr.license td p, tr.keywords td p {
+div.aff-pkg-info-block table tr.license td p, tr.keywords td p {
     height: inherit;
     text-align: left;
     overflow-y: scroll;
