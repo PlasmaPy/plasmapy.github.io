@@ -67,5 +67,28 @@
     },
     "status": "stable",
     "license": "<a href='https://form.omfit.io'>User Agreement</a>"
+  },
+  "PyMethes": {
+    "maintainer": {
+      "name": "Christian M. Franck",
+      "contact": "cfanck@ethz.ch"
+    },
+    "urls": {
+      "home": "https://gitlab.com/ethz_hvl/pymethes",
+      "repo": "https://gitlab.com/ethz_hvl/pymethes",
+      "image": null
+    },
+    "description": {
+      "short": "A Monte Carlo simulation of electron transport in low temperature plasmas.",
+      "long": "A Monte Carlo simulation of electron transport in low temperature plasmas."
+    },
+    "affiliated": false,
+    "keywords": ["plasma", "physics", "Python 3", "simulation", "low-temperature"],
+    "dates": {
+      "added": "2021 June 23",
+      "last_updated": "2021 June 23"
+    },
+    "status": "stable",
+    "license": "GPLv3"
   }
 }
