@@ -50,13 +50,13 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy \"Office\" Hours",
-      "text": "PlasmaPy \"Office\" Hours\nNote: We will not hold office hours on July 1 due to Plasma Hack Week.\nDo you have a question about PlasmaPy?  Would you like to learn how to\nbecome active in the PlasmaPy project?  Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy \"office\" hours on\nThursdays at 2 pm ET / 11 am PT.  We will meet using this \nZoom link.  Any last minute changes will be announced in PlasmaPy's \nchat room.\nThe chat room can be used to reach PlasmaPy developers at other times,\nin particular if the time for \"office\" hours does not work for you.",
+      "text": "PlasmaPy \"Office\" Hours\nDo you have a question about PlasmaPy?  Would you like to learn how to\nbecome active in the PlasmaPy project?  Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy \"office\" hours on\nThursdays at 2 pm ET / 11 am PT.  We will meet using this \nZoom link.  Any last minute changes will be announced in PlasmaPy's \nchat room.\nThe chat room can be used to reach PlasmaPy developers at other times,\nin particular if the time for \"office\" hours does not work for you.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/office_hours/"
     },
     {
       "title": "Weekly PlasmaPy Community Meeting",
-      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nNote: we will not have a community meeting on June 29 due to Plasma Hack Week.\nWhere: on Jitsi \nTime: Every Tuesday at 2 pm ET / 11 am PT \nMinutes & Agenda: on Google Drive \nCalendar: on Google Calendar \n\nOverview\nOn Tuesdays PlasmaPy hosts its weekly online community meeting to cover the various \nongoing development topics, with some occasional bonus puns from Nick Murphy.\nThis call is hosted on Jitsi with the minutes and agenda available on Google Drive.\nThe schedule is also published on our calendar.  Each meeting \nis announced on our Matrix chat about an hour before the start, with any last \nminute changes also being announced there.",
+      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nWhere: on Jitsi \nTime: Every Tuesday at 2 pm ET / 11 am PT \nMinutes & Agenda: on Google Drive \nCalendar: on Google Calendar \n\nOverview\nOn Tuesdays PlasmaPy hosts its weekly online community meeting to cover the various \nongoing development topics, with some occasional bonus puns from Nick Murphy.\nThis call is hosted on Jitsi with the minutes and agenda available on Google Drive.\nThe schedule is also published on our calendar.  Each meeting \nis announced on our Matrix chat about an hour before the start, with any last \nminute changes also being announced there.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
     },
