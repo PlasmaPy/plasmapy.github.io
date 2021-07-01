@@ -7,8 +7,6 @@ hidetitle: True
 
 # PlasmaPy "Office" Hours
 
-_Note: We will not hold office hours on July 1 due to [Plasma Hack Week](https://hack.plasmapy.org/)._
-
 Do you have a question about PlasmaPy?  Would you like to learn how to
 become active in the PlasmaPy project?  Do you have an idea for a great
 new feature or want to start an affiliated package?
