@@ -10,8 +10,6 @@ hidetitle: True
 # Weekly PlasmaPy Community Meeting
 #### Tuesdays at 2 pm ET / 11 am PT
 
-_Note: we will not have a community meeting on June 29 due to [Plasma Hack Week](https://hack.plasmapy.org/)._
-
 **Where:** [on Jitsi][Jitsi] <br/>
 **Time:** Every Tuesday at 2 pm ET / 11 am PT <br/>
 **Minutes & Agenda:** [on Google Drive][minutes and agenda] <br/>
