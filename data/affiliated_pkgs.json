@@ -90,5 +90,28 @@
     },
     "status": "stable",
     "license": "GPLv3"
+  },
+  "Sirepo": {
+    "maintainer": {
+      "name": "David L. Bruhwiler",
+      "contact": "bruhwiler@radiasoft.net"
+    },
+    "urls": {
+      "home": "https://www.sirepo.com/",
+      "repo": "https://github.com/radiasoft/sirepo",
+      "image": "/images/affiliated_pkg_logos/Sirepo_logo.png"
+    },
+    "description": {
+      "short": "<code>Sirepo</code> enables immediate use of the plasma code <a href='http://warp.lbl.gov'><code>Warp</code></a>, with a browser-based GUI.",
+      "long": "<code>Sirepo</code> is an open source framework for bringing any scientific, engineering or educational software to the cloud. There are two <code>Sirepo</code> implementations of the <a href='http://warp.lbl.gov'><code>Warp</code></a> code, enabling quasi-3D electromagnetic PIC modeling of plasma-based accelerators (Warp PBA) and electrostatic modeling of thermionic converters (Warp VND). A <code>Sirepo</code> interface to the MHD community code FLASH is available in beta."
+    },
+    "affiliated": false,
+    "keywords": ["Python 3", "plasma", "physics", "simulation"],
+    "dates": {
+      "added": "2021 July 16",
+      "last_updated": "2021 July 16"
+    },
+    "status": "perpetual beta",
+    "license": "Apache License 2.0"
   }
 }
