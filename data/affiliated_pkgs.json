@@ -90,5 +90,28 @@
     },
     "status": "stable",
     "license": "GPLv3"
+  },
+  "ALOHA": {
+    "maintainer": {
+      "name": "Julien Hillairet",
+      "contact": "julien.hillairet@gmail.com"
+    },
+    "urls": {
+      "home": "https://github.com/IRFM/ALOHA",
+      "repo": "https://github.com/IRFM/ALOHA",
+      "image": null
+    },
+    "description": {
+      "short": "<code>ALOHA</code> is a coupling code for LHCD antennas facing tokamak magnetized fusion plasma.",
+      "long": "<code>ALOHA</code> is a coupling code for Lower Hybrid Current Drive antennas facing tokamak magnetized fusion plasma.\n\nThis coupling code is based on the linear coupling theory. It allows one to model the coupling of a 'grill'-like antenna to a cold plasma of the kind one can find in Tokamaks. It allows taking into account advanced antennas (such as multijunctions or passive-active multijunction antennas). "
+    },
+    "affiliated": false,
+    "keywords": ["Fortran", "MatLab", "plasma", "physics", "fusion", "simulation"],
+    "dates": {
+      "added": "2021 July 16",
+      "last_updated": "2021 July 16"
+    },
+    "status": "stable",
+    "license": "BSD 3-clause"
   }
 }
