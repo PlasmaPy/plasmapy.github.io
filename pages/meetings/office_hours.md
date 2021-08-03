@@ -12,7 +12,7 @@ become active in the PlasmaPy project?  Do you have an idea for a great
 new feature or want to start an affiliated package?
 
 If so, then **please join us for informal PlasmaPy "office" hours on
-Thursdays at 2 pm ET / 11 am PT**.  We will meet using this 
+Thursdays at 3 pm ET / 12 pm PT**.  We will meet using this 
 [Zoom link].  Any last minute changes will be announced in PlasmaPy's 
 [chat room].
 
