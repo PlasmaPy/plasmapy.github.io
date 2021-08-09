@@ -3,24 +3,23 @@ author: Erik T. Everson
 hidetitle: True
 
 [Zoom]: https://zoom.us/j/91633383503?pwd=QWNkdHpWeFhrYW1vQy91ODNTVG5Ndz09
-[minutes and agenda]: https://drive.google.com/drive/folders/0ByPG8nie6fTPV1FQUEkzMTgtRTg?usp=sharing
-[google calendar]: https://calendar.google.com/calendar/embed?src=o5lovdqm3illjm4e9k07vrl9mg%40group.calendar.google.com
-[chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[HackMD]: https://hackmd.io/team/plasmapy
+[calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
+[Matrix chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
 
 # Weekly PlasmaPy Community Meeting
 #### Tuesdays at 2 pm ET / 11 am PT
 
 **Where:** [on Zoom][Zoom] <br/>
 **Time:** Every Tuesday at 2 pm ET / 11 am PT <br/>
-**Minutes & Agenda:** [on Google Drive][minutes and agenda] <br/>
-**Calendar:** [on Google Calendar][google calendar] <br/>
+**Minutes & Agenda:** on [HackMD] <br/>
+**Calendar:** [on Google Calendar][calendar] <br/>
 <br/><br/>
 
 ### Overview
 
-On Tuesdays PlasmaPy hosts its weekly online community meeting to cover the various 
-ongoing development topics, with some occasional bonus puns from Nick Murphy.
-This call is hosted on [Zoom] with the [minutes and agenda] available on Google Drive.
-The schedule is also published on our [calendar][google calendar].  Each meeting 
-is announced on our [Matrix chat][chat] about an hour before the start, with any last 
-minute changes also being announced there.
+On Tuesdays, PlasmaPy hosts its weekly online community meeting to cover
+topics related to code development. This call is hosted on [Zoom] with
+agendas and minutes available on [HackMD]. The schedule is published on
+our [calendar]. Any last minute changes will be discussed on our
+[Matrix chat].
