@@ -35,10 +35,11 @@ FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
-TELECON_CALENDAR = "https://calendar.google.com/calendar?cid=bzVsb3ZkcW0zaWxsam00ZTlrMDd2cmw5bWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+TELECON_CALENDAR = "https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York"
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 JITSI = "https://meet.jit.si/plasmapy"
+ZOOM = "https://harvard.zoom.us/j/91600794594?pwd=L09iTGtTRUN1RmpsVnNvU05LRnNwQT09"
 
 # Nikola is multilingual!
 #
@@ -673,6 +674,8 @@ ATOM_FILENAME_BASE = "feed"
 REDIRECTIONS = [
     ("chat/index.html", CHAT),
     ("jitsi/index.html", JITSI),
+    ("zoom/index.html", ZOOM),
+    ("calender/index.html", TELECON_CALENDAR),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
