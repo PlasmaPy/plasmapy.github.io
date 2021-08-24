@@ -39,7 +39,7 @@ TELECON_CALENDAR = "https://calendar.google.com/calendar/embed?src=c_sqqq390s24j
 TWITTER = "https://twitter.com/plasmapy"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 JITSI = "https://meet.jit.si/plasmapy"
-ZOOM = "https://harvard.zoom.us/j/91600794594?pwd=L09iTGtTRUN1RmpsVnNvU05LRnNwQT09"
+ZOOM = "https://zoom.us/j/91633383503?pwd=QWNkdHpWeFhrYW1vQy91ODNTVG5Ndz09"
 
 # Nikola is multilingual!
 #
