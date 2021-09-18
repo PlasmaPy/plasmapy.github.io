@@ -61,8 +61,17 @@ hidetitle: True
         </a>
     </div>
 </div>
-
-<br>
+<script>
+    ctz=Intl.DateTimeFormat().resolvedOptions().timeZone.replace("/","%2F");
+    var ifv=document.CreateElement('iframe');
+    ifv.src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz="+ctz+"&amp;src=Y19zcXFxMzkwczI0ampmanAzcTg2cHY0MXBpOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2354bfbf&amp;showTitle=1&amp;showNav=1&amp;mode=MONTH&amp;showTabs=1&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1";
+    ifv.style="border:solid 1px #777; margin: 24px 2%";
+        ifv.width="96%";
+        ifv.height="400"
+        ifv.frameborder="0";
+        ifv.scrolling="no";
+    document.body.appendChild(ifv);
+    </script>
 
 <!-- YouTube Video-->
 <div class="aspect-ratio-80pc">
