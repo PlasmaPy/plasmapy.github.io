@@ -8,7 +8,7 @@ source code and code snippets, is licensed under a [Creative Commons
 Attribution 4.0 International (CC BY 4.0)
 license](https://creativecommons.org/licenses/by/4.0/).
 
-Copyright (c) 2015-2021, PlasmaPy Developers.
+Copyright (c) 2015-2022, PlasmaPy Developers.
 
 ## BSD 3-clause license with patent grant
 
