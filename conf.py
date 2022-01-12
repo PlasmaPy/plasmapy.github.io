@@ -177,6 +177,7 @@ NAVIGATION_LINKS = {
             (
                 (TELECON_CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
+                ("/working_groups", "Working Groups"),
                 (FACEBOOK, "Facebook"),
                 (TWITTER, "Twitter"),
                 (YOUTUBE_CHANNEL, "YouTube"),
