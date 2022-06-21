@@ -23,3 +23,6 @@ topics related to code development. This call is hosted on [Zoom] with
 agendas and minutes available on [HackMD]. The schedule is published on
 our [calendar]. Any last minute changes will be discussed on our
 [Matrix chat].
+
+We do not expect to hold our weekly meeting on July 12, July 26,
+October 18, and December 27 in 2022 or January 3 in 2023.
