@@ -3,7 +3,8 @@ author: Nick Murphy
 hidetitle: True
 
 [Zoom]: https://zoom.us/j/91633383503?pwd=QWNkdHpWeFhrYW1vQy91ODNTVG5Ndz09
-[chat room]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[Matrix chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
 
 # PlasmaPy "Office" Hours
 
@@ -12,11 +13,13 @@ become active in the PlasmaPy project?  Do you have an idea for a
 great new feature or want to start an affiliated package?
 
 If so, then **please join us for informal PlasmaPy "office" hours on
-most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  Any
-last minute changes will be discussed in PlasmaPy's [chat room].
+most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
+schedule is published on our [calendar].  Any last minute changes will
+be posted on our [Matrix chat].
 
-We do not expect to hold office hours on June 23, July 14, October 20,
-November 24, December 22, and December 29 in 2022.
+We will usually not hold office hours on [federal holidays] in the US,
+during the [APS DPP meeting], and from approximately December 23 to
+January 3.
 
 The [chat room] can be used to reach PlasmaPy developers at other
 times, in particular if the time for "office" hours does not work for
