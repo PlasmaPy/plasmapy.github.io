@@ -23,6 +23,6 @@ We will usually not hold office hours on [federal holidays] in the US,
 during the [APS DPP meeting], and from approximately December 23 to
 January 3.
 
-The [chat room] can be used to reach PlasmaPy developers at other
-times, in particular if the time for "office" hours does not work for
+PlasmaPy developers can be reached at other times via the [Matrix
+chat], in particular if the time for "office" hours does not work for
 you.
