@@ -36,8 +36,10 @@ Some of the highlights from PlasmaPy `v0.8.1` are:
 
  - Multiple new example notebooks.
 
- - Numerous improvements to the package structure, including for
-   continuous integration testing and documentation build. For example,
+ - Numerous improvements to the package structure, in particular for
+   continuous integration testing and the documentation. For example,
    hovering over most links to code objects will now open a preview
    window.
+
+ - Adoption of the Contributor Covenant Code of Conduct version 2.1.
 
