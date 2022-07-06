@@ -6,6 +6,8 @@ hidetitle: True
 [HackMD]: https://hackmd.io/team/plasmapy
 [calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
 [Matrix chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
+[APS DPP meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
 
 # Weekly PlasmaPy Community Meeting
 #### Tuesdays at 2 pm ET / 11 am PT
@@ -18,8 +20,12 @@ hidetitle: True
 
 ### Overview
 
-On Tuesdays, PlasmaPy hosts its weekly online community meeting to cover
-topics related to code development. This call is hosted on [Zoom] with
-agendas and minutes available on [HackMD]. The schedule is published on
-our [calendar]. Any last minute changes will be discussed on our
-[Matrix chat].
+PlasmaPy's weekly online community meeting is held on most Tuesdays at
+2 pm ET / 11 am PT.  This call is hosted on [Zoom] with agendas and
+minutes available on [HackMD].  The schedule is published on our
+[calendar].  Any last minute changes will be posted on our [Matrix
+chat].
+
+We will usually not hold these meetings on [federal holidays] in the
+US, during the [APS DPP meeting], and from approximately December 23
+to January 3.
