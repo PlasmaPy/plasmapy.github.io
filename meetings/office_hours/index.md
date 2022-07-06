@@ -3,18 +3,26 @@ author: Nick Murphy
 hidetitle: True
 
 [Zoom]: https://zoom.us/j/91633383503?pwd=QWNkdHpWeFhrYW1vQy91ODNTVG5Ndz09
-[chat room]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[Matrix chat]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
+[federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
+[APS DPP meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
 
 # PlasmaPy "Office" Hours
 
 Do you have a question about PlasmaPy?  Would you like to learn how to
-become active in the PlasmaPy project?  Do you have an idea for a great
-new feature or want to start an affiliated package?
+become active in the PlasmaPy project?  Do you have an idea for a
+great new feature or want to start an affiliated package?
 
 If so, then **please join us for informal PlasmaPy "office" hours on
-Thursdays at 3 pm ET / 12 pm PT** (please note the time change).  We
-will meet on [Zoom].  Any last minute changes will be
-discussed in PlasmaPy's [chat room].
+most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
+schedule is published on our [calendar].  Any last minute changes will
+be posted on our [Matrix chat].
 
-The [chat room] can be used to reach PlasmaPy developers at other times,
-in particular if the time for "office" hours does not work for you.
+We will usually not hold office hours on [federal holidays] in the US,
+during the [APS DPP meeting], and from approximately December 23 to
+January 3.
+
+PlasmaPy developers can be reached at other times via the [Matrix
+chat], in particular if the time for "office" hours does not work for
+you.
