@@ -21,11 +21,11 @@
 
 # PlasmaPy 0.8.1
 
-We're excited to announce that we have just released `PlasmaPy v0.8.1`__!
+We're excited to announce that we have just released `PlasmaPy v0.8.1`_!
 This release of PlasmaPy includes 158 pull requests by 37 people,
 including 31 first-time contributors.
 
-Some of the highlights from PlasmaPy `v0.8.1` are:
+Some of the highlights from PlasmaPy ``v0.8.1`` are:
 
  - A fitting function for 1D spectra in the Thomson scattering
    diagnostic module.
