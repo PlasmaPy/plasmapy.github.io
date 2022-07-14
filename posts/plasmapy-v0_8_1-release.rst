@@ -1,7 +1,7 @@
 <!--
 .. title: PlasmaPy v0.8.1 release!
 .. slug: plasmapy-v0_8_1-release
-.. date: 2022-07-05 21:00:00 UTC+00:00
+.. date: 2022-07-14 21:00:00 UTC+00:00
 .. tags: plasmapy, release
 .. category: release
 .. description: Release of PlasmaPy version 0.8.1
@@ -19,27 +19,23 @@
 [plasma beta in the solar atomosphere]: https://docs.plasmapy.org/en/v0.8.x/notebooks/formulary/solar_plasma_beta.html
 [PlasmaPy particles]: https://docs.plasmapy.org/en/v0.8.x/notebooks/getting_started/particles.html
 [Contributor Covenant Code of Conduct version 2.1]: https://docs.plasmapy.org/en/v0.8.x/CODE_OF_CONDUCT.html
+[changelog]: https://docs.plasmapy.org/en/stable/whatsnew/0.8.1.html
 
 # PlasmaPy 0.8.1
 
-We're excited to announce that we have just released [PlasmaPy `v0.8.1`]
-for Python 3.8+. This release of PlasmaPy includes 158 pull requests by
-37 people, including 31 first-time contributors.
+We're excited to announce that we have just released [PlasmaPy `v0.8.1`]!
+This release of PlasmaPy includes 158 pull requests by 37 people,
+including 31 first-time contributors.
 
 Some of the highlights from PlasmaPy `v0.8.1` are:
 
  - A fitting function for 1D spectra in the Thomson scattering
    diagnostic module.
 
- - New tools for the two-fluid dispersion relations.
+ - New two-fluid dispersion relations.
 
  - Lite-functions, which are simplified versions of formulary functions
    for performance-critical applications.
-
- - A prototype [null point finder].
-
- - A prototype plasma calculator for formulary functions that can be
-   opened into your web browser.
 
  - New "getting started" notebooks on [Astropy units] and [PlasmaPy
    particles].
@@ -51,5 +47,11 @@ Some of the highlights from PlasmaPy `v0.8.1` are:
    example, hovering over most links to code objects will now open a
    preview window.
 
+ - A prototype [null point finder].
+
+ - A prototype plasma calculator for formulary functions that can be
+   opened into your web browser.
+
  - Adoption of the [Contributor Covenant Code of Conduct version 2.1].
 
+For full details, please check out the [changelog].
