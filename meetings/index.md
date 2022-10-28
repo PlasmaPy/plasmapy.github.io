@@ -9,7 +9,7 @@ author: Erik T. Everson
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
-#### [PlasmaPy "Office" Hours](./office_hours): Every Thursday at 11 am PT / 2 pm ET
+#### [PlasmaPy "Office" Hours](./office_hours): Every Thursday at 12 pm PT / 3 pm ET
 
 <br/>
 
