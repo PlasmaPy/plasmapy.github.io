@@ -19,9 +19,9 @@ most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
 schedule is published on our [calendar].  Any last minute changes will
 be posted on our [Matrix chat].
 
-We will usually not hold office hours on [federal holidays] in the US,
-during the [APS DPP meeting], and from approximately December 23 to
-January 3.
+We will not hold office hours on [federal holidays] in the US, the
+last two Thursdays of December, the first Thursday in January, or
+during the [APS DPP meeting].
 
 PlasmaPy developers can be reached at other times via the [Matrix
 chat], in particular if the time for "office" hours does not work for
