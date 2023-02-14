@@ -21,3 +21,5 @@ web/.doit.db.dir
 .venv
 venv
 ENV
+
+.doit.*

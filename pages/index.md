@@ -61,8 +61,29 @@ hidetitle: True
         </a>
     </div>
 </div>
-
-<br>
+<!--
+<iframe src="https://calendar.google.com/calendar/embed?
+             height=300&amp;
+             wkst=1&amp;
+             bgcolor=%23ffffff&amp;
+             ctz=America%2FLos_Angeles&amp;
+             src=Y19zcXFxMzkwczI0ampmanAzcTg2cHY0MXBpOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;
+             color=%2354bfbf&amp;
+             showTitle=1&amp;
+             showNav=1&amp;
+             mode=WEEK&amp;
+             showTabs=0&amp;
+             showCalendars=0&amp;
+             showPrint=0&amp;
+             showDate=1"
+-->
+<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y19zcXFxMzkwczI0ampmanAzcTg2cHY0MXBpOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2354bfbf&amp;showTitle=1&amp;showNav=1&amp;mode=MONTH&amp;showTabs=1&amp;showCalendars=0&amp;showPrint=0&amp;showDate=1"
+        style="border:solid 1px #777; margin: 24px 2%"
+        width="96%"
+        height="400"
+        frameborder="0"
+        scrolling="no">
+</iframe>
 
 <!-- YouTube Video-->
 <div class="aspect-ratio-80pc">
