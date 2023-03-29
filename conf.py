@@ -29,6 +29,7 @@ SITE_URL = "https://www.plasmapy.org/"
 BASE_URL = "https://www.plasmapy.org/"
 BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
 CITATION_INSTRUCTIONS = "https://docs.plasmapy.org/en/stable/about/citation.html"
+CODE_OF_CONDUCT = "https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html"
 DOCS = "http://docs.plasmapy.org/"
 FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
@@ -159,7 +160,7 @@ NAVIGATION_LINKS = {
                 ("/news", "News"),
                 (PROJECT_REPOSITORY, "GitHub Repository"),
                 (CITATION_INSTRUCTIONS, "Acknowledging"),
-                ("/conduct", "Code of Conduct"),
+                (CODE_OF_CONDUCT, "Code of Conduct"),
             ),
             "About",
         ),
