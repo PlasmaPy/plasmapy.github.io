@@ -158,7 +158,7 @@ table tr th :last-child, table tr td :last-child {
     border-color: #017BFF
 }
 
-/* Center (vertical & horizontal) div withing feature-card */
+/* Center (vertical & horizontal) div within feature-card */
 .feature-card div {
     position: absolute;
     width: 100%;
