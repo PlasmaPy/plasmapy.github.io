@@ -10,12 +10,11 @@ jobs:
   build:
     name: Build website
     runs-on: ubuntu-latest
-    steps:
+    steps:  
+    - name: Change owner of working directory  # https://github.com/paambaati/codeclimate-action/issues/654#issuecomment-1481107848
+      run: chown root:root .
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Add safe directory to avoid error
-      run: |
-        git config --global --add safe.directory /github/workspace
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v4
       with:
