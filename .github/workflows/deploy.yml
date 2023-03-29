@@ -7,17 +7,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: Build website
+  nikola_build:
     runs-on: ubuntu-latest
-    steps:  
-    - name: Change owner of working directory  # https://github.com/paambaati/codeclimate-action/issues/654#issuecomment-1481107848
-      run: chown root:root .
-    - name: Checkout code
-      uses: actions/checkout@v3
-    - name: Add safe directory to avoid error
-      run: |
-        git config --global --add safe.directory /github/workspace
+    name: 'Deploy Nikola to GitHub Pages'
+    steps:
+    - name: Check out
+      uses: actions/checkout@v2
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v4
       with:
