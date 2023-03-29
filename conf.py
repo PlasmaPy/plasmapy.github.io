@@ -675,7 +675,7 @@ REDIRECTIONS = [
     ("chat/index.html", CHAT),
     ("jitsi/index.html", JITSI),
     ("zoom/index.html", ZOOM),
-    ("calender/index.html", TELECON_CALENDAR),
+    ("calendar/index.html", TELECON_CALENDAR),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
