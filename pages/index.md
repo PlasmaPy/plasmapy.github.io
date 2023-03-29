@@ -1,7 +1,7 @@
 title: The PlasmaPy Project
 hidetitle: True
 
-<!-- Survey Card -->
+<!-- Survey Card 
 
 <div class="feature-row" style="margin: 24px 0">
     <div class="feature-column" style="width: 100%; padding: 0 10%">
@@ -14,7 +14,7 @@ hidetitle: True
         </div>
         </a>
     </div>
-</div>
+</div> -->
 
 <!-- Feature Cards -->
 <div class="feature-row">
