@@ -3,3 +3,9 @@
         url = "web/output/index.html"
         message = "Preview the built website here. Links may need appending '/index.html' to the URL."
         report_on_fail = true
+
+[tool.codespell]
+skip = "*.png,*cache*,*egg*,.git,.hypothesis,.idea,.tox,_build,*charged_particle*.ipynb,venv,*.js"
+ignore-words-list = """
+recuse,
+te"""
