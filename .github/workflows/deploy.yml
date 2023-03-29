@@ -12,8 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Build and Deploy Nikola
-      uses: getnikola/nikola-action@v3
+      uses: getnikola/nikola-action@v4
       with:
         dry_run: false
