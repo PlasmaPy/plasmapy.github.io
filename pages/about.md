@@ -2,6 +2,8 @@ title: About the PlasmaPy Project
 author: Nick Murphy
 hidetitle: False
 
+# About PlasmaPy
+
 [Astropy]: https://www.astropy.org
 [PlasmaPy core package]: https://docs.plasmapy.org
 
