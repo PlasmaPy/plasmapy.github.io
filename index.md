@@ -1,21 +1,6 @@
 title: The PlasmaPy Project
 hidetitle: True
 
-<!-- Survey Card -->
-
-<div class="feature-row" style="margin: 24px 0">
-    <div class="feature-column" style="width: 100%; padding: 0 10%">
-        <a class="feature-link" href="https://docs.google.com/forms/d/e/1FAIpQLScSuNAAv1quCIUsQNy7UHP9sR6mPSyjIJBnvRGxjkaynK9ldA/viewform?usp=sf_link">
-        <div class="feature-card feature-card-banner">
-            <div>
-                Please help us improve PlasmaPy and inform our development by
-                taking the <b>2021 PlasmaPy Survey</b>.
-            </div>
-        </div>
-        </a>
-    </div>
-</div>
-
 <!-- Feature Cards -->
 <div class="feature-row">
     <!-- Feature 1 -->
