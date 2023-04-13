@@ -13,13 +13,21 @@ author: Erik T. Everson
 
 <br/>
 
-<!--
+
 ### Upcoming Meetings
 
 ----
 
+#### PlasmaPy tutorial prior to 2023 MagNetUS meeting
+
+We will be providing a [PlasmaPy tutorial](./magnetus2023.md) on the 
+afternoon of 2023 June 11.
+
+This tutorial will be the Sunday before the 
+[2023 MagNetUS Meeting](https://sites.google.com/view/magnetus2023/home?authuser=0)
+which is from 2023 June 12–15.
 <br/>
--->
+
 
 ### Past Meetings
 
