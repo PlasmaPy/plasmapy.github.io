@@ -13,28 +13,21 @@ author: Erik T. Everson
 
 <br/>
 
-<!--
 ### Upcoming Meetings
 
 ----
 
+#### PlasmaPy tutorial prior to 2023 MagNetUS meeting
+
+We will be providing a [PlasmaPy tutorial](./magnetus2023.md) at the
+[MagNetUS 2023 meeting](https://sites.google.com/view/magnetus2023/home?authuser=0)
+at Auburn University on Thursday, June 15 from 2–5 pm CDT.
+
 <br/>
--->
 
 ### Past Meetings
 
 ----
-
-#### [2020 April:  1st PlasmaPy Workshop [CANCELLED]](1st_workshop_2020_at_bryn_mawr)
-April 20-22, 2020
-
-PlasmaPy's first workshop, which is set up as a 3 day meeting for PlasmaPy developers and 
-the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to discuss
-code development and project direction.  The remaining two days (4/21-4/22) are designed 
-for community interaction, informing the community of PlasmaPy's goals and features, as 
-well as, getting vital feedback from the community.
-
-<div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
 #### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/annual-meeting/mini-conferences): Growing an open source software ecosystem for plasma science
 November 11 & 12, 2020
