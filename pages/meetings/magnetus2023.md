@@ -3,7 +3,7 @@ author: Nick Murphy
 hidetitle: True
 
 # PlasmaPy Workshop at MagNetUS 2023
-#### Thursday, June 11, 2023 from 2–5 pm CDT
+#### Thursday, June 15, 2023 from 2–5 pm CDT
 #### Auburn University, Auburn, Alabama, USA
 
 We will be holding a workshop on the last day of the 
