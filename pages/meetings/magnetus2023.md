@@ -22,4 +22,4 @@ The topics to be covered include:
    - Writing documentation
    - Writing a test
 
-Please check back soon for more details.
+Before the tutorial, please [sign up for a free GitHub account](https://github.com/join).
