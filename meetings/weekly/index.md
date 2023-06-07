@@ -13,7 +13,7 @@ hidetitle: True
 #### Tuesdays at 2 pm ET / 11 am PT
 
 **Where:** [on Zoom][Zoom] <br/>
-**Time:** Every Tuesday at 2 pm ET / 11 am PT <br/>
+**Time:** Tuesdays at 2 pm ET / 11 am PT <br/>
 **Minutes & Agenda:** on [HackMD] <br/>
 **Calendar:** [on Google Calendar][calendar] <br/>
 <br/><br/>
@@ -26,6 +26,10 @@ minutes available on [HackMD].  The schedule is published on our
 [calendar].  Any last minute changes will be posted on our [Matrix
 chat].
 
+In the summer of 2023, we will not have community meetings on June 13
+& 27; July 4, 18, & 25; and August 15.
+
 We will usually not hold community meetings on [federal holidays] in
 the US, the last two Tuesdays of December, the first Tuesday of
 January, or during the [APS DPP meeting].
+

@@ -19,6 +19,9 @@ most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
 schedule is published on our [calendar].  Any last minute changes will
 be posted on our [Matrix chat].
 
+In the summer of 2023, we will not hold office hours on June 8, 15, &
+29 or July 13 & 27.
+
 We will not hold office hours on [federal holidays] in the US, the
 last two Thursdays of December, the first Thursday in January, or
 during the [APS DPP meeting].
