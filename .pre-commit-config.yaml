@@ -4,6 +4,24 @@ ci:
 
 repos:
 
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-merge-conflict
+    exclude: .*\.rst
+  - id: check-symlinks
+  - id: check-case-conflict
+  - id: check-json
+  - id: check-toml
+  - id: check-yaml
+
+- repo: https://github.com/pre-commit/mirrors-csslint
+  rev: v1.0.5
+  hooks:
+  - id: csslint
+
 - repo: https://github.com/codespell-project/codespell
   rev: v2.2.5
   hooks:
