@@ -35,7 +35,7 @@
    there is one thing that has nourished our souls, and pushed us to complete
    this release, and that is our `pretty plots
    <http://docs.plasmapy.org/en/latest/auto_examples/index.html>`_. Oh, and the
-   possibility to 
+   possibility to
    `apply <http://docs.plasmapy.org/en/v0.1/atomic/decorators.html#passing-particle-instances-to-functions-and-methods>`_
    `more <http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_relativistic.html#plasmapy.utils.checks.check_relativistic>`_
    `decorators <http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_quantity.html#plasmapy.utils.checks.check_quantity>`_.
@@ -49,5 +49,5 @@
    `Thermal speed
    <http://docs.plasmapy.org/en/v0.1/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed>`_,
    and a :math:`\sqrt{2}` to you,
-  
+
    ~PlasmaPy

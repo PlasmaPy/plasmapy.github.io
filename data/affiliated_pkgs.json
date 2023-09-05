@@ -14,7 +14,11 @@
       "long": "PlasmaPy is an open-source community developed Python 3 package for plasma physics.  PlasmaPy intends to be a collection of functionality commonly used and shared between plasma physicists and researchers globally."
     },
     "affiliated": false,
-    "keywords": ["plasma", "physics", "Python 3"],
+    "keywords": [
+      "plasma",
+      "physics",
+      "Python 3"
+    ],
     "dates": {
       "added": "2020 November 12",
       "last_updated": "2020 November 12"
@@ -37,7 +41,13 @@
       "long": "<code>tofu</code> is an open-source python library.  It aims at providing the user with a ready-set toolbox for modelling synthetic diagnostics and performing tomographic inversions on linear or toroidal (quasi-axisymmetric) fusion devices.  It is relevant for diagnostics integrating an emissivity on a set of Lines of Sight or Volumes of Sight corresponding to as many detectors or pixels, and for which the plasma can be considered transparent (i.e. not for radio-frequencies / microwaves)."
     },
     "affiliated": true,
-    "keywords": ["plasma", "physics", "Python 3", "fusion", "diagnostics"],
+    "keywords": [
+      "plasma",
+      "physics",
+      "Python 3",
+      "fusion",
+      "diagnostics"
+    ],
     "dates": {
       "added": "2020 November 17",
       "last_updated": "2020 November 17"
@@ -60,7 +70,15 @@
       "long": "OMFIT - One Modeling Framework for Integrated Tasks - is an integrated modeling  and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
     },
     "affiliated": false,
-    "keywords": ["plasma", "physics", "Python", "Python 3", "fusion", "simulation", "diagnostics"],
+    "keywords": [
+      "plasma",
+      "physics",
+      "Python",
+      "Python 3",
+      "fusion",
+      "simulation",
+      "diagnostics"
+    ],
     "dates": {
       "added": "2021 June 22",
       "last_updated": "2021 June 22"
@@ -83,7 +101,13 @@
       "long": "A Monte Carlo simulation of electron transport in low temperature plasmas."
     },
     "affiliated": false,
-    "keywords": ["plasma", "physics", "Python 3", "simulation", "low-temperature"],
+    "keywords": [
+      "plasma",
+      "physics",
+      "Python 3",
+      "simulation",
+      "low-temperature"
+    ],
     "dates": {
       "added": "2021 June 23",
       "last_updated": "2021 June 23"
@@ -106,7 +130,14 @@
       "long": "<code>ALOHA</code> is a coupling code for Lower Hybrid Current Drive antennas facing tokamak magnetized fusion plasma.  This coupling code is based on the linear coupling theory. It allows one to model the coupling of a 'grill'-like antenna to a cold plasma of the kind one can find in Tokamaks. It allows taking into account advanced antennas (such as multijunctions or passive-active multijunction antennas)."
     },
     "affiliated": false,
-    "keywords": ["Fortran", "MatLab", "plasma", "physics", "fusion", "simulation"],
+    "keywords": [
+      "Fortran",
+      "MatLab",
+      "plasma",
+      "physics",
+      "fusion",
+      "simulation"
+    ],
     "dates": {
       "added": "2021 July 16",
       "last_updated": "2021 July 16"

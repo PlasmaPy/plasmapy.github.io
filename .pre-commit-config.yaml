@@ -4,6 +4,22 @@ ci:
 
 repos:
 
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-merge-conflict
+    exclude: .*\.rst
+  - id: check-case-conflict
+  - id: check-json
+  - id: pretty-format-json
+    args: [--autofix, --no-sort-keys]
+  - id: detect-private-key
+  - id: check-toml
+  - id: check-yaml
+  - id: mixed-line-ending
+
 - repo: https://github.com/codespell-project/codespell
   rev: v2.2.5
   hooks:
@@ -11,3 +27,8 @@ repos:
     args: [--write-changes]
     additional_dependencies:
     - tomli
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.26.3
+  hooks:
+  - id: check-github-workflows

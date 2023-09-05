@@ -12,7 +12,7 @@
 # PlasmaPy 0.6.0
 
 We're really happy to announce that we've just released [PlasmaPy version
-0.6.0](https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html)! 
+0.6.0](https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html)!
 
 We'd like to thank the wonderful people who have contributed to this release:
 

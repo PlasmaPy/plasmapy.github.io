@@ -4,7 +4,7 @@
 .. author: Dominik Stańczak
 .. tags: plasmapy, release
 .. category: release
-.. link: 
+.. link:
 .. description: PlasmaPy v0.2 released
 .. type: text
 

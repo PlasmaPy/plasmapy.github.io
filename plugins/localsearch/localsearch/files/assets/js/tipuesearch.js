@@ -594,18 +594,18 @@ http://www.tipue.com/search
                     $('.tipue_search_image_close').click(function()
                     {
                          $('#tipue_search_image_modal').fadeOut(300);
-                    });                
-               
+                    });
+
                     $('.tipue_search_foot_box').click(function()
                     {
                          var id_v = $(this).attr('id');
                          var id_a = id_v.split('_');
-                    
+
                          getTipueSearch(parseInt(id_a[0]), id_a[1]);
-                    });                                                       
-               }          
-          
+                    });
+               }
+
           });
      };
-   
+
 })(jQuery);

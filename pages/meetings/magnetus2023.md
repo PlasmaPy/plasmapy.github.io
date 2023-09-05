@@ -7,7 +7,7 @@ hidetitle: True
 #### [Mell Classroom Building](https://www.google.com/maps/place/Mell+Classroom+Building/@32.6029489,-85.484237,17.58z/data=!4m6!3m5!1s0x888cf394959db6bf:0x46847a24fc0cddee!8m2!3d32.6030836!4d-85.4835397!16s%2Fg%2F11hdvswwmz?entry=ttu) 3546
 #### Auburn University, Auburn, Alabama, USA
 
-We will be holding a workshop on the last day of the 
+We will be holding a workshop on the last day of the
 [MagNetUS 2023](https://sites.google.com/view/magnetus2023/home?authuser=0)
 meeting.
 

@@ -6,9 +6,9 @@ hidetitle: True
     <!-- Feature 1 -->
     <div class="feature-column">
         <a class="feature-link" href="meetings/office_hours">
-        <div class="feature-card" 
+        <div class="feature-card"
               style="background-image: linear-gradient(rgba(255, 255, 255, 0.5),
-                                       rgba(255, 255, 255, 0.5)), 
+                                       rgba(255, 255, 255, 0.5)),
                                        none;
               background-color: var(--plasmapy-light-red)">
             <div>
@@ -33,9 +33,9 @@ hidetitle: True
     <!-- Feature 3 -->
     <div class="feature-column">
         <a class="feature-link" href="https://hack.plasmapy.org">
-        <div class="feature-card" 
-              style="background-image: linear-gradient(rgba(255, 255, 255, 0.0), 
-                                       rgba(255, 255, 255, 0.0)), 
+        <div class="feature-card"
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.0),
+                                       rgba(255, 255, 255, 0.0)),
                                        none;
                      background-color: var(--plasmapy-darkblue)">
             <div>
@@ -53,7 +53,7 @@ hidetitle: True
 <div class="aspect-ratio-80pc">
     <iframe src="https://www.youtube-nocookie.com/embed/E8RwQF5wcXM"
             style="border: 1px solid black"
-            frameborder="0" 
+            frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
     </iframe>
@@ -79,14 +79,14 @@ If you have a working installation of [conda](https://docs.conda.io/en/latest/),
 conda install -c conda-forge plasmapy
 ```
 
-[PlasmaPy's online documentation](https://docs.plasmapy.org/) contains more 
+[PlasmaPy's online documentation](https://docs.plasmapy.org/) contains more
 detailed [installation instructions](https://docs.plasmapy.org/en/latest/install.html).
-If you are unfamiliar with Python, please check out the 
+If you are unfamiliar with Python, please check out the
 [Python website](https://www.python.org/) for more information.
 
 ## Learn PlasmaPy
 
-[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html). 
+[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html).
 
 ## Get Help
 
