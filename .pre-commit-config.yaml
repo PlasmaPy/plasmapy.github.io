@@ -11,7 +11,6 @@ repos:
   - id: end-of-file-fixer
   - id: check-merge-conflict
     exclude: .*\.rst
-  - id: check-symlinks
   - id: check-case-conflict
   - id: check-json
   - id: pretty-format-json
@@ -28,3 +27,13 @@ repos:
     args: [--write-changes]
     additional_dependencies:
     - tomli
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.26.3
+  hooks:
+  - id: check-github-workflows
+
+- repo: https://github.com/AleksaC/circleci-cli-py
+  rev: v0.1.28811
+  hooks:
+  - id: circle-ci-validator
