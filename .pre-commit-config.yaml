@@ -33,7 +33,3 @@ repos:
   hooks:
   - id: check-github-workflows
 
-- repo: https://github.com/AleksaC/circleci-cli-py
-  rev: v0.1.28811
-  hooks:
-  - id: circle-ci-validator
