@@ -5,7 +5,7 @@ jobs:
       - image: continuumio/miniconda3
     steps:
       - checkout
-      - run: 
+      - run:
           name: "Install nikola"
           command: pip install nikola
       - run:
