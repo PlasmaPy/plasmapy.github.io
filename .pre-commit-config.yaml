@@ -32,4 +32,3 @@ repos:
   rev: 0.26.3
   hooks:
   - id: check-github-workflows
-
