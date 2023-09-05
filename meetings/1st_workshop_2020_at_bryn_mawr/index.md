@@ -13,17 +13,17 @@ hidetitle: True
     </p>
     <p>
         Due to the rapid development of COVID-19 (coronavirus) and out of an abundance
-        of caution, the PlasmaPy workshop organizers have decided to cancel PlasmaPy's 
+        of caution, the PlasmaPy workshop organizers have decided to cancel PlasmaPy's
         first workshop.
     </p>
     <p>
-        We originally intended to web-cast portions of the workshop, but with no 
-        in-person attendees we feel this format would lead to a poor transmission of 
-        ideas between PlasmaPy and its community.  At this time, it is crucial that 
-        PlasmaPy fosters a strong community interaction to not only to convey its 
-        goals and ambitions, but to receive vital feed back from our community.  
+        We originally intended to web-cast portions of the workshop, but with no
+        in-person attendees we feel this format would lead to a poor transmission of
+        ideas between PlasmaPy and its community.  At this time, it is crucial that
+        PlasmaPy fosters a strong community interaction to not only to convey its
+        goals and ambitions, but to receive vital feed back from our community.
         <strong>Thus, we have decided to replace this workshop with a series of webinars
-        and discussions to be held over the coming months.</strong>  As more information 
+        and discussions to be held over the coming months.</strong>  As more information
         on the series becomes available we will update the community.
     </p>
     <p>
@@ -42,12 +42,12 @@ hidetitle: True
 
 ### <a name="Overview"></a> Overview
 
-PlasmaPy's first workshop, which is set up as a 3 day meeting for PlasmaPy developers and 
-the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to 
-discuss code development and project direction.  The remaining two days (4/21-4/22) are 
-designed for community interaction.  Goals of the meeting are to (1) further develop 
-PlasmaPy's roadmap, (2) inform the broader PlasmaPy community of PlasmaPy's objectives 
-and direction, (3) demonstrate PlasmaPy's capabilities to the community, and (4) receive 
+PlasmaPy's first workshop, which is set up as a 3 day meeting for PlasmaPy developers and
+the PlasmaPy community. The first day (4/20) is designated for the PlasmaPy Team to
+discuss code development and project direction.  The remaining two days (4/21-4/22) are
+designed for community interaction.  Goals of the meeting are to (1) further develop
+PlasmaPy's roadmap, (2) inform the broader PlasmaPy community of PlasmaPy's objectives
+and direction, (3) demonstrate PlasmaPy's capabilities to the community, and (4) receive
 valuable feedback from the community.<br/><br/>
 
 ### <a name="Agenda"></a> Agenda
@@ -63,7 +63,7 @@ ___
 _**Day 1 - April 20, 2020**_
 
 Day 1 is intended for the PlasmaPy committee and internal topics.  Attendees will be
-restricted to the PlasmaPy committee and developers.  We'll address topics related to 
+restricted to the PlasmaPy committee and developers.  We'll address topics related to
 package development, community outreach, and education.
 
 | Time | Section | Title | Speaker/Leader |
@@ -115,8 +115,8 @@ and suggestions.  This day will also be available via [web-cast](#Web-Participat
 ---
 _**Day 3 - April 22, 2020**_
 
-Day 3 is a workshop day to provide hands-on experience with PlasmaPy and one-on-one 
-community interaction.  In the morning session we will provide a few mini 
+Day 3 is a workshop day to provide hands-on experience with PlasmaPy and one-on-one
+community interaction.  In the morning session we will provide a few mini
 example projects to highlight PlasmaPy's features.  The afternoon session will
 be an open session where users can interact directly with the PlasmaPy team, asking
 an relevant questions, getting help on existing projects, etc.
@@ -137,13 +137,13 @@ an relevant questions, getting help on existing projects, etc.
 **NOTE**
 
 Due to the ongoing development of the novel coronavirus (COVID-19), travel restrictions
-may be in place when this workshop occurs.  If this is the case, we will still proceed 
+may be in place when this workshop occurs.  If this is the case, we will still proceed
 with the workshop via a [web-cast](#Web-Participation).  Additionally, we strongly
 recommend that any booked travel plans are refundable.
 
 ---
 
-In the near future we will post a few recommendations for travel to and housing 
+In the near future we will post a few recommendations for travel to and housing
 locations around Bryn Mawr.
 
 <br/>
@@ -151,7 +151,7 @@ locations around Bryn Mawr.
 ### <a name="Travel-Funding-for-Students"></a> Travel Funding for Students
 
 As part of our support from the NSF-CSSI program, we will offer some amount of travel
-funding for interested students to attend.  **The exact amount will depend on the 
+funding for interested students to attend.  **The exact amount will depend on the
 number of participating students.  Please check back soon as we will update with
 instructions on how to apply for travel funding.**
 
@@ -159,7 +159,7 @@ instructions on how to apply for travel funding.**
 
 ### <a name="Web-Participation"></a> Web Participation
 
-We currently plan to have days 2 & 3 available on web-cast so non-attendees and still 
+We currently plan to have days 2 & 3 available on web-cast so non-attendees and still
 participate.  As the meeting approaches, we will post info on how to attend via the
 web-cast.
 
@@ -167,10 +167,10 @@ web-cast.
 
 ### <a name="Support-Ack"></a> Support & Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation 
-(NSF) and NASA, with many contributions from the broader plasma physics and open source 
-communities. Early development of PlasmaPy was supported by the U.S. Department of 
+Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation
+(NSF) and NASA, with many contributions from the broader plasma physics and open source
+communities. Early development of PlasmaPy was supported by the U.S. Department of
 Energy, the Smithsonian Institution, and Google Summer of Code.
 
-Support for this workshop is provided through a grant from the NSF Cyberinfrastructure for 
+Support for this workshop is provided through a grant from the NSF Cyberinfrastructure for
 Sustained Scientific Innovation (CSSI)  program.

@@ -4,7 +4,7 @@
 .. author: Nick Murphy
 .. tags: plasmapy, release
 .. category: release
-.. link: 
+.. link:
 .. description: Release of PlasmaPy version 0.3.1
 .. type: text
 
