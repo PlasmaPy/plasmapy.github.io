@@ -16,7 +16,7 @@ hidetitle: True
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
 In order to capitalize on the opportunities afforded by bringing together the
-diversity of speakers and attendees and perspectives during this year's 
+diversity of speakers and attendees and perspectives during this year's
 mini-conference, we plan to host two **post-meeting discussions**.  Here
 we can continue the discussion on fostering the open-source community, bringing
 in more members to our projects, organizing inter-project efforts, improving

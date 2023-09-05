@@ -6,7 +6,7 @@ slug: contribute
 There are numerous ways to contribute to PlasmaPy, including by
 providing code and documentation, suggesting and discussing ideas,
 submitting issues and bug reports, and engaging the broader plasma
-physics community.  
+physics community.
 
 **Imposter syndrome disclaimer**: We want your help. No, really.
 
@@ -30,8 +30,8 @@ the errors and assumptions that seasoned contributors have glossed over.
 
 *This disclaimer was originally written by
 [Adrienne Lowe](https://github.com/adriennefriend) for a
-[PyCon talk](https://www.youtube.com/watch?v=6Uj746j9Heo), and was adapted by 
-[yt](https://github.com/yt-project/yt) in their README file based on its use 
+[PyCon talk](https://www.youtube.com/watch?v=6Uj746j9Heo), and was adapted by
+[yt](https://github.com/yt-project/yt) in their README file based on its use
 in the README file for the [MetPy project](https://github.com/Unidata/MetPy).
 It was then adapted by PlasmaPy.*
 
@@ -50,10 +50,10 @@ early stages of PlasmaPy development:
   [submit issues](https://github.com/PlasmaPy/plasmapy/issues) and
   review [pull requests](https://github.com/PlasmaPy/plasmapy/pulls).
 
-* The PlasmaPy [Matrix](https://app.element.io/#/room/#plasmapy:openastronomy.org) or 
+* The PlasmaPy [Matrix](https://app.element.io/#/room/#plasmapy:openastronomy.org) or
   [Gitter](https://gitter.im/PlasmaPy/Lobby) joint channel
   is a great place to have informal conversations, coordinate efforts,
-  and share ideas.  
+  and share ideas.
 * We have biweekly telecons which are announced on the email list.
 
 ## Contributing code or documentation to PlasmaPy
