@@ -26,8 +26,8 @@ minutes available on [HackMD].  The schedule is published on our
 [calendar].  Any last minute changes will be posted on our [Matrix
 chat].
 
-In the fall of 2023, we will not have community meetings on September
-12, 19, & 26 or October 10 & 31.
+In 2024, we will not hold community meetings on February 13, April 16,
+May 22, or October 8.
 
 We will usually not hold community meetings on [federal holidays] in
 the US, the last two Tuesdays of December, the first Tuesday of
