@@ -19,8 +19,8 @@ most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
 schedule is published on our [calendar].  Any last minute changes will
 be posted on our [Matrix chat].
 
-In the fall of 2023, we will not hold office hours on September 14 &
-28; October 12; or November 2.
+In 2024, we will not hold office hours on February 15, April 18, May
+23, or October 10.
 
 We will not hold office hours on [federal holidays] in the US, the
 last two Thursdays of December, the first Thursday in January, or
