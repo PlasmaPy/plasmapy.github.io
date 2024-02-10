@@ -8,4 +8,5 @@
 skip = "*.png,*cache*,*egg*,.git,.hypothesis,.idea,.tox,_build,*charged_particle*.ipynb,venv,*.js"
 ignore-words-list = """
 recuse,
-te"""
+te,
+uptodate"""

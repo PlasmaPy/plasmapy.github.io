@@ -123,7 +123,7 @@ TRANSLATIONS = {
 # this pattern is also used for metadata:
 #     something.meta -> something.pl.meta
 
-TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
+TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 # Links for the sidebar / navigation bar.  (translatable)
 # This is a dict.  The keys are languages, and values are tuples.
@@ -146,9 +146,9 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          may present issues if the menu is too large.
 #          (in Bootstrap, the navbar can grow too large and cover contents.)
 # WARNING: If you link to directories, make sure to follow
-#          ``STRIP_INDEXES``.  If it’s set to ``True``, end your links
+#          ``STRIP_INDEXES``.  If it's set to ``True``, end your links
 #          with a ``/``, otherwise end them with ``/index.html`` — or
-#          else they won’t be highlighted when active.
+#          else they won't be highlighted when active.
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
@@ -166,7 +166,10 @@ NAVIGATION_LINKS = {
         (
             (
                 (CHAT, "Chat room"),
-                ("https://github.com/PlasmaPy/PlasmaPy/discussions", "GitHub Discussions"),
+                (
+                    "https://github.com/PlasmaPy/PlasmaPy/discussions",
+                    "GitHub Discussions",
+                ),
                 (MAILING_LIST, "Email list"),
                 (FEEDBACK_BOX, "Suggestion box"),
             ),
@@ -191,16 +194,14 @@ NAVIGATION_LINKS = {
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
-NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
-}
+NAVIGATION_ALT_LINKS = {DEFAULT_LANG: ()}
 
 # Name of the theme to use.
 THEME = "bootstrap4"
 
 # Primary color of your theme. This will be used to customize your theme.
 # Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = "#5670d4"
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Examples below are for bootblog4.
@@ -310,7 +311,7 @@ TIMEZONE = "UTC+2"
 #
 # 0 = using DATE_FORMAT and TIMEZONE
 # 1 = using JS_DATE_FORMAT and local user time (via moment.js)
-# 2 = using a string like “2 days ago”
+# 2 = using a string like "2 days ago"
 #
 # Your theme must support it, Bootstrap already does.
 # DATE_FANCINESS = 0
@@ -341,18 +342,18 @@ TIMEZONE = "UTC+2"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -423,7 +424,7 @@ SHOW_BLOG_TITLE = False
 
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the tag list or index page’s title.
+# and displayed underneath the tag list or index page's title.
 # TAG_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging.",
@@ -442,7 +443,7 @@ SHOW_BLOG_TITLE = False
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -496,7 +497,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the category list or index page’s title.
+# and displayed underneath the category list or index page's title.
 # CATEGORY_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging.",
@@ -575,7 +576,7 @@ HIDDEN_CATEGORIES = []
 
 # Set descriptions for author pages to make them more interesting. The
 # default is no description. The value is used in the meta description
-# and displayed underneath the author list or index page’s title.
+# and displayed underneath the author list or index page's title.
 # AUTHOR_PAGES_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "Juanjo Conti": "Python coder and writer.",
@@ -587,18 +588,16 @@ HIDDEN_CATEGORIES = []
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+HIDDEN_AUTHORS = ["Guest"]
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
 INDEX_PATH = "news/"
 
-# Optional HTML that displayed on “main” blog index.html files.
+# Optional HTML that displayed on "main" blog index.html files.
 # May be used for a greeting. (translatable)
-FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
-}
+FRONT_INDEX_HEADER = {DEFAULT_LANG: ""}
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
@@ -697,11 +696,11 @@ REDIRECTIONS = [
 # For more details, read the manual:
 # https://getnikola.com/handbook.html#deploying-to-github
 # You will need to configure the deployment branch on GitHub.
-GITHUB_SOURCE_BRANCH = 'src'
-GITHUB_DEPLOY_BRANCH = 'main'
+GITHUB_SOURCE_BRANCH = "src"
+GITHUB_DEPLOY_BRANCH = "main"
 
 # The name of the remote where you wish to push to, using github_deploy.
-GITHUB_REMOTE_NAME = 'origin'
+GITHUB_REMOTE_NAME = "origin"
 
 # Whether or not github_deploy should commit to the source branch automatically
 # before deploying.
@@ -734,7 +733,7 @@ GITHUB_COMMIT_SOURCE = False
 # argument.
 #
 # By default, only .php files uses filters to inject PHP into
-# Nikola’s templates. All other filters must be enabled through FILTERS.
+# Nikola's templates. All other filters must be enabled through FILTERS.
 #
 # Many filters are shipped with Nikola. A list is available in the manual:
 # <https://getnikola.com/handbook.html#post-processing-filters>
@@ -858,15 +857,15 @@ GITHUB_COMMIT_SOURCE = False
 #
 #   .. image:: /images/tesla.jpg
 #
-# See the Nikola Handbook for details (in the “Embedding Images” and
-# “Thumbnails” sections)
+# See the Nikola Handbook for details (in the "Embedding Images" and
+# "Thumbnails" sections)
 
 # Images will be scaled down according to IMAGE_THUMBNAIL_SIZE and MAX_IMAGE_SIZE
 # options, but will have to be referenced manually to be visible on the site
 # (the thumbnail has ``.thumbnail`` added before the file extension by default,
 # but a different naming template can be configured with IMAGE_THUMBNAIL_FORMAT).
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 # IMAGE_THUMBNAIL_FORMAT = '{name}.thumbnail{ext}'
 
@@ -951,10 +950,10 @@ FAVICONS = (
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
 # {link}                        A link to the full post page.
-# {read_more}                   The string “Read more” in the current language.
+# {read_more}                   The string "Read more" in the current language.
 # {reading_time}                An estimate of how long it will take to read the post.
 # {remaining_reading_time}      An estimate of how long it will take to read the post, sans the teaser.
-# {min_remaining_read}          The string “{remaining_reading_time} min remaining to read” in the current language.
+# {min_remaining_read}          The string "{remaining_reading_time} min remaining to read" in the current language.
 # {paragraph_count}             The amount of paragraphs in the post.
 # {remaining_paragraph_count}   The amount of paragraphs in the post, sans the teaser.
 # {post_title}                  The title of the post.
@@ -989,9 +988,9 @@ License
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = (
-    'Contents &copy; {date} {author}'
+    "Contents &copy; {date} {author}"
     '- <a href="{repo}">GitHub</a> '
-    '- {license} '
+    "- {license} "
     '- <a href="{facebook}">Facebook</a> '
     '- <a href="{twitter}">Twitter</a> '
     '- <a href="{youtube}">YouTube</a> '
@@ -1148,10 +1147,12 @@ PRETTY_URLS = True
 #       with the MarkdownExtension class and should not be added here.
 # Defaults are markdown.extensions.(fenced_code|codehilite|extra)
 # markdown.extensions.meta is required for Markdown metadata.
-MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code',
-                       'markdown.extensions.codehilite',
-                       'markdown.extensions.extra',
-                       'markdown.extensions.meta']
+MARKDOWN_EXTENSIONS = [
+    "markdown.extensions.fenced_code",
+    "markdown.extensions.codehilite",
+    "markdown.extensions.extra",
+    "markdown.extensions.meta",
+]
 
 # Options to be passed to markdown extensions (See https://python-markdown.github.io/reference/)
 # Default is {} (no config at all)
@@ -1402,7 +1403,7 @@ EXTRA_HEAD_DATA = r"""
 # (defaults to 1.)
 # DEMOTE_HEADERS = 1
 
-# If you don’t like slugified file names ([a-z0-9] and a literal dash),
+# If you don't like slugified file names ([a-z0-9] and a literal dash),
 # and would prefer to use all the characters your file system allows.
 # USE WITH CARE!  This is also not guaranteed to be perfect, and may
 # sometimes crash Nikola, your web server, or eat your cat.
