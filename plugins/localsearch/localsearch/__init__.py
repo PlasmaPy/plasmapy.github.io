@@ -95,7 +95,7 @@ class Tipue(LateTask):
             "name": dst_path,
             "targets": [dst_path],
             "actions": [(save_data, [])],
-            "up-to-date": [config_changed(kw)],
+            "uptodate": [config_changed(kw)],
             "calc_dep": ["_scan_locs:sitemap"],
         }
         yield apply_filters(task, kw["filters"])
