@@ -32,3 +32,33 @@ repos:
   rev: 0.27.0
   hooks:
   - id: check-github-workflows
+
+- repo: https://github.com/sirosen/texthooks
+  rev: 0.6.4
+  hooks:
+  - id: fix-smartquotes
+  - id: fix-spaces
+  - id: fix-ligatures
+  - id: forbid-bidi-controls
+
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.12.0
+  hooks:
+  - id: pretty-format-ini
+    args: [--autofix]
+  - id: pretty-format-yaml
+    args: [--autofix]
+    # For the labeler GitHub Action, labels with spaces in them must
+    # be put in quotes. However, the pretty-format-yaml hook will
+    # remove the quotes which will break that action, so we should not
+    # run this hook on `labeler.yml` (or certain other files).
+    exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.2.1
+  hooks:
+  - id: ruff
+    name: ruff (see https://docs.astral.sh/ruff/rules)
+    args: [--fix]
+  - id: ruff-format
+    name: autoformat source code with ruff formatter
