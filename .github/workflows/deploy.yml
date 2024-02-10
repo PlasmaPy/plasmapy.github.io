@@ -9,7 +9,7 @@ on:
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
-    name: 'Deploy Nikola to GitHub Pages'
+    name: Deploy Nikola to GitHub Pages
     steps:
     - name: Check out
       uses: actions/checkout@v3
