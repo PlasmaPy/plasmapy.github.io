@@ -29,12 +29,12 @@ repos:
     - tomli
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.27.4
+  rev: 0.28.1
   hooks:
   - id: check-github-workflows
 
 - repo: https://github.com/sirosen/texthooks
-  rev: 0.6.4
+  rev: 0.6.6
   hooks:
   - id: fix-smartquotes
   - id: fix-spaces
@@ -42,7 +42,7 @@ repos:
   - id: forbid-bidi-controls
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.12.0
+  rev: v2.13.0
   hooks:
   - id: pretty-format-ini
     args: [--autofix]
@@ -55,7 +55,7 @@ repos:
     exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.2.1
+  rev: v0.3.5
   hooks:
   - id: ruff
     name: ruff (see https://docs.astral.sh/ruff/rules)
