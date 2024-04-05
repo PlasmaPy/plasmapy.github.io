@@ -4,14 +4,14 @@ hidetitle: True
 
 # PlasmaPy Summer School 2024
 
-The PlasmaPy Community is excited to announce that the inaugural 
+The PlasmaPy Community is excited to announce that the inaugural
 PlasmaPy Summer School will be held from **July 29 to August 1, 2024**.
 
 
 
 ### Schedule
 
-The first three days will be from 
+The first three days will be from
 
 ### Overview
 
