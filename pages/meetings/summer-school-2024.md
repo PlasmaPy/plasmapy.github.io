@@ -14,6 +14,19 @@ school, which will be held from July 29 – August 1, 2024 at
 workshop will help participants learn how to contribute to an open
 source software project like PlasmaPy.
 
+## Topics
+
+We anticipate that the summer school will cover the following topics:
+
+- Introducing `astropy.units`
+- Using `plasmapy.particles` and `plasmapy.formulary`
+- Using `git` ang GitHub
+- Writing automated software tests
+- Writing documentation
+- PlasmaPy's code contribution workflow
+- Tips for writing clean scientific software
+- Psychological safety in code review
+
 ## Dates
 
 Monday, July 29 to Thursday, August 1
@@ -31,8 +44,6 @@ work alongside other participants and talk with PlasmaPy contributors
 to apply the lessons learned earlier in the week.
 
 ### Application process
-
-Please check back soon for application information.
 
 Space is limited for participation in the workshop in order to maximize
 interaction between instructors and participants. Once you [**submit your
