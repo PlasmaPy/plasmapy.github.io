@@ -32,6 +32,8 @@ to apply the lessons learned earlier in the week.
 
 ### Application process
 
+Please check back soon for application information.
+
 Space is limited for participation in the workshop in order to maximize
 interaction between instructors and participants. Once you [**submit your
 application**], it will be reviewed and you will be notified if your
