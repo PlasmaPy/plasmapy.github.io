@@ -32,19 +32,14 @@ hidetitle: True
     </div>
     <!-- Feature 3 -->
     <div class="feature-column">
-        <a class="feature-link" href="https://hack.plasmapy.org">
-        <div class="feature-card"
-              style="background-image: linear-gradient(rgba(255, 255, 255, 0.0),
-                                       rgba(255, 255, 255, 0.0)),
-                                       none;
-                     background-color: var(--plasmapy-darkblue)">
+        <a class="feature-link" href="meetings/summer-school-2024">
+        <div class="feature-card">
             <div>
-                <h1 style="color: #d8d8d8; margin-bottom: 18px">Hack Week</h1>
-                <img src="/images/hack_logo(v7).png" alt="" style="max-width: 90%">
+                <h1>PlasmaPy Summer School 2024</h1>
+                July 29 – August 1, 2024
             </div>
         </div>
         </a>
-    </div>
 </div>
 
 <br>
