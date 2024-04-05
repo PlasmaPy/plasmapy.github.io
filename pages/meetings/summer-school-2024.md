@@ -2,28 +2,43 @@ title: PlasmaPy Summer School 2024
 author: Nick Murphy
 hidetitle: True
 
+[Bryn Mawr College]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
+
+[**submit your application**]: https://docs.google.com/forms/d/e/1FAIpQLSe1TzcjX5y2NTXmKi1plu_N9ItaQAjY8C6r5amyMAHFNwSwwg/viewform?usp=sf_link
+
 # PlasmaPy Summer School 2024
 
-The PlasmaPy Community is excited to announce that the inaugural
-PlasmaPy Summer School will be held from **July 29 to August 1, 2024**.
+The PlasmaPy community is excited to announce its inaugural summer
+school, which will be held from July 29 – August 1, 2024 at
+[Bryn Mawr College]. After introducing how to use PlasmaPy, this
+workshop will help participants learn how to contribute to an open
+source software project like PlasmaPy.
 
+## Dates
 
+Monday, July 29 to Thursday, August 1
+
+## Location
+
+The summer school will be held at [Bryn Mawr College] in Bryn Mawr,
+Pennsylvania, USA (about a 30 minute drive from central Philadelphia).
 
 ### Schedule
 
-The first three days will be from
+Monday through Wednesday will include structured learning opportunities
+and live tutorials. Thursday will be an optional unstructured day to
+work alongside other participants and talk with PlasmaPy contributors
+to apply the lessons learned earlier in the week.
 
-### Overview
+### Application process
 
-PlasmaPy's weekly online community meeting is held on most Tuesdays at
-2 pm ET / 11 am PT.  This call is hosted on [Zoom] with agendas and
-minutes available on [HackMD].  The schedule is published on our
-[calendar].  Any last minute changes will be posted on our [Matrix
-chat].
+Space is limited for participation in the workshop in order to maximize
+interaction between instructors and participants. Once you [**submit your
+application**], it will be reviewed and you will be notified if your
+application is accepted.
 
-In 2024, we will not hold community meetings on April 16, May 22, or
-October 8.
+Travel funding is available through PlasmaPy's NSF grant for all domestic
+participants who are chosen, including airfare and accommodations. The
+workshop will also include meals (breakfast, lunch, and dinner).
 
-We will usually not hold community meetings on [federal holidays] in
-the US, the last two Tuesdays of December, the first Tuesday of
-January, or during the [APS DPP meeting].
+The due date for applications is Friday, May 24.

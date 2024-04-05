@@ -33,10 +33,16 @@ hidetitle: True
     <!-- Feature 3 -->
     <div class="feature-column">
         <a class="feature-link" href="meetings/summer-school-2024">
-        <div class="feature-card">
+        <div class="feature-card"
+              style="background-image: linear-gradient(rgba(255, 255, 255, 0.0),
+                                       rgba(255, 255, 255, 0.0)),
+                                       none;
+                     background-color: var(--plasmapy-darkblue)">
             <div>
-                <h1>PlasmaPy Summer School 2024</h1>
-                July 29 – August 1, 2024 at Bryn Mawr College
+                <h1 style="color: #d8d8d8">PlasmaPy Summer School 2024</h1>
+                <p style="color: #d8d8d8">
+                    July 29 – August 1, 2024 at Bryn Mawr College
+                </p>
             </div>
         </div>
         </a>
