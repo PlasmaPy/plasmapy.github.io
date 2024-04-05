@@ -36,10 +36,11 @@ hidetitle: True
         <div class="feature-card">
             <div>
                 <h1>PlasmaPy Summer School 2024</h1>
-                July 29 – August 1, 2024
+                July 29 – August 1, 2024 at Bryn Mawr College
             </div>
         </div>
         </a>
+    </div>
 </div>
 
 <br>
