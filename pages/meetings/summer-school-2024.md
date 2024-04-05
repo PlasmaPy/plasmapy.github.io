@@ -42,3 +42,7 @@ participants who are chosen, including airfare and accommodations. The
 workshop will also include meals (breakfast, lunch, and dinner).
 
 The due date for applications is Friday, May 24.
+
+### Contact information
+
+If you have questions, please feel free to email namurphy@plasmapy.org.

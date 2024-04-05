@@ -1,4 +1,4 @@
-title: PlasmaPy "Office" Hours
+title: PlasmaPy Office Hours
 author: Nick Murphy
 hidetitle: True
 
@@ -8,13 +8,13 @@ hidetitle: True
 [federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
 [APS DPP meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
 
-# PlasmaPy "Office" Hours
+# PlasmaPy Office Hours
 
 Do you have a question about PlasmaPy?  Would you like to learn how to
 become active in the PlasmaPy project?  Do you have an idea for a
 great new feature or want to start an affiliated package?
 
-If so, then **please join us for informal PlasmaPy "office" hours on
+If so, then **please join us for informal PlasmaPy office hours on
 most Thursdays at 3 pm ET / 12 pm PT**.  We will meet on [Zoom].  The
 schedule is published on our [calendar].  Any last minute changes will
 be posted on our [Matrix chat].
@@ -27,5 +27,5 @@ last two Thursdays of December, the first Thursday in January, or
 during the [APS DPP meeting].
 
 PlasmaPy developers can be reached at other times via the [Matrix
-chat], in particular if the time for "office" hours does not work for
+chat], in particular if the time for office hours does not work for
 you.
