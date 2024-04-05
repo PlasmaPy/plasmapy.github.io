@@ -1,7 +1,7 @@
 _site
 *.py[cod]
 .DS_Store
-.doit.db
+.doit.db*
 .doit.db.db
 cache/
 output/
