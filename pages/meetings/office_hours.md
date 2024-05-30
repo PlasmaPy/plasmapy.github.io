@@ -15,12 +15,12 @@ become active in the PlasmaPy project? Do you have an idea for a great
 new feature or want to start an affiliated package?
 
 If so, then **please join us for informal PlasmaPy office hours on
-most Thursdays from 3–3:45 pm ET (12–12:45 pm PT)**. We will meet on
+most Wednesdays from 1–2 pm ET (10–11 am PT)**. We will meet on
 [Zoom]. The schedule is published on our [calendar]. Any last minute
 changes will be posted on our [Matrix chat].
 
-In 2024, we will not hold office hours on May 23 & 30, June 6, August
-1 & 8, and October 10.
+In 2024, we will not hold office hours on June 19, July 31, October 9
+& 16, November 13 & 27, and December 25.
 
 We will not hold office hours on [federal holidays] in the US, the
 last two Thursdays of December, the first Thursday in January, or
