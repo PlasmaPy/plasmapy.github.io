@@ -10,10 +10,10 @@ hidetitle: True
 [APS DPP meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
 
 # Weekly PlasmaPy Community Meeting
-#### Tuesdays at 2 pm ET / 11 am PT
+#### Wednesdays at 12 pm ET / 9 am PT
 
 **Where:** [on Zoom][Zoom] <br/>
-**Time:** Tuesdays at 2 pm ET / 11 am PT <br/>
+**Time:** Wednesdays at 12 pm ET / 9 am PT <br/>
 **Minutes & Agenda:** on [HackMD] <br/>
 **Calendar:** [on Google Calendar][calendar] <br/>
 <br/><br/>
@@ -21,13 +21,13 @@ hidetitle: True
 ### Overview
 
 PlasmaPy's weekly online community meeting is held on most Tuesdays at
-2 pm ET / 11 am PT.  This call is hosted on [Zoom] with agendas and
+12 pm ET / 9 am PT.  This call is hosted on [Zoom] with agendas and
 minutes available on [HackMD].  The schedule is published on our
 [calendar].  Any last minute changes will be posted on our [Matrix
 chat].
 
-In 2024, we will not hold community meetings on April 16, May 22, or
-October 8.
+In 2024, we will not have community meetings on June 19, July 31,
+October 9 & 16, November 13 & 27, and December 25.
 
 We will usually not hold community meetings on [federal holidays] in
 the US, the last two Tuesdays of December, the first Tuesday of
