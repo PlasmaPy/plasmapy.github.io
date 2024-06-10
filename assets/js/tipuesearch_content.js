@@ -1,6 +1,18 @@
 var tipuesearch = {
   "pages": [
     {
+      "title": "PlasmaPy Summer School 2024",
+      "text": "PlasmaPy Summer School 2024\nThe PlasmaPy community is excited to announce its inaugural summer\nschool, which will be held from July 29 \u2013 August 1, 2024 at\nBryn Mawr College. After introducing how to use PlasmaPy, this\nworkshop will help participants learn how to contribute to an open\nsource software project like PlasmaPy.\nDates\nMonday, July 29 to Thursday, August 1\nLocation\nThe summer school will be held at Bryn Mawr College in Bryn Mawr,\nPennsylvania, USA (about a 30 minute drive from central Philadelphia).\nSchedule\nMonday through Wednesday will include structured learning opportunities\nand live tutorials. Thursday will be an optional unstructured day to\nwork alongside other participants and talk with PlasmaPy contributors\nto apply the lessons learned earlier in the week.\nApplication process\nThe application period for the summer school has now closed.\nThank you to everyone who applied! Due to the number of applications,\nwe expect to notify applicants if their application is accepted in the\nweek of June 3.\nTravel support\nTravel funding is available through PlasmaPy's NSF grant for all\nparticipants who are chosen, including airfare and accommodations. The\nworkshop will also include provided meals.\nContact information\nIf you have questions, please feel free to email namurphy@plasmapy.org.",
+      "tags": "",
+      "url": "https://www.plasmapy.org/meetings/summer-school-2024/"
+    },
+    {
+      "title": "Weekly PlasmaPy Community Meeting",
+      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nWhere: on Zoom \nTime: Tuesdays at 2 pm ET / 11 am PT \nMinutes & Agenda: on HackMD \nCalendar: on Google Calendar \n\nOverview\nPlasmaPy's weekly online community meeting is held on most Tuesdays at\n2 pm ET / 11 am PT.  This call is hosted on Zoom with agendas and\nminutes available on HackMD.  The schedule is published on our\ncalendar.\nIn 2024, we will not hold community meetings on June 11, July 30, or\nOctober 8.\nWe will not hold community meetings on federal holidays in the US,\nthe last two Tuesdays of December, the first Tuesday of January, or\nduring the APS DPP meeting.",
+      "tags": "",
+      "url": "https://www.plasmapy.org/meetings/weekly/"
+    },
+    {
       "title": "About the PlasmaPy Project",
       "text": "About PlasmaPy\nThe mission of the PlasmaPy Project is to foster the creation of a\nfully open source software ecosystem for plasma research and\neducation.  The PlasmaPy core package intends to be for plasma\nscience what Astropy is for astronomy \u2014 a collection of\nfunctionality commonly used and shared between plasma physicists and\nresearchers globally, running within and leveraging the open source\nscientific Python ecosystem.",
       "tags": "",
@@ -56,21 +68,9 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Office Hours",
-      "text": "PlasmaPy Office Hours\nDo you have a question about PlasmaPy? Would you like to learn how to\nbecome active in the PlasmaPy project? Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy office hours on\nmost Thursdays from 3\u20133:45 pm ET (12\u201312:45 pm PT). We will meet on\nZoom. The schedule is published on our calendar. Any last minute\nchanges will be posted on our Matrix chat.\nIn 2024, we will not hold office hours on May 23 & 30, June 6, August\n1 & 8, and October 10.\nWe will not hold office hours on federal holidays in the US, the\nlast two Thursdays of December, the first Thursday in January, or\nduring the APS DPP meeting.\nPlasmaPy developers can be reached at other times via the Matrix\nchat, in particular if the time for office hours does not work for\nyou.",
+      "text": "PlasmaPy Office Hours\nDo you have a question about PlasmaPy? Would you like to learn how to\nbecome active in the PlasmaPy project? Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy office hours on\nmost Thursdays from 3\u20133:45 pm ET (12\u201312:45 pm PT). We will meet on\nZoom. The schedule is published on our calendar.\nIn 2024, we will not hold office hours on June 20, August 1 & 8, or\nOctober 10.\nWe will not hold office hours on federal holidays in the US, the\nlast two Thursdays of December, the first Thursday in January, or\nduring the APS DPP meeting.\nPlasmaPy developers can be reached at other times via the Matrix\nchat, in particular if the time for office hours does not work for\nyou.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/office_hours/"
-    },
-    {
-      "title": "PlasmaPy Summer School 2024",
-      "text": "PlasmaPy Summer School 2024\nThe PlasmaPy community is excited to announce its inaugural summer\nschool, which will be held from July 29 \u2013 August 1, 2024 at\nBryn Mawr College. After introducing how to use PlasmaPy, this\nworkshop will help participants learn how to contribute to an open\nsource software project like PlasmaPy.\nDates\nMonday, July 29 to Thursday, August 1\nLocation\nThe summer school will be held at Bryn Mawr College in Bryn Mawr,\nPennsylvania, USA (about a 30 minute drive from central Philadelphia).\nSchedule\nMonday through Wednesday will include structured learning opportunities\nand live tutorials. Thursday will be an optional unstructured day to\nwork alongside other participants and talk with PlasmaPy contributors\nto apply the lessons learned earlier in the week.\nApplication process\nThe application period for the summer school has now closed.\nThank you to everyone who applied! Due to the number of applications,\nwe expect to notify applicants if their application is accepted in the\nweek of June 3.\nTravel support\nTravel funding is available through PlasmaPy's NSF grant for all\nparticipants who are chosen, including airfare and accommodations. The\nworkshop will also include provided meals.\nContact information\nIf you have questions, please feel free to email namurphy@plasmapy.org.",
-      "tags": "",
-      "url": "https://www.plasmapy.org/meetings/summer-school-2024/"
-    },
-    {
-      "title": "Weekly PlasmaPy Community Meeting",
-      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nWhere: on Zoom \nTime: Tuesdays at 2 pm ET / 11 am PT \nMinutes & Agenda: on HackMD \nCalendar: on Google Calendar \n\nOverview\nPlasmaPy's weekly online community meeting is held on most Tuesdays at\n2 pm ET / 11 am PT.  This call is hosted on Zoom with agendas and\nminutes available on HackMD.  The schedule is published on our\ncalendar.  Any last minute changes will be posted on our Matrix\nchat.\nIn 2024, we will not hold community meetings on April 16, May 22, or\nOctober 8.\nWe will usually not hold community meetings on federal holidays in\nthe US, the last two Tuesdays of December, the first Tuesday of\nJanuary, or during the APS DPP meeting.",
-      "tags": "",
-      "url": "https://www.plasmapy.org/meetings/weekly/"
     },
     {
       "title": "PlasmaPy v0.6.0 release!",
