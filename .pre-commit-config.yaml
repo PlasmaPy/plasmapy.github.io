@@ -28,6 +28,12 @@ repos:
     additional_dependencies:
     - tomli
 
+- repo: https://github.com/crate-ci/typos
+  rev: v1.22.0
+  hooks:
+  - id: typos
+    name: typos (add false positives to _typos.toml)
+
 - repo: https://github.com/python-jsonschema/check-jsonschema
   rev: 0.28.4
   hooks:
