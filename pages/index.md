@@ -88,7 +88,7 @@ If you are unfamiliar with Python, please check out the
 
 ## Learn PlasmaPy
 
-[PlasmaPy's documentation](http://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html).
+[PlasmaPy's documentation](https://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html).
 
 ## Get Help
 
@@ -100,7 +100,7 @@ longer discussions on more detailed topics.
 
 ## Contribute and Report Bugs
 
-Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Feature_request.md), [reporting bugs](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Bug_report.md), and [offering suggestions](https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform) are some of the most helpful ways to contribute to the ongoing development of PlasmaPy.  The documentation discusses how to [contribute code and documentation](http://docs.plasmapy.org/en/latest/CONTRIBUTING.html) to PlasmaPy and contains a [development guide](http://docs.plasmapy.org/en/latest/development/index.html).
+Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Feature_request.md), [reporting bugs](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Bug_report.md), and [offering suggestions](https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform) are some of the most helpful ways to contribute to the ongoing development of PlasmaPy.  The documentation discusses how to [contribute code and documentation](https://docs.plasmapy.org/en/latest/CONTRIBUTING.html) to PlasmaPy and contains a [development guide](https://docs.plasmapy.org/en/latest/development/index.html).
 
 ## Acknowledgments
 
