@@ -1,3 +1,2 @@
-Nikola
-watchdog
+Nikola[extras]
 webassets
