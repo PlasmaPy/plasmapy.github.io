@@ -25,7 +25,6 @@ SITE_URL = "https://www.plasmapy.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BASE_URL = "https://www.plasmapy.org/"
-BENCHMARKS = "https://www.plasmapy.org/plasmapy-benchmarks/"
 CITATION_INSTRUCTIONS = "https://docs.plasmapy.org/en/stable/about/citation.html"
 CODE_OF_CONDUCT = "https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html"
 DOCS = "https://docs.plasmapy.org/"
@@ -1020,7 +1019,6 @@ CONTENT_FOOTER_FORMATS = {
             "facebook": FACEBOOK,
             "youtube": YOUTUBE_CHANNEL,
             "chat": CHAT,
-            "benchmarks": BENCHMARKS,
         },
     )
 }
