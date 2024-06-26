@@ -11,6 +11,7 @@ on:
 
 jobs:
   test-build:
+    name: ${{ matrix.name }}
     runs-on: ubuntu-latest
 
     strategy:
