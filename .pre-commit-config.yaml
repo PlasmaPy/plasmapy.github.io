@@ -5,7 +5,7 @@ ci:
 repos:
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.5.0
+  rev: v4.6.0
   hooks:
   - id: trailing-whitespace
   - id: end-of-file-fixer
@@ -21,15 +21,23 @@ repos:
   - id: mixed-line-ending
 
 - repo: https://github.com/codespell-project/codespell
-  rev: v2.2.6
+  rev: v2.3.0
   hooks:
   - id: codespell
     args: [--write-changes]
     additional_dependencies:
     - tomli
+    exclude: _typos.toml
+
+- repo: https://github.com/crate-ci/typos
+  rev: v1.22.0
+  hooks:
+  - id: typos
+    name: typos (add false positives to _typos.toml)
+    exclude: plugins
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.28.1
+  rev: 0.28.4
   hooks:
   - id: check-github-workflows
 
@@ -55,7 +63,7 @@ repos:
     exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.3.5
+  rev: v0.4.7
   hooks:
   - id: ruff
     name: ruff (see https://docs.astral.sh/ruff/rules)

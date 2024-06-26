@@ -4,8 +4,6 @@ hidetitle: True
 
 [Bryn Mawr College]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
 
-[**submit your application**]: https://docs.google.com/forms/d/e/1FAIpQLSe1TzcjX5y2NTXmKi1plu_N9ItaQAjY8C6r5amyMAHFNwSwwg/viewform?usp=sf_link
-
 # PlasmaPy Summer School 2024
 
 The PlasmaPy community is excited to announce its inaugural summer
@@ -45,16 +43,17 @@ to apply the lessons learned earlier in the week.
 
 ### Application process
 
-Space is limited for participation in the workshop in order to maximize
-interaction between instructors and participants. Once you [**submit your
-application**], it will be reviewed and you will be notified if your
-application is accepted.
+The application period for the summer school has now closed.
 
-Travel funding is available through PlasmaPy's NSF grant for all domestic
+Thank you to everyone who applied! Due to the number of applications,
+we expect to notify applicants if their application is accepted in the
+week of June 3.
+
+### Travel support
+
+Travel funding is available through PlasmaPy's NSF grant for all
 participants who are chosen, including airfare and accommodations. The
-workshop will also include meals (breakfast, lunch, and dinner).
-
-The due date for applications is Friday, May 24.
+workshop will also include provided meals.
 
 ### Contact information
 
