@@ -991,7 +991,6 @@ CONTENT_FOOTER = (
     '- <a href="{facebook}">Facebook</a> '
     '- <a href="{youtube}">YouTube</a> '
     '- <a href="{chat}">Chat</a> '
-    '- <a href="{benchmarks}">Benchmarks</a> '
     '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 )
 
