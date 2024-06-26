@@ -25,10 +25,10 @@ SITE_URL = "https://www.plasmapy.org/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BASE_URL = "https://www.plasmapy.org/"
-BENCHMARKS = "http://www.plasmapy.org/plasmapy-benchmarks/"
+BENCHMARKS = "https://www.plasmapy.org/plasmapy-benchmarks/"
 CITATION_INSTRUCTIONS = "https://docs.plasmapy.org/en/stable/about/citation.html"
 CODE_OF_CONDUCT = "https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html"
-DOCS = "http://docs.plasmapy.org/"
+DOCS = "https://docs.plasmapy.org/"
 FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
@@ -297,7 +297,7 @@ TIMEZONE = "UTC+2"
 # FORCE_ISO8601 = False
 
 # Date format used to display post dates. (translatable)
-# Used by babel.dates, CLDR style: http://cldr.unicode.org/translation/date-time
+# Used by babel.dates, CLDR style: https://cldr.unicode.org/translation/date-time
 # You can also use 'full', 'long', 'medium', or 'short'
 # DATE_FORMAT = 'yyyy-MM-dd HH:mm'
 
@@ -360,7 +360,7 @@ COMPILERS = {
 
 # Enable reST directives that insert the contents of external files such
 # as "include" and "raw." This maps directly to the docutils file_insertion_enabled
-# config. See: http://docutils.sourceforge.net/docs/user/config.html#file-insertion-enabled
+# config. See: https://docutils.sourceforge.net/docs/user/config.html#file-insertion-enabled
 # REST_FILE_INSERTION_ENABLED = True
 
 # Create by default posts in one file format?
@@ -812,7 +812,7 @@ GITHUB_COMMIT_SOURCE = False
 # fields you want to keep in images. (See also PRESERVE_EXIF_DATA)
 #
 # For a full list of field names, please see here:
-# http://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
+# https://www.cipa.jp/std/documents/e/DC-008-2012_E.pdf
 #
 # This is a dictionary of lists. Each key in the dictionary is the
 # name of a IDF, and each list item is a field you want to preserve.
@@ -1058,7 +1058,7 @@ COMMENT_SYSTEM_ID = ""
 # INDEX_FILE = "index.html"
 
 # If a link ends in /index.html,  drop the index.html part.
-# http://mysite/foo/bar/index.html => http://mysite/foo/bar/
+# https://mysite/foo/bar/index.html => https://mysite/foo/bar/
 # (Uses the INDEX_FILE setting, so if that is, say, default.html,
 # it will instead /foo/default.html => /foo)
 STRIP_INDEXES = True
@@ -1088,7 +1088,7 @@ PRETTY_URLS = True
 # DEPLOY_DRAFTS = True
 
 # Allows scheduling of posts using the rule specified here (new_post -s)
-# Specify an iCal Recurrence Rule: http://www.kanzaki.com/docs/ical/rrule.html
+# Specify an iCal Recurrence Rule: https://www.kanzaki.com/docs/ical/rrule.html
 # SCHEDULE_RULE = ''
 # If True, use the scheduling rule to all posts (not pages!) by default
 # SCHEDULE_ALL = False
