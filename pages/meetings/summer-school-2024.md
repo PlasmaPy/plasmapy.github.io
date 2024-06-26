@@ -45,10 +45,6 @@ to apply the lessons learned earlier in the week.
 
 The application period for the summer school has now closed.
 
-Thank you to everyone who applied! Due to the number of applications,
-we expect to notify applicants if their application is accepted in the
-week of June 3.
-
 ### Travel support
 
 Travel funding is available through PlasmaPy's NSF grant for all
