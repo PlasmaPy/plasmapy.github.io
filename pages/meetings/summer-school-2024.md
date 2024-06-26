@@ -3,6 +3,7 @@ author: Nick Murphy
 hidetitle: True
 
 [Bryn Mawr College]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
+[PlasmaPy]: https://docs.plasmapy.org
 
 # PlasmaPy Summer School 2024
 
@@ -16,13 +17,12 @@ source software project like PlasmaPy.
 
 We anticipate that the summer school will cover the following topics:
 
+- Overview of [PlasmaPy]
+- Using `git` and GitHub
 - Introducing `astropy.units`
 - Using `plasmapy.particles` and `plasmapy.formulary`
-- Using `git` ang GitHub
 - Writing automated software tests
 - Writing documentation
-- PlasmaPy's code contribution workflow
-- Tips for writing clean scientific software
 - Psychological safety in code review
 
 ## Dates
@@ -43,7 +43,8 @@ to apply the lessons learned earlier in the week.
 
 ### Application process
 
-The application period for the summer school has now closed.
+The application period for the summer school has now closed. Thank you
+to everyone who applied!
 
 ### Travel support
 
