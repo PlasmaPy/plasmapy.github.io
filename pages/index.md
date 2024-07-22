@@ -92,19 +92,12 @@ functionality.
 
 PlasmaPy may be installed from the command line using [`pip`]:
 
-```shell
+```bash
 pip install plasmapy
 ```
 
 **Note:** If you run into difficulty using `pip`, you may also try using
 `pip3` or `python -m pip` or `python3 -m pip` as the command.
-
-If you have a working installation of [`conda`], then you may install
-PlasmaPy with:
-
-```shell
-conda install -c conda-forge plasmapy
-```
 
 [PlasmaPy's documentation] contains more detailed [installation
 instructions]. If you are unfamiliar with Python, please check out the
@@ -125,11 +118,9 @@ longer discussions on more detailed topics.
 
 There are [many ways to contribute] to an open source project, including
 making [feature requests], [submitting bug reports], and organizing
-events.
-
-PlasmaPy's [**contributor guide**] covers [getting ready to contribute],
-the [code contribution workflow], [coding guidelines], [writing
-documentation], and [writing tests].
+events. PlasmaPy's [**contributor guide**] covers [getting ready to
+contribute], the [code contribution workflow], [coding guidelines],
+[writing tests], and [writing documentation].
 
 ## Acknowledgments
 
