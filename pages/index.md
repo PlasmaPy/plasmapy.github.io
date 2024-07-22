@@ -69,7 +69,7 @@ hidetitle: True
 [coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
 [**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
 [Element chat room]: https://app.element.io/#/room/#plasmapy:openastronomy.org
-[feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Feature_request.md
+[feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=feature+request&projects=&template=feature_request.yml
 [gallery of example notebooks]: https://docs.plasmapy.org/en/stable/examples.html
 [getting ready to contribute]: https://docs.plasmapy.org/en/latest/contributing/getting_ready.html
 [GitHub Discussions]: https://github.com/PlasmaPy/PlasmaPy/discussions
@@ -77,7 +77,7 @@ hidetitle: True
 [many ways to contribute]: https://docs.plasmapy.org/en/latest/contributing/many_ways.html
 [PlasmaPy's documentation]: https://docs.plasmapy.org/en/stable
 [Python]: https://www.python.org
-[reporting bugs]: https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Bug_report.md
+[submitting bug reports]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml
 [writing documentation]: https://docs.plasmapy.org/en/latest/contributing/doc_guide.html
 [writing tests]: https://docs.plasmapy.org/en/latest/contributing/testing_guide.html
 
@@ -92,7 +92,7 @@ functionality.
 
 PlasmaPy may be installed from the command line using [pip]:
 
-```shell
+```bash
 pip install plasmapy
 ```
 
@@ -125,11 +125,9 @@ longer discussions on more detailed topics.
 
 There are [many ways to contribute] to an open source project, including
 making [feature requests], [submitting bug reports], and organizing
-events.
-
-PlasmaPy's [**contributor guide**] covers [getting ready to contribute],
-the [code contribution workflow], [coding guidelines], [writing
-documentation], and [writing tests].
+events. PlasmaPy's [**contributor guide**] covers [getting ready to
+contribute], the [code contribution workflow], [coding guidelines],
+[writing tests], and [writing documentation].
 
 ## Acknowledgments
 
