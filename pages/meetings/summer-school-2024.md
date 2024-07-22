@@ -78,11 +78,12 @@ accommodate dietary restrictions.
 
 ## Applications
 
-The application process is now closed. Thank you to everyone who applied!
+The application process is now closed, having had 82 applicants for 25
+available spots. Thank you to everyone who applied!
 
 ## Contact information
 
-If you have questions, please feel free to email team@plasmapy.org.
+If you have questions, please feel free to email <team@plasmapy.org>.
 
 ## Acknowledgments
 
