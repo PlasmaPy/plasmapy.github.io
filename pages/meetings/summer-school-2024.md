@@ -4,54 +4,87 @@ hidetitle: True
 
 [Bryn Mawr College]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
 [PlasmaPy]: https://docs.plasmapy.org
+[**schedule**]: https://docs.google.com/spreadsheets/d/1avWQ2Lb1zc9v71E5oUrCVlY1UwFLWiD4U_vHdzQDFog/edit?usp=sharing
+[unconference]: https://en.wikipedia.org/wiki/Unconference
 
 # PlasmaPy Summer School 2024
 
-The PlasmaPy community is excited to announce its inaugural summer
-school, which will be held from July 29 – August 1, 2024 at
-[Bryn Mawr College]. After introducing how to use PlasmaPy, this
+The PlasmaPy community is hosting its inaugural summer school at [Bryn
+Mawr College] in Bryn Mar, Pennsylvania, USA (about a 30 minute drive
+from central Philadelphia). After introducing how to use PlasmaPy, this
 workshop will help participants learn how to contribute to an open
-source software project like PlasmaPy.
+source software project.
 
-## Topics
+## Schedule
 
-We anticipate that the summer school will cover the following topics:
+Please click here for the [**schedule**] for the PlasmaPy summer school,
+which is being held from Monday, July 29 to Thursday, August 1.
 
-- Overview of [PlasmaPy]
+The summer school will cover the following topics:
+
+- [PlasmaPy]'s origin story
+- Contributing to an open source project
 - Using `git` and GitHub
-- Introducing `astropy.units`
-- Using `plasmapy.particles` and `plasmapy.formulary`
-- Writing automated software tests
+- Writing clean code
+- [`astropy.units`](https://docs.astropy.org/en/stable/units)
+- [`plasmapy.particles`](https://docs.plasmapy.org/en/stable/particles/index.html), [`plasmapy.formulary`](https://docs.plasmapy.org/en/stable/formulary/index.html), and [`plasmapy.dispersion`](https://docs.plasmapy.org/en/latest/dispersion/index.html)
+- Psychological safety and code review
 - Writing documentation
-- Psychological safety in code review
+- Testing software
+- Code contribution tips
 
-## Dates
+The schedule includes small group discussions for people at similar
+career/educational stages, [unconference] sessions, and time for pair
+programming or contributing.
 
-Monday, July 29 to Thursday, August 1
+## Logistics
 
-## Location
+### Lodging
 
-The summer school will be held at [Bryn Mawr College] in Bryn Mawr,
-Pennsylvania, USA (about a 30 minute drive from central Philadelphia).
+[Wayne Hotel]: https://waynehotel.com/directions/
 
-### Schedule
+All selected participants will be staying at the [Wayne Hotel] (139 East
+Lancaster Avenue, Wayne, PA 19087), which is about 15 minutes from Bryn
+Mawr College by car. Accommodations have already been arranged by the
+College; when you arrive, participants will only need to provide their
+name and that they are part of Bryn Mawr College's PlasmaPy school. You
+may also be asked to provide a credit or debit card for incidentals —
+the travel reimbursement will not include any charges to the room beyond
+the nightly housing rate and taxes.
 
-Monday through Wednesday will include structured learning opportunities
-and live tutorials. Thursday will be an optional unstructured day to
-work alongside other participants and talk with PlasmaPy contributors
-to apply the lessons learned earlier in the week.
+### Transportation
 
-### Application process
+Bus transportation has been arranged between the [Wayne Hotel] and the
+school location on Bryn Mawr's campus.
 
-The application period for the summer school has now closed. Thank you
-to everyone who applied!
+**A Bryn Mawr bus will leave from the hotel at 8:15 am every morning of
+the workshop (Mon–Thurs) to take participants to campus and a return bus
+to the hotel will leave at 6:40pm after dinner.**
 
-### Travel support
+If you miss the bus and need to take taxi or ride share transportation
+to the campus/hotel, note that this cannot be reimbursed. Only arrival
+and departure road transportation (i.e., to/from the airport) can be
+reimbursed.
 
-Travel funding is available through PlasmaPy's NSF grant for all
-participants who are chosen, including airfare and accommodations. The
-workshop will also include provided meals.
+### Meals
 
-### Contact information
+There is breakfast available at the Wayne Hotel but there will also be
+light continental breakfast and coffee provided before the beginning of
+each day's sessions. Lunches will be at the on-campus dining hall which
+is buffet style and typically can accommodate all dietary restrictions.
+Dinners will be provided at Bryn Mawr College's on campus restaurant,
+Wyndham House. Similarly a selection of menu items will be provided to
+accommodate dietary restrictions.
 
-If you have questions, please feel free to email namurphy@plasmapy.org.
+## Applications
+
+The application process is now closed. Thank you to everyone who applied!
+
+## Contact information
+
+If you have questions, please feel free to email team@plasmapy.org.
+
+## Acknowledgments
+
+This summer school is being supported by NSF awards 1931388, 1931393,
+1931429, and 1931435.
