@@ -63,8 +63,8 @@ hidetitle: True
 
 <br/>
 
-[`conda`]: https://docs.conda.io/en/latest
-[`pip`]: https://pip.pypa.io/en/stable
+[conda]: https://docs.conda.io/en/latest
+[pip]: https://pip.pypa.io/en/stable
 [code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
 [coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
 [**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
@@ -90,7 +90,7 @@ functionality.
 
 ## Install PlasmaPy
 
-PlasmaPy may be installed from the command line using [`pip`]:
+PlasmaPy may be installed from the command line using [pip]:
 
 ```bash
 pip install plasmapy
