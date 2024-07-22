@@ -63,45 +63,78 @@ hidetitle: True
 
 <br/>
 
-The goal of the PlasmaPy Project is to foster the creation of an open source [Python](https://www.python.org/) ecosystem for plasma research and education.  The PlasmaPy package contains core functionality for this software ecosystem, while affiliated packages will contain more specialized functionality.
+[`conda`]: https://docs.conda.io/en/latest
+[`pip`]: https://pip.pypa.io/en/stable
+[code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
+[coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
+[**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
+[Element chat room]: https://app.element.io/#/room/#plasmapy:openastronomy.org
+[feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Feature_request.md
+[gallery of example notebooks]: https://docs.plasmapy.org/en/stable/examples.html
+[getting ready to contribute]: https://docs.plasmapy.org/en/latest/contributing/getting_ready.html
+[GitHub Discussions]: https://github.com/PlasmaPy/PlasmaPy/discussions
+[installation instructions]: https://docs.plasmapy.org/en/latest/install.html
+[many ways to contribute]: https://docs.plasmapy.org/en/latest/contributing/many_ways.html
+[PlasmaPy's documentation]: https://docs.plasmapy.org/en/stable
+[Python]: https://www.python.org
+[reporting bugs]: https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Bug_report.md
+[writing documentation]: https://docs.plasmapy.org/en/latest/contributing/doc_guide.html
+[writing tests]: https://docs.plasmapy.org/en/latest/contributing/testing_guide.html
+
+
+The goal of the PlasmaPy Project is to foster the creation of an open
+source [Python] ecosystem for plasma research and education. The
+PlasmaPy package contains core functionality for this software
+ecosystem, while affiliated packages will contain more specialized
+functionality.
 
 ## Install PlasmaPy
 
-PlasmaPy may be installed from the command line using [`pip`](https://pip.pypa.io/en/stable/):
+PlasmaPy may be installed from the command line using [`pip`]:
 
 ```shell
 pip install plasmapy
 ```
 
-**Note:** If you run into difficulty using `pip`, you may also try using `pip3` or `python -m pip` or `python3 -m pip` as the command.
+**Note:** If you run into difficulty using `pip`, you may also try using
+`pip3` or `python -m pip` or `python3 -m pip` as the command.
 
-If you have a working installation of [conda](https://docs.conda.io/en/latest/), then you may install PlasmaPy with
+If you have a working installation of [`conda`], then you may install
+PlasmaPy with:
 
 ```shell
 conda install -c conda-forge plasmapy
 ```
 
-[PlasmaPy's online documentation](https://docs.plasmapy.org/) contains more
-detailed [installation instructions](https://docs.plasmapy.org/en/latest/install.html).
-If you are unfamiliar with Python, please check out the
-[Python website](https://www.python.org/) for more information.
+[PlasmaPy's documentation] contains more detailed [installation
+instructions]. If you are unfamiliar with Python, please check out the
+[Python] website.
 
 ## Learn PlasmaPy
 
-[PlasmaPy's documentation](https://docs.plasmapy.org/en/latest) describes how to use PlasmaPy and provides several [examples](https://docs.plasmapy.org/en/latest/examples.html).
+[PlasmaPy's documentation] describes how to use PlasmaPy and includes a
+[gallery of example notebooks].
 
 ## Get Help
 
-The quickest way to reach PlasmaPy users and developers is through [PlasmaPy's
-Element chat room](https://app.element.io/#/room/#plasmapy:openastronomy.org).
-[PlasmaPy's GitHub Discussions
-page](https://github.com/PlasmaPy/PlasmaPy/discussions) is an ideal place for
+The quickest way to reach PlasmaPy users and developers is in PlasmaPy's
+[Element chat room]. The [GitHub Discussions] page is an ideal place for
 longer discussions on more detailed topics.
 
 ## Contribute and Report Bugs
 
-Making [feature requests](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Feature_request.md), [reporting bugs](https://github.com/PlasmaPy/PlasmaPy/issues/new?template=Bug_report.md), and [offering suggestions](https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform) are some of the most helpful ways to contribute to the ongoing development of PlasmaPy.  The documentation discusses how to [contribute code and documentation](https://docs.plasmapy.org/en/latest/CONTRIBUTING.html) to PlasmaPy and contains a [development guide](https://docs.plasmapy.org/en/latest/development/index.html).
+There are [many ways to contribute] to an open source project, including
+making [feature requests], [submitting bug reports], and organizing
+events.
+
+PlasmaPy's [**contributor guide**] covers [getting ready to contribute],
+the [code contribution workflow], [coding guidelines], [writing
+documentation], and [writing tests].
 
 ## Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National Science Foundation, with many contributions from the broader plasma physics and open source communities.  Past development of PlasmaPy has been supported by the U.S. Department of Energy, the Smithsonian Institution, NASA, and Google Summer of Code.
+Ongoing development of PlasmaPy is supported by the U.S. National
+Science Foundation, with many contributions from the broader plasma
+physics and open source communities. Past development of PlasmaPy has
+been supported by the U.S. Department of Energy, the Smithsonian
+Institution, NASA, and Google Summer of Code.
