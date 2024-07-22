@@ -63,8 +63,8 @@ hidetitle: True
 
 <br/>
 
-[`conda`]: https://docs.conda.io/en/latest
-[`pip`]: https://pip.pypa.io/en/stable
+[conda]: https://docs.conda.io/en/latest
+[pip]: https://pip.pypa.io/en/stable
 [code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
 [coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
 [**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
@@ -90,7 +90,7 @@ functionality.
 
 ## Install PlasmaPy
 
-PlasmaPy may be installed from the command line using [`pip`]:
+PlasmaPy may be installed from the command line using [pip]:
 
 ```bash
 pip install plasmapy
@@ -98,6 +98,13 @@ pip install plasmapy
 
 **Note:** If you run into difficulty using `pip`, you may also try using
 `pip3` or `python -m pip` or `python3 -m pip` as the command.
+
+If you have a working installation of [conda], then you may install
+PlasmaPy with:
+
+```shell
+conda install -c conda-forge plasmapy
+```
 
 [PlasmaPy's documentation] contains more detailed [installation
 instructions]. If you are unfamiliar with Python, please check out the
