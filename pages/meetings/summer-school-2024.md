@@ -6,6 +6,7 @@ hidetitle: True
 [PlasmaPy]: https://docs.plasmapy.org
 [**schedule**]: https://docs.google.com/spreadsheets/d/1avWQ2Lb1zc9v71E5oUrCVlY1UwFLWiD4U_vHdzQDFog/edit?usp=sharing
 [unconference]: https://en.wikipedia.org/wiki/Unconference
+[PlasmaPy Code of Conduct]: https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html
 
 # PlasmaPy Summer School 2024
 
@@ -14,6 +15,8 @@ Mawr College] in Bryn Mar, Pennsylvania, USA (about a 30 minute drive
 from central Philadelphia). After introducing how to use PlasmaPy, this
 workshop will help participants learn how to contribute to an open
 source software project.
+
+This summer school will fall under the [PlasmaPy Code of Conduct].
 
 ## Schedule
 
