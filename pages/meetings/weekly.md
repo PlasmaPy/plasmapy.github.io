@@ -25,8 +25,7 @@ PlasmaPy's weekly online community meeting is held on most Tuesdays at
 minutes available on [HackMD].  The schedule is published on our
 [calendar].
 
-In 2024, we will not hold community meetings on June 11, July 30, August
-13, or October 8.
+In 2024, we will not hold community meetings on October 15 and November 26.
 
 We will not hold community meetings on [federal holidays] in the US,
 the last two Tuesdays of December, the first Tuesday of January, or
