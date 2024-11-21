@@ -18,7 +18,9 @@ If so, then **please join us for informal PlasmaPy office hours on
 most Thursdays from 3–3:45 pm ET (12–12:45 pm PT)**. We will meet on
 [Zoom]. The schedule is published on our [calendar].
 
-In 2024, we will not hold office hours on October 17 or November 28.
+**Note: We will not hold office hours on November 21 or 28 or in
+December 2024 due to proposal deadlines and an extended holiday. Our
+next office hours will be on January 7.**
 
 We will not hold office hours on [federal holidays] in the US, the
 last two Thursdays of December, the first Thursday in January, or

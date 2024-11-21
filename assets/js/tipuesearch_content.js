@@ -56,7 +56,7 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Office Hours",
-      "text": "PlasmaPy Office Hours\nDo you have a question about PlasmaPy? Would you like to learn how to\nbecome active in the PlasmaPy project? Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy office hours on\nmost Thursdays from 3\u20133:45 pm ET (12\u201312:45 pm PT). We will meet on\nZoom. The schedule is published on our calendar.\nIn 2024, we will not hold office hours on October 17 or November 28.\nWe will not hold office hours on federal holidays in the US, the\nlast two Thursdays of December, the first Thursday in January, or\nduring the APS DPP meeting.\nPlasmaPy developers can be reached at other times via the Matrix\nchat, in particular if the time for office hours does not work for\nyou.",
+      "text": "PlasmaPy Office Hours\nDo you have a question about PlasmaPy? Would you like to learn how to\nbecome active in the PlasmaPy project? Do you have an idea for a great\nnew feature or want to start an affiliated package?\nIf so, then please join us for informal PlasmaPy office hours on\nmost Thursdays from 3\u20133:45 pm ET (12\u201312:45 pm PT). We will meet on\nZoom. The schedule is published on our calendar.\nNote: We will not hold office hours on November 21 or 28 or in\nDecember 2024 due to proposal deadlines and an extended holiday. Our\nnext office hours will be on January 7.\nWe will not hold office hours on federal holidays in the US, the\nlast two Thursdays of December, the first Thursday in January, or\nduring the APS DPP meeting.\nPlasmaPy developers can be reached at other times via the Matrix\nchat, in particular if the time for office hours does not work for\nyou.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/office_hours/"
     },
@@ -68,7 +68,7 @@ var tipuesearch = {
     },
     {
       "title": "Weekly PlasmaPy Community Meeting",
-      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nWhere: on Zoom \nTime: Tuesdays at 2 pm ET / 11 am PT \nMinutes & Agenda: on HackMD \nCalendar: on Google Calendar \n\nOverview\nPlasmaPy's weekly online community meeting is held on most Tuesdays at\n2 pm ET / 11 am PT.  This call is hosted on Zoom with agendas and\nminutes available on HackMD.  The schedule is published on our\ncalendar.\nIn 2024, we will not hold community meetings on October 15 and November 26.\nWe will not hold community meetings on federal holidays in the US,\nthe last two Tuesdays of December, the first Tuesday of January, or\nduring the APS DPP meeting.",
+      "text": "Weekly PlasmaPy Community Meeting\nTuesdays at 2 pm ET / 11 am PT\nWhere: on Zoom \nTime: Tuesdays at 2 pm ET / 11 am PT \nMinutes & Agenda: on HackMD \nCalendar: on Google Calendar \n\nOverview\nPlasmaPy's weekly online community meeting is held on most Tuesdays at\n2 pm ET / 11 am PT.  This call is hosted on Zoom.  The schedule is\npublished on our calendar.\nNote: We will not hold community meetings on November 26 or in\nDecember 2024 due to proposal deadlines and an extended holiday. Our\nnext community meeting will be on January 7, 2025.\n\n\nWe will not hold community meetings on federal holidays in the US,\nthe last two Tuesdays of December, the first Tuesday of January, or\nduring the APS DPP meeting.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
     },
