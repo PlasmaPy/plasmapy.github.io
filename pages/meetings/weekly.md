@@ -24,8 +24,9 @@ PlasmaPy's weekly online community meeting is held on most Tuesdays at
 2 pm ET / 11 am PT.  This call is hosted on [Zoom].  The schedule is
 published on our [calendar].
 
-**Note: We will not hold community meetings in December 2024 or due to
-an extended holiday.**
+**Note: We will not hold community meetings on November 26 or in
+December 2024 due to proposal deadlines and an extended holiday. Our
+next community meeting will be on January 7, 2025.**
 
 <!--
 In 2024, we will not hold community meetings on October 15 and November 26.
