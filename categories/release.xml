@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlasmaPy (Posts about release)</title><link>https://www.plasmapy.org/</link><description></description><atom:link href="https://www.plasmapy.org/categories/release.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href=https://github.com/PlasmaPy/PlasmaPy&gt;PlasmaPy Developers&lt;/a&gt; 
 &lt;a href="/license"&gt;
 License
-&lt;/a&gt;</copyright><lastBuildDate>Tue, 07 Jan 2025 22:40:21 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
+&lt;/a&gt;</copyright><lastBuildDate>Tue, 04 Feb 2025 22:08:28 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
 &lt;p&gt;We're really happy to announce that we've just released &lt;a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html"&gt;PlasmaPy version
 0.6.0&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We'd like to thank the wonderful people who have contributed to this release:&lt;/p&gt;
