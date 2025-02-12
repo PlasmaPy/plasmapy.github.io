@@ -15,9 +15,10 @@ web/.doit.db.db
 web/.doit.db.dir
 *~
 .idea
-*#
-#*
+*\#
+\#*
 *.egg
 .venv
 venv
 ENV
+.\#*
