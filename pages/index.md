@@ -24,8 +24,8 @@ hidetitle: True
         <a class="feature-link" href="meetings/weekly">
         <div class="feature-card">
             <div>
-                <h1>Weekly Community Meeting</h1>
-                Tuesday 2:00 pm ET
+                <h2>Weekly Community Meeting</h2>
+                <h3>Thursdays at 2:00 pm ET</h3>
             </div>
         </div>
         </a>
