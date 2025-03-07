@@ -18,8 +18,8 @@ If so, then **please join us for informal PlasmaPy office hours on
 most Thursdays from 3–3:45 pm ET (12–12:45 pm PT)**. We will meet on
 [Zoom]. The schedule is published on our [calendar].
 
-Office hours will not be held on February 13, April 24, June 5, or
-November 20 in 2025.
+Office hours will not be held after April 24, 2025 due to the
+conclusion of NSF award 1931388, unless new funding is awarded.
 
 We will not hold office hours on [federal holidays] in the US, the
 last two Thursdays of December, the first two Thursdays in January, or
