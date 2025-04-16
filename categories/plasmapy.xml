@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlasmaPy (Posts about plasmapy)</title><link>https://www.plasmapy.org/</link><description></description><atom:link href="https://www.plasmapy.org/categories/plasmapy.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2025 &lt;a href=https://github.com/PlasmaPy/PlasmaPy&gt;PlasmaPy Developers&lt;/a&gt; 
 &lt;a href="/license"&gt;
 License
-&lt;/a&gt;</copyright><lastBuildDate>Wed, 26 Mar 2025 16:41:15 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
+&lt;/a&gt;</copyright><lastBuildDate>Wed, 16 Apr 2025 03:56:30 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
 &lt;p&gt;We're really happy to announce that we've just released &lt;a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html"&gt;PlasmaPy version
 0.6.0&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We'd like to thank the wonderful people who have contributed to this release:&lt;/p&gt;
@@ -26,26 +26,29 @@ require Python 3.7, following NumPy's &lt;a href="https://numpy.org/neps/nep-002
 &lt;p&gt;Note: these are my (Dominik's) personal highlights. There's more, but these make the
 prettiest plots right now.&lt;/p&gt;
 &lt;h3&gt;Two-fluid dispersion relations&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;center&gt;
-&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"&gt;&lt;img alt="Dispersion relations for two fluid systems" src="https://docs.plasmapy.org/en/stable/_images/notebooks_dispersion_two_fluid_dispersion_18_1.png"&gt;&lt;/a&gt;
+&lt;center&gt;
+[![Dispersion relations for two fluid systems](https://docs.plasmapy.org/en/stable/_images/notebooks_dispersion_two_fluid_dispersion_18_1.png)](https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html)
 &lt;/center&gt;
+
 &lt;p&gt;In &lt;a href="https://github.com/plasmapy/plasmapy/pull/932"&gt;PR #932&lt;/a&gt; Ramiz Qudsi
 implemented P. M. Bellan's 2012 full two-fluid dispersion relation for any
 electron-ion system. Take a look at &lt;a href="https://docs.plasmapy.org/en/stable/notebooks/dispersion/two_fluid_dispersion.html"&gt;the notebook introducing
 that&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Proton radiography&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;center&gt;
-&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/diagnostics/proton_radiography_particle_tracing.html"&gt;&lt;img alt="Proton radiograph" src="https://docs.plasmapy.org/en/stable/_images/notebooks_diagnostics_proton_radiography_particle_tracing_14_0.png"&gt;&lt;/a&gt;
+&lt;center&gt;
+[![Proton radiograph](https://docs.plasmapy.org/en/stable/_images/notebooks_diagnostics_proton_radiography_particle_tracing_14_0.png)](https://docs.plasmapy.org/en/stable/notebooks/diagnostics/proton_radiography_particle_tracing.html)
 &lt;/center&gt;
+
 &lt;p&gt;Peter Heuer designed and implemented a framework for synthetic proton
 radiography. This is a multi-PR tour de force that simulates particles moving
 through EM fields and hitting a detector plane, generating histograms such as
 the above. I'd point you to the notebook on that, but &lt;a href="https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics"&gt;there's three right
 now&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Analysis &amp;amp; Diagnostic framework; Langmuir probes&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;&lt;center&gt;
-&lt;a href="https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html"&gt;&lt;img alt="Langmuir probe sweep" src="https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png"&gt;&lt;/a&gt;
+&lt;center&gt;
+[![Langmuir probe sweep](https://docs.plasmapy.org/en/stable/_images/notebooks_analysis_swept_langmuir_find_floating_potential_21_0.png)](https://docs.plasmapy.org/en/stable/notebooks/analysis/swept_langmuir/find_floating_potential.html)
 &lt;/center&gt;
+
 &lt;p&gt;Erik Everson is spearheading work on our &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;analysis &amp;amp; diagnostic
 framework&lt;/a&gt;.  As the
 first example, we've got a new and improved set of &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;tools for swept Langmuir
