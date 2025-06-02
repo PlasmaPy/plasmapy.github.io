@@ -1,26 +1,23 @@
 title: PlasmaPy Meetings
 author: Erik T. Everson
 
-### Upcoming Meetings
-
-#### [PlasmaPy Summer School 2024](./summer-school-2024)
-
-The inaugural PlasmaPy summer school will be held at Bryn Mawr College
-from July 29 to August 1, 2024.
-
 ### Weekly Meetings
 
 ----
 
-#### [Weekly Community Meeting](./weekly): Every Tuesday at 11 am PT / 2 pm ET
+#### [Weekly Community Meeting](./weekly): Most Thursdays at 11 am PT / 2 pm ET
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
-#### [PlasmaPy Office Hours](./office_hours): Every Thursday at 12 pm PT / 3 pm ET
 
 ### Past Meetings
 
 ----
+
+#### [PlasmaPy Summer School 2024](./summer-school-2024)
+
+The inaugural PlasmaPy summer school was held at Bryn Mawr College
+from July 29 to August 1, 2024.
 
 #### PlasmaPy tutorial prior to 2023 MagNetUS meeting
 
