@@ -5,8 +5,8 @@ hidetitle: True
 [pip]: https://pip.pypa.io/en/stable
 [code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
 [coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
+[community meeting]: https://www.plasmapy.org/meetings/weekly/
 [**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
-[Element chat room]: https://app.element.io/#/room/#plasmapy:openastronomy.org
 [feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=feature+request&projects=&template=feature_request.yml
 [gallery of example notebooks]: https://docs.plasmapy.org/en/stable/examples.html
 [getting ready to contribute]: https://docs.plasmapy.org/en/latest/contributing/getting_ready.html
@@ -66,9 +66,8 @@ instructions]. If you are unfamiliar with Python, please check out the
 
 ## Get Help
 
-The quickest way to reach PlasmaPy users and developers is in PlasmaPy's
-[Element chat room]. The [GitHub Discussions] page is an ideal place for
-longer discussions on more detailed topics.
+We encourage you to ask questions on [GitHub Discussions] or to stop by
+a PlasmaPy [community meeting].
 
 ## Contribute and Report Bugs
 
