@@ -79,8 +79,7 @@ contribute], the [code contribution workflow], [coding guidelines],
 
 ## Acknowledgments
 
-Ongoing development of PlasmaPy is supported by the U.S. National
-Science Foundation, with many contributions from the broader plasma
-physics and open source communities. Past development of PlasmaPy has
-been supported by the U.S. Department of Energy, the Smithsonian
-Institution, NASA, and Google Summer of Code.
+Development of PlasmaPy has been supported by the U.S. National Science
+Foundation, the U.S. Department of Energy, the Smithsonian Institution,
+NASA, and Google Summer of Code, with many contributions from the
+broader plasma physics and open source communities.
