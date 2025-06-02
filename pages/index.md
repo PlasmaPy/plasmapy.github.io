@@ -19,12 +19,6 @@ hidetitle: True
 [writing documentation]: https://docs.plasmapy.org/en/latest/contributing/doc_guide.html
 [writing tests]: https://docs.plasmapy.org/en/latest/contributing/testing_guide.html
 
-The goal of the PlasmaPy Project is to foster the creation of an open
-source [Python] ecosystem for plasma research and education. The
-PlasmaPy package contains core functionality for this software
-ecosystem, while affiliated packages will contain more specialized
-functionality.
-
 <!-- YouTube Video-->
 <div class="aspect-ratio-80pc">
     <iframe src="https://www.youtube-nocookie.com/embed/E8RwQF5wcXM"
@@ -36,6 +30,9 @@ functionality.
 </div>
 
 <br/>
+
+The mission of the PlasmaPy Project is to foster the creation of an open
+source [Python] ecosystem for plasma research and education.
 
 ## Install PlasmaPy
 
