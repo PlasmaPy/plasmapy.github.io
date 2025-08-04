@@ -37,12 +37,12 @@ repos:
     exclude: plugins
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.33.0
+  rev: 0.33.2
   hooks:
   - id: check-github-workflows
 
 - repo: https://github.com/sirosen/texthooks
-  rev: 0.6.8
+  rev: 0.7.1
   hooks:
   - id: fix-smartquotes
   - id: fix-spaces
@@ -50,7 +50,7 @@ repos:
   - id: forbid-bidi-controls
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.14.0
+  rev: v2.15.0
   hooks:
   - id: pretty-format-ini
     args: [--autofix]
@@ -63,7 +63,7 @@ repos:
     exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.11.12
+  rev: v0.12.7
   hooks:
   - id: ruff
     name: ruff (see https://docs.astral.sh/ruff/rules)
