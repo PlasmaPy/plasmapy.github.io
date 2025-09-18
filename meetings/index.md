@@ -1,11 +1,11 @@
 title: PlasmaPy Meetings
 author: Erik T. Everson
 
-### Weekly Meetings
+### Meetings
 
 ----
 
-#### [Weekly Community Meeting](./weekly): Most Thursdays at 11 am PT / 2 pm ET
+#### [Biweekly Community Meeting](./weekly): Every other Monday at 1 pm ET / 10 am PT
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
