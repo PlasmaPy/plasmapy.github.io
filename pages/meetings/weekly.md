@@ -17,12 +17,12 @@ hidetitle: True
 
 ### Overview
 
-PlasmaPy's online community meetings are typically held on every 
+PlasmaPy's online community meetings are typically held on every
 other Monday at 1 pm ET / 10 am PT.
 This call is hosted on [Zoom].
 The schedule is published on our [calendar].
 
-Regularly scheduled meetings in 2025 will be held on October 6 & 20, 
+Regularly scheduled meetings in 2025 will be held on October 6 & 20,
 November 3, and December 16.
 
 We will not hold community meetings on [federal holidays] in the US,
