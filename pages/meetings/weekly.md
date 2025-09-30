@@ -22,8 +22,8 @@ other Monday at 1 pm ET / 10 am PT.
 This call is hosted on [Zoom].
 The schedule is published on our [calendar].
 
-Regularly scheduled meetings in 2025 will be held on October 6 & 20,
-November 3, and December 16.
+Regularly scheduled meetings in 2025 are tentatively planned for
+October 20, November 3, November 17, and December 16.
 
 We will not hold community meetings on [federal holidays] in the US,
 between December 20 – Jan 3, or during the [APS DPP meeting].
