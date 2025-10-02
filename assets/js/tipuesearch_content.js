@@ -1,18 +1,6 @@
 var tipuesearch = {
   "pages": [
     {
-      "title": "PlasmaPy Workshop at MagNetUS 2023",
-      "text": "PlasmaPy Workshop at MagNetUS 2023\nThursday, June 15, 2023 from 2\u20135 pm CDT\nMell Classroom Building 3546\nAuburn University, Auburn, Alabama, USA\nWe will be holding a workshop on the last day of the\nMagNetUS 2023\nmeeting.\nPlease use this form to sign up for the workshop.\nThe topics to be covered include:\n\nGetting started with PlasmaPy (open notebook in Colab)\nastropy.units\nplasmapy.particles\nplasmapy.formulary\nHow to contribute to an open source project\nUsing git and GitHub\nThe code contribution workflow\nDocumenting a function\nTesting a function\n\nPreliminaries\nBefore the tutorial, please:\n\nSign up for a free GitHub account\nAdd a new SSH key to your GitHub account\nVerify that git is installed by opening a terminal and running git --version\n\nIf running Windows, please make sure you have access to a terminal\n(i.e., by installing Windows Subsystem for\nLinux).\nOptionally, you may also configure git with commands like:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@openmetadatastandards.com\"",
-      "tags": "",
-      "url": "https://www.plasmapy.org/meetings/magnetus2023/"
-    },
-    {
-      "title": "PlasmaPy Office Hours",
-      "text": "PlasmaPy Office Hours\nPlasmaPy virtual office hours are on an indefinite hiatus due to the\nconclusion of the collaborative NSF award supporting PlasmaPy development.",
-      "tags": "",
-      "url": "https://www.plasmapy.org/meetings/office_hours/"
-    },
-    {
       "title": "PlasmaPy Summer School 2024",
       "text": "PlasmaPy Summer School 2024\nThe PlasmaPy community held its inaugural summer school at Bryn Mawr\nCollege in Bryn Mawr, Pennsylvania, USA. This workshop provided\nparticipants with an opportunity to learn how to use PlasmaPy and\ncontribute to an open source software project.\nSchedule\nPlease click here for the schedule for the PlasmaPy summer school,\nwhich was held from Monday, July 29 to Thursday, August 1 in 2024.\nThe summer school covered the following topics:\n\nPlasmaPy's origin story\nContributing to an open source project\nUsing git and GitHub\nWriting clean code\nastropy.units\nplasmapy.particles, plasmapy.formulary, and plasmapy.dispersion\nPsychological safety and code review\nWriting documentation\nTesting software\nCode contribution tips\n\nThe schedule included small group discussions for people at similar\ncareer/educational stages, unconference sessions, and time for pair\nprogramming or contributing.\nAcknowledgments\nThis summer school was supported by NSF awards 1931388, 1931393,\n1931429, and 1931435.",
       "tags": "",
@@ -20,7 +8,7 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Community Meeting",
-      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2025 will be held on October 6 & 20,\nNovember 3, and December 16.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
+      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2025 are tentatively planned for\nOctober 20, November 3, November 17, and December 16.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
     },
@@ -71,6 +59,18 @@ var tipuesearch = {
       "text": "Meetings\n\nBiweekly Community Meeting: Every other Monday at 1 pm ET / 10 am PT\n\n\nPast Meetings\n\nPlasmaPy Summer School 2024\nThe inaugural PlasmaPy summer school was held at Bryn Mawr College\nfrom July 29 to August 1, 2024.\nPlasmaPy tutorial prior to 2023 MagNetUS meeting\nWe will be providing a PlasmaPy tutorial at the\nMagNetUS 2023 meeting\nat Auburn University on Thursday, June 15 from 2\u20135 pm CDT.\n62nd APS DPP - 11.04 Mini-Conference: Growing an open source software ecosystem for plasma science\nNovember 11 & 12, 2020\n\n\n62nd APS DPP - 11.04 Mini-Conference | Post-Meeting Discussions\nDay 1: November 17, 2020 at 21 UTC / 4 pm EST / 1 pm PST\nDay 2: November 19, 2020 at 19 UTC / 2 pm EST / 11 am PST",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/"
+    },
+    {
+      "title": "PlasmaPy Workshop at MagNetUS 2023",
+      "text": "PlasmaPy Workshop at MagNetUS 2023\nThursday, June 15, 2023 from 2\u20135 pm CDT\nMell Classroom Building 3546\nAuburn University, Auburn, Alabama, USA\nWe will be holding a workshop on the last day of the\nMagNetUS 2023\nmeeting.\nPlease use this form to sign up for the workshop.\nThe topics to be covered include:\n\nGetting started with PlasmaPy (open notebook in Colab)\nastropy.units\nplasmapy.particles\nplasmapy.formulary\nHow to contribute to an open source project\nUsing git and GitHub\nThe code contribution workflow\nDocumenting a function\nTesting a function\n\nPreliminaries\nBefore the tutorial, please:\n\nSign up for a free GitHub account\nAdd a new SSH key to your GitHub account\nVerify that git is installed by opening a terminal and running git --version\n\nIf running Windows, please make sure you have access to a terminal\n(i.e., by installing Windows Subsystem for\nLinux).\nOptionally, you may also configure git with commands like:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@openmetadatastandards.com\"",
+      "tags": "",
+      "url": "https://www.plasmapy.org/meetings/magnetus2023/"
+    },
+    {
+      "title": "PlasmaPy Office Hours",
+      "text": "PlasmaPy Office Hours\nPlasmaPy virtual office hours are on an indefinite hiatus due to the\nconclusion of the collaborative NSF award supporting PlasmaPy development.",
+      "tags": "",
+      "url": "https://www.plasmapy.org/meetings/office_hours/"
     },
     {
       "title": "PlasmaPy v0.6.0 release!",
