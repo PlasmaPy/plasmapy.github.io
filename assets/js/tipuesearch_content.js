@@ -1,22 +1,10 @@
 var tipuesearch = {
   "pages": [
     {
-      "title": "PlasmaPy Summer School 2024",
-      "text": "PlasmaPy Summer School 2024\nThe PlasmaPy community held its inaugural summer school at Bryn Mawr\nCollege in Bryn Mawr, Pennsylvania, USA. This workshop provided\nparticipants with an opportunity to learn how to use PlasmaPy and\ncontribute to an open source software project.\nSchedule\nPlease click here for the schedule for the PlasmaPy summer school,\nwhich was held from Monday, July 29 to Thursday, August 1 in 2024.\nThe summer school covered the following topics:\n\nPlasmaPy's origin story\nContributing to an open source project\nUsing git and GitHub\nWriting clean code\nastropy.units\nplasmapy.particles, plasmapy.formulary, and plasmapy.dispersion\nPsychological safety and code review\nWriting documentation\nTesting software\nCode contribution tips\n\nThe schedule included small group discussions for people at similar\ncareer/educational stages, unconference sessions, and time for pair\nprogramming or contributing.\nAcknowledgments\nThis summer school was supported by NSF awards 1931388, 1931393,\n1931429, and 1931435.",
-      "tags": "",
-      "url": "https://www.plasmapy.org/meetings/summer-school-2024/"
-    },
-    {
       "title": "PlasmaPy Community Meeting",
       "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2025 are tentatively planned for\nOctober 20, November 3, November 17, and December 16.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
-    },
-    {
-      "title": "About the PlasmaPy Project",
-      "text": "About PlasmaPy\nThe mission of the PlasmaPy Project is to foster the creation of a\nfully open source software ecosystem for plasma research and\neducation.  The PlasmaPy core package intends to be for plasma\nscience what Astropy is for astronomy \u2014 a collection of\nfunctionality commonly used and shared between plasma physicists and\nresearchers globally, running within and leveraging the open source\nscientific Python ecosystem.",
-      "tags": "",
-      "url": "https://www.plasmapy.org/about/"
     },
     {
       "title": "Plasma Packages",
@@ -71,6 +59,18 @@ var tipuesearch = {
       "text": "PlasmaPy Office Hours\nPlasmaPy virtual office hours are on an indefinite hiatus due to the\nconclusion of the collaborative NSF award supporting PlasmaPy development.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/office_hours/"
+    },
+    {
+      "title": "PlasmaPy Summer School 2024",
+      "text": "PlasmaPy Summer School 2024\nThe PlasmaPy community held its inaugural summer school at Bryn Mawr\nCollege in Bryn Mawr, Pennsylvania, USA. This workshop provided\nparticipants with an opportunity to learn how to use PlasmaPy and\ncontribute to an open source software project.\nSchedule\nPlease click here for the schedule for the PlasmaPy summer school,\nwhich was held from Monday, July 29 to Thursday, August 1 in 2024.\nThe summer school covered the following topics:\n\nPlasmaPy's origin story\nContributing to an open source project\nUsing git and GitHub\nWriting clean code\nastropy.units\nplasmapy.particles, plasmapy.formulary, and plasmapy.dispersion\nPsychological safety and code review\nWriting documentation\nTesting software\nCode contribution tips\n\nThe schedule included small group discussions for people at similar\ncareer/educational stages, unconference sessions, and time for pair\nprogramming or contributing.\nAcknowledgments\nThis summer school was supported by NSF awards 1931388, 1931393,\n1931429, and 1931435.",
+      "tags": "",
+      "url": "https://www.plasmapy.org/meetings/summer-school-2024/"
+    },
+    {
+      "title": "About the PlasmaPy Project",
+      "text": "About PlasmaPy\nThe mission of the PlasmaPy Project is to foster the creation of a\nfully open source software ecosystem for plasma research and\neducation.  The PlasmaPy core package intends to be for plasma\nscience what Astropy is for astronomy \u2014 a collection of\nfunctionality commonly used and shared between plasma physicists and\nresearchers globally, running within and leveraging the open source\nscientific Python ecosystem.",
+      "tags": "",
+      "url": "https://www.plasmapy.org/about/"
     },
     {
       "title": "PlasmaPy v0.6.0 release!",
