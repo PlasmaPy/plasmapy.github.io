@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlasmaPy</title><link>https://www.plasmapy.org/</link><description>Webpage for PlasmaPy.</description><atom:link href="https://www.plasmapy.org/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2026 &lt;a href=https://github.com/PlasmaPy/PlasmaPy&gt;PlasmaPy Developers&lt;/a&gt; 
 &lt;a href="/license"&gt;
 License
-&lt;/a&gt;</copyright><lastBuildDate>Mon, 12 Jan 2026 20:29:43 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
+&lt;/a&gt;</copyright><lastBuildDate>Mon, 12 Jan 2026 21:57:03 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
 &lt;p&gt;We're really happy to announce that we've just released &lt;a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html"&gt;PlasmaPy version
 0.6.0&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We'd like to thank the wonderful people who have contributed to this release:&lt;/p&gt;
@@ -86,13 +86,13 @@ on &lt;a class="reference external" href="http://docs.plasmapy.org/"&gt;PlasmaPy
 &lt;p&gt;If you'd rather use &lt;a class="reference external" href="https://docs.conda.io/en/latest/"&gt;conda&lt;/a&gt;, though, you now have the option, and that is why we delayed the announcement: we now have &lt;a class="reference external" href="https://github.com/conda-forge/plasmapy-feedstock"&gt;our very own conda-forge feedstock&lt;/a&gt; and you can install PlasmaPy using &lt;cite&gt;conda install -c conda-forge plasmapy&lt;/cite&gt;.&lt;/p&gt;
 &lt;p&gt;Please refer to the &lt;a class="reference external" href="http://docs.plasmapy.org/en/latest/whatsnew/0.2.0.html"&gt;release notes&lt;/a&gt; to see what's changed.&lt;/p&gt;
 &lt;p&gt;Happy coding, everyone!&lt;/p&gt;</description><category>plasmapy</category><category>release</category><guid>https://www.plasmapy.org/posts/plasmapy-v020-release/</guid><pubDate>Thu, 06 Jun 2019 17:43:23 GMT</pubDate></item><item><title>PlasmaPy v0.1.1 bugfix release!</title><link>https://www.plasmapy.org/posts/plasmapy-v011-bugfix-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;p&gt;We have just released PlasmaPy v0.1.1, our first bugfix release which attempts to correct many of the flaws in our code we only noticed while releasing v0.1!&lt;/p&gt;
-&lt;p&gt;Take a look at the &lt;a class="reference external" href="http://docs.plasmapy.org/en/latest/whatsnew/0.1.1.html"&gt;release notes&lt;/a&gt; to see what's changed.&lt;/p&gt;
+&lt;p&gt;Take a look at the &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/changelog/0.1.1.html"&gt;release notes&lt;/a&gt; to see what's changed.&lt;/p&gt;
 &lt;p&gt;As usual (although this is likely the first time you have reason to run this command), you should now be able to update via &lt;cite&gt;pip install --upgrade plasmapy&lt;/cite&gt;.&lt;/p&gt;
 &lt;p&gt;Hot plasmas, and happy coding, everyone!&lt;/p&gt;</description><category>plasmapy</category><category>release</category><guid>https://www.plasmapy.org/posts/plasmapy-v011-bugfix-release/</guid><pubDate>Sun, 27 May 2018 14:21:20 GMT</pubDate></item><item><title>PlasmaPy v0.1 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v01-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;blockquote&gt;
 &lt;p&gt;I address you tonight not as a programmer of Python, not as a maintainer of a
 repository, but as a citizen of open source.&lt;/p&gt;
 &lt;p&gt;We are faced with the very newest of releases.&lt;/p&gt;
-&lt;p&gt;GitHub calls this one &lt;a class="reference external" href="http://docs.plasmapy.org/en/v0.1/about/release_notes.html#version-0-1-0"&gt;PlasmaPy v0.1.0&lt;/a&gt;, the first of the alphas.&lt;/p&gt;
+&lt;p&gt;GitHub calls this one &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/changelog/0.1.0.html"&gt;PlasmaPy v0.1.0&lt;/a&gt;, the first of the alphas.&lt;/p&gt;
 &lt;p&gt;And yet, for the first time in the history of this project our team has the
 technology to prevent its own procrastination.&lt;/p&gt;
 &lt;p&gt;All of you &lt;a class="reference external" href="https://pypi.org/project/plasmapy/"&gt;pip installing&lt;/a&gt; with us need to know that everything that could be
@@ -101,21 +101,21 @@ done to delay this release has been called into service.&lt;/p&gt;
 transport theory, every adventurous refactor of docs, all of our &lt;a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/issues"&gt;combined ideas
 for features and improvements&lt;/a&gt;, even the code reviews that
 we performed have provided us with the tools to prevent this exciting event.&lt;/p&gt;
-&lt;p&gt;Through all the chaos that is our Git tree, through all of the &lt;a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/search?q=pep8&amp;amp;type=Commits"&gt;PEP8&lt;/a&gt; and
+&lt;p&gt;Through all the chaos that is our Git tree, through all of the &lt;a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/search?q=pep8&amp;amp;type=Commits"&gt;PEP 8&lt;/a&gt; and
 the &lt;a class="reference external" href="https://app.element.io/#/room/#plasmapy:openastronomy.org"&gt;Matrix discussion&lt;/a&gt;,
 through all the &lt;a class="reference external" href="http://docs.plasmapy.org/"&gt;pain of learning Sphinx&lt;/a&gt; and rebasing,
 through &lt;a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/commits/main"&gt;all of our ~2000 commits&lt;/a&gt;,
 there is one thing that has nourished our souls, and pushed us to complete
-this release, and that is our &lt;a class="reference external" href="http://docs.plasmapy.org/en/latest/auto_examples/index.html"&gt;pretty plots&lt;/a&gt;. Oh, and the
+this release, and that is our &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/examples.html"&gt;pretty plots&lt;/a&gt;. Oh, and the
 possibility to
-&lt;a class="reference external" href="http://docs.plasmapy.org/en/v0.1/atomic/decorators.html#passing-particle-instances-to-functions-and-methods"&gt;apply&lt;/a&gt;
-&lt;a class="reference external" href="http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_relativistic.html#plasmapy.utils.checks.check_relativistic"&gt;more&lt;/a&gt;
-&lt;a class="reference external" href="http://docs.plasmapy.org/en/v0.1/api/plasmapy.utils.checks.check_quantity.html#plasmapy.utils.checks.check_quantity"&gt;decorators&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/api/plasmapy.particles.decorators.particle_input.html#particle-input"&gt;apply&lt;/a&gt;
+&lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/api/plasmapy.utils.decorators.checks.check_relativistic.html#check-relativistic"&gt;more&lt;/a&gt;
+&lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/api/plasmapy.utils.decorators.validators.validate_quantities.html#validate-quantities"&gt;decorators&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The dreams of the entire PlasmaPy community are focused tonight on these &lt;a class="reference external" href="https://github.com/PlasmaPy/PlasmaPy/graphs/contributors"&gt;31
 brave committers&lt;/a&gt;,
 pushing onto the main branch.&lt;/p&gt;
 &lt;p&gt;And may we all, plasma enthusiasts the world over, see this release through.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://docs.plasmapy.org/en/v0.1/api/plasmapy.physics.parameters.thermal_speed.html#plasmapy.physics.parameters.thermal_speed"&gt;Thermal speed&lt;/a&gt;,
+&lt;p&gt;&lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/api/plasmapy.formulary.speeds.thermal_speed.html#thermal-speed"&gt;Thermal speed&lt;/a&gt;,
 and a &lt;span class="math"&gt;\(\sqrt{2}\)&lt;/span&gt; to you,&lt;/p&gt;
 &lt;p&gt;~PlasmaPy&lt;/p&gt;
 &lt;/blockquote&gt;</description><category>plasmapy</category><category>release</category><guid>https://www.plasmapy.org/posts/plasmapy-v01-release/</guid><pubDate>Mon, 30 Apr 2018 03:27:00 GMT</pubDate></item></channel></rss>
