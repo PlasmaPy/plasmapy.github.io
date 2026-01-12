@@ -1,25 +1,8 @@
 title: The PlasmaPy Project
 hidetitle: True
 
-[conda]: https://docs.conda.io/en/latest
-[pip]: https://pip.pypa.io/en/stable
-[code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
-[coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
-[community meeting]: https://www.plasmapy.org/meetings/weekly/
-[**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
-[feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=feature+request&projects=&template=feature_request.yml
-[gallery of example notebooks]: https://docs.plasmapy.org/en/stable/examples.html
-[getting ready to contribute]: https://docs.plasmapy.org/en/latest/contributing/getting_ready.html
-[GitHub Discussions]: https://github.com/PlasmaPy/PlasmaPy/discussions
-[installation instructions]: https://docs.plasmapy.org/en/latest/install.html
-[many ways to contribute]: https://docs.plasmapy.org/en/latest/contributing/many_ways.html
-[PlasmaPy's documentation]: https://docs.plasmapy.org/en/stable
-[Python]: https://www.python.org
-[submitting bug reports]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml
-[writing documentation]: https://docs.plasmapy.org/en/latest/contributing/doc_guide.html
-[writing tests]: https://docs.plasmapy.org/en/latest/contributing/testing_guide.html
-
 <!-- YouTube Video-->
+
 <div class="aspect-ratio-80pc">
     <iframe src="https://www.youtube-nocookie.com/embed/E8RwQF5wcXM"
             style="border: 1px solid black"
@@ -53,7 +36,7 @@ conda install -c conda-forge plasmapy
 ```
 
 [PlasmaPy's documentation] contains more detailed [installation
-instructions]. If you are unfamiliar with Python, please check out the
+instructions][installation instructions]. If you are unfamiliar with Python, please check out the
 [Python] website.
 
 ## Learn PlasmaPy
@@ -71,7 +54,7 @@ a PlasmaPy [community meeting].
 There are [many ways to contribute] to an open source project, including
 making [feature requests], [submitting bug reports], and organizing
 events. PlasmaPy's [**contributor guide**] covers [getting ready to
-contribute], the [code contribution workflow], [coding guidelines],
+contribute][getting ready to contribute], the [code contribution workflow], [coding guidelines],
 [writing tests], and [writing documentation].
 
 ## Acknowledgments
@@ -80,3 +63,21 @@ Development of PlasmaPy has been supported by the U.S. National Science
 Foundation, the U.S. Department of Energy, the Smithsonian Institution,
 NASA, and Google Summer of Code, with many contributions from the
 broader plasma physics and open source communities.
+
+[**contributor guide**]: https://docs.plasmapy.org/en/latest/contributing/index.html
+[code contribution workflow]: https://docs.plasmapy.org/en/latest/contributing/workflow.html
+[coding guidelines]: https://docs.plasmapy.org/en/latest/contributing/coding_guide.html
+[community meeting]: https://www.plasmapy.org/meetings/weekly/
+[conda]: https://docs.conda.io/en/latest
+[feature requests]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=feature+request&projects=&template=feature_request.yml
+[gallery of example notebooks]: https://docs.plasmapy.org/en/stable/examples.html
+[getting ready to contribute]: https://docs.plasmapy.org/en/latest/contributing/getting_ready.html
+[github discussions]: https://github.com/PlasmaPy/PlasmaPy/discussions
+[installation instructions]: https://docs.plasmapy.org/en/latest/install.html
+[many ways to contribute]: https://docs.plasmapy.org/en/latest/contributing/many_ways.html
+[pip]: https://pip.pypa.io/en/stable
+[plasmapy's documentation]: https://docs.plasmapy.org/en/stable
+[python]: https://www.python.org
+[submitting bug reports]: https://github.com/PlasmaPy/PlasmaPy/issues/new?assignees=&labels=Bug&projects=&template=bug_report.yml
+[writing documentation]: https://docs.plasmapy.org/en/latest/contributing/doc_guide.html
+[writing tests]: https://docs.plasmapy.org/en/latest/contributing/testing_guide.html

@@ -16,16 +16,16 @@ We're really happy to announce that we've just released [PlasmaPy version
 
 We'd like to thank the wonderful people who have contributed to this release:
 
-* Anthony Vo
-* Dhawal Modi *
-* Dominik Stańczak
-* Drozdov David *
-* Erik Everson
-* Kevin Montes *
-* Nick Murphy
-* Peter Heuer
-* Ramiz Qudsi
-* Tiger Du
+- Anthony Vo
+- Dhawal Modi \*
+- Dominik Stańczak
+- Drozdov David \*
+- Erik Everson
+- Kevin Montes \*
+- Nick Murphy
+- Peter Heuer
+- Ramiz Qudsi
+- Tiger Du
 
 Where a * indicates their first contribution to PlasmaPy.
 
@@ -68,7 +68,7 @@ now](https://docs.plasmapy.org/en/stable/examples.html#analyses-diagnostics).
 </center>
 
 Erik Everson is spearheading work on our [analysis & diagnostic
-framework](https://docs.plasmapy.org/en/stable/ad/index.html).  As the
+framework](https://docs.plasmapy.org/en/stable/ad/index.html). As the
 first example, we've got a new and improved set of [tools for swept Langmuir
 analysis](https://docs.plasmapy.org/en/stable/ad/index.html).
 
@@ -83,5 +83,5 @@ first forays into tools for fusion.
 
 One final note: we're discussing transitioning to some form of [Calendar
 Versioning](https://calver.org/). If you have thoughts on that, we'd be happy
-to hear them!  Come join the discussion on [our Matrix
+to hear them! Come join the discussion on [our Matrix
 chatroom](https://app.element.io/#/room/#plasmapy:openastronomy.org).

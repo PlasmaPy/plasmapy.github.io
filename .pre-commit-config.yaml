@@ -50,7 +50,7 @@ repos:
   - id: forbid-bidi-controls
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.15.0
+  rev: v2.16.0
   hooks:
   - id: pretty-format-ini
     args: [--autofix]
@@ -63,10 +63,19 @@ repos:
     exclude: .github/labeler.yml|.pre-commit-search-and-replace.yaml
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.14.10
+  rev: v0.14.11
   hooks:
-  - id: ruff
-    name: ruff (see https://docs.astral.sh/ruff/rules)
+  - id: ruff-check
+    name: ruff-check (see https://docs.astral.sh/ruff/rules)
     args: [--fix]
   - id: ruff-format
     name: autoformat source code with ruff formatter
+
+- repo: https://github.com/hukkin/mdformat
+  rev: 1.0.0
+  hooks:
+  - id: mdformat
+    args: [--number]
+    additional_dependencies:
+    - mdformat-gfm
+    - mdformat-ruff

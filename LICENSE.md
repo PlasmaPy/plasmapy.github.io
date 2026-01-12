@@ -2,7 +2,7 @@
 
 Source code files and code snippets included in this project are
 licensed under a [BSD 3-clause license with a patent
-grant](#bsd-3-clause-license-with-patent-grant).  All other content in
+grant](#bsd-3-clause-license-with-patent-grant). All other content in
 this project, including content produced directly from unmodified
 source code and code snippets, is licensed under a [Creative Commons
 Attribution 4.0 International (CC BY 4.0)
@@ -16,14 +16,14 @@ Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
 
-* Redistributions of source code must retain the above copyright
+- Redistributions of source code must retain the above copyright
   notice, this list of conditions and the following disclaimer.
 
-* Redistributions in binary form must reproduce the above copyright
+- Redistributions in binary form must reproduce the above copyright
   notice, this list of conditions and the following disclaimer in the
   documentation and/or other materials provided with the distribution.
 
-* Neither the name of PlasmaPy nor the names of its contributors may
+- Neither the name of PlasmaPy nor the names of its contributors may
   be used to endorse or promote products derived from this software
   without specific prior written permission.
 
