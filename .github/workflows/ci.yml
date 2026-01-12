@@ -33,8 +33,8 @@ jobs:
     - name: Install uv and set the Python version
       uses: astral-sh/setup-uv@v7
       with:
-        version: "0.9.23"
-        python-version: "3.14"
+        version: 0.9.23
+        python-version: '3.14'
         enable-cache: true
 
     - name: Run Nox session
