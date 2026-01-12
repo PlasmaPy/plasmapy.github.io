@@ -3,7 +3,7 @@ name: Build and deploy site
 on:
   push:
     branches:
-    - src
+    - main
   workflow_dispatch:
 
 jobs:
@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy Nikola to GitHub Pages
     steps:
+
     - name: Check out
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
+
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
