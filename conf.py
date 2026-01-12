@@ -29,7 +29,6 @@ CITATION_INSTRUCTIONS = "https://docs.plasmapy.org/en/stable/about/citation.html
 CODE_OF_CONDUCT = "https://docs.plasmapy.org/en/latest/CODE_OF_CONDUCT.html"
 DOCS = "https://docs.plasmapy.org/"
 FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
-FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
 CALENDAR = "https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York"
@@ -665,7 +664,6 @@ ATOM_FILENAME_BASE = "feed"
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
     ("chat/index.html", CHAT),
-    ("jitsi/index.html", JITSI),
     ("zoom/index.html", ZOOM),
     ("calendar/index.html", CALENDAR),
 ]
