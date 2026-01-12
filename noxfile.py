@@ -12,14 +12,35 @@ def build(session) -> None:
 
 @nox.session
 def check(session) -> None:
-    """Check links and files in the generated site."""
+    """Perform basic checks on the generated site."""
     session.install("-r", "requirements.txt")
     session.run("nikola", "build")
     session.run(
         "nikola",
         "check",
-        "--check-links",
+        "--check-files",
         "--find-sources",
+    )
+
+
+@nox.session
+def check_thoroughly(session) -> None:
+    """
+    Perform extensive checks on the generated site, including remote links.
+
+    This check includes some expected failures. For example, the
+    --check-links option fails due to `url('None')` showing up in the
+    generated output for affiliates/index.html.
+    """
+    session.install("-r", "requirements.txt")
+    session.run("nikola", "build")
+    session.run(
+        "nikola",
+        "check",
+        "--check-files",
+        "--find-sources",
+        "--check-links",
+        "--remote",
     )
 
 

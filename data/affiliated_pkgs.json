@@ -6,12 +6,12 @@
     },
     "urls": {
       "home": "https://www.plasmapy.org",
-      "repo": "https://github.com/plasmapy/plasmapy",
+      "repo": "https://github.com/PlasmaPy/PlasmaPy",
       "image": "/images/plasmapy-graphic-circular.png"
     },
     "description": {
       "short": "A open-source Python 3 package for plasma physics.",
-      "long": "PlasmaPy is an open-source community developed Python 3 package for plasma physics.  PlasmaPy intends to be a collection of functionality commonly used and shared between plasma physicists and researchers globally."
+      "long": "PlasmaPy is an open-source community developed Python package for plasma research and education."
     },
     "affiliated": false,
     "keywords": [
@@ -37,8 +37,8 @@
       "image": null
     },
     "description": {
-      "short": "tofu is an open-source python library providing a toolbox for synthetic diagnostics and tomography.",
-      "long": "<code>tofu</code> is an open-source python library.  It aims at providing the user with a ready-set toolbox for modelling synthetic diagnostics and performing tomographic inversions on linear or toroidal (quasi-axisymmetric) fusion devices.  It is relevant for diagnostics integrating an emissivity on a set of Lines of Sight or Volumes of Sight corresponding to as many detectors or pixels, and for which the plasma can be considered transparent (i.e. not for radio-frequencies / microwaves)."
+      "short": "tofu is an open source python library providing a toolbox for synthetic diagnostics and tomography.",
+      "long": "tofu is an open source python library. It aims at providing the user with a ready-set toolbox for modelling synthetic diagnostics and performing tomographic inversions on linear or toroidal (quasi-axisymmetric) fusion devices.  It is relevant for diagnostics integrating an emissivity on a set of Lines of Sight or Volumes of Sight corresponding to as many detectors or pixels, and for which the plasma can be considered transparent (i.e. not for radio-frequencies or microwaves)."
     },
     "affiliated": true,
     "keywords": [
@@ -67,14 +67,13 @@
     },
     "description": {
       "short": "A open-source Python 3 package for plasma physics.",
-      "long": "OMFIT - One Modeling Framework for Integrated Tasks - is an integrated modeling  and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
+      "long": "OMFIT \u2014 One Modeling Framework for Integrated Tasks \u2014 is an integrated modeling and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
     },
     "affiliated": false,
     "keywords": [
       "plasma",
       "physics",
       "Python",
-      "Python 3",
       "fusion",
       "simulation",
       "diagnostics"
@@ -126,8 +125,8 @@
       "image": null
     },
     "description": {
-      "short": "<code>ALOHA</code> is a coupling code for LHCD antennas facing tokamak magnetized fusion plasma.",
-      "long": "<code>ALOHA</code> is a coupling code for Lower Hybrid Current Drive antennas facing tokamak magnetized fusion plasma.  This coupling code is based on the linear coupling theory. It allows one to model the coupling of a 'grill'-like antenna to a cold plasma of the kind one can find in Tokamaks. It allows taking into account advanced antennas (such as multijunctions or passive-active multijunction antennas)."
+      "short": "ALOHA is a coupling code for LHCD antennas facing tokamak magnetized fusion plasma.",
+      "long": "ALOHA is a coupling code for Lower Hybrid Current Drive antennas facing tokamak magnetized fusion plasma. This coupling code is based on the linear coupling theory. It allows one to model the coupling of a 'grill'-like antenna to a cold plasma of the kind one can find in Tokamaks. It allows taking into account advanced antennas (such as multijunctions or passive-active multijunction antennas)."
     },
     "affiliated": false,
     "keywords": [
