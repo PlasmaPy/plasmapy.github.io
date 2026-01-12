@@ -663,7 +663,6 @@ ATOM_FILENAME_BASE = "feed"
 #
 # If you don't need any of these, just set to []
 REDIRECTIONS = [
-    ("chat/index.html", CHAT),
     ("zoom/index.html", ZOOM),
     ("calendar/index.html", CALENDAR),
 ]
