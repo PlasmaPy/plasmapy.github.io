@@ -6,12 +6,12 @@
     },
     "urls": {
       "home": "https://www.plasmapy.org",
-      "repo": "https://github.com/plasmapy/plasmapy",
+      "repo": "https://github.com/PlasmaPy/PlasmaPy",
       "image": "/images/plasmapy-graphic-circular.png"
     },
     "description": {
       "short": "A open-source Python 3 package for plasma physics.",
-      "long": "PlasmaPy is an open-source community developed Python 3 package for plasma physics.  PlasmaPy intends to be a collection of functionality commonly used and shared between plasma physicists and researchers globally."
+      "long": "PlasmaPy is an open-source community developed Python package for plasma research and education."
     },
     "affiliated": false,
     "keywords": [
