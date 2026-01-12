@@ -22,8 +22,8 @@ jobs:
         - name: Build website
           nox_session: build
 
-#        - name: Perform Nikola checks
-#          nox_session: check
+        - name: Perform Nikola checks
+          nox_session: check
 
     steps:
 
