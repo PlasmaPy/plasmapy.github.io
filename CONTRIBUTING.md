@@ -43,7 +43,10 @@ where *username* is your GitHub username.
 
 ### A note on branches
 
-Nikola's source files are located on the `src` git branch, and the built HTML files are located on the `main` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely do not need to change files on `main`.
+Nikola's source files are located on the `main` git branch, and the built HTML files are located on the `deploy` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely do not need to change files on `deploy`.
+
+> [!NOTE]
+> In January 2026, the deployed branch was renamed from `main` to `deploy` and the source branch was renamed from `src` to `main` to align with common conventions.
 
 ## Submitting a code contribution
 
@@ -54,32 +57,32 @@ Nikola's source files are located on the `src` git branch, and the built HTML fi
     ```
 
 2. Create and check out a branch based off of the
-   [`src`](https://github.com/PlasmaPy/plasmapy.github.io/tree/src)
+   [`main`](https://github.com/PlasmaPy/plasmapy.github.io/tree/main)
    branch of the upstream repository, and connect it to a new branch
    in your fork on GitHub.
 
    ```bash
-   git checkout -b new-branch-name upstream/src
+   git checkout -b new-branch-name upstream/main
    git push --set-upstream origin new-branch-name
    ```
 
-3. Make and commit changes in the `web/` directory.  Most of the pages
-   are in `web/pages/` while blog posts are in `web/posts/`.
+3. Make and commit changes in the `pages/` directory.  Most of the pages
+   are in `pages/` while blog posts are in `web/posts/`.
 
    ```bash
    git add changed_file.md
-   git commit -m "Updated changed_file.md"
+   git commit -m "Update changed_file.md"
    ```
 
-   Pages and posts are predominantly written in markdown, but [`nikola` supports various file formats](https://getnikola.com/handbook.html#supported-input-formats) like HTML, reStructuredText, etc.  Please use the markdown format, unless it's absolutely necessary to use one of the others.
+   Pages and posts are written in [Markdown](https://www.markdownguide.org/).
 
-4. Inside the `web/` directory, build and preview the website using
+4. Build and preview the website using
 
    ```bash
    nikola auto --browser
 
 6. [Create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-   to the `src` branch on the main repository.
+   to the `main` branch.
 
 7. The website will be rebuilt automatically after the pull request is merged.
    After five to ten minutes, check that the website is functioning nominally.
