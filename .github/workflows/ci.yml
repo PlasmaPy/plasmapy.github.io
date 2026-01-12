@@ -20,27 +20,22 @@ jobs:
         include:
 
         - name: Build website
-          python: '3.12'
           nox_session: build
 
         - name: Perform Nikola checks
-          python: '3.12'
           nox_session: check
 
     steps:
+
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
+    - name: Install uv and set the Python version
+      uses: astral-sh/setup-uv@v7
       with:
-        python-version: ${{ matrix.python }}
-        cache: pip
-
-    - name: Install Nox and uv
-      run: python -m pip install --progress-bar off --upgrade nox uv
+        version: "0.9.23"
+        python-version: "3.14"
+        enable-cache: true
 
     - name: Run Nox session
-      run: nox -s build
+      run: uvx nox -s ${{ matrix.nox_session }}
