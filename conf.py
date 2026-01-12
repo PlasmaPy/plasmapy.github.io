@@ -32,8 +32,7 @@ FACEBOOK = "https://www.facebook.com/PlasmaPy-101663168274541"
 FEEDBACK_BOX = "https://docs.google.com/forms/d/e/1FAIpQLSdT3O5iHZrLJRuavFyzoR23PGy0Prfzx2SQOcwJGWtvHyT2lw/viewform?usp=sf_link"
 MAILING_LIST = "https://groups.google.com/forum/#!forum/plasmapy"
 PROJECT_REPOSITORY = "https://github.com/PlasmaPy/PlasmaPy"
-CHAT = "https://app.element.io/#/room/#plasmapy:openastronomy.org"
-TELECON_CALENDAR = "https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York"
+CALENDAR = "https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York"
 YOUTUBE_CHANNEL = "https://www.youtube.com/channel/UCSH6qzslhqIZKTAJmHPxIxw"
 ZOOM = "https://zoom.us/j/91633383503?pwd=QWNkdHpWeFhrYW1vQy91ODNTVG5Ndz09"
 
@@ -173,7 +172,7 @@ NAVIGATION_LINKS = {
         ),
         (
             (
-                (TELECON_CALENDAR, "Calendar"),
+                (CALENDAR, "Calendar"),
                 ("/meetings", "Meetings"),
                 (FACEBOOK, "Facebook"),
                 (YOUTUBE_CHANNEL, "YouTube"),
@@ -668,7 +667,7 @@ REDIRECTIONS = [
     ("chat/index.html", CHAT),
     ("jitsi/index.html", JITSI),
     ("zoom/index.html", ZOOM),
-    ("calendar/index.html", TELECON_CALENDAR),
+    ("calendar/index.html", CALENDAR),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
