@@ -168,7 +168,6 @@ NAVIGATION_LINKS = {
                     "GitHub Discussions",
                 ),
                 (MAILING_LIST, "Email list"),
-                (FEEDBACK_BOX, "Suggestion box"),
             ),
             "Contact",
         ),
