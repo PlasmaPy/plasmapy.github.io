@@ -160,7 +160,6 @@ NAVIGATION_LINKS = {
         (DOCS, "Documentation"),
         (
             (
-                (CHAT, "Chat room"),
                 (
                     "https://github.com/PlasmaPy/PlasmaPy/discussions",
                     "GitHub Discussions",
@@ -1011,7 +1010,6 @@ CONTENT_FOOTER_FORMATS = {
             "license": LICENSE,
             "facebook": FACEBOOK,
             "youtube": YOUTUBE_CHANNEL,
-            "chat": CHAT,
         },
     )
 }
