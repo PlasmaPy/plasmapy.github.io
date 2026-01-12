@@ -66,17 +66,17 @@ Nikola's source files are located on the `main` git branch, and the built HTML f
    git push --set-upstream origin new-branch-name
    ```
 
-3. Make and commit changes in the `web/` directory.  Most of the pages
-   are in `web/pages/` while blog posts are in `web/posts/`.
+3. Make and commit changes in the `pages/` directory.  Most of the pages
+   are in `pages/` while blog posts are in `web/posts/`.
 
    ```bash
    git add changed_file.md
-   git commit -m "Updated changed_file.md"
+   git commit -m "Update changed_file.md"
    ```
 
-   Pages and posts are predominantly written in markdown, but [`nikola` supports various file formats](https://getnikola.com/handbook.html#supported-input-formats) like HTML, reStructuredText, etc.  Please use the markdown format, unless it's absolutely necessary to use one of the others.
+   Pages and posts are written in [Markdown](https://www.markdownguide.org/).
 
-4. Inside the `web/` directory, build and preview the website using
+4. Build and preview the website using
 
    ```bash
    nikola auto --browser
