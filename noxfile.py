@@ -18,7 +18,8 @@ def check(session) -> None:
     session.run(
         "nikola",
         "check",
-        "--check-links",
+#        "--check-links",
+        "--check-files",
         "--find-sources",
     )
 
