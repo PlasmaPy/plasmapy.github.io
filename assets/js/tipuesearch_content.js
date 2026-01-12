@@ -8,7 +8,7 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Meetings",
-      "text": "Meetings\n\nBiweekly Community Meeting: Every other Monday at 1 pm ET / 10 am PT\n\n\nPast Meetings\n\nPlasmaPy Summer School 2024\nThe inaugural PlasmaPy summer school was held at Bryn Mawr College\nfrom July 29 to August 1, 2024.\nPlasmaPy tutorial prior to 2023 MagNetUS meeting\nWe will be providing a PlasmaPy tutorial at the\nMagNetUS 2023 meeting\nat Auburn University on Thursday, June 15 from 2\u20135 pm CDT.\n62nd APS DPP - 11.04 Mini-Conference: Growing an open source software ecosystem for plasma science\nNovember 11 & 12, 2020\n\n\n62nd APS DPP - 11.04 Mini-Conference | Post-Meeting Discussions\nDay 1: November 17, 2020 at 21 UTC / 4 pm EST / 1 pm PST\nDay 2: November 19, 2020 at 19 UTC / 2 pm EST / 11 am PST",
+      "text": "Meetings\n\nCommunity Meeting: Every other Monday at 1 pm ET / 10 am PT\n\n\nPast Meetings\n\nPlasmaPy Summer School 2024\nThe inaugural PlasmaPy summer school was held at Bryn Mawr College\nfrom July 29 to August 1, 2024.\nPlasmaPy tutorial prior to 2023 MagNetUS meeting\nWe provided a PlasmaPy tutorial at the\nMagNetUS 2023 meeting\nat Auburn University on Thursday, June 15.\n62nd APS DPP - 11.04 Mini-Conference: Growing an open source software ecosystem for plasma science\nNovember 11 & 12, 2020\n\n\n62nd APS DPP - 11.04 Mini-Conference | Post-Meeting Discussions\nDay 1: November 17, 2020 at 21 UTC / 4 pm EST / 1 pm PST\nDay 2: November 19, 2020 at 19 UTC / 2 pm EST / 11 am PST",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/"
     },
@@ -32,7 +32,7 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Community Meeting",
-      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2025 are tentatively planned for\nOctober 20, November 3, November 17, and December 16.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
+      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2026 are planned for January 26; February 9 & 23; March 9 & 23; April 6 & 20; May 4; and June 1, 15, & 29.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
     },
