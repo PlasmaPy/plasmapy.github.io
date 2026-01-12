@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-    - src
+    - main
   pull_request:
   workflow_dispatch:
   schedule:
