@@ -43,7 +43,10 @@ where *username* is your GitHub username.
 
 ### A note on branches
 
-Nikola's source files are located on the `src` git branch, and the built HTML files are located on the `main` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely do not need to change files on `main`.
+Nikola's source files are located on the `main` git branch, and the built HTML files are located on the `deploy` branch. The GitHub repository defaults to the source branch as default when cloning the repository, so you shouldn't need to worry about this - and you definitely do not need to change files on `deploy`.
+
+> [!NOTE]
+> In January 2026, the deployed branch was renamed from `main` to `deploy` and the source branch was renamed from `src` to `main` to align with common conventions.
 
 ## Submitting a code contribution
 
@@ -54,12 +57,12 @@ Nikola's source files are located on the `src` git branch, and the built HTML fi
     ```
 
 2. Create and check out a branch based off of the
-   [`src`](https://github.com/PlasmaPy/plasmapy.github.io/tree/src)
+   [`main`](https://github.com/PlasmaPy/plasmapy.github.io/tree/main)
    branch of the upstream repository, and connect it to a new branch
    in your fork on GitHub.
 
    ```bash
-   git checkout -b new-branch-name upstream/src
+   git checkout -b new-branch-name upstream/main
    git push --set-upstream origin new-branch-name
    ```
 
@@ -79,7 +82,7 @@ Nikola's source files are located on the `src` git branch, and the built HTML fi
    nikola auto --browser
 
 6. [Create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-   to the `src` branch on the main repository.
+   to the `main` branch.
 
 7. The website will be rebuilt automatically after the pull request is merged.
    After five to ten minutes, check that the website is functioning nominally.
