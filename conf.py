@@ -983,7 +983,6 @@ CONTENT_FOOTER = (
     "- {license} "
     '- <a href="{facebook}">Facebook</a> '
     '- <a href="{youtube}">YouTube</a> '
-    '- <a href="{chat}">Chat</a> '
     '- Powered by <a href="https://getnikola.com" rel="nofollow">Nikola</a>'
 )
 
