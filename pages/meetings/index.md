@@ -5,7 +5,7 @@ author: Erik T. Everson
 
 ----
 
-#### [Biweekly Community Meeting](./weekly): Every other Monday at 1 pm ET / 10 am PT
+#### [Community Meeting](./weekly): Every other Monday at 1 pm ET / 10 am PT
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
@@ -21,9 +21,9 @@ from July 29 to August 1, 2024.
 
 #### PlasmaPy tutorial prior to 2023 MagNetUS meeting
 
-We will be providing a [PlasmaPy tutorial](./magnetus2023) at the
+We provided a [PlasmaPy tutorial](./magnetus2023) at the
 [MagNetUS 2023 meeting](https://sites.google.com/view/magnetus2023/home?authuser=0)
-at Auburn University on Thursday, June 15 from 2–5 pm CDT.
+at Auburn University on Thursday, June 15.
 
 #### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/annual-meeting/mini-conferences): Growing an open source software ecosystem for plasma science
 November 11 & 12, 2020
