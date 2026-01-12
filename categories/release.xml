@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PlasmaPy (Posts about release)</title><link>https://www.plasmapy.org/</link><description></description><atom:link href="https://www.plasmapy.org/categories/release.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2026 &lt;a href=https://github.com/PlasmaPy/PlasmaPy&gt;PlasmaPy Developers&lt;/a&gt; 
 &lt;a href="/license"&gt;
 License
-&lt;/a&gt;</copyright><lastBuildDate>Mon, 12 Jan 2026 21:57:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
+&lt;/a&gt;</copyright><lastBuildDate>Mon, 12 Jan 2026 22:09:39 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PlasmaPy v0.6.0 release!</title><link>https://www.plasmapy.org/posts/plasmapy-v060-release/</link><dc:creator>Dominik Stańczak</dc:creator><description>&lt;h2&gt;PlasmaPy 0.6.0&lt;/h2&gt;
 &lt;p&gt;We're really happy to announce that we've just released &lt;a href="https://docs.plasmapy.org/en/stable/whatsnew/0.6.0.html"&gt;PlasmaPy version
 0.6.0&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We'd like to thank the wonderful people who have contributed to this release:&lt;/p&gt;
@@ -50,7 +50,7 @@ now&lt;/a&gt;.&lt;/p&gt;
 &lt;/center&gt;
 
 &lt;p&gt;Erik Everson is spearheading work on our &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;analysis &amp;amp; diagnostic
-framework&lt;/a&gt;.  As the
+framework&lt;/a&gt;. As the
 first example, we've got a new and improved set of &lt;a href="https://docs.plasmapy.org/en/stable/ad/index.html"&gt;tools for swept Langmuir
 analysis&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;What's next?&lt;/h2&gt;
@@ -61,7 +61,7 @@ transport coefficient calculations for axisymmetric devices along with our
 first forays into tools for fusion.&lt;/p&gt;
 &lt;p&gt;One final note: we're discussing transitioning to some form of &lt;a href="https://calver.org/"&gt;Calendar
 Versioning&lt;/a&gt;. If you have thoughts on that, we'd be happy
-to hear them!  Come join the discussion on &lt;a href="https://app.element.io/#/room/#plasmapy:openastronomy.org"&gt;our Matrix
+to hear them! Come join the discussion on &lt;a href="https://app.element.io/#/room/#plasmapy:openastronomy.org"&gt;our Matrix
 chatroom&lt;/a&gt;.&lt;/p&gt;</description><category>plasmapy</category><category>release</category><guid>https://www.plasmapy.org/posts/plasmapy-v060-release/</guid><pubDate>Sun, 14 Mar 2021 16:08:56 GMT</pubDate></item><item><title>PlasmaPy v0.4.0 release</title><link>https://www.plasmapy.org/posts/plasmapy-v0_4_0-release/</link><dc:creator>Nick Murphy</dc:creator><description>&lt;p&gt;We are pleased to announce the release of &lt;a class="reference external" href="https://docs.plasmapy.org/en/stable/whatsnew/0.4.0.html"&gt;PlasmaPy version 0.4.0&lt;/a&gt;.  This
 release adds several new functions to &lt;code class="docutils literal"&gt;plasmapy.formulary&lt;/code&gt;, aliases
 (with trailing underscores) for the most commonly used formulary

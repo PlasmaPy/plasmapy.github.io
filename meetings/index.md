@@ -3,16 +3,15 @@ author: Erik T. Everson
 
 ### Meetings
 
-----
+______________________________________________________________________
 
 #### [Community Meeting](./weekly): Every other Monday at 1 pm ET / 10 am PT
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
-
 ### Past Meetings
 
-----
+______________________________________________________________________
 
 #### [PlasmaPy Summer School 2024](./summer-school-2024)
 
@@ -26,10 +25,12 @@ We provided a [PlasmaPy tutorial](./magnetus2023) at the
 at Auburn University on Thursday, June 15.
 
 #### [62nd APS DPP - 11.04 Mini-Conference](https://engage.aps.org/dpp/meetings/mini-conferences): Growing an open source software ecosystem for plasma science
+
 November 11 & 12, 2020
 
 <div style="height: 12px"><!-- Adding vertical whitespace --></div>
 
 #### [62nd APS DPP - 11.04 Mini-Conference | Post-Meeting Discussions](./aps/62nd_dpp_mini_conf_followups)
+
 Day 1: November 17, 2020 at 21 UTC / 4 pm EST / 1 pm PST<br/>
 Day 2: November 19, 2020 at 19 UTC / 2 pm EST / 11 am PST

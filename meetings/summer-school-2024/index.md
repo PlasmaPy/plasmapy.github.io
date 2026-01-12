@@ -2,15 +2,10 @@ title: PlasmaPy Summer School 2024
 author: Nick Murphy
 hidetitle: True
 
-[Bryn Mawr College]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
-[PlasmaPy]: https://docs.plasmapy.org
-[**schedule**]: https://docs.google.com/spreadsheets/d/1avWQ2Lb1zc9v71E5oUrCVlY1UwFLWiD4U_vHdzQDFog/edit?usp=sharing
-[unconference]: https://en.wikipedia.org/wiki/Unconference
-
 # PlasmaPy Summer School 2024
 
 The PlasmaPy community held its inaugural summer school at [Bryn Mawr
-College] in Bryn Mawr, Pennsylvania, USA. This workshop provided
+College][bryn mawr college] in Bryn Mawr, Pennsylvania, USA. This workshop provided
 participants with an opportunity to learn how to use PlasmaPy and
 contribute to an open source software project.
 
@@ -40,3 +35,8 @@ programming or contributing.
 
 This summer school was supported by NSF awards 1931388, 1931393,
 1931429, and 1931435.
+
+[**schedule**]: https://docs.google.com/spreadsheets/d/1avWQ2Lb1zc9v71E5oUrCVlY1UwFLWiD4U_vHdzQDFog/edit?usp=sharing
+[bryn mawr college]: https://www.brynmawr.edu/about-college/visit-guide/maps-directions
+[plasmapy]: https://docs.plasmapy.org
+[unconference]: https://en.wikipedia.org/wiki/Unconference
