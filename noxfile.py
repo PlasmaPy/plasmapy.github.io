@@ -22,6 +22,7 @@ def check(session) -> None:
         "--find-sources",
     )
 
+
 @nox.session
 def check_thoroughly(session) -> None:
     """

@@ -67,7 +67,7 @@
     },
     "description": {
       "short": "A open-source Python 3 package for plasma physics.",
-      "long": "OMFIT — One Modeling Framework for Integrated Tasks — is an integrated modeling and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
+      "long": "OMFIT \u2014 One Modeling Framework for Integrated Tasks \u2014 is an integrated modeling and experimental data analysis framework written in python.  The goal of OMFIT is to enhance existing scientific workflows and enable new integrated modeling capabilities."
     },
     "affiliated": false,
     "keywords": [
