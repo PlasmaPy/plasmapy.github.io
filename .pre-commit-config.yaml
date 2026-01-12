@@ -65,8 +65,8 @@ repos:
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.14.11
   hooks:
-  - id: ruff
-    name: ruff (see https://docs.astral.sh/ruff/rules)
+  - id: ruff-check
+    name: ruff-check (see https://docs.astral.sh/ruff/rules)
     args: [--fix]
   - id: ruff-format
     name: autoformat source code with ruff formatter
