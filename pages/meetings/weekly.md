@@ -8,7 +8,7 @@ hidetitle: True
 
 **Where:** [on Zoom][zoom] <br/>
 **Time:** Every other Monday at 1 pm ET / 10 am PT <br/>
-**Calendar:** [Google Calendar][calendar] <br/>
+**Calendar:** <a id="calendar-link" target="_blank">Google Calendar</a> <br/>
 <br/><br/>
 
 ### Overview
@@ -24,6 +24,18 @@ We will not hold community meetings on [federal holidays] in the US,
 between December 20 – Jan 3, or during the [APS DPP meeting].
 
 [aps dpp meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
-[calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
+
 [federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
 [zoom]: https://smithsonian.zoom.us/j/81436771842?pwd=rvuXPS6Ze4uONv9vA9A3mzkSAqlben.1
+
+<script>
+  const timezone =
+    Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+  const calendarUrl =
+    "https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz="
+    + encodeURIComponent(timezone);
+
+  document.getElementById("calendar-link").href =
+    calendarUrl;
+</script>
