@@ -23,11 +23,6 @@ Regularly scheduled meetings in 2026 are planned for January 26; February 9 & 23
 We will not hold community meetings on [federal holidays] in the US,
 between December 20 – Jan 3, or during the [APS DPP meeting].
 
-[aps dpp meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
-
-[federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
-[zoom]: https://smithsonian.zoom.us/j/81436771842?pwd=rvuXPS6Ze4uONv9vA9A3mzkSAqlben.1
-
 <script>
   const timezone =
     Intl.DateTimeFormat().resolvedOptions().timeZone;
@@ -39,3 +34,7 @@ between December 20 – Jan 3, or during the [APS DPP meeting].
   document.getElementById("calendar-link").href =
     calendarUrl;
 </script>
+
+[aps dpp meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
+[federal holidays]: https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/#url=Overview
+[zoom]: https://smithsonian.zoom.us/j/81436771842?pwd=rvuXPS6Ze4uONv9vA9A3mzkSAqlben.1
