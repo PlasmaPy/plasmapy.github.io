@@ -38,7 +38,7 @@ var tipuesearch = {
     },
     {
       "title": "PlasmaPy Community Meeting",
-      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nRegularly scheduled meetings in 2026 are planned for January 26; February 9 & 23; March 9 & 23; April 6 & 20; May 4; and June 1, 15, & 29.\nWe will not hold community meetings on federal holidays in the US,\nbetween December 20 \u2013 Jan 3, or during the APS DPP meeting.",
+      "text": "PlasmaPy Community Meeting\nEvery other Monday at 1 pm ET / 10 am PT\nWhere: on Zoom \nTime: Every other Monday at 1 pm ET / 10 am PT \nCalendar: Google Calendar \n\nOverview\nPlasmaPy's online community meetings are typically held on every\nother Monday at 1 pm ET / 10 am PT.\nThis call is hosted on Zoom.\nThe schedule is published on our calendar.\nCommunity meetings will not be held in August 2026 due to vacations.\nNo community meetings will be held on federal holidays in the US,\nbetween December 20 \u2013 Jan 5, or during the APS DPP meeting.",
       "tags": "",
       "url": "https://www.plasmapy.org/meetings/weekly/"
     },

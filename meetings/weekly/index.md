@@ -18,10 +18,9 @@ other Monday at 1 pm ET / 10 am PT.
 This call is hosted on [Zoom].
 The schedule is published on our [calendar].
 
-Regularly scheduled meetings in 2026 are planned for January 26; February 9 & 23; March 9 & 23; April 6 & 20; May 4; and June 1, 15, & 29.
-
-We will not hold community meetings on [federal holidays] in the US,
-between December 20 – Jan 3, or during the [APS DPP meeting].
+Community meetings will not be held in August 2026 due to vacations.
+No community meetings will be held on [federal holidays] in the US,
+between December 20 – Jan 5, or during the [APS DPP meeting].
 
 [aps dpp meeting]: https://engage.aps.org/dpp/meetings/annual-meeting
 [calendar]: https://calendar.google.com/calendar/embed?src=c_sqqq390s24jjfjp3q86pv41pi8%40group.calendar.google.com&ctz=America%2FNew_York
